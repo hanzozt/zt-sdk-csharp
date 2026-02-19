@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_write_cb
-  commentId: T:OpenZiti.Native.ziti_write_cb
+- uid: Hanzo ZT.Native.ziti_write_cb
+  commentId: T:Hanzo ZT.Native.ziti_write_cb
   id: ziti_write_cb
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children: []
   langs:
   - csharp
   - vb
   name: ziti_write_cb
   nameWithType: ziti_write_cb
-  fullName: OpenZiti.Native.ziti_write_cb
+  fullName: Hanzo ZT.Native.ziti_write_cb
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_write_cb
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 38
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public delegate void ziti_write_cb(IntPtr ziti_connection, int status, GCHandle write_context);
     parameters:
@@ -40,11 +40,11 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: IntPtr
   isExternal: true
   name: IntPtr

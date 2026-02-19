@@ -5,5 +5,5 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Style", "IDE0161:Convert to file-scoped namespace", Justification = "<Pending>", Scope = "namespace", Target = "OpenZiti.NET.Tests")]
-[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "namespaceanddescendants", Target ="OpenZiti.NET.Tests")]
+[assembly: SuppressMessage("Style", "IDE0161:Convert to file-scoped namespace", Justification = "<Pending>", Scope = "namespace", Target = "Hanzo ZT.NET.Tests")]
+[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "namespaceanddescendants", Target ="Hanzo ZT.NET.Tests")]

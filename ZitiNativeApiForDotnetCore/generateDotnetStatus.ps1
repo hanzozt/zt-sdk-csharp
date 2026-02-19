@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Generates a dotnet (csharp) enum from the OpenZiti c sdk errors.h file
+Generates a dotnet (csharp) enum from the Hanzo ZT c sdk errors.h file
 
 .DESCRIPTION
 This script will:
@@ -65,7 +65,7 @@ $fileContents = "// Copyright (c)  NetFoundry Inc.
 //
 // SEE ZitiNativeApiForDotnetCore\CMakeLists.txt and look for generateDotnetStatus.ps1
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     public enum ZitiStatus {
 " + $transformedLines + "
     }

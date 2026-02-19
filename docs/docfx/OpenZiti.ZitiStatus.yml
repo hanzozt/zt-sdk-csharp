@@ -1,97 +1,97 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
   id: ZitiStatus
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiStatus.CONFIG_NOT_FOUND
-  - OpenZiti.ZitiStatus.CONN_CLOSED
-  - OpenZiti.ZitiStatus.CONNABORT
-  - OpenZiti.ZitiStatus.CONTROLLER_UNAVAILABLE
-  - OpenZiti.ZitiStatus.CRYPTO_FAIL
-  - OpenZiti.ZitiStatus.CSR_GENERATION_FAILED
-  - OpenZiti.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
-  - OpenZiti.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
-  - OpenZiti.ZitiStatus.EOF
-  - OpenZiti.ZitiStatus.GATEWAY_UNAVAILABLE
-  - OpenZiti.ZitiStatus.INVALID_CONFIG
-  - OpenZiti.ZitiStatus.INVALID_POSTURE
-  - OpenZiti.ZitiStatus.INVALID_STATE
-  - OpenZiti.ZitiStatus.JWT_INVALID
-  - OpenZiti.ZitiStatus.JWT_INVALID_FORMAT
-  - OpenZiti.ZitiStatus.JWT_NOT_FOUND
-  - OpenZiti.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
-  - OpenZiti.ZitiStatus.JWT_VERIFICATION_FAILED
-  - OpenZiti.ZitiStatus.KEY_GENERATION_FAILED
-  - OpenZiti.ZitiStatus.KEY_LOAD_FAILED
-  - OpenZiti.ZitiStatus.MFA_EXISTS
-  - OpenZiti.ZitiStatus.MFA_INVALID_TOKEN
-  - OpenZiti.ZitiStatus.MFA_NOT_ENROLLED
-  - OpenZiti.ZitiStatus.NOT_AUTHORIZED
-  - OpenZiti.ZitiStatus.NOT_FOUND
-  - OpenZiti.ZitiStatus.OK
-  - OpenZiti.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
-  - OpenZiti.ZitiStatus.SERVICE_UNAVAILABLE
-  - OpenZiti.ZitiStatus.TIMEOUT
-  - OpenZiti.ZitiStatus.WTF
+  - Hanzo ZT.ZitiStatus.CONFIG_NOT_FOUND
+  - Hanzo ZT.ZitiStatus.CONN_CLOSED
+  - Hanzo ZT.ZitiStatus.CONNABORT
+  - Hanzo ZT.ZitiStatus.CONTROLLER_UNAVAILABLE
+  - Hanzo ZT.ZitiStatus.CRYPTO_FAIL
+  - Hanzo ZT.ZitiStatus.CSR_GENERATION_FAILED
+  - Hanzo ZT.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
+  - Hanzo ZT.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
+  - Hanzo ZT.ZitiStatus.EOF
+  - Hanzo ZT.ZitiStatus.GATEWAY_UNAVAILABLE
+  - Hanzo ZT.ZitiStatus.INVALID_CONFIG
+  - Hanzo ZT.ZitiStatus.INVALID_POSTURE
+  - Hanzo ZT.ZitiStatus.INVALID_STATE
+  - Hanzo ZT.ZitiStatus.JWT_INVALID
+  - Hanzo ZT.ZitiStatus.JWT_INVALID_FORMAT
+  - Hanzo ZT.ZitiStatus.JWT_NOT_FOUND
+  - Hanzo ZT.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
+  - Hanzo ZT.ZitiStatus.JWT_VERIFICATION_FAILED
+  - Hanzo ZT.ZitiStatus.KEY_GENERATION_FAILED
+  - Hanzo ZT.ZitiStatus.KEY_LOAD_FAILED
+  - Hanzo ZT.ZitiStatus.MFA_EXISTS
+  - Hanzo ZT.ZitiStatus.MFA_INVALID_TOKEN
+  - Hanzo ZT.ZitiStatus.MFA_NOT_ENROLLED
+  - Hanzo ZT.ZitiStatus.NOT_AUTHORIZED
+  - Hanzo ZT.ZitiStatus.NOT_FOUND
+  - Hanzo ZT.ZitiStatus.OK
+  - Hanzo ZT.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
+  - Hanzo ZT.ZitiStatus.SERVICE_UNAVAILABLE
+  - Hanzo ZT.ZitiStatus.TIMEOUT
+  - Hanzo ZT.ZitiStatus.WTF
   langs:
   - csharp
   - vb
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus
   type: Enum
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiStatus
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 41
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public enum ZitiStatus : int'
     content.vb: Public Enum ZitiStatus As Integer
   extensionMethods:
-  - OpenZiti.ZitiStatus.OpenZiti.ZitiStatusExtensions.Ok
-  - OpenZiti.ZitiStatus.OpenZiti.ZitiUtil.Check
+  - Hanzo ZT.ZitiStatus.Hanzo ZT.ZitiStatusExtensions.Ok
+  - Hanzo ZT.ZitiStatus.Hanzo ZT.ZitiUtil.Check
   modifiers.csharp:
   - public
   - enum
   modifiers.vb:
   - Public
   - Enum
-- uid: OpenZiti.ZitiStatus.OK
-  commentId: F:OpenZiti.ZitiStatus.OK
+- uid: Hanzo ZT.ZitiStatus.OK
+  commentId: F:Hanzo ZT.ZitiStatus.OK
   id: OK
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: OK
   nameWithType: ZitiStatus.OK
-  fullName: OpenZiti.ZitiStatus.OK
+  fullName: Hanzo ZT.ZitiStatus.OK
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: OK
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: OK = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: OK = Nothing
   modifiers.csharp:
   - public
@@ -99,33 +99,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CONFIG_NOT_FOUND
-  commentId: F:OpenZiti.ZitiStatus.CONFIG_NOT_FOUND
+- uid: Hanzo ZT.ZitiStatus.CONFIG_NOT_FOUND
+  commentId: F:Hanzo ZT.ZitiStatus.CONFIG_NOT_FOUND
   id: CONFIG_NOT_FOUND
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CONFIG_NOT_FOUND
   nameWithType: ZitiStatus.CONFIG_NOT_FOUND
-  fullName: OpenZiti.ZitiStatus.CONFIG_NOT_FOUND
+  fullName: Hanzo ZT.ZitiStatus.CONFIG_NOT_FOUND
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CONFIG_NOT_FOUND
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CONFIG_NOT_FOUND = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CONFIG_NOT_FOUND = Nothing
   modifiers.csharp:
   - public
@@ -133,33 +133,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.JWT_NOT_FOUND
-  commentId: F:OpenZiti.ZitiStatus.JWT_NOT_FOUND
+- uid: Hanzo ZT.ZitiStatus.JWT_NOT_FOUND
+  commentId: F:Hanzo ZT.ZitiStatus.JWT_NOT_FOUND
   id: JWT_NOT_FOUND
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: JWT_NOT_FOUND
   nameWithType: ZitiStatus.JWT_NOT_FOUND
-  fullName: OpenZiti.ZitiStatus.JWT_NOT_FOUND
+  fullName: Hanzo ZT.ZitiStatus.JWT_NOT_FOUND
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: JWT_NOT_FOUND
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: JWT_NOT_FOUND = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: JWT_NOT_FOUND = Nothing
   modifiers.csharp:
   - public
@@ -167,33 +167,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.JWT_INVALID
-  commentId: F:OpenZiti.ZitiStatus.JWT_INVALID
+- uid: Hanzo ZT.ZitiStatus.JWT_INVALID
+  commentId: F:Hanzo ZT.ZitiStatus.JWT_INVALID
   id: JWT_INVALID
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: JWT_INVALID
   nameWithType: ZitiStatus.JWT_INVALID
-  fullName: OpenZiti.ZitiStatus.JWT_INVALID
+  fullName: Hanzo ZT.ZitiStatus.JWT_INVALID
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: JWT_INVALID
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: JWT_INVALID = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: JWT_INVALID = Nothing
   modifiers.csharp:
   - public
@@ -201,33 +201,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.JWT_INVALID_FORMAT
-  commentId: F:OpenZiti.ZitiStatus.JWT_INVALID_FORMAT
+- uid: Hanzo ZT.ZitiStatus.JWT_INVALID_FORMAT
+  commentId: F:Hanzo ZT.ZitiStatus.JWT_INVALID_FORMAT
   id: JWT_INVALID_FORMAT
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: JWT_INVALID_FORMAT
   nameWithType: ZitiStatus.JWT_INVALID_FORMAT
-  fullName: OpenZiti.ZitiStatus.JWT_INVALID_FORMAT
+  fullName: Hanzo ZT.ZitiStatus.JWT_INVALID_FORMAT
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: JWT_INVALID_FORMAT
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: JWT_INVALID_FORMAT = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: JWT_INVALID_FORMAT = Nothing
   modifiers.csharp:
   - public
@@ -235,33 +235,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
-  commentId: F:OpenZiti.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
+- uid: Hanzo ZT.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
+  commentId: F:Hanzo ZT.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
   id: PKCS7_ASN1_PARSING_FAILED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: PKCS7_ASN1_PARSING_FAILED
   nameWithType: ZitiStatus.PKCS7_ASN1_PARSING_FAILED
-  fullName: OpenZiti.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
+  fullName: Hanzo ZT.ZitiStatus.PKCS7_ASN1_PARSING_FAILED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: PKCS7_ASN1_PARSING_FAILED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: PKCS7_ASN1_PARSING_FAILED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: PKCS7_ASN1_PARSING_FAILED = Nothing
   modifiers.csharp:
   - public
@@ -269,33 +269,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
-  commentId: F:OpenZiti.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
+- uid: Hanzo ZT.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
+  commentId: F:Hanzo ZT.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
   id: JWT_SIGNING_ALG_UNSUPPORTED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: JWT_SIGNING_ALG_UNSUPPORTED
   nameWithType: ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
-  fullName: OpenZiti.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
+  fullName: Hanzo ZT.ZitiStatus.JWT_SIGNING_ALG_UNSUPPORTED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: JWT_SIGNING_ALG_UNSUPPORTED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: JWT_SIGNING_ALG_UNSUPPORTED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: JWT_SIGNING_ALG_UNSUPPORTED = Nothing
   modifiers.csharp:
   - public
@@ -303,33 +303,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.JWT_VERIFICATION_FAILED
-  commentId: F:OpenZiti.ZitiStatus.JWT_VERIFICATION_FAILED
+- uid: Hanzo ZT.ZitiStatus.JWT_VERIFICATION_FAILED
+  commentId: F:Hanzo ZT.ZitiStatus.JWT_VERIFICATION_FAILED
   id: JWT_VERIFICATION_FAILED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: JWT_VERIFICATION_FAILED
   nameWithType: ZitiStatus.JWT_VERIFICATION_FAILED
-  fullName: OpenZiti.ZitiStatus.JWT_VERIFICATION_FAILED
+  fullName: Hanzo ZT.ZitiStatus.JWT_VERIFICATION_FAILED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: JWT_VERIFICATION_FAILED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: JWT_VERIFICATION_FAILED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: JWT_VERIFICATION_FAILED = Nothing
   modifiers.csharp:
   - public
@@ -337,33 +337,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
-  commentId: F:OpenZiti.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
+- uid: Hanzo ZT.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
+  commentId: F:Hanzo ZT.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
   id: ENROLLMENT_METHOD_UNSUPPORTED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: ENROLLMENT_METHOD_UNSUPPORTED
   nameWithType: ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
-  fullName: OpenZiti.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
+  fullName: Hanzo ZT.ZitiStatus.ENROLLMENT_METHOD_UNSUPPORTED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ENROLLMENT_METHOD_UNSUPPORTED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: ENROLLMENT_METHOD_UNSUPPORTED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: ENROLLMENT_METHOD_UNSUPPORTED = Nothing
   modifiers.csharp:
   - public
@@ -371,33 +371,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
-  commentId: F:OpenZiti.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
+- uid: Hanzo ZT.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
+  commentId: F:Hanzo ZT.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
   id: ENROLLMENT_CERTIFICATE_REQUIRED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: ENROLLMENT_CERTIFICATE_REQUIRED
   nameWithType: ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
-  fullName: OpenZiti.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
+  fullName: Hanzo ZT.ZitiStatus.ENROLLMENT_CERTIFICATE_REQUIRED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ENROLLMENT_CERTIFICATE_REQUIRED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: ENROLLMENT_CERTIFICATE_REQUIRED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: ENROLLMENT_CERTIFICATE_REQUIRED = Nothing
   modifiers.csharp:
   - public
@@ -405,33 +405,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.KEY_GENERATION_FAILED
-  commentId: F:OpenZiti.ZitiStatus.KEY_GENERATION_FAILED
+- uid: Hanzo ZT.ZitiStatus.KEY_GENERATION_FAILED
+  commentId: F:Hanzo ZT.ZitiStatus.KEY_GENERATION_FAILED
   id: KEY_GENERATION_FAILED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: KEY_GENERATION_FAILED
   nameWithType: ZitiStatus.KEY_GENERATION_FAILED
-  fullName: OpenZiti.ZitiStatus.KEY_GENERATION_FAILED
+  fullName: Hanzo ZT.ZitiStatus.KEY_GENERATION_FAILED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: KEY_GENERATION_FAILED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: KEY_GENERATION_FAILED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: KEY_GENERATION_FAILED = Nothing
   modifiers.csharp:
   - public
@@ -439,33 +439,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.KEY_LOAD_FAILED
-  commentId: F:OpenZiti.ZitiStatus.KEY_LOAD_FAILED
+- uid: Hanzo ZT.ZitiStatus.KEY_LOAD_FAILED
+  commentId: F:Hanzo ZT.ZitiStatus.KEY_LOAD_FAILED
   id: KEY_LOAD_FAILED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: KEY_LOAD_FAILED
   nameWithType: ZitiStatus.KEY_LOAD_FAILED
-  fullName: OpenZiti.ZitiStatus.KEY_LOAD_FAILED
+  fullName: Hanzo ZT.ZitiStatus.KEY_LOAD_FAILED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: KEY_LOAD_FAILED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: KEY_LOAD_FAILED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: KEY_LOAD_FAILED = Nothing
   modifiers.csharp:
   - public
@@ -473,33 +473,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CSR_GENERATION_FAILED
-  commentId: F:OpenZiti.ZitiStatus.CSR_GENERATION_FAILED
+- uid: Hanzo ZT.ZitiStatus.CSR_GENERATION_FAILED
+  commentId: F:Hanzo ZT.ZitiStatus.CSR_GENERATION_FAILED
   id: CSR_GENERATION_FAILED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CSR_GENERATION_FAILED
   nameWithType: ZitiStatus.CSR_GENERATION_FAILED
-  fullName: OpenZiti.ZitiStatus.CSR_GENERATION_FAILED
+  fullName: Hanzo ZT.ZitiStatus.CSR_GENERATION_FAILED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CSR_GENERATION_FAILED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CSR_GENERATION_FAILED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CSR_GENERATION_FAILED = Nothing
   modifiers.csharp:
   - public
@@ -507,33 +507,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.INVALID_CONFIG
-  commentId: F:OpenZiti.ZitiStatus.INVALID_CONFIG
+- uid: Hanzo ZT.ZitiStatus.INVALID_CONFIG
+  commentId: F:Hanzo ZT.ZitiStatus.INVALID_CONFIG
   id: INVALID_CONFIG
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: INVALID_CONFIG
   nameWithType: ZitiStatus.INVALID_CONFIG
-  fullName: OpenZiti.ZitiStatus.INVALID_CONFIG
+  fullName: Hanzo ZT.ZitiStatus.INVALID_CONFIG
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: INVALID_CONFIG
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: INVALID_CONFIG = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: INVALID_CONFIG = Nothing
   modifiers.csharp:
   - public
@@ -541,33 +541,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.NOT_AUTHORIZED
-  commentId: F:OpenZiti.ZitiStatus.NOT_AUTHORIZED
+- uid: Hanzo ZT.ZitiStatus.NOT_AUTHORIZED
+  commentId: F:Hanzo ZT.ZitiStatus.NOT_AUTHORIZED
   id: NOT_AUTHORIZED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: NOT_AUTHORIZED
   nameWithType: ZitiStatus.NOT_AUTHORIZED
-  fullName: OpenZiti.ZitiStatus.NOT_AUTHORIZED
+  fullName: Hanzo ZT.ZitiStatus.NOT_AUTHORIZED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NOT_AUTHORIZED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 47
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: NOT_AUTHORIZED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: NOT_AUTHORIZED = Nothing
   modifiers.csharp:
   - public
@@ -575,33 +575,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CONTROLLER_UNAVAILABLE
-  commentId: F:OpenZiti.ZitiStatus.CONTROLLER_UNAVAILABLE
+- uid: Hanzo ZT.ZitiStatus.CONTROLLER_UNAVAILABLE
+  commentId: F:Hanzo ZT.ZitiStatus.CONTROLLER_UNAVAILABLE
   id: CONTROLLER_UNAVAILABLE
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CONTROLLER_UNAVAILABLE
   nameWithType: ZitiStatus.CONTROLLER_UNAVAILABLE
-  fullName: OpenZiti.ZitiStatus.CONTROLLER_UNAVAILABLE
+  fullName: Hanzo ZT.ZitiStatus.CONTROLLER_UNAVAILABLE
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CONTROLLER_UNAVAILABLE
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 49
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CONTROLLER_UNAVAILABLE = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CONTROLLER_UNAVAILABLE = Nothing
   modifiers.csharp:
   - public
@@ -609,33 +609,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.GATEWAY_UNAVAILABLE
-  commentId: F:OpenZiti.ZitiStatus.GATEWAY_UNAVAILABLE
+- uid: Hanzo ZT.ZitiStatus.GATEWAY_UNAVAILABLE
+  commentId: F:Hanzo ZT.ZitiStatus.GATEWAY_UNAVAILABLE
   id: GATEWAY_UNAVAILABLE
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: GATEWAY_UNAVAILABLE
   nameWithType: ZitiStatus.GATEWAY_UNAVAILABLE
-  fullName: OpenZiti.ZitiStatus.GATEWAY_UNAVAILABLE
+  fullName: Hanzo ZT.ZitiStatus.GATEWAY_UNAVAILABLE
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GATEWAY_UNAVAILABLE
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 52
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: GATEWAY_UNAVAILABLE = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: GATEWAY_UNAVAILABLE = Nothing
   modifiers.csharp:
   - public
@@ -643,33 +643,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.SERVICE_UNAVAILABLE
-  commentId: F:OpenZiti.ZitiStatus.SERVICE_UNAVAILABLE
+- uid: Hanzo ZT.ZitiStatus.SERVICE_UNAVAILABLE
+  commentId: F:Hanzo ZT.ZitiStatus.SERVICE_UNAVAILABLE
   id: SERVICE_UNAVAILABLE
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: SERVICE_UNAVAILABLE
   nameWithType: ZitiStatus.SERVICE_UNAVAILABLE
-  fullName: OpenZiti.ZitiStatus.SERVICE_UNAVAILABLE
+  fullName: Hanzo ZT.ZitiStatus.SERVICE_UNAVAILABLE
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: SERVICE_UNAVAILABLE
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: SERVICE_UNAVAILABLE = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: SERVICE_UNAVAILABLE = Nothing
   modifiers.csharp:
   - public
@@ -677,33 +677,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.EOF
-  commentId: F:OpenZiti.ZitiStatus.EOF
+- uid: Hanzo ZT.ZitiStatus.EOF
+  commentId: F:Hanzo ZT.ZitiStatus.EOF
   id: EOF
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: EOF
   nameWithType: ZitiStatus.EOF
-  fullName: OpenZiti.ZitiStatus.EOF
+  fullName: Hanzo ZT.ZitiStatus.EOF
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EOF
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: EOF = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: EOF = Nothing
   modifiers.csharp:
   - public
@@ -711,33 +711,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.TIMEOUT
-  commentId: F:OpenZiti.ZitiStatus.TIMEOUT
+- uid: Hanzo ZT.ZitiStatus.TIMEOUT
+  commentId: F:Hanzo ZT.ZitiStatus.TIMEOUT
   id: TIMEOUT
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: TIMEOUT
   nameWithType: ZitiStatus.TIMEOUT
-  fullName: OpenZiti.ZitiStatus.TIMEOUT
+  fullName: Hanzo ZT.ZitiStatus.TIMEOUT
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: TIMEOUT
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: TIMEOUT = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: TIMEOUT = Nothing
   modifiers.csharp:
   - public
@@ -745,33 +745,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CONNABORT
-  commentId: F:OpenZiti.ZitiStatus.CONNABORT
+- uid: Hanzo ZT.ZitiStatus.CONNABORT
+  commentId: F:Hanzo ZT.ZitiStatus.CONNABORT
   id: CONNABORT
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CONNABORT
   nameWithType: ZitiStatus.CONNABORT
-  fullName: OpenZiti.ZitiStatus.CONNABORT
+  fullName: Hanzo ZT.ZitiStatus.CONNABORT
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CONNABORT
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CONNABORT = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CONNABORT = Nothing
   modifiers.csharp:
   - public
@@ -779,33 +779,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.INVALID_STATE
-  commentId: F:OpenZiti.ZitiStatus.INVALID_STATE
+- uid: Hanzo ZT.ZitiStatus.INVALID_STATE
+  commentId: F:Hanzo ZT.ZitiStatus.INVALID_STATE
   id: INVALID_STATE
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: INVALID_STATE
   nameWithType: ZitiStatus.INVALID_STATE
-  fullName: OpenZiti.ZitiStatus.INVALID_STATE
+  fullName: Hanzo ZT.ZitiStatus.INVALID_STATE
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: INVALID_STATE
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: INVALID_STATE = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: INVALID_STATE = Nothing
   modifiers.csharp:
   - public
@@ -813,33 +813,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CRYPTO_FAIL
-  commentId: F:OpenZiti.ZitiStatus.CRYPTO_FAIL
+- uid: Hanzo ZT.ZitiStatus.CRYPTO_FAIL
+  commentId: F:Hanzo ZT.ZitiStatus.CRYPTO_FAIL
   id: CRYPTO_FAIL
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CRYPTO_FAIL
   nameWithType: ZitiStatus.CRYPTO_FAIL
-  fullName: OpenZiti.ZitiStatus.CRYPTO_FAIL
+  fullName: Hanzo ZT.ZitiStatus.CRYPTO_FAIL
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CRYPTO_FAIL
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CRYPTO_FAIL = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CRYPTO_FAIL = Nothing
   modifiers.csharp:
   - public
@@ -847,33 +847,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.CONN_CLOSED
-  commentId: F:OpenZiti.ZitiStatus.CONN_CLOSED
+- uid: Hanzo ZT.ZitiStatus.CONN_CLOSED
+  commentId: F:Hanzo ZT.ZitiStatus.CONN_CLOSED
   id: CONN_CLOSED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: CONN_CLOSED
   nameWithType: ZitiStatus.CONN_CLOSED
-  fullName: OpenZiti.ZitiStatus.CONN_CLOSED
+  fullName: Hanzo ZT.ZitiStatus.CONN_CLOSED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CONN_CLOSED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: CONN_CLOSED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: CONN_CLOSED = Nothing
   modifiers.csharp:
   - public
@@ -881,33 +881,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.INVALID_POSTURE
-  commentId: F:OpenZiti.ZitiStatus.INVALID_POSTURE
+- uid: Hanzo ZT.ZitiStatus.INVALID_POSTURE
+  commentId: F:Hanzo ZT.ZitiStatus.INVALID_POSTURE
   id: INVALID_POSTURE
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: INVALID_POSTURE
   nameWithType: ZitiStatus.INVALID_POSTURE
-  fullName: OpenZiti.ZitiStatus.INVALID_POSTURE
+  fullName: Hanzo ZT.ZitiStatus.INVALID_POSTURE
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: INVALID_POSTURE
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: INVALID_POSTURE = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: INVALID_POSTURE = Nothing
   modifiers.csharp:
   - public
@@ -915,33 +915,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.MFA_EXISTS
-  commentId: F:OpenZiti.ZitiStatus.MFA_EXISTS
+- uid: Hanzo ZT.ZitiStatus.MFA_EXISTS
+  commentId: F:Hanzo ZT.ZitiStatus.MFA_EXISTS
   id: MFA_EXISTS
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: MFA_EXISTS
   nameWithType: ZitiStatus.MFA_EXISTS
-  fullName: OpenZiti.ZitiStatus.MFA_EXISTS
+  fullName: Hanzo ZT.ZitiStatus.MFA_EXISTS
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: MFA_EXISTS
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: MFA_EXISTS = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: MFA_EXISTS = Nothing
   modifiers.csharp:
   - public
@@ -949,33 +949,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.MFA_INVALID_TOKEN
-  commentId: F:OpenZiti.ZitiStatus.MFA_INVALID_TOKEN
+- uid: Hanzo ZT.ZitiStatus.MFA_INVALID_TOKEN
+  commentId: F:Hanzo ZT.ZitiStatus.MFA_INVALID_TOKEN
   id: MFA_INVALID_TOKEN
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: MFA_INVALID_TOKEN
   nameWithType: ZitiStatus.MFA_INVALID_TOKEN
-  fullName: OpenZiti.ZitiStatus.MFA_INVALID_TOKEN
+  fullName: Hanzo ZT.ZitiStatus.MFA_INVALID_TOKEN
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: MFA_INVALID_TOKEN
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: MFA_INVALID_TOKEN = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: MFA_INVALID_TOKEN = Nothing
   modifiers.csharp:
   - public
@@ -983,33 +983,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.MFA_NOT_ENROLLED
-  commentId: F:OpenZiti.ZitiStatus.MFA_NOT_ENROLLED
+- uid: Hanzo ZT.ZitiStatus.MFA_NOT_ENROLLED
+  commentId: F:Hanzo ZT.ZitiStatus.MFA_NOT_ENROLLED
   id: MFA_NOT_ENROLLED
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: MFA_NOT_ENROLLED
   nameWithType: ZitiStatus.MFA_NOT_ENROLLED
-  fullName: OpenZiti.ZitiStatus.MFA_NOT_ENROLLED
+  fullName: Hanzo ZT.ZitiStatus.MFA_NOT_ENROLLED
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: MFA_NOT_ENROLLED
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: MFA_NOT_ENROLLED = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: MFA_NOT_ENROLLED = Nothing
   modifiers.csharp:
   - public
@@ -1017,33 +1017,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.NOT_FOUND
-  commentId: F:OpenZiti.ZitiStatus.NOT_FOUND
+- uid: Hanzo ZT.ZitiStatus.NOT_FOUND
+  commentId: F:Hanzo ZT.ZitiStatus.NOT_FOUND
   id: NOT_FOUND
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: NOT_FOUND
   nameWithType: ZitiStatus.NOT_FOUND
-  fullName: OpenZiti.ZitiStatus.NOT_FOUND
+  fullName: Hanzo ZT.ZitiStatus.NOT_FOUND
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NOT_FOUND
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: NOT_FOUND = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: NOT_FOUND = Nothing
   modifiers.csharp:
   - public
@@ -1051,33 +1051,33 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.ZitiStatus.WTF
-  commentId: F:OpenZiti.ZitiStatus.WTF
+- uid: Hanzo ZT.ZitiStatus.WTF
+  commentId: F:Hanzo ZT.ZitiStatus.WTF
   id: WTF
-  parent: OpenZiti.ZitiStatus
+  parent: Hanzo ZT.ZitiStatus
   langs:
   - csharp
   - vb
   name: WTF
   nameWithType: ZitiStatus.WTF
-  fullName: OpenZiti.ZitiStatus.WTF
+  fullName: Hanzo ZT.ZitiStatus.WTF
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: WTF
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiStatus.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   example: []
   syntax:
     content: WTF = null
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: WTF = Nothing
   modifiers.csharp:
   - public
@@ -1086,23 +1086,23 @@ items:
   - Public
   - Const
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.ZitiStatus.OpenZiti.ZitiStatusExtensions.Ok
-  commentId: M:OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
-  parent: OpenZiti.ZitiStatusExtensions
-  definition: OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.ZitiStatus.Hanzo ZT.ZitiStatusExtensions.Ok
+  commentId: M:Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
+  parent: Hanzo ZT.ZitiStatusExtensions
+  definition: Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
   name: Ok()
   nameWithType: ZitiStatusExtensions.Ok()
-  fullName: OpenZiti.ZitiStatusExtensions.Ok()
+  fullName: Hanzo ZT.ZitiStatusExtensions.Ok()
   spec.csharp:
-  - uid: OpenZiti.ZitiStatusExtensions.Ok
+  - uid: Hanzo ZT.ZitiStatusExtensions.Ok
     name: Ok
     nameWithType: ZitiStatusExtensions.Ok
-    fullName: OpenZiti.ZitiStatusExtensions.Ok
+    fullName: Hanzo ZT.ZitiStatusExtensions.Ok
   - name: (
     nameWithType: (
     fullName: (
@@ -1110,28 +1110,28 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: OpenZiti.ZitiStatusExtensions.Ok
+  - uid: Hanzo ZT.ZitiStatusExtensions.Ok
     name: Ok
     nameWithType: ZitiStatusExtensions.Ok
-    fullName: OpenZiti.ZitiStatusExtensions.Ok
+    fullName: Hanzo ZT.ZitiStatusExtensions.Ok
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: OpenZiti.ZitiStatus.OpenZiti.ZitiUtil.Check
-  commentId: M:OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
-  parent: OpenZiti.ZitiUtil
-  definition: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+- uid: Hanzo ZT.ZitiStatus.Hanzo ZT.ZitiUtil.Check
+  commentId: M:Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
+  parent: Hanzo ZT.ZitiUtil
+  definition: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
   name: Check()
   nameWithType: ZitiUtil.Check()
-  fullName: OpenZiti.ZitiUtil.Check()
+  fullName: Hanzo ZT.ZitiUtil.Check()
   spec.csharp:
-  - uid: OpenZiti.ZitiUtil.Check
+  - uid: Hanzo ZT.ZitiUtil.Check
     name: Check
     nameWithType: ZitiUtil.Check
-    fullName: OpenZiti.ZitiUtil.Check
+    fullName: Hanzo ZT.ZitiUtil.Check
   - name: (
     nameWithType: (
     fullName: (
@@ -1139,101 +1139,101 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: OpenZiti.ZitiUtil.Check
+  - uid: Hanzo ZT.ZitiUtil.Check
     name: Check
     nameWithType: ZitiUtil.Check
-    fullName: OpenZiti.ZitiUtil.Check
+    fullName: Hanzo ZT.ZitiUtil.Check
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
-  commentId: M:OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
+- uid: Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
+  commentId: M:Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
   name: Ok(ZitiStatus)
   nameWithType: ZitiStatusExtensions.Ok(ZitiStatus)
-  fullName: OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
   spec.csharp:
-  - uid: OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
+  - uid: Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
     name: Ok
     nameWithType: ZitiStatusExtensions.Ok
-    fullName: OpenZiti.ZitiStatusExtensions.Ok
+    fullName: Hanzo ZT.ZitiStatusExtensions.Ok
   - name: (
     nameWithType: (
     fullName: (
-  - uid: OpenZiti.ZitiStatus
+  - uid: Hanzo ZT.ZitiStatus
     name: ZitiStatus
     nameWithType: ZitiStatus
-    fullName: OpenZiti.ZitiStatus
+    fullName: Hanzo ZT.ZitiStatus
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: OpenZiti.ZitiStatusExtensions.Ok(OpenZiti.ZitiStatus)
+  - uid: Hanzo ZT.ZitiStatusExtensions.Ok(Hanzo ZT.ZitiStatus)
     name: Ok
     nameWithType: ZitiStatusExtensions.Ok
-    fullName: OpenZiti.ZitiStatusExtensions.Ok
+    fullName: Hanzo ZT.ZitiStatusExtensions.Ok
   - name: (
     nameWithType: (
     fullName: (
-  - uid: OpenZiti.ZitiStatus
+  - uid: Hanzo ZT.ZitiStatus
     name: ZitiStatus
     nameWithType: ZitiStatus
-    fullName: OpenZiti.ZitiStatus
+    fullName: Hanzo ZT.ZitiStatus
   - name: )
     nameWithType: )
     fullName: )
-- uid: OpenZiti.ZitiStatusExtensions
-  commentId: T:OpenZiti.ZitiStatusExtensions
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiStatusExtensions
+  commentId: T:Hanzo ZT.ZitiStatusExtensions
+  parent: Hanzo ZT
   name: ZitiStatusExtensions
   nameWithType: ZitiStatusExtensions
-  fullName: OpenZiti.ZitiStatusExtensions
-- uid: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
-  commentId: M:OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiStatusExtensions
+- uid: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
+  commentId: M:Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
   name: Check(ZitiStatus)
   nameWithType: ZitiUtil.Check(ZitiStatus)
-  fullName: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
   spec.csharp:
-  - uid: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+  - uid: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
     name: Check
     nameWithType: ZitiUtil.Check
-    fullName: OpenZiti.ZitiUtil.Check
+    fullName: Hanzo ZT.ZitiUtil.Check
   - name: (
     nameWithType: (
     fullName: (
-  - uid: OpenZiti.ZitiStatus
+  - uid: Hanzo ZT.ZitiStatus
     name: ZitiStatus
     nameWithType: ZitiStatus
-    fullName: OpenZiti.ZitiStatus
+    fullName: Hanzo ZT.ZitiStatus
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+  - uid: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
     name: Check
     nameWithType: ZitiUtil.Check
-    fullName: OpenZiti.ZitiUtil.Check
+    fullName: Hanzo ZT.ZitiUtil.Check
   - name: (
     nameWithType: (
     fullName: (
-  - uid: OpenZiti.ZitiStatus
+  - uid: Hanzo ZT.ZitiStatus
     name: ZitiStatus
     nameWithType: ZitiStatus
-    fullName: OpenZiti.ZitiStatus
+    fullName: Hanzo ZT.ZitiStatus
   - name: )
     nameWithType: )
     fullName: )
-- uid: OpenZiti.ZitiUtil
-  commentId: T:OpenZiti.ZitiUtil
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiUtil
+  commentId: T:Hanzo ZT.ZitiUtil
+  parent: Hanzo ZT
   name: ZitiUtil
   nameWithType: ZitiUtil
-  fullName: OpenZiti.ZitiUtil
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiUtil
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus

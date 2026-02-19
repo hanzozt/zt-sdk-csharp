@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_pq_domain_cb
-  commentId: T:OpenZiti.Native.ziti_pq_domain_cb
+- uid: Hanzo ZT.Native.ziti_pq_domain_cb
+  commentId: T:Hanzo ZT.Native.ziti_pq_domain_cb
   id: ziti_pq_domain_cb
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children: []
   langs:
   - csharp
   - vb
   name: ziti_pq_domain_cb
   nameWithType: ziti_pq_domain_cb
-  fullName: OpenZiti.Native.ziti_pq_domain_cb
+  fullName: Hanzo ZT.Native.ziti_pq_domain_cb
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_pq_domain_cb
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 60
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public delegate void ziti_pq_domain_cb(IntPtr ziti_context, string id, ziti_pr_domain_cb response_cb);
     parameters:
@@ -31,7 +31,7 @@ items:
     - id: id
       type: System.String
     - id: response_cb
-      type: OpenZiti.Native.ziti_pr_domain_cb
+      type: Hanzo ZT.Native.ziti_pr_domain_cb
     content.vb: Public Delegate Sub ziti_pq_domain_cb(ziti_context As IntPtr, id As String, response_cb As ziti_pr_domain_cb)
   modifiers.csharp:
   - public
@@ -40,11 +40,11 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: IntPtr
   isExternal: true
   name: IntPtr
@@ -55,9 +55,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.Native.ziti_pr_domain_cb
-  commentId: T:OpenZiti.Native.ziti_pr_domain_cb
-  parent: OpenZiti.Native
+- uid: Hanzo ZT.Native.ziti_pr_domain_cb
+  commentId: T:Hanzo ZT.Native.ziti_pr_domain_cb
+  parent: Hanzo ZT.Native
   name: ziti_pr_domain_cb
   nameWithType: ziti_pr_domain_cb
-  fullName: OpenZiti.Native.ziti_pr_domain_cb
+  fullName: Hanzo ZT.Native.ziti_pr_domain_cb

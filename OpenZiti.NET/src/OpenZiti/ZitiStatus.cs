@@ -16,7 +16,7 @@
 //
 // SEE ZitiNativeApiForDotnetCore\CMakeLists.txt and look for generateDotnetStatus.ps1
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     public enum ZitiStatus {
         ZITI_OK = 0,
          ZITI_CONFIG_NOT_FOUND = -1,

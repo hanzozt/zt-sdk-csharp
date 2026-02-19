@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti;
-using OpenZiti.Native;
+using Hanzo ZT;
+using Hanzo ZT.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,9 +23,9 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-using nAPI = OpenZiti.Native.API;
+using nAPI = Hanzo ZT.Native.API;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     public class ZitiSocket : IDisposable {
         static ZitiSocket() {
             API.InitializeZiti();
@@ -45,7 +45,7 @@ namespace OpenZiti {
         }
 
         /// <summary>
-        /// Verifies if the socket is attached to an OpenZiti connection
+        /// Verifies if the socket is attached to an Hanzo ZT connection
         /// </summary>
         /// <returns></returns>
         public int CheckSocket() {

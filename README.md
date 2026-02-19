@@ -1,100 +1,100 @@
-![Ziggy using the sdk-csharp](https://raw.githubusercontent.com/openziti/branding/main/images/banners/CSharp.jpg)
+![Ziggy using the sdk-csharp](https://raw.githubusercontent.com/hanzozt/branding/main/images/banners/CSharp.jpg)
 
-# OpenZiti.NET SDK
+# Hanzo ZT.NET SDK
 
-The OpenZiti.NET SDK is a project that enables developers to create clients and applications leveraging an OpenZiti 
-overlay network. OpenZiti is a modern, programmable overlay network with associated edge components, for 
+The Hanzo ZT.NET SDK is a project that enables developers to create clients and applications leveraging an Hanzo ZT 
+overlay network. Hanzo ZT is a modern, programmable overlay network with associated edge components, for 
 application-embedded, zero trust network connectivity, written by developers for developers. The SDK harnesses that 
-power via APIs that allow developers to imagine and develop solutions beyond what OpenZiti handles by default.
+power via APIs that allow developers to imagine and develop solutions beyond what Hanzo ZT handles by default.
 
-Using an OpenZiti SDK for your application's communication needs makes your application secure-by-default by 
-incorporating zero trust principles **directly into** the application itself. All communication over an OpenZiti 
-overlay network is performed over a [mutual TLS (mtls)](https://en.wikipedia.org/wiki/Mutual_authentication) secured connection. OpenZiti also implements truly
-[end-to-end encryption](https://openziti.io/docs/learn/introduction/features/#e2e-encryption) (via [libsodium](https://libsodium.gitbook.io/)) by default. The developer does not need to do more than incorporate
-the OpenZiti SDK into an application to gain these immediate benefits. The OpenZiti overlay network provides numerous
+Using an Hanzo ZT SDK for your application's communication needs makes your application secure-by-default by 
+incorporating zero trust principles **directly into** the application itself. All communication over an Hanzo ZT 
+overlay network is performed over a [mutual TLS (mtls)](https://en.wikipedia.org/wiki/Mutual_authentication) secured connection. Hanzo ZT also implements truly
+[end-to-end encryption](https://hanzozt.dev/docs/learn/introduction/features/#e2e-encryption) (via [libsodium](https://libsodium.gitbook.io/)) by default. The developer does not need to do more than incorporate
+the Hanzo ZT SDK into an application to gain these immediate benefits. The Hanzo ZT overlay network provides numerous
 other security features that combine to make a compelling security solution for any application.
 
-If you're new to OpenZiti or overlay networks it might be useful to check out 
-[the official documentation](https://openziti.io) or inspect [https://github.com/openziti/ziti](the main repo) and 
-learn a more about OpenZiti and zero trust in general.
+If you're new to Hanzo ZT or overlay networks it might be useful to check out 
+[the official documentation](https://hanzozt.dev) or inspect [https://github.com/hanzozt/ziti](the main repo) and 
+learn a more about Hanzo ZT and zero trust in general.
 
 ## Getting Started
 
-To get started you'll need to have an OpenZiti overlay network. Deploy one by running 
-[one of the OpenZiti network quickstarts](https://openziti.io/docs/category/network).
+To get started you'll need to have an Hanzo ZT overlay network. Deploy one by running 
+[one of the Hanzo ZT network quickstarts](https://hanzozt.dev/docs/category/network).
 
-With access to an OpenZiti overlay network, there are a few important concepts that are helpful to understand, but
+With access to an Hanzo ZT overlay network, there are a few important concepts that are helpful to understand, but
 are not required for executing the samples:
 
-* What is an [Identity](https://openziti.io/docs/learn/core-concepts/identities/overview/)
+* What is an [Identity](https://hanzozt.dev/docs/learn/core-concepts/identities/overview/)
 * How are identities created
-* What is [enrollment](https://openziti.io/docs/learn/core-concepts/security/enrollment/) and how are identities enrolled
-* Using and loading an [Identity](https://openziti.io/docs/learn/core-concepts/identities/overview/) to create a [ZitiContext](OpenZiti.NET/src/OpenZiti/ZitiContext.cs)
+* What is [enrollment](https://hanzozt.dev/docs/learn/core-concepts/security/enrollment/) and how are identities enrolled
+* Using and loading an [Identity](https://hanzozt.dev/docs/learn/core-concepts/identities/overview/) to create a [ZitiContext](Hanzo ZT.NET/src/Hanzo ZT/ZitiContext.cs)
 * Dialing and Binding
 
-The samples do not reference [the OpenZiti.NET NuGet package](https://www.nuget.org/packages/OpenZiti.NET/). Instead,
-they reference the [OpenZiti.NET](./OpenZiti.NET/OpenZiti.NET.csproj) project in this repository. When you want to
-add OpenZiti to your dotnet project, you would instead choose to reference and use 
-[the OpenZiti.NET NuGet package](https://www.nuget.org/packages/OpenZiti.NET/). 
+The samples do not reference [the Hanzo ZT.NET NuGet package](https://www.nuget.org/packages/Hanzo ZT.NET/). Instead,
+they reference the [Hanzo ZT.NET](./Hanzo ZT.NET/Hanzo ZT.NET.csproj) project in this repository. When you want to
+add Hanzo ZT to your dotnet project, you would instead choose to reference and use 
+[the Hanzo ZT.NET NuGet package](https://www.nuget.org/packages/Hanzo ZT.NET/). 
 
 ## Running the Samples
 
-The samples included in this repo are designed to allow you to explore this SDK and explore OpenZiti without fully
+The samples included in this repo are designed to allow you to explore this SDK and explore Hanzo ZT without fully
 understanding these concepts. You will of course eventually need to understand these terms to make the most of the SDK, 
-but to get started you won't need to. See [the official documentation](https://openziti.io) for more info and engage with our community
-[on Discourse](https://openziti.discourse.group/).
+but to get started you won't need to. See [the official documentation](https://hanzozt.dev) for more info and engage with our community
+[on Discourse](https://community.hanzozt.dev/).
 
 Running the samples are designed to be self-bootstrapping. They will use 
-[the OpenZiti Management API](https://openziti.io/docs/reference/developer/api/#edge-management-api) to create all the
-required configuration inside the OpenZiti overlay network that is necessary. This means the samples can be run over and
+[the Hanzo ZT Management API](https://hanzozt.dev/docs/reference/developer/api/#edge-management-api) to create all the
+required configuration inside the Hanzo ZT overlay network that is necessary. This means the samples can be run over and
 over without worrying the sample will fail, but it also means they setup the sample every time. This will become
-important as you progress with your OpenZiti journey and try to reuse the configuration created by the sample.
+important as you progress with your Hanzo ZT journey and try to reuse the configuration created by the sample.
 
-There are currently four different samples you can run, each of which outlining a different principle of OpenZiti.
+There are currently four different samples you can run, each of which outlining a different principle of Hanzo ZT.
 Find a sample that seems interesting, and follow the readme to that sample to learn how to run it.
 
 | Sample                                                                                                      | Description                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [OpenAPI PetStore](https://github.com/openziti/ziti-sdk-csharp/blob/main/OpenZiti.NET.Samples/src/PetStore/README.md) | Illustrates how to invoke an HTTP-based API securely                                                                 |
-| [Weather](https://github.com/openziti/ziti-sdk-csharp/blob/main/OpenZiti.NET.Samples/src/Weather/README.md)                                                     | Illustrates how to make an http-based request and output the content to the screen using wttr.in                     |
-| [Sample](https://github.com/openziti/ziti-sdk-csharp/blob/main/OpenZiti.NET.Samples/src/Server/README.md)                                                       | Illustrates how to use OpenZiti as a server __AND__ a client. Demonstrates true application-embedded zero trust!     |
-| [Enrollment](https://github.com/openziti/ziti-sdk-csharp/blob/main/OpenZiti.NET.Samples/src/Enrollment/README.md)                                               | A simple sample demonstrating how to enroll an OpenZiti Identity                                                     |
+| [OpenAPI PetStore](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/PetStore/README.md) | Illustrates how to invoke an HTTP-based API securely                                                                 |
+| [Weather](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Weather/README.md)                                                     | Illustrates how to make an http-based request and output the content to the screen using wttr.in                     |
+| [Sample](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Server/README.md)                                                       | Illustrates how to use Hanzo ZT as a server __AND__ a client. Demonstrates true application-embedded zero trust!     |
+| [Enrollment](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Enrollment/README.md)                                               | A simple sample demonstrating how to enroll an Hanzo ZT Identity                                                     |
 
 ## An Overlay to Test With
 
 The latest versions of the `ziti` CLI contains a command called `ziti edge quickstart`. This command can be used with
 all of the samples to easily setup an environment to test with. You can also run the samples with an overlay generated
-by [following one of the quickstarts](https://openziti.io/docs/category/network) and also works with CloudZiti when
+by [following one of the quickstarts](https://hanzozt.dev/docs/category/network) and also works with CloudZiti when
 supplying the "noint" parameter to the samples.
 
 ### Getting the `ziti` CLI
 
-The `ziti` CLI tool is a convinient way to access the OpenZiti overlay network via a command line, instead of by API.
-You'll likely want to have the `ziti` CLI available at times as it's handy to use for exploring the OpenZiti
+The `ziti` CLI tool is a convinient way to access the Hanzo ZT overlay network via a command line, instead of by API.
+You'll likely want to have the `ziti` CLI available at times as it's handy to use for exploring the Hanzo ZT
 configuration. If you do not have the `ziti` CLI, but wish to install it, you can quickly install it by running a single
 powershell command (as always, read the script before executing):
 ```
-iex(iwr -Uri https://get.openziti.io/quick/getZiti.ps1)
+iex(iwr -Uri https://get.hanzozt.dev/quick/getZiti.ps1)
 ```
 
 ## For Contributors
 
 If you are looking to contribute to the project you will need to understand what it is and what it and how the pieces
-all come together. This project provides two nuget packages, designed to make it easy to include OpenZiti into any
+all come together. This project provides two nuget packages, designed to make it easy to include Hanzo ZT into any
 dotnet project.
-* Idiomatic dotnet SDK - [OpenZiti.NET on nuget.org](https://www.nuget.org/packages/OpenZiti.NET/)
-* Native NuGet package - [OpenZiti.NET.native on nuget.org](https://www.nuget.org/packages/OpenZiti.NET.native/)
+* Idiomatic dotnet SDK - [Hanzo ZT.NET on nuget.org](https://www.nuget.org/packages/Hanzo ZT.NET/)
+* Native NuGet package - [Hanzo ZT.NET.native on nuget.org](https://www.nuget.org/packages/Hanzo ZT.NET.native/)
 
-### Idiomatic dotnet SDK - OpenZiti.NET
+### Idiomatic dotnet SDK - Hanzo ZT.NET
 
 This NuGet package provides the idiomatic SDK implementation. It is built and published to NuGet 
 [using this GitHub workflow](.github/workflows/dotnet-sdk-publish.yml). The workflow itself is straightforward and
-boils down to invoking `dotnet build` on the [OpenZiti.NET](./OpenZiti.NET/OpenZiti.NET.csproj), calling the "NugetPush"
+boils down to invoking `dotnet build` on the [Hanzo ZT.NET](./Hanzo ZT.NET/Hanzo ZT.NET.csproj), calling the "NugetPush"
 target. You will find that target declared in the project file and pushes to whatever source you pass to `dotnet build`
 with the `/p:NUGET_SOURCE=`. Building this package with this process should be very straightforward.
 
-The task will use the [OpenZiti.NET.nuspec](./OpenZiti.NET/OpenZiti.NET.nuspec) to build the package. This means updates
-to references MUST be reflected in that file. An automated process occurs when the OpenZiti.NET project completes a 
+The task will use the [Hanzo ZT.NET.nuspec](./Hanzo ZT.NET/Hanzo ZT.NET.nuspec) to build the package. This means updates
+to references MUST be reflected in that file. An automated process occurs when the Hanzo ZT.NET project completes a 
 successful build which will emit an updated .nuspec file in that folder. If this file changes, you **must** commit it.
 
 #### Testing Changes
@@ -106,7 +106,7 @@ to consumers of the package.
 #### Native Logging
 
 It's often __vital__ to enable a deeper loglevel for the native C SDK (provided by the 
-[OpenZiti.NET.native package](https://www.nuget.org/packages/OpenZiti.NET.native/). You do this by invoking `SetLogLevel`:
+[Hanzo ZT.NET.native package](https://www.nuget.org/packages/Hanzo ZT.NET.native/). You do this by invoking `SetLogLevel`:
 ```
 API.SetLogLevel(ZitiLogLevel.INFO);
 ```
@@ -114,13 +114,13 @@ API.SetLogLevel(ZitiLogLevel.INFO);
 #### HTTP Logging
 
 Some of the samples are based around HTTP. A convenience handler exists to make logging the HTTP request/response easy.
-See `OpenZiti.Debugging.LoggingHandler` and how it is used it samples. You will need to enable the logging before it
+See `Hanzo ZT.Debugging.LoggingHandler` and how it is used it samples. You will need to enable the logging before it
 produces output by setting:
 ```
 loggingHttpHandler.LogHttpRequestResponse = true;
 ```
 
-### Native NuGet Package - OpenZiti.NET.native
+### Native NuGet Package - Hanzo ZT.NET.native
 
 The Native NuGet package is built and published by GitHub actions. It currently supports the following
 architectures:
@@ -153,20 +153,20 @@ Here's a short set of instructions for how to rotate the NuGet API key for pushi
   ```
   Key Name:
     Expires In: 365 days
-    Package Owner: OpenZiti
+    Package Owner: Hanzo ZT
   
   Select Scopes:
     Push (checked)
       Push new packages and package versions (selected)
 	  Push only new package versions (unselected)
 	Unlist package (unchecked)
-  Glob Pattern: OpenZiti.*
+  Glob Pattern: Hanzo ZT.*
   
   Select Packages:
     Available Packages:
-      OpenZiti.NET
-      OpenZiti.NET.native
+      Hanzo ZT.NET
+      Hanzo ZT.NET.native
   ```
 
-* go to https://github.com/organizations/openziti/settings/secrets/actions
+* go to https://github.com/organizations/hanzozt/settings/secrets/actions
 * find/update: NUGET_API_KEY with the key made above

@@ -1,29 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Logging
-  commentId: T:OpenZiti.Logging
+- uid: Hanzo ZT.Logging
+  commentId: T:Hanzo ZT.Logging
   id: Logging
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.Logging.SimpleConsoleLogging(NLog.LogLevel)
+  - Hanzo ZT.Logging.SimpleConsoleLogging(NLog.LogLevel)
   langs:
   - csharp
   - vb
   name: Logging
   nameWithType: Logging
-  fullName: OpenZiti.Logging
+  fullName: Hanzo ZT.Logging
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Logging.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Logging
-    path: Ziti.NET.Standard/src/OpenZiti/Logging.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
     startLine: 24
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public static class Logging : object'
     content.vb: >-
@@ -38,35 +38,35 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: OpenZiti.Logging.SimpleConsoleLogging(NLog.LogLevel)
-  commentId: M:OpenZiti.Logging.SimpleConsoleLogging(NLog.LogLevel)
+- uid: Hanzo ZT.Logging.SimpleConsoleLogging(NLog.LogLevel)
+  commentId: M:Hanzo ZT.Logging.SimpleConsoleLogging(NLog.LogLevel)
   id: SimpleConsoleLogging(NLog.LogLevel)
-  parent: OpenZiti.Logging
+  parent: Hanzo ZT.Logging
   langs:
   - csharp
   - vb
   name: SimpleConsoleLogging(LogLevel)
   nameWithType: Logging.SimpleConsoleLogging(LogLevel)
-  fullName: OpenZiti.Logging.SimpleConsoleLogging(NLog.LogLevel)
+  fullName: Hanzo ZT.Logging.SimpleConsoleLogging(NLog.LogLevel)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Logging.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: SimpleConsoleLogging
-    path: Ziti.NET.Standard/src/OpenZiti/Logging.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
     startLine: 25
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static void SimpleConsoleLogging(LogLevel min)
     parameters:
     - id: min
       type: NLog.LogLevel
     content.vb: Public Shared Sub SimpleConsoleLogging(min As LogLevel)
-  overload: OpenZiti.Logging.SimpleConsoleLogging*
+  overload: Hanzo ZT.Logging.SimpleConsoleLogging*
   modifiers.csharp:
   - public
   - static
@@ -74,21 +74,21 @@ items:
   - Public
   - Shared
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.Logging.SimpleConsoleLogging*
-  commentId: Overload:OpenZiti.Logging.SimpleConsoleLogging
+- uid: Hanzo ZT.Logging.SimpleConsoleLogging*
+  commentId: Overload:Hanzo ZT.Logging.SimpleConsoleLogging
   name: SimpleConsoleLogging
   nameWithType: Logging.SimpleConsoleLogging
-  fullName: OpenZiti.Logging.SimpleConsoleLogging
+  fullName: Hanzo ZT.Logging.SimpleConsoleLogging
 - uid: NLog.LogLevel
   commentId: T:NLog.LogLevel
   parent: NLog

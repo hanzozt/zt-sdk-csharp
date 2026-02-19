@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.UVLoop
-  commentId: T:OpenZiti.UVLoop
+- uid: Hanzo ZT.UVLoop
+  commentId: T:Hanzo ZT.UVLoop
   id: UVLoop
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.UVLoop.#ctor
-  - OpenZiti.UVLoop.DefaultLoop
+  - Hanzo ZT.UVLoop.#ctor
+  - Hanzo ZT.UVLoop.DefaultLoop
   langs:
   - csharp
   - vb
   name: UVLoop
   nameWithType: UVLoop
-  fullName: OpenZiti.UVLoop
+  fullName: Hanzo ZT.UVLoop
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: UVLoop
-    path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
     startLine: 19
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class UVLoop : object'
     content.vb: >-
@@ -38,32 +38,32 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.UVLoop.DefaultLoop
-  commentId: F:OpenZiti.UVLoop.DefaultLoop
+- uid: Hanzo ZT.UVLoop.DefaultLoop
+  commentId: F:Hanzo ZT.UVLoop.DefaultLoop
   id: DefaultLoop
-  parent: OpenZiti.UVLoop
+  parent: Hanzo ZT.UVLoop
   langs:
   - csharp
   - vb
   name: DefaultLoop
   nameWithType: UVLoop.DefaultLoop
-  fullName: OpenZiti.UVLoop.DefaultLoop
+  fullName: Hanzo ZT.UVLoop.DefaultLoop
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: DefaultLoop
-    path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
     startLine: 20
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static readonly UVLoop DefaultLoop
     return:
-      type: OpenZiti.UVLoop
+      type: Hanzo ZT.UVLoop
     content.vb: Public Shared ReadOnly DefaultLoop As UVLoop
   modifiers.csharp:
   - public
@@ -73,55 +73,55 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: OpenZiti.UVLoop.#ctor
-  commentId: M:OpenZiti.UVLoop.#ctor
+- uid: Hanzo ZT.UVLoop.#ctor
+  commentId: M:Hanzo ZT.UVLoop.#ctor
   id: '#ctor'
-  parent: OpenZiti.UVLoop
+  parent: Hanzo ZT.UVLoop
   langs:
   - csharp
   - vb
   name: UVLoop()
   nameWithType: UVLoop.UVLoop()
-  fullName: OpenZiti.UVLoop.UVLoop()
+  fullName: Hanzo ZT.UVLoop.UVLoop()
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/UVLoop.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/UVLoop.cs
     startLine: 23
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public UVLoop()
     content.vb: Public Sub New
-  overload: OpenZiti.UVLoop.#ctor*
+  overload: Hanzo ZT.UVLoop.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.UVLoop
-  commentId: T:OpenZiti.UVLoop
-  parent: OpenZiti
+- uid: Hanzo ZT.UVLoop
+  commentId: T:Hanzo ZT.UVLoop
+  parent: Hanzo ZT
   name: UVLoop
   nameWithType: UVLoop
-  fullName: OpenZiti.UVLoop
-- uid: OpenZiti.UVLoop.#ctor*
-  commentId: Overload:OpenZiti.UVLoop.#ctor
+  fullName: Hanzo ZT.UVLoop
+- uid: Hanzo ZT.UVLoop.#ctor*
+  commentId: Overload:Hanzo ZT.UVLoop.#ctor
   name: UVLoop
   nameWithType: UVLoop.UVLoop
-  fullName: OpenZiti.UVLoop.UVLoop
+  fullName: Hanzo ZT.UVLoop.UVLoop

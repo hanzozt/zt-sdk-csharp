@@ -13,7 +13,7 @@
 		<None Remove="petstorev2.json" />
 	</ItemGroup>
 	<ItemGroup>
-		<OpenApiReference Include="petstorev2.json" ClassName="Client" CodeGenerator="NSwagCSharp" Namespace="OpenZiti.Generated.Petstore" />
+		<OpenApiReference Include="petstorev2.json" ClassName="Client" CodeGenerator="NSwagCSharp" Namespace="Hanzo ZT.Generated.Petstore" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
@@ -23,6 +23,6 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\OpenZiti.NET\OpenZiti.NET.csproj" />
+		<ProjectReference Include="..\Hanzo ZT.NET\Hanzo ZT.NET.csproj" />
 	</ItemGroup>
 </Project>

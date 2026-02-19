@@ -22,7 +22,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OpenZiti.Debugging {
+namespace Hanzo ZT.Debugging {
     public class LoggingHandler : DelegatingHandler {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
 

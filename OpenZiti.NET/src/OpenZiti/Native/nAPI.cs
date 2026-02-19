@@ -20,7 +20,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: InternalsVisibleTo("UnitTests")]
-namespace OpenZiti.Native {
+namespace Hanzo ZT.Native {
     public class API {
         static API() {
             Ziti_lib_init(); //this __always__ needs to happen

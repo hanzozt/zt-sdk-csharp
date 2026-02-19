@@ -1,297 +1,297 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  id: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  id: Hanzo ZT
   children:
-  - OpenZiti.API
-  - OpenZiti.API.Enrollment
-  - OpenZiti.API.Enrollment.AfterEnroll
-  - OpenZiti.EnumHelper
-  - OpenZiti.GCHandleExtensions
-  - OpenZiti.IdMaterial
-  - OpenZiti.Logging
-  - OpenZiti.OnClientAccept
-  - OpenZiti.OnInit
-  - OpenZiti.OnServiceChange
-  - OpenZiti.OnZitiClientConnected
-  - OpenZiti.OnZitiClientData
-  - OpenZiti.OnZitiConnected
-  - OpenZiti.OnZitiDataReceived
-  - OpenZiti.OnZitiDataWritten
-  - OpenZiti.OnZitiListening
-  - OpenZiti.posture_query
-  - OpenZiti.posture_query_set
-  - OpenZiti.RateType
-  - OpenZiti.RouterEventType
-  - OpenZiti.UVLoop
-  - OpenZiti.ziti_process
-  - OpenZiti.ziti_service
-  - OpenZiti.ziti_version
-  - OpenZiti.ZitiConnection
-  - OpenZiti.ZitiContext
-  - OpenZiti.ZitiContextEvent
-  - OpenZiti.ZitiEnrollment
-  - OpenZiti.ZitiEnrollment.AfterEnrollment
-  - OpenZiti.ZitiEnrollment.EnrollmentResult
-  - OpenZiti.ZitiEventFlags
-  - OpenZiti.ZitiException
-  - OpenZiti.ZitiIdentity
-  - OpenZiti.ZitiIdentity.InitOptions
-  - OpenZiti.ZitiIdentityFormat
-  - OpenZiti.ZitiRouterEvent
-  - OpenZiti.ZitiService
-  - OpenZiti.ZitiServiceEvent
-  - OpenZiti.ZitiStatus
-  - OpenZiti.ZitiStatusExtensions
-  - OpenZiti.ZitiStream
-  - OpenZiti.ZitiUtil
+  - Hanzo ZT.API
+  - Hanzo ZT.API.Enrollment
+  - Hanzo ZT.API.Enrollment.AfterEnroll
+  - Hanzo ZT.EnumHelper
+  - Hanzo ZT.GCHandleExtensions
+  - Hanzo ZT.IdMaterial
+  - Hanzo ZT.Logging
+  - Hanzo ZT.OnClientAccept
+  - Hanzo ZT.OnInit
+  - Hanzo ZT.OnServiceChange
+  - Hanzo ZT.OnZitiClientConnected
+  - Hanzo ZT.OnZitiClientData
+  - Hanzo ZT.OnZitiConnected
+  - Hanzo ZT.OnZitiDataReceived
+  - Hanzo ZT.OnZitiDataWritten
+  - Hanzo ZT.OnZitiListening
+  - Hanzo ZT.posture_query
+  - Hanzo ZT.posture_query_set
+  - Hanzo ZT.RateType
+  - Hanzo ZT.RouterEventType
+  - Hanzo ZT.UVLoop
+  - Hanzo ZT.ziti_process
+  - Hanzo ZT.ziti_service
+  - Hanzo ZT.ziti_version
+  - Hanzo ZT.ZitiConnection
+  - Hanzo ZT.ZitiContext
+  - Hanzo ZT.ZitiContextEvent
+  - Hanzo ZT.ZitiEnrollment
+  - Hanzo ZT.ZitiEnrollment.AfterEnrollment
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  - Hanzo ZT.ZitiEventFlags
+  - Hanzo ZT.ZitiException
+  - Hanzo ZT.ZitiIdentity
+  - Hanzo ZT.ZitiIdentity.InitOptions
+  - Hanzo ZT.ZitiIdentityFormat
+  - Hanzo ZT.ZitiRouterEvent
+  - Hanzo ZT.ZitiService
+  - Hanzo ZT.ZitiServiceEvent
+  - Hanzo ZT.ZitiStatus
+  - Hanzo ZT.ZitiStatusExtensions
+  - Hanzo ZT.ZitiStream
+  - Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
   type: Namespace
   assemblies:
   - Ziti.NET.Standard
 references:
-- uid: OpenZiti.OnInit
-  commentId: T:OpenZiti.OnInit
+- uid: Hanzo ZT.OnInit
+  commentId: T:Hanzo ZT.OnInit
   name: OnInit
   nameWithType: OnInit
-  fullName: OpenZiti.OnInit
-- uid: OpenZiti.OnServiceChange
-  commentId: T:OpenZiti.OnServiceChange
+  fullName: Hanzo ZT.OnInit
+- uid: Hanzo ZT.OnServiceChange
+  commentId: T:Hanzo ZT.OnServiceChange
   name: OnServiceChange
   nameWithType: OnServiceChange
-  fullName: OpenZiti.OnServiceChange
-- uid: OpenZiti.OnZitiConnected
-  commentId: T:OpenZiti.OnZitiConnected
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnServiceChange
+- uid: Hanzo ZT.OnZitiConnected
+  commentId: T:Hanzo ZT.OnZitiConnected
+  parent: Hanzo ZT
   name: OnZitiConnected
   nameWithType: OnZitiConnected
-  fullName: OpenZiti.OnZitiConnected
-- uid: OpenZiti.OnZitiDataReceived
-  commentId: T:OpenZiti.OnZitiDataReceived
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiConnected
+- uid: Hanzo ZT.OnZitiDataReceived
+  commentId: T:Hanzo ZT.OnZitiDataReceived
+  parent: Hanzo ZT
   name: OnZitiDataReceived
   nameWithType: OnZitiDataReceived
-  fullName: OpenZiti.OnZitiDataReceived
-- uid: OpenZiti.OnZitiDataWritten
-  commentId: T:OpenZiti.OnZitiDataWritten
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiDataReceived
+- uid: Hanzo ZT.OnZitiDataWritten
+  commentId: T:Hanzo ZT.OnZitiDataWritten
+  parent: Hanzo ZT
   name: OnZitiDataWritten
   nameWithType: OnZitiDataWritten
-  fullName: OpenZiti.OnZitiDataWritten
-- uid: OpenZiti.OnZitiListening
-  commentId: T:OpenZiti.OnZitiListening
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiDataWritten
+- uid: Hanzo ZT.OnZitiListening
+  commentId: T:Hanzo ZT.OnZitiListening
+  parent: Hanzo ZT
   name: OnZitiListening
   nameWithType: OnZitiListening
-  fullName: OpenZiti.OnZitiListening
-- uid: OpenZiti.OnZitiClientConnected
-  commentId: T:OpenZiti.OnZitiClientConnected
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiListening
+- uid: Hanzo ZT.OnZitiClientConnected
+  commentId: T:Hanzo ZT.OnZitiClientConnected
+  parent: Hanzo ZT
   name: OnZitiClientConnected
   nameWithType: OnZitiClientConnected
-  fullName: OpenZiti.OnZitiClientConnected
-- uid: OpenZiti.OnClientAccept
-  commentId: T:OpenZiti.OnClientAccept
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiClientConnected
+- uid: Hanzo ZT.OnClientAccept
+  commentId: T:Hanzo ZT.OnClientAccept
+  parent: Hanzo ZT
   name: OnClientAccept
   nameWithType: OnClientAccept
-  fullName: OpenZiti.OnClientAccept
-- uid: OpenZiti.OnZitiClientData
-  commentId: T:OpenZiti.OnZitiClientData
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnClientAccept
+- uid: Hanzo ZT.OnZitiClientData
+  commentId: T:Hanzo ZT.OnZitiClientData
+  parent: Hanzo ZT
   name: OnZitiClientData
   nameWithType: OnZitiClientData
-  fullName: OpenZiti.OnZitiClientData
-- uid: OpenZiti.RateType
-  commentId: T:OpenZiti.RateType
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiClientData
+- uid: Hanzo ZT.RateType
+  commentId: T:Hanzo ZT.RateType
+  parent: Hanzo ZT
   name: RateType
   nameWithType: RateType
-  fullName: OpenZiti.RateType
-- uid: OpenZiti.API
-  commentId: T:OpenZiti.API
+  fullName: Hanzo ZT.RateType
+- uid: Hanzo ZT.API
+  commentId: T:Hanzo ZT.API
   name: API
   nameWithType: API
-  fullName: OpenZiti.API
-- uid: OpenZiti.API.Enrollment
-  commentId: T:OpenZiti.API.Enrollment
+  fullName: Hanzo ZT.API
+- uid: Hanzo ZT.API.Enrollment
+  commentId: T:Hanzo ZT.API.Enrollment
   name: API.Enrollment
   nameWithType: API.Enrollment
-  fullName: OpenZiti.API.Enrollment
-- uid: OpenZiti.API.Enrollment.AfterEnroll
-  commentId: T:OpenZiti.API.Enrollment.AfterEnroll
-  parent: OpenZiti
+  fullName: Hanzo ZT.API.Enrollment
+- uid: Hanzo ZT.API.Enrollment.AfterEnroll
+  commentId: T:Hanzo ZT.API.Enrollment.AfterEnroll
+  parent: Hanzo ZT
   name: API.Enrollment.AfterEnroll
   nameWithType: API.Enrollment.AfterEnroll
-  fullName: OpenZiti.API.Enrollment.AfterEnroll
-- uid: OpenZiti.ziti_version
-  commentId: T:OpenZiti.ziti_version
-  parent: OpenZiti
+  fullName: Hanzo ZT.API.Enrollment.AfterEnroll
+- uid: Hanzo ZT.ziti_version
+  commentId: T:Hanzo ZT.ziti_version
+  parent: Hanzo ZT
   name: ziti_version
   nameWithType: ziti_version
-  fullName: OpenZiti.ziti_version
-- uid: OpenZiti.RouterEventType
-  commentId: T:OpenZiti.RouterEventType
-  parent: OpenZiti
+  fullName: Hanzo ZT.ziti_version
+- uid: Hanzo ZT.RouterEventType
+  commentId: T:Hanzo ZT.RouterEventType
+  parent: Hanzo ZT
   name: RouterEventType
   nameWithType: RouterEventType
-  fullName: OpenZiti.RouterEventType
-- uid: OpenZiti.ziti_service
-  commentId: T:OpenZiti.ziti_service
+  fullName: Hanzo ZT.RouterEventType
+- uid: Hanzo ZT.ziti_service
+  commentId: T:Hanzo ZT.ziti_service
   name: ziti_service
   nameWithType: ziti_service
-  fullName: OpenZiti.ziti_service
-- uid: OpenZiti.posture_query_set
-  commentId: T:OpenZiti.posture_query_set
+  fullName: Hanzo ZT.ziti_service
+- uid: Hanzo ZT.posture_query_set
+  commentId: T:Hanzo ZT.posture_query_set
   name: posture_query_set
   nameWithType: posture_query_set
-  fullName: OpenZiti.posture_query_set
-- uid: OpenZiti.posture_query
-  commentId: T:OpenZiti.posture_query
+  fullName: Hanzo ZT.posture_query_set
+- uid: Hanzo ZT.posture_query
+  commentId: T:Hanzo ZT.posture_query
   name: posture_query
   nameWithType: posture_query
-  fullName: OpenZiti.posture_query
-- uid: OpenZiti.ziti_process
-  commentId: T:OpenZiti.ziti_process
-  parent: OpenZiti
+  fullName: Hanzo ZT.posture_query
+- uid: Hanzo ZT.ziti_process
+  commentId: T:Hanzo ZT.ziti_process
+  parent: Hanzo ZT
   name: ziti_process
   nameWithType: ziti_process
-  fullName: OpenZiti.ziti_process
-- uid: OpenZiti.EnumHelper
-  commentId: T:OpenZiti.EnumHelper
+  fullName: Hanzo ZT.ziti_process
+- uid: Hanzo ZT.EnumHelper
+  commentId: T:Hanzo ZT.EnumHelper
   name: EnumHelper
   nameWithType: EnumHelper
-  fullName: OpenZiti.EnumHelper
-- uid: OpenZiti.GCHandleExtensions
-  commentId: T:OpenZiti.GCHandleExtensions
+  fullName: Hanzo ZT.EnumHelper
+- uid: Hanzo ZT.GCHandleExtensions
+  commentId: T:Hanzo ZT.GCHandleExtensions
   name: GCHandleExtensions
   nameWithType: GCHandleExtensions
-  fullName: OpenZiti.GCHandleExtensions
-- uid: OpenZiti.Logging
-  commentId: T:OpenZiti.Logging
+  fullName: Hanzo ZT.GCHandleExtensions
+- uid: Hanzo ZT.Logging
+  commentId: T:Hanzo ZT.Logging
   name: Logging
   nameWithType: Logging
-  fullName: OpenZiti.Logging
-- uid: OpenZiti.UVLoop
-  commentId: T:OpenZiti.UVLoop
-  parent: OpenZiti
+  fullName: Hanzo ZT.Logging
+- uid: Hanzo ZT.UVLoop
+  commentId: T:Hanzo ZT.UVLoop
+  parent: Hanzo ZT
   name: UVLoop
   nameWithType: UVLoop
-  fullName: OpenZiti.UVLoop
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
-  parent: OpenZiti
+  fullName: Hanzo ZT.UVLoop
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
+  parent: Hanzo ZT
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
-- uid: OpenZiti.ZitiContext
-  commentId: T:OpenZiti.ZitiContext
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiConnection
+- uid: Hanzo ZT.ZitiContext
+  commentId: T:Hanzo ZT.ZitiContext
+  parent: Hanzo ZT
   name: ZitiContext
   nameWithType: ZitiContext
-  fullName: OpenZiti.ZitiContext
-- uid: OpenZiti.ZitiEnrollment
-  commentId: T:OpenZiti.ZitiEnrollment
+  fullName: Hanzo ZT.ZitiContext
+- uid: Hanzo ZT.ZitiEnrollment
+  commentId: T:Hanzo ZT.ZitiEnrollment
   name: ZitiEnrollment
   nameWithType: ZitiEnrollment
-  fullName: OpenZiti.ZitiEnrollment
-- uid: OpenZiti.ZitiEnrollment.AfterEnrollment
-  commentId: T:OpenZiti.ZitiEnrollment.AfterEnrollment
+  fullName: Hanzo ZT.ZitiEnrollment
+- uid: Hanzo ZT.ZitiEnrollment.AfterEnrollment
+  commentId: T:Hanzo ZT.ZitiEnrollment.AfterEnrollment
   name: ZitiEnrollment.AfterEnrollment
   nameWithType: ZitiEnrollment.AfterEnrollment
-  fullName: OpenZiti.ZitiEnrollment.AfterEnrollment
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult
-  commentId: T:OpenZiti.ZitiEnrollment.EnrollmentResult
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiEnrollment.AfterEnrollment
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  commentId: T:Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT
   name: ZitiEnrollment.EnrollmentResult
   nameWithType: ZitiEnrollment.EnrollmentResult
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult
-- uid: OpenZiti.ZitiException
-  commentId: T:OpenZiti.ZitiException
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult
+- uid: Hanzo ZT.ZitiException
+  commentId: T:Hanzo ZT.ZitiException
   name: ZitiException
   nameWithType: ZitiException
-  fullName: OpenZiti.ZitiException
-- uid: OpenZiti.ZitiIdentity
-  commentId: T:OpenZiti.ZitiIdentity
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiException
+- uid: Hanzo ZT.ZitiIdentity
+  commentId: T:Hanzo ZT.ZitiIdentity
+  parent: Hanzo ZT
   name: ZitiIdentity
   nameWithType: ZitiIdentity
-  fullName: OpenZiti.ZitiIdentity
-- uid: OpenZiti.ZitiIdentity.InitOptions
-  commentId: T:OpenZiti.ZitiIdentity.InitOptions
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity
+- uid: Hanzo ZT.ZitiIdentity.InitOptions
+  commentId: T:Hanzo ZT.ZitiIdentity.InitOptions
+  parent: Hanzo ZT
   name: ZitiIdentity.InitOptions
   nameWithType: ZitiIdentity.InitOptions
-  fullName: OpenZiti.ZitiIdentity.InitOptions
-- uid: OpenZiti.ZitiContextEvent
-  commentId: T:OpenZiti.ZitiContextEvent
+  fullName: Hanzo ZT.ZitiIdentity.InitOptions
+- uid: Hanzo ZT.ZitiContextEvent
+  commentId: T:Hanzo ZT.ZitiContextEvent
   name: ZitiContextEvent
   nameWithType: ZitiContextEvent
-  fullName: OpenZiti.ZitiContextEvent
-- uid: OpenZiti.ZitiRouterEvent
-  commentId: T:OpenZiti.ZitiRouterEvent
+  fullName: Hanzo ZT.ZitiContextEvent
+- uid: Hanzo ZT.ZitiRouterEvent
+  commentId: T:Hanzo ZT.ZitiRouterEvent
   name: ZitiRouterEvent
   nameWithType: ZitiRouterEvent
-  fullName: OpenZiti.ZitiRouterEvent
-- uid: OpenZiti.ZitiServiceEvent
-  commentId: T:OpenZiti.ZitiServiceEvent
+  fullName: Hanzo ZT.ZitiRouterEvent
+- uid: Hanzo ZT.ZitiServiceEvent
+  commentId: T:Hanzo ZT.ZitiServiceEvent
   name: ZitiServiceEvent
   nameWithType: ZitiServiceEvent
-  fullName: OpenZiti.ZitiServiceEvent
-- uid: OpenZiti.ZitiEventFlags
-  commentId: T:OpenZiti.ZitiEventFlags
+  fullName: Hanzo ZT.ZitiServiceEvent
+- uid: Hanzo ZT.ZitiEventFlags
+  commentId: T:Hanzo ZT.ZitiEventFlags
   name: ZitiEventFlags
   nameWithType: ZitiEventFlags
-  fullName: OpenZiti.ZitiEventFlags
-- uid: OpenZiti.ZitiIdentityFormat
-  commentId: T:OpenZiti.ZitiIdentityFormat
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiEventFlags
+- uid: Hanzo ZT.ZitiIdentityFormat
+  commentId: T:Hanzo ZT.ZitiIdentityFormat
+  parent: Hanzo ZT
   name: ZitiIdentityFormat
   nameWithType: ZitiIdentityFormat
-  fullName: OpenZiti.ZitiIdentityFormat
-- uid: OpenZiti.IdMaterial
-  commentId: T:OpenZiti.IdMaterial
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentityFormat
+- uid: Hanzo ZT.IdMaterial
+  commentId: T:Hanzo ZT.IdMaterial
+  parent: Hanzo ZT
   name: IdMaterial
   nameWithType: IdMaterial
-  fullName: OpenZiti.IdMaterial
-- uid: OpenZiti.ZitiService
-  commentId: T:OpenZiti.ZitiService
-  parent: OpenZiti
+  fullName: Hanzo ZT.IdMaterial
+- uid: Hanzo ZT.ZitiService
+  commentId: T:Hanzo ZT.ZitiService
+  parent: Hanzo ZT
   name: ZitiService
   nameWithType: ZitiService
-  fullName: OpenZiti.ZitiService
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiService
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
-- uid: OpenZiti.ZitiStatusExtensions
-  commentId: T:OpenZiti.ZitiStatusExtensions
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiStatus
+- uid: Hanzo ZT.ZitiStatusExtensions
+  commentId: T:Hanzo ZT.ZitiStatusExtensions
+  parent: Hanzo ZT
   name: ZitiStatusExtensions
   nameWithType: ZitiStatusExtensions
-  fullName: OpenZiti.ZitiStatusExtensions
-- uid: OpenZiti.ZitiStream
-  commentId: T:OpenZiti.ZitiStream
+  fullName: Hanzo ZT.ZitiStatusExtensions
+- uid: Hanzo ZT.ZitiStream
+  commentId: T:Hanzo ZT.ZitiStream
   name: ZitiStream
   nameWithType: ZitiStream
-  fullName: OpenZiti.ZitiStream
-- uid: OpenZiti.ZitiUtil
-  commentId: T:OpenZiti.ZitiUtil
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiStream
+- uid: Hanzo ZT.ZitiUtil
+  commentId: T:Hanzo ZT.ZitiUtil
+  parent: Hanzo ZT
   name: ZitiUtil
   nameWithType: ZitiUtil
-  fullName: OpenZiti.ZitiUtil
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+  fullName: Hanzo ZT.ZitiUtil
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT

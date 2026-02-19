@@ -1,17 +1,17 @@
 # Native NuGet Package
 
 As mentioned in [the base README](../README.md), this project is responsible for creating a nuget package which exposes 
-the [ziti-sdk-c](https://github.com/openziti/ziti-sdk-c) functions in an easy-to-consume and cross-architecture way.
+the [ziti-sdk-c](https://github.com/hanzozt/ziti-sdk-c) functions in an easy-to-consume and cross-architecture way.
 
 This project does nothing but build the C SDK libraries on the various platforms using [cmake](https://cmake.org/)
-and then it produces a [NuGet package](https://www.nuget.org/packages/OpenZiti.NET.native) which is expected to be included as dependency in the main,
-[idiomatic dotnet (C#) SDK](../OpenZiti.NET) in this project.
+and then it produces a [NuGet package](https://www.nuget.org/packages/Hanzo ZT.NET.native) which is expected to be included as dependency in the main,
+[idiomatic dotnet (C#) SDK](../Hanzo ZT.NET) in this project.
 
 ## Publishing the NuGet Package
 
 Generally, this project is only built from GitHub via the [native-nuget-publish.yml](../.github/actions/native-nuget-publish.yml) action.
 
-The action will only push to NuGet when it's run from the organization/project of `openziti/ziti-sdk-csharp` and does
+The action will only push to NuGet when it's run from the organization/project of `hanzozt/ziti-sdk-csharp` and does
 not verify the branch is main.  It's designed to be runnable from any branch at this time. 
 
 This project also layers on helper functions as needed. Often these additional functions will be to do things
@@ -70,7 +70,7 @@ the action is invoked (manually).
 * configure cmake: `cmake --preset win64 .`
 * add the files: `git add CMakeLists.txt library/ziti.def`
 * push to GitHub
-* manually trigger [the GitHub Workflow](https://github.com/openziti/ziti-sdk-csharp/actions/workflows/native-nuget-publish.yml)
+* manually trigger [the GitHub Workflow](https://github.com/hanzozt/ziti-sdk-csharp/actions/workflows/native-nuget-publish.yml)
   with the new SDK version.
 
 If you're updating the C SDK and it's not a major change, you probably can just update the the version and it'll

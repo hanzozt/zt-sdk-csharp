@@ -17,7 +17,7 @@ limitations under the License.
 using System;
 using System.Runtime.InteropServices;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     internal static class ZitiUtil {
         public static readonly GCHandle NO_CONTEXT = GCHandle.Alloc(new object());
         public static readonly IntPtr NO_CONTEXT_PTR = GCHandle.ToIntPtr(NO_CONTEXT);
@@ -39,7 +39,7 @@ namespace OpenZiti {
             Func<int> verboseLogging = () => {
                 return verbose ? 1 : 0;
             };
-            var zitiVersion = OpenZiti.Native.API.ziti_get_build_version(verboseLogging());
+            var zitiVersion = Hanzo ZT.Native.API.ziti_get_build_version(verboseLogging());
             return Marshal.PtrToStringUTF8(zitiVersion);
         }
     }

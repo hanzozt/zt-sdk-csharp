@@ -1,39 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.OnZitiClientData
-  commentId: T:OpenZiti.OnZitiClientData
+- uid: Hanzo ZT.OnZitiClientData
+  commentId: T:Hanzo ZT.OnZitiClientData
   id: OnZitiClientData
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: OnZitiClientData
   nameWithType: OnZitiClientData
-  fullName: OpenZiti.OnZitiClientData
+  fullName: Hanzo ZT.OnZitiClientData
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: OnZitiClientData
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 38
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public delegate void OnZitiClientData(ZitiConnection clientConnection, byte[] data, int len, ZitiStatus status);
     parameters:
     - id: clientConnection
-      type: OpenZiti.ZitiConnection
+      type: Hanzo ZT.ZitiConnection
     - id: data
       type: System.Byte[]
     - id: len
       type: System.Int32
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Delegate Sub OnZitiClientData(clientConnection As ZitiConnection, data As Byte(), len As Integer, status As ZitiStatus)
   modifiers.csharp:
   - public
@@ -42,17 +42,17 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
-  parent: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
+  parent: Hanzo ZT
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
+  fullName: Hanzo ZT.ZitiConnection
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -84,9 +84,9 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus

@@ -1,33 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_service
-  commentId: T:OpenZiti.Native.ziti_service
+- uid: Hanzo ZT.Native.ziti_service
+  commentId: T:Hanzo ZT.Native.ziti_service
   id: ziti_service
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children:
-  - OpenZiti.Native.ziti_service.config
-  - OpenZiti.Native.ziti_service.id
-  - OpenZiti.Native.ziti_service.name
-  - OpenZiti.Native.ziti_service.perm_flags
-  - OpenZiti.Native.ziti_service.permissions
+  - Hanzo ZT.Native.ziti_service.config
+  - Hanzo ZT.Native.ziti_service.id
+  - Hanzo ZT.Native.ziti_service.name
+  - Hanzo ZT.Native.ziti_service.perm_flags
+  - Hanzo ZT.Native.ziti_service.permissions
   langs:
   - csharp
   - vb
   name: ziti_service
   nameWithType: ziti_service
-  fullName: OpenZiti.Native.ziti_service
+  fullName: Hanzo ZT.Native.ziti_service
   type: Struct
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_service
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 264
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public struct ziti_service
     content.vb: Public Structure ziti_service
@@ -37,28 +37,28 @@ items:
   modifiers.vb:
   - Public
   - Structure
-- uid: OpenZiti.Native.ziti_service.id
-  commentId: F:OpenZiti.Native.ziti_service.id
+- uid: Hanzo ZT.Native.ziti_service.id
+  commentId: F:Hanzo ZT.Native.ziti_service.id
   id: id
-  parent: OpenZiti.Native.ziti_service
+  parent: Hanzo ZT.Native.ziti_service
   langs:
   - csharp
   - vb
   name: id
   nameWithType: ziti_service.id
-  fullName: OpenZiti.Native.ziti_service.id
+  fullName: Hanzo ZT.Native.ziti_service.id
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: id
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 266
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public string id
     return:
@@ -68,28 +68,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_service.name
-  commentId: F:OpenZiti.Native.ziti_service.name
+- uid: Hanzo ZT.Native.ziti_service.name
+  commentId: F:Hanzo ZT.Native.ziti_service.name
   id: name
-  parent: OpenZiti.Native.ziti_service
+  parent: Hanzo ZT.Native.ziti_service
   langs:
   - csharp
   - vb
   name: name
   nameWithType: ziti_service.name
-  fullName: OpenZiti.Native.ziti_service.name
+  fullName: Hanzo ZT.Native.ziti_service.name
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: name
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 267
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public string name
     return:
@@ -99,28 +99,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_service.permissions
-  commentId: F:OpenZiti.Native.ziti_service.permissions
+- uid: Hanzo ZT.Native.ziti_service.permissions
+  commentId: F:Hanzo ZT.Native.ziti_service.permissions
   id: permissions
-  parent: OpenZiti.Native.ziti_service
+  parent: Hanzo ZT.Native.ziti_service
   langs:
   - csharp
   - vb
   name: permissions
   nameWithType: ziti_service.permissions
-  fullName: OpenZiti.Native.ziti_service.permissions
+  fullName: Hanzo ZT.Native.ziti_service.permissions
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: permissions
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 268
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public IntPtr permissions
     return:
@@ -130,28 +130,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_service.perm_flags
-  commentId: F:OpenZiti.Native.ziti_service.perm_flags
+- uid: Hanzo ZT.Native.ziti_service.perm_flags
+  commentId: F:Hanzo ZT.Native.ziti_service.perm_flags
   id: perm_flags
-  parent: OpenZiti.Native.ziti_service
+  parent: Hanzo ZT.Native.ziti_service
   langs:
   - csharp
   - vb
   name: perm_flags
   nameWithType: ziti_service.perm_flags
-  fullName: OpenZiti.Native.ziti_service.perm_flags
+  fullName: Hanzo ZT.Native.ziti_service.perm_flags
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: perm_flags
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 269
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public int perm_flags
     return:
@@ -161,28 +161,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_service.config
-  commentId: F:OpenZiti.Native.ziti_service.config
+- uid: Hanzo ZT.Native.ziti_service.config
+  commentId: F:Hanzo ZT.Native.ziti_service.config
   id: config
-  parent: OpenZiti.Native.ziti_service
+  parent: Hanzo ZT.Native.ziti_service
   langs:
   - csharp
   - vb
   name: config
   nameWithType: ziti_service.config
-  fullName: OpenZiti.Native.ziti_service.config
+  fullName: Hanzo ZT.Native.ziti_service.config
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: config
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 270
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public IntPtr config
     return:
@@ -193,11 +193,11 @@ items:
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: System.String
   isExternal: true
   name: String

@@ -25,7 +25,7 @@ Package source with Name: local-nuget-packages added successfully.
 
 ## Local Development - Native Package
 
-The native package that wraps the C SDK is called OpenZiti.NET.native and is published
+The native package that wraps the C SDK is called Hanzo ZT.NET.native and is published
 to nuget.org via GitHub actions. When updating the C SDK it is necessary to be able
 to deploy a NuGet package locally, for the managed code to use. Follow these steps to
 build the native NuGet package and publish to a folder named local-nuget-packages.

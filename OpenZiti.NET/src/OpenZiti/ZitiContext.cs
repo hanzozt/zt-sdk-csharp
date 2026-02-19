@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Native;
+using Hanzo ZT.Native;
 using System;
 using System.Collections;
 using System.IO;
@@ -24,9 +24,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-using nAPI = OpenZiti.Native.API;
+using nAPI = Hanzo ZT.Native.API;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     /// <summary>
     /// An opaque handle to a native Ziti context. Required for certain operations
     /// </summary>

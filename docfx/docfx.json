@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "../OpenZiti.NET",
+          "src": "../Hanzo ZT.NET",
           "files": [
             "*.csproj"
           ]

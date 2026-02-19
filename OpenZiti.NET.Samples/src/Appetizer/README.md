@@ -1,15 +1,15 @@
 # Appetizer - reflect server
 
-This sample demonstrates how to write data to a stream and receive data. It uses the https://openziti.io/appetizer
+This sample demonstrates how to write data to a stream and receive data. It uses the https://hanzozt.dev/appetizer
 demonstration environment which is capable of genearting an identity for you, to be used with this sample. It
 utilizes the reflect server functionality to return whatever data you send to the server back to you. The reflect
 server also is tied to an LLM which is attempting to classify your input. If you use something that seems "hateful"
 you will receive an error message indicating your input was not accepted. The server is written in go and the 
-source for the server is available at https://github.com/openziti-test-kitchen/appetizer.
+source for the server is available at https://github.com/hanzozt-test-kitchen/appetizer.
 
-## OpenZiti Concepts Demonstrated
+## Hanzo ZT Concepts Demonstrated
 
-This sample demonstrates some key OpenZiti concepts:
+This sample demonstrates some key Hanzo ZT concepts:
 
 * Application-embedded zero trust client written in C# to a golang-based application embedded zero trust server.
 * Sending data in a line-delimeted protocol to a server deployed out in the cloud, then receiving and displaying
@@ -20,8 +20,8 @@ This sample demonstrates some key OpenZiti concepts:
 ## Setup
 
 This sample is unlike others. It relies on an instance of the appetizer demo to be deployed. It's easiest to use
-the instance OpenZiti has deployed by going to https://appetizer.openziti.io/. You'll see a screen asking you to
-enter something unique, like your email address. There's a button to click named "Add to OpenZiti". After you click
+the instance Hanzo ZT has deployed by going to https://appetizer.hanzozt.dev/. You'll see a screen asking you to
+enter something unique, like your email address. There's a button to click named "Add to Hanzo ZT". After you click
 the button, you'll be able to save/download a one-time use token.
 
 To run the sample, simply provide the path to that token as a argument to the program.
@@ -32,5 +32,5 @@ After downloading the .jwt, you should be able to just run it directly.
 
 Example:
 ```
-dotnet run --project OpenZiti.NET.Samples/OpenZiti.NET.Samples.csproj appetizer-reflect
+dotnet run --project Hanzo ZT.NET.Samples/Hanzo ZT.NET.Samples.csproj appetizer-reflect
 ```

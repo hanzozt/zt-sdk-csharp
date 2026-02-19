@@ -12,7 +12,7 @@
     <None Remove="management.yml" />
   </ItemGroup>
   <ItemGroup>
-    <OpenApiReference Include="management.yml" ClassName="ManagementAPI" CodeGenerator="NSwagCSharp" Namespace="OpenZiti.Generated" />
+    <OpenApiReference Include="management.yml" ClassName="ManagementAPI" CodeGenerator="NSwagCSharp" Namespace="Hanzo ZT.Generated" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="10.0.2">
@@ -26,6 +26,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenZiti.NET\OpenZiti.NET.csproj" />
+    <ProjectReference Include="..\Hanzo ZT.NET\Hanzo ZT.NET.csproj" />
   </ItemGroup>
 </Project>

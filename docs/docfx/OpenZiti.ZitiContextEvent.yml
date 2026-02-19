@@ -1,33 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiContextEvent
-  commentId: T:OpenZiti.ZitiContextEvent
+- uid: Hanzo ZT.ZitiContextEvent
+  commentId: T:Hanzo ZT.ZitiContextEvent
   id: ZitiContextEvent
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiContextEvent.Identity
-  - OpenZiti.ZitiContextEvent.Name
-  - OpenZiti.ZitiContextEvent.Status
-  - OpenZiti.ZitiContextEvent.StatusError
-  - OpenZiti.ZitiContextEvent.Version
+  - Hanzo ZT.ZitiContextEvent.Identity
+  - Hanzo ZT.ZitiContextEvent.Name
+  - Hanzo ZT.ZitiContextEvent.Status
+  - Hanzo ZT.ZitiContextEvent.StatusError
+  - Hanzo ZT.ZitiContextEvent.Version
   langs:
   - csharp
   - vb
   name: ZitiContextEvent
   nameWithType: ZitiContextEvent
-  fullName: OpenZiti.ZitiContextEvent
+  fullName: Hanzo ZT.ZitiContextEvent
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiContextEvent
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 362
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class ZitiContextEvent : object'
     content.vb: >-
@@ -41,59 +41,59 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiContextEvent.Status
-  commentId: F:OpenZiti.ZitiContextEvent.Status
+- uid: Hanzo ZT.ZitiContextEvent.Status
+  commentId: F:Hanzo ZT.ZitiContextEvent.Status
   id: Status
-  parent: OpenZiti.ZitiContextEvent
+  parent: Hanzo ZT.ZitiContextEvent
   langs:
   - csharp
   - vb
   name: Status
   nameWithType: ZitiContextEvent.Status
-  fullName: OpenZiti.ZitiContextEvent.Status
+  fullName: Hanzo ZT.ZitiContextEvent.Status
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Status
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 363
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiStatus Status
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Status As ZitiStatus
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiContextEvent.StatusError
-  commentId: F:OpenZiti.ZitiContextEvent.StatusError
+- uid: Hanzo ZT.ZitiContextEvent.StatusError
+  commentId: F:Hanzo ZT.ZitiContextEvent.StatusError
   id: StatusError
-  parent: OpenZiti.ZitiContextEvent
+  parent: Hanzo ZT.ZitiContextEvent
   langs:
   - csharp
   - vb
   name: StatusError
   nameWithType: ZitiContextEvent.StatusError
-  fullName: OpenZiti.ZitiContextEvent.StatusError
+  fullName: Hanzo ZT.ZitiContextEvent.StatusError
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: StatusError
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 364
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string StatusError
     return:
@@ -103,28 +103,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiContextEvent.Name
-  commentId: F:OpenZiti.ZitiContextEvent.Name
+- uid: Hanzo ZT.ZitiContextEvent.Name
+  commentId: F:Hanzo ZT.ZitiContextEvent.Name
   id: Name
-  parent: OpenZiti.ZitiContextEvent
+  parent: Hanzo ZT.ZitiContextEvent
   langs:
   - csharp
   - vb
   name: Name
   nameWithType: ZitiContextEvent.Name
-  fullName: OpenZiti.ZitiContextEvent.Name
+  fullName: Hanzo ZT.ZitiContextEvent.Name
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Name
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 365
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string Name
     return:
@@ -134,99 +134,99 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiContextEvent.Version
-  commentId: F:OpenZiti.ZitiContextEvent.Version
+- uid: Hanzo ZT.ZitiContextEvent.Version
+  commentId: F:Hanzo ZT.ZitiContextEvent.Version
   id: Version
-  parent: OpenZiti.ZitiContextEvent
+  parent: Hanzo ZT.ZitiContextEvent
   langs:
   - csharp
   - vb
   name: Version
   nameWithType: ZitiContextEvent.Version
-  fullName: OpenZiti.ZitiContextEvent.Version
+  fullName: Hanzo ZT.ZitiContextEvent.Version
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Version
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 366
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ziti_version Version
     return:
-      type: OpenZiti.ziti_version
+      type: Hanzo ZT.ziti_version
     content.vb: Public Version As ziti_version
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiContextEvent.Identity
-  commentId: F:OpenZiti.ZitiContextEvent.Identity
+- uid: Hanzo ZT.ZitiContextEvent.Identity
+  commentId: F:Hanzo ZT.ZitiContextEvent.Identity
   id: Identity
-  parent: OpenZiti.ZitiContextEvent
+  parent: Hanzo ZT.ZitiContextEvent
   langs:
   - csharp
   - vb
   name: Identity
   nameWithType: ZitiContextEvent.Identity
-  fullName: OpenZiti.ZitiContextEvent.Identity
+  fullName: Hanzo ZT.ZitiContextEvent.Identity
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Identity
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 367
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentity Identity
     return:
-      type: OpenZiti.ZitiIdentity
+      type: Hanzo ZT.ZitiIdentity
     content.vb: Public Identity As ZitiIdentity
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ziti_version
-  commentId: T:OpenZiti.ziti_version
-  parent: OpenZiti
+- uid: Hanzo ZT.ziti_version
+  commentId: T:Hanzo ZT.ziti_version
+  parent: Hanzo ZT
   name: ziti_version
   nameWithType: ziti_version
-  fullName: OpenZiti.ziti_version
-- uid: OpenZiti.ZitiIdentity
-  commentId: T:OpenZiti.ZitiIdentity
-  parent: OpenZiti
+  fullName: Hanzo ZT.ziti_version
+- uid: Hanzo ZT.ZitiIdentity
+  commentId: T:Hanzo ZT.ZitiIdentity
+  parent: Hanzo ZT
   name: ZitiIdentity
   nameWithType: ZitiIdentity
-  fullName: OpenZiti.ZitiIdentity
+  fullName: Hanzo ZT.ZitiIdentity

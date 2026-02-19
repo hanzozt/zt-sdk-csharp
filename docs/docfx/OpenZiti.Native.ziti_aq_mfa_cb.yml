@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_aq_mfa_cb
-  commentId: T:OpenZiti.Native.ziti_aq_mfa_cb
+- uid: Hanzo ZT.Native.ziti_aq_mfa_cb
+  commentId: T:Hanzo ZT.Native.ziti_aq_mfa_cb
   id: ziti_aq_mfa_cb
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children: []
   langs:
   - csharp
   - vb
   name: ziti_aq_mfa_cb
   nameWithType: ziti_aq_mfa_cb
-  fullName: OpenZiti.Native.ziti_aq_mfa_cb
+  fullName: Hanzo ZT.Native.ziti_aq_mfa_cb
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_aq_mfa_cb
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 66
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public delegate void ziti_aq_mfa_cb(IntPtr ziti_context, IntPtr mfa_ctx, IntPtr aq_mfa, ziti_ar_mfa_cb response_cb);
     parameters:
@@ -33,7 +33,7 @@ items:
     - id: aq_mfa
       type: IntPtr
     - id: response_cb
-      type: OpenZiti.Native.ziti_ar_mfa_cb
+      type: Hanzo ZT.Native.ziti_ar_mfa_cb
     content.vb: Public Delegate Sub ziti_aq_mfa_cb(ziti_context As IntPtr, mfa_ctx As IntPtr, aq_mfa As IntPtr, response_cb As ziti_ar_mfa_cb)
   modifiers.csharp:
   - public
@@ -42,19 +42,19 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: IntPtr
   isExternal: true
   name: IntPtr
   nameWithType: IntPtr
   fullName: IntPtr
-- uid: OpenZiti.Native.ziti_ar_mfa_cb
-  commentId: T:OpenZiti.Native.ziti_ar_mfa_cb
-  parent: OpenZiti.Native
+- uid: Hanzo ZT.Native.ziti_ar_mfa_cb
+  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_cb
+  parent: Hanzo ZT.Native
   name: ziti_ar_mfa_cb
   nameWithType: ziti_ar_mfa_cb
-  fullName: OpenZiti.Native.ziti_ar_mfa_cb
+  fullName: Hanzo ZT.Native.ziti_ar_mfa_cb

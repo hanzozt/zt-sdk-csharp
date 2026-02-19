@@ -21,8 +21,8 @@ using System.Net.Sockets;
 using System.Net;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("OpenZiti.NET.Tests")]
-namespace OpenZiti.Native {
+[assembly: InternalsVisibleTo("Hanzo ZT.NET.Tests")]
+namespace Hanzo ZT.Native {
 #pragma warning disable 0649
 #pragma warning disable 0169
 

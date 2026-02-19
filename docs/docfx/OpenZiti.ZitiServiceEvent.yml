@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiServiceEvent
-  commentId: T:OpenZiti.ZitiServiceEvent
+- uid: Hanzo ZT.ZitiServiceEvent
+  commentId: T:Hanzo ZT.ZitiServiceEvent
   id: ZitiServiceEvent
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiServiceEvent.Added
-  - OpenZiti.ZitiServiceEvent.Changed
-  - OpenZiti.ZitiServiceEvent.Context
-  - OpenZiti.ZitiServiceEvent.Removed
+  - Hanzo ZT.ZitiServiceEvent.Added
+  - Hanzo ZT.ZitiServiceEvent.Changed
+  - Hanzo ZT.ZitiServiceEvent.Context
+  - Hanzo ZT.ZitiServiceEvent.Removed
   langs:
   - csharp
   - vb
   name: ZitiServiceEvent
   nameWithType: ZitiServiceEvent
-  fullName: OpenZiti.ZitiServiceEvent
+  fullName: Hanzo ZT.ZitiServiceEvent
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiServiceEvent
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 376
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class ZitiServiceEvent : object'
     content.vb: >-
@@ -40,166 +40,166 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiServiceEvent.Context
-  commentId: P:OpenZiti.ZitiServiceEvent.Context
+- uid: Hanzo ZT.ZitiServiceEvent.Context
+  commentId: P:Hanzo ZT.ZitiServiceEvent.Context
   id: Context
-  parent: OpenZiti.ZitiServiceEvent
+  parent: Hanzo ZT.ZitiServiceEvent
   langs:
   - csharp
   - vb
   name: Context
   nameWithType: ZitiServiceEvent.Context
-  fullName: OpenZiti.ZitiServiceEvent.Context
+  fullName: Hanzo ZT.ZitiServiceEvent.Context
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Context
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 383
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public object Context { get; }
     parameters: []
     return:
       type: System.Object
     content.vb: Public ReadOnly Property Context As Object
-  overload: OpenZiti.ZitiServiceEvent.Context*
+  overload: Hanzo ZT.ZitiServiceEvent.Context*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiServiceEvent.Removed
-  commentId: M:OpenZiti.ZitiServiceEvent.Removed
+- uid: Hanzo ZT.ZitiServiceEvent.Removed
+  commentId: M:Hanzo ZT.ZitiServiceEvent.Removed
   id: Removed
-  parent: OpenZiti.ZitiServiceEvent
+  parent: Hanzo ZT.ZitiServiceEvent
   langs:
   - csharp
   - vb
   name: Removed()
   nameWithType: ZitiServiceEvent.Removed()
-  fullName: OpenZiti.ZitiServiceEvent.Removed()
+  fullName: Hanzo ZT.ZitiServiceEvent.Removed()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Removed
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 398
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public IEnumerable<ZitiService> Removed()
     return:
-      type: IEnumerable{OpenZiti.ZitiService}
+      type: IEnumerable{Hanzo ZT.ZitiService}
     content.vb: Public Function Removed As IEnumerable(Of ZitiService)
-  overload: OpenZiti.ZitiServiceEvent.Removed*
+  overload: Hanzo ZT.ZitiServiceEvent.Removed*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiServiceEvent.Changed
-  commentId: M:OpenZiti.ZitiServiceEvent.Changed
+- uid: Hanzo ZT.ZitiServiceEvent.Changed
+  commentId: M:Hanzo ZT.ZitiServiceEvent.Changed
   id: Changed
-  parent: OpenZiti.ZitiServiceEvent
+  parent: Hanzo ZT.ZitiServiceEvent
   langs:
   - csharp
   - vb
   name: Changed()
   nameWithType: ZitiServiceEvent.Changed()
-  fullName: OpenZiti.ZitiServiceEvent.Changed()
+  fullName: Hanzo ZT.ZitiServiceEvent.Changed()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Changed
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 405
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public IEnumerable<ZitiService> Changed()
     return:
-      type: IEnumerable{OpenZiti.ZitiService}
+      type: IEnumerable{Hanzo ZT.ZitiService}
     content.vb: Public Function Changed As IEnumerable(Of ZitiService)
-  overload: OpenZiti.ZitiServiceEvent.Changed*
+  overload: Hanzo ZT.ZitiServiceEvent.Changed*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiServiceEvent.Added
-  commentId: M:OpenZiti.ZitiServiceEvent.Added
+- uid: Hanzo ZT.ZitiServiceEvent.Added
+  commentId: M:Hanzo ZT.ZitiServiceEvent.Added
   id: Added
-  parent: OpenZiti.ZitiServiceEvent
+  parent: Hanzo ZT.ZitiServiceEvent
   langs:
   - csharp
   - vb
   name: Added()
   nameWithType: ZitiServiceEvent.Added()
-  fullName: OpenZiti.ZitiServiceEvent.Added()
+  fullName: Hanzo ZT.ZitiServiceEvent.Added()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Added
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 412
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public IEnumerable<ZitiService> Added()
     return:
-      type: IEnumerable{OpenZiti.ZitiService}
+      type: IEnumerable{Hanzo ZT.ZitiService}
     content.vb: Public Function Added As IEnumerable(Of ZitiService)
-  overload: OpenZiti.ZitiServiceEvent.Added*
+  overload: Hanzo ZT.ZitiServiceEvent.Added*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiServiceEvent.Context*
-  commentId: Overload:OpenZiti.ZitiServiceEvent.Context
+- uid: Hanzo ZT.ZitiServiceEvent.Context*
+  commentId: Overload:Hanzo ZT.ZitiServiceEvent.Context
   name: Context
   nameWithType: ZitiServiceEvent.Context
-  fullName: OpenZiti.ZitiServiceEvent.Context
-- uid: OpenZiti.ZitiServiceEvent.Removed*
-  commentId: Overload:OpenZiti.ZitiServiceEvent.Removed
+  fullName: Hanzo ZT.ZitiServiceEvent.Context
+- uid: Hanzo ZT.ZitiServiceEvent.Removed*
+  commentId: Overload:Hanzo ZT.ZitiServiceEvent.Removed
   name: Removed
   nameWithType: ZitiServiceEvent.Removed
-  fullName: OpenZiti.ZitiServiceEvent.Removed
-- uid: IEnumerable{OpenZiti.ZitiService}
-  commentId: '!:IEnumerable{OpenZiti.ZitiService}'
+  fullName: Hanzo ZT.ZitiServiceEvent.Removed
+- uid: IEnumerable{Hanzo ZT.ZitiService}
+  commentId: '!:IEnumerable{Hanzo ZT.ZitiService}'
   definition: IEnumerable`1
   name: IEnumerable<ZitiService>
   nameWithType: IEnumerable<ZitiService>
-  fullName: IEnumerable<OpenZiti.ZitiService>
+  fullName: IEnumerable<Hanzo ZT.ZitiService>
   nameWithType.vb: IEnumerable(Of ZitiService)
-  fullName.vb: IEnumerable(Of OpenZiti.ZitiService)
+  fullName.vb: IEnumerable(Of Hanzo ZT.ZitiService)
   name.vb: IEnumerable(Of ZitiService)
   spec.csharp:
   - uid: IEnumerable`1
@@ -210,10 +210,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: OpenZiti.ZitiService
+  - uid: Hanzo ZT.ZitiService
     name: ZitiService
     nameWithType: ZitiService
-    fullName: OpenZiti.ZitiService
+    fullName: Hanzo ZT.ZitiService
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -226,10 +226,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: OpenZiti.ZitiService
+  - uid: Hanzo ZT.ZitiService
     name: ZitiService
     nameWithType: ZitiService
-    fullName: OpenZiti.ZitiService
+    fullName: Hanzo ZT.ZitiService
   - name: )
     nameWithType: )
     fullName: )
@@ -271,13 +271,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: OpenZiti.ZitiServiceEvent.Changed*
-  commentId: Overload:OpenZiti.ZitiServiceEvent.Changed
+- uid: Hanzo ZT.ZitiServiceEvent.Changed*
+  commentId: Overload:Hanzo ZT.ZitiServiceEvent.Changed
   name: Changed
   nameWithType: ZitiServiceEvent.Changed
-  fullName: OpenZiti.ZitiServiceEvent.Changed
-- uid: OpenZiti.ZitiServiceEvent.Added*
-  commentId: Overload:OpenZiti.ZitiServiceEvent.Added
+  fullName: Hanzo ZT.ZitiServiceEvent.Changed
+- uid: Hanzo ZT.ZitiServiceEvent.Added*
+  commentId: Overload:Hanzo ZT.ZitiServiceEvent.Added
   name: Added
   nameWithType: ZitiServiceEvent.Added
-  fullName: OpenZiti.ZitiServiceEvent.Added
+  fullName: Hanzo ZT.ZitiServiceEvent.Added

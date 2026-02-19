@@ -24,7 +24,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MLog = Microsoft.Extensions.Logging;
 
-namespace OpenZiti.Debugging;
+namespace Hanzo ZT.Debugging;
 public class LoggingHelper {
     public static void LogToConsole(MLog.LogLevel lvl) {
         NLog.LogLevel logLevel = NLog.LogLevel.Fatal;

@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiIdentityFormat
-  commentId: T:OpenZiti.ZitiIdentityFormat
+- uid: Hanzo ZT.ZitiIdentityFormat
+  commentId: T:Hanzo ZT.ZitiIdentityFormat
   id: ZitiIdentityFormat
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiIdentityFormat.#ctor
-  - OpenZiti.ZitiIdentityFormat.ControllerUrl
-  - OpenZiti.ZitiIdentityFormat.IdMaterial
+  - Hanzo ZT.ZitiIdentityFormat.#ctor
+  - Hanzo ZT.ZitiIdentityFormat.ControllerUrl
+  - Hanzo ZT.ZitiIdentityFormat.IdMaterial
   langs:
   - csharp
   - vb
   name: ZitiIdentityFormat
   nameWithType: ZitiIdentityFormat
-  fullName: OpenZiti.ZitiIdentityFormat
+  fullName: Hanzo ZT.ZitiIdentityFormat
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiIdentityFormat
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 20
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class ZitiIdentityFormat : object'
     content.vb: >-
@@ -39,140 +39,140 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiIdentityFormat.ControllerUrl
-  commentId: P:OpenZiti.ZitiIdentityFormat.ControllerUrl
+- uid: Hanzo ZT.ZitiIdentityFormat.ControllerUrl
+  commentId: P:Hanzo ZT.ZitiIdentityFormat.ControllerUrl
   id: ControllerUrl
-  parent: OpenZiti.ZitiIdentityFormat
+  parent: Hanzo ZT.ZitiIdentityFormat
   langs:
   - csharp
   - vb
   name: ControllerUrl
   nameWithType: ZitiIdentityFormat.ControllerUrl
-  fullName: OpenZiti.ZitiIdentityFormat.ControllerUrl
+  fullName: Hanzo ZT.ZitiIdentityFormat.ControllerUrl
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ControllerUrl
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 21
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string ControllerUrl { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Property ControllerUrl As String
-  overload: OpenZiti.ZitiIdentityFormat.ControllerUrl*
+  overload: Hanzo ZT.ZitiIdentityFormat.ControllerUrl*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentityFormat.IdMaterial
-  commentId: P:OpenZiti.ZitiIdentityFormat.IdMaterial
+- uid: Hanzo ZT.ZitiIdentityFormat.IdMaterial
+  commentId: P:Hanzo ZT.ZitiIdentityFormat.IdMaterial
   id: IdMaterial
-  parent: OpenZiti.ZitiIdentityFormat
+  parent: Hanzo ZT.ZitiIdentityFormat
   langs:
   - csharp
   - vb
   name: IdMaterial
   nameWithType: ZitiIdentityFormat.IdMaterial
-  fullName: OpenZiti.ZitiIdentityFormat.IdMaterial
+  fullName: Hanzo ZT.ZitiIdentityFormat.IdMaterial
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: IdMaterial
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 23
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public IdMaterial IdMaterial { get; set; }
     parameters: []
     return:
-      type: OpenZiti.IdMaterial
+      type: Hanzo ZT.IdMaterial
     content.vb: Public Property IdMaterial As IdMaterial
-  overload: OpenZiti.ZitiIdentityFormat.IdMaterial*
+  overload: Hanzo ZT.ZitiIdentityFormat.IdMaterial*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentityFormat.#ctor
-  commentId: M:OpenZiti.ZitiIdentityFormat.#ctor
+- uid: Hanzo ZT.ZitiIdentityFormat.#ctor
+  commentId: M:Hanzo ZT.ZitiIdentityFormat.#ctor
   id: '#ctor'
-  parent: OpenZiti.ZitiIdentityFormat
+  parent: Hanzo ZT.ZitiIdentityFormat
   langs:
   - csharp
   - vb
   name: ZitiIdentityFormat()
   nameWithType: ZitiIdentityFormat.ZitiIdentityFormat()
-  fullName: OpenZiti.ZitiIdentityFormat.ZitiIdentityFormat()
+  fullName: Hanzo ZT.ZitiIdentityFormat.ZitiIdentityFormat()
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentityFormat.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 25
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentityFormat()
     content.vb: Public Sub New
-  overload: OpenZiti.ZitiIdentityFormat.#ctor*
+  overload: Hanzo ZT.ZitiIdentityFormat.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiIdentityFormat.ControllerUrl*
-  commentId: Overload:OpenZiti.ZitiIdentityFormat.ControllerUrl
+- uid: Hanzo ZT.ZitiIdentityFormat.ControllerUrl*
+  commentId: Overload:Hanzo ZT.ZitiIdentityFormat.ControllerUrl
   name: ControllerUrl
   nameWithType: ZitiIdentityFormat.ControllerUrl
-  fullName: OpenZiti.ZitiIdentityFormat.ControllerUrl
+  fullName: Hanzo ZT.ZitiIdentityFormat.ControllerUrl
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ZitiIdentityFormat.IdMaterial*
-  commentId: Overload:OpenZiti.ZitiIdentityFormat.IdMaterial
+- uid: Hanzo ZT.ZitiIdentityFormat.IdMaterial*
+  commentId: Overload:Hanzo ZT.ZitiIdentityFormat.IdMaterial
   name: IdMaterial
   nameWithType: ZitiIdentityFormat.IdMaterial
-  fullName: OpenZiti.ZitiIdentityFormat.IdMaterial
-- uid: OpenZiti.IdMaterial
-  commentId: T:OpenZiti.IdMaterial
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentityFormat.IdMaterial
+- uid: Hanzo ZT.IdMaterial
+  commentId: T:Hanzo ZT.IdMaterial
+  parent: Hanzo ZT
   name: IdMaterial
   nameWithType: IdMaterial
-  fullName: OpenZiti.IdMaterial
-- uid: OpenZiti.ZitiIdentityFormat.#ctor*
-  commentId: Overload:OpenZiti.ZitiIdentityFormat.#ctor
+  fullName: Hanzo ZT.IdMaterial
+- uid: Hanzo ZT.ZitiIdentityFormat.#ctor*
+  commentId: Overload:Hanzo ZT.ZitiIdentityFormat.#ctor
   name: ZitiIdentityFormat
   nameWithType: ZitiIdentityFormat.ZitiIdentityFormat
-  fullName: OpenZiti.ZitiIdentityFormat.ZitiIdentityFormat
+  fullName: Hanzo ZT.ZitiIdentityFormat.ZitiIdentityFormat

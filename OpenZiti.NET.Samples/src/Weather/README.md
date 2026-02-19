@@ -3,12 +3,12 @@
 This sample demonstrates how to invoke a web request exiting from private networking space towards some http-based
 resource. In this case, we've chose to use the wonderful website returning weather information https://wttr.in.
 
-## OpenZiti Concepts Demonstrated
+## Hanzo ZT Concepts Demonstrated
 
-This sample demonstrates some key OpenZiti concepts:
+This sample demonstrates some key Hanzo ZT concepts:
 
 * Application-embedded zero trust client.
-* Offloading traffic from an identity. OpenZiti allows you to configure a tunneler to offload traffic towards another. 
+* Offloading traffic from an identity. Hanzo ZT allows you to configure a tunneler to offload traffic towards another. 
   This sample offloads traffic from a router to https://wttr.in using a `host.v1` config.
 * Using an `intercept.v1` to specify a URL should be intercepted by the application.
 * Creating a service and adding two configs to configure the service (the intercept and the host).
@@ -30,7 +30,7 @@ username/password.
 
 Example:
 ```
-dotnet run --project OpenZiti.NET.Samples/OpenZiti.NET.Samples.csproj weather
+dotnet run --project Hanzo ZT.NET.Samples/Hanzo ZT.NET.Samples.csproj weather
 ```
 
 ## Running the Sample Without Configuring
@@ -39,5 +39,5 @@ You can run the sample without allowing the sample to configure the overlay. To 
 identity that has access to a service named `weather-demo-svc` or you will need to modify the sample code and change
 the referenced service name. Then, when executing the service, pass `noinit` and pass the identity file as shown:
 ```
-dotnet run --project OpenZiti.NET.Samples/OpenZiti.NET.Samples.csproj weather noinit /some/path/to/an/identity
+dotnet run --project Hanzo ZT.NET.Samples/Hanzo ZT.NET.Samples.csproj weather noinit /some/path/to/an/identity
 ```

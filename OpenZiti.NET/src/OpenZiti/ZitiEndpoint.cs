@@ -21,7 +21,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti;
+namespace Hanzo ZT;
 
 
 public sealed class ZitiEndPoint : EndPoint {

@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_data_cb
-  commentId: T:OpenZiti.Native.ziti_data_cb
+- uid: Hanzo ZT.Native.ziti_data_cb
+  commentId: T:Hanzo ZT.Native.ziti_data_cb
   id: ziti_data_cb
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children: []
   langs:
   - csharp
   - vb
   name: ziti_data_cb
   nameWithType: ziti_data_cb
-  fullName: OpenZiti.Native.ziti_data_cb
+  fullName: Hanzo ZT.Native.ziti_data_cb
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_data_cb
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 42
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public delegate int ziti_data_cb(IntPtr conn, IntPtr data, int length);
     parameters:
@@ -42,11 +42,11 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: IntPtr
   isExternal: true
   name: IntPtr

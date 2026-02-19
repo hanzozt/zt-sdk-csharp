@@ -20,7 +20,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: InternalsVisibleTo("UnitTests")]
-namespace OpenZiti.Native {
+namespace Hanzo ZT.Native {
 
     //typedef void (*ziti_service_cb)(ziti_context ztx, ziti_service*, int status, void* data);
     [UnmanagedFunctionPointer(API.CALL_CONVENTION)] public delegate void ziti_service_cb(IntPtr ziti_context, IntPtr ziti_service, int status, GCHandle on_service_context);

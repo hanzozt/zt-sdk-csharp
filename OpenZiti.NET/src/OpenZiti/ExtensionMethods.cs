@@ -18,7 +18,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     /// <summary>
     /// A class which provides an extension method to get a Description from an enum. The enum must be
     /// decorated with a <see cref="DescriptionAttribute"/>

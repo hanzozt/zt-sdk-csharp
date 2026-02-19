@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ziti_version
-  commentId: T:OpenZiti.ziti_version
+- uid: Hanzo ZT.ziti_version
+  commentId: T:Hanzo ZT.ziti_version
   id: ziti_version
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: ziti_version
   nameWithType: ziti_version
-  fullName: OpenZiti.ziti_version
+  fullName: Hanzo ZT.ziti_version
   type: Struct
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_version
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 199
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public struct ziti_version
     content.vb: Public Structure ziti_version
@@ -33,8 +33,8 @@ items:
   - Public
   - Structure
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT

@@ -14,9 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Management;
-using OpenZiti.Native;
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.Management;
+using Hanzo ZT.Native;
+using Hanzo ZT.NET.Samples.Common;
 using System;
 using System.IO;
 using System.Net.Http;
@@ -24,7 +24,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti.NET.Samples.Weather {
+namespace Hanzo ZT.NET.Samples.Weather {
 
     [Sample("weather")]
     public class WeatherSample : SampleBase {

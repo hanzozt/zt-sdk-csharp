@@ -5,5 +5,5 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "member", Target = "~M:OpenZiti.NET.Samples.HostedServiceClientSample.RunAsync(System.String[])~System.Threading.Tasks.Task{System.Object}")]
-[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "member", Target = "~M:OpenZiti.NET.Samples.Server.HostedServiceSample.RunAsync(System.String[])~System.Threading.Tasks.Task{System.Object}")]
+[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "member", Target = "~M:Hanzo ZT.NET.Samples.HostedServiceClientSample.RunAsync(System.String[])~System.Threading.Tasks.Task{System.Object}")]
+[assembly: SuppressMessage("Style", "IDE0007:Use implicit type", Justification = "<Pending>", Scope = "member", Target = "~M:Hanzo ZT.NET.Samples.Server.HostedServiceSample.RunAsync(System.String[])~System.Threading.Tasks.Task{System.Object}")]

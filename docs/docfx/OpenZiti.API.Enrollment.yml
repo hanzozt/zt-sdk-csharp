@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.API.Enrollment
-  commentId: T:OpenZiti.API.Enrollment
+- uid: Hanzo ZT.API.Enrollment
+  commentId: T:Hanzo ZT.API.Enrollment
   id: API.Enrollment
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: API.Enrollment
   nameWithType: API.Enrollment
-  fullName: OpenZiti.API.Enrollment
+  fullName: Hanzo ZT.API.Enrollment
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Enrollment
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 55
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public static class Enrollment : object'
     content.vb: >-
@@ -38,11 +38,11 @@ items:
   - Public
   - Module
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object

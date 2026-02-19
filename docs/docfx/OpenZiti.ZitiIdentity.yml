@@ -1,53 +1,53 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiIdentity
-  commentId: T:OpenZiti.ZitiIdentity
+- uid: Hanzo ZT.ZitiIdentity
+  commentId: T:Hanzo ZT.ZitiIdentity
   id: ZitiIdentity
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiIdentity.#ctor(OpenZiti.ZitiIdentity.InitOptions)
-  - OpenZiti.ZitiIdentity.ApplicationContext
-  - OpenZiti.ZitiIdentity.ConfigFilePath
-  - OpenZiti.ZitiIdentity.Configure(System.Int32)
-  - OpenZiti.ZitiIdentity.ControllerConnected
-  - OpenZiti.ZitiIdentity.ControllerURL
-  - OpenZiti.ZitiIdentity.ControllerVersion
-  - OpenZiti.ZitiIdentity.GetService(System.String)
-  - OpenZiti.ZitiIdentity.IdentityNameFromController
-  - OpenZiti.ZitiIdentity.InitializeAndRun
-  - OpenZiti.ZitiIdentity.InitOpts
-  - OpenZiti.ZitiIdentity.InitStats
-  - OpenZiti.ZitiIdentity.InitStatusError
-  - OpenZiti.ZitiIdentity.IsRunning
-  - OpenZiti.ZitiIdentity.Loop
-  - OpenZiti.ZitiIdentity.NewConnection(System.String)
-  - OpenZiti.ZitiIdentity.Run
-  - OpenZiti.ZitiIdentity.Run(System.Int32)
-  - OpenZiti.ZitiIdentity.RunAsync
-  - OpenZiti.ZitiIdentity.RunAsync(System.Int32)
-  - OpenZiti.ZitiIdentity.ServiceAvailable(System.String)
-  - OpenZiti.ZitiIdentity.Shutdown
-  - OpenZiti.ZitiIdentity.Stop
-  - OpenZiti.ZitiIdentity.WaitForServices
-  - OpenZiti.ZitiIdentity.WaitSync
+  - Hanzo ZT.ZitiIdentity.#ctor(Hanzo ZT.ZitiIdentity.InitOptions)
+  - Hanzo ZT.ZitiIdentity.ApplicationContext
+  - Hanzo ZT.ZitiIdentity.ConfigFilePath
+  - Hanzo ZT.ZitiIdentity.Configure(System.Int32)
+  - Hanzo ZT.ZitiIdentity.ControllerConnected
+  - Hanzo ZT.ZitiIdentity.ControllerURL
+  - Hanzo ZT.ZitiIdentity.ControllerVersion
+  - Hanzo ZT.ZitiIdentity.GetService(System.String)
+  - Hanzo ZT.ZitiIdentity.IdentityNameFromController
+  - Hanzo ZT.ZitiIdentity.InitializeAndRun
+  - Hanzo ZT.ZitiIdentity.InitOpts
+  - Hanzo ZT.ZitiIdentity.InitStats
+  - Hanzo ZT.ZitiIdentity.InitStatusError
+  - Hanzo ZT.ZitiIdentity.IsRunning
+  - Hanzo ZT.ZitiIdentity.Loop
+  - Hanzo ZT.ZitiIdentity.NewConnection(System.String)
+  - Hanzo ZT.ZitiIdentity.Run
+  - Hanzo ZT.ZitiIdentity.Run(System.Int32)
+  - Hanzo ZT.ZitiIdentity.RunAsync
+  - Hanzo ZT.ZitiIdentity.RunAsync(System.Int32)
+  - Hanzo ZT.ZitiIdentity.ServiceAvailable(System.String)
+  - Hanzo ZT.ZitiIdentity.Shutdown
+  - Hanzo ZT.ZitiIdentity.Stop
+  - Hanzo ZT.ZitiIdentity.WaitForServices
+  - Hanzo ZT.ZitiIdentity.WaitSync
   langs:
   - csharp
   - vb
   name: ZitiIdentity
   nameWithType: ZitiIdentity
-  fullName: OpenZiti.ZitiIdentity
+  fullName: Hanzo ZT.ZitiIdentity
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiIdentity
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 27
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class ZitiIdentity : object'
     content.vb: >-
@@ -61,516 +61,516 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiIdentity.IsRunning
-  commentId: P:OpenZiti.ZitiIdentity.IsRunning
+- uid: Hanzo ZT.ZitiIdentity.IsRunning
+  commentId: P:Hanzo ZT.ZitiIdentity.IsRunning
   id: IsRunning
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: IsRunning
   nameWithType: ZitiIdentity.IsRunning
-  fullName: OpenZiti.ZitiIdentity.IsRunning
+  fullName: Hanzo ZT.ZitiIdentity.IsRunning
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: IsRunning
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 38
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public bool IsRunning { get; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsRunning As Boolean
-  overload: OpenZiti.ZitiIdentity.IsRunning*
+  overload: Hanzo ZT.ZitiIdentity.IsRunning*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.Loop
-  commentId: P:OpenZiti.ZitiIdentity.Loop
+- uid: Hanzo ZT.ZitiIdentity.Loop
+  commentId: P:Hanzo ZT.ZitiIdentity.Loop
   id: Loop
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Loop
   nameWithType: ZitiIdentity.Loop
-  fullName: OpenZiti.ZitiIdentity.Loop
+  fullName: Hanzo ZT.ZitiIdentity.Loop
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Loop
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 54
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public UVLoop Loop { get; set; }
     parameters: []
     return:
-      type: OpenZiti.UVLoop
+      type: Hanzo ZT.UVLoop
     content.vb: Public Property Loop As UVLoop
-  overload: OpenZiti.ZitiIdentity.Loop*
+  overload: Hanzo ZT.ZitiIdentity.Loop*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.InitStats
-  commentId: P:OpenZiti.ZitiIdentity.InitStats
+- uid: Hanzo ZT.ZitiIdentity.InitStats
+  commentId: P:Hanzo ZT.ZitiIdentity.InitStats
   id: InitStats
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: InitStats
   nameWithType: ZitiIdentity.InitStats
-  fullName: OpenZiti.ZitiIdentity.InitStats
+  fullName: Hanzo ZT.ZitiIdentity.InitStats
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: InitStats
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 71
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiStatus InitStats { get; }
     parameters: []
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public ReadOnly Property InitStats As ZitiStatus
-  overload: OpenZiti.ZitiIdentity.InitStats*
+  overload: Hanzo ZT.ZitiIdentity.InitStats*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.InitStatusError
-  commentId: P:OpenZiti.ZitiIdentity.InitStatusError
+- uid: Hanzo ZT.ZitiIdentity.InitStatusError
+  commentId: P:Hanzo ZT.ZitiIdentity.InitStatusError
   id: InitStatusError
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: InitStatusError
   nameWithType: ZitiIdentity.InitStatusError
-  fullName: OpenZiti.ZitiIdentity.InitStatusError
+  fullName: Hanzo ZT.ZitiIdentity.InitStatusError
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: InitStatusError
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 72
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string InitStatusError { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property InitStatusError As String
-  overload: OpenZiti.ZitiIdentity.InitStatusError*
+  overload: Hanzo ZT.ZitiIdentity.InitStatusError*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.IdentityNameFromController
-  commentId: P:OpenZiti.ZitiIdentity.IdentityNameFromController
+- uid: Hanzo ZT.ZitiIdentity.IdentityNameFromController
+  commentId: P:Hanzo ZT.ZitiIdentity.IdentityNameFromController
   id: IdentityNameFromController
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: IdentityNameFromController
   nameWithType: ZitiIdentity.IdentityNameFromController
-  fullName: OpenZiti.ZitiIdentity.IdentityNameFromController
+  fullName: Hanzo ZT.ZitiIdentity.IdentityNameFromController
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: IdentityNameFromController
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 73
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string IdentityNameFromController { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property IdentityNameFromController As String
-  overload: OpenZiti.ZitiIdentity.IdentityNameFromController*
+  overload: Hanzo ZT.ZitiIdentity.IdentityNameFromController*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.ControllerVersion
-  commentId: P:OpenZiti.ZitiIdentity.ControllerVersion
+- uid: Hanzo ZT.ZitiIdentity.ControllerVersion
+  commentId: P:Hanzo ZT.ZitiIdentity.ControllerVersion
   id: ControllerVersion
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ControllerVersion
   nameWithType: ZitiIdentity.ControllerVersion
-  fullName: OpenZiti.ZitiIdentity.ControllerVersion
+  fullName: Hanzo ZT.ZitiIdentity.ControllerVersion
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ControllerVersion
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 74
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string ControllerVersion { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property ControllerVersion As String
-  overload: OpenZiti.ZitiIdentity.ControllerVersion*
+  overload: Hanzo ZT.ZitiIdentity.ControllerVersion*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.ControllerConnected
-  commentId: P:OpenZiti.ZitiIdentity.ControllerConnected
+- uid: Hanzo ZT.ZitiIdentity.ControllerConnected
+  commentId: P:Hanzo ZT.ZitiIdentity.ControllerConnected
   id: ControllerConnected
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ControllerConnected
   nameWithType: ZitiIdentity.ControllerConnected
-  fullName: OpenZiti.ZitiIdentity.ControllerConnected
+  fullName: Hanzo ZT.ZitiIdentity.ControllerConnected
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ControllerConnected
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 75
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public bool ControllerConnected { get; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public ReadOnly Property ControllerConnected As Boolean
-  overload: OpenZiti.ZitiIdentity.ControllerConnected*
+  overload: Hanzo ZT.ZitiIdentity.ControllerConnected*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.ApplicationContext
-  commentId: P:OpenZiti.ZitiIdentity.ApplicationContext
+- uid: Hanzo ZT.ZitiIdentity.ApplicationContext
+  commentId: P:Hanzo ZT.ZitiIdentity.ApplicationContext
   id: ApplicationContext
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ApplicationContext
   nameWithType: ZitiIdentity.ApplicationContext
-  fullName: OpenZiti.ZitiIdentity.ApplicationContext
+  fullName: Hanzo ZT.ZitiIdentity.ApplicationContext
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ApplicationContext
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 76
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public object ApplicationContext { get; }
     parameters: []
     return:
       type: System.Object
     content.vb: Public ReadOnly Property ApplicationContext As Object
-  overload: OpenZiti.ZitiIdentity.ApplicationContext*
+  overload: Hanzo ZT.ZitiIdentity.ApplicationContext*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.InitOpts
-  commentId: P:OpenZiti.ZitiIdentity.InitOpts
+- uid: Hanzo ZT.ZitiIdentity.InitOpts
+  commentId: P:Hanzo ZT.ZitiIdentity.InitOpts
   id: InitOpts
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: InitOpts
   nameWithType: ZitiIdentity.InitOpts
-  fullName: OpenZiti.ZitiIdentity.InitOpts
+  fullName: Hanzo ZT.ZitiIdentity.InitOpts
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: InitOpts
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 77
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentity.InitOptions InitOpts { get; }
     parameters: []
     return:
-      type: OpenZiti.ZitiIdentity.InitOptions
+      type: Hanzo ZT.ZitiIdentity.InitOptions
     content.vb: Public ReadOnly Property InitOpts As ZitiIdentity.InitOptions
-  overload: OpenZiti.ZitiIdentity.InitOpts*
+  overload: Hanzo ZT.ZitiIdentity.InitOpts*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.ConfigFilePath
-  commentId: P:OpenZiti.ZitiIdentity.ConfigFilePath
+- uid: Hanzo ZT.ZitiIdentity.ConfigFilePath
+  commentId: P:Hanzo ZT.ZitiIdentity.ConfigFilePath
   id: ConfigFilePath
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ConfigFilePath
   nameWithType: ZitiIdentity.ConfigFilePath
-  fullName: OpenZiti.ZitiIdentity.ConfigFilePath
+  fullName: Hanzo ZT.ZitiIdentity.ConfigFilePath
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ConfigFilePath
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 81
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string ConfigFilePath { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property ConfigFilePath As String
-  overload: OpenZiti.ZitiIdentity.ConfigFilePath*
+  overload: Hanzo ZT.ZitiIdentity.ConfigFilePath*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.ControllerURL
-  commentId: P:OpenZiti.ZitiIdentity.ControllerURL
+- uid: Hanzo ZT.ZitiIdentity.ControllerURL
+  commentId: P:Hanzo ZT.ZitiIdentity.ControllerURL
   id: ControllerURL
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ControllerURL
   nameWithType: ZitiIdentity.ControllerURL
-  fullName: OpenZiti.ZitiIdentity.ControllerURL
+  fullName: Hanzo ZT.ZitiIdentity.ControllerURL
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ControllerURL
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 87
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string ControllerURL { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property ControllerURL As String
-  overload: OpenZiti.ZitiIdentity.ControllerURL*
+  overload: Hanzo ZT.ZitiIdentity.ControllerURL*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiIdentity.#ctor(OpenZiti.ZitiIdentity.InitOptions)
-  commentId: M:OpenZiti.ZitiIdentity.#ctor(OpenZiti.ZitiIdentity.InitOptions)
-  id: '#ctor(OpenZiti.ZitiIdentity.InitOptions)'
-  parent: OpenZiti.ZitiIdentity
+- uid: Hanzo ZT.ZitiIdentity.#ctor(Hanzo ZT.ZitiIdentity.InitOptions)
+  commentId: M:Hanzo ZT.ZitiIdentity.#ctor(Hanzo ZT.ZitiIdentity.InitOptions)
+  id: '#ctor(Hanzo ZT.ZitiIdentity.InitOptions)'
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ZitiIdentity(ZitiIdentity.InitOptions)
   nameWithType: ZitiIdentity.ZitiIdentity(ZitiIdentity.InitOptions)
-  fullName: OpenZiti.ZitiIdentity.ZitiIdentity(OpenZiti.ZitiIdentity.InitOptions)
+  fullName: Hanzo ZT.ZitiIdentity.ZitiIdentity(Hanzo ZT.ZitiIdentity.InitOptions)
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 89
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentity(ZitiIdentity.InitOptions opts)
     parameters:
     - id: opts
-      type: OpenZiti.ZitiIdentity.InitOptions
+      type: Hanzo ZT.ZitiIdentity.InitOptions
     content.vb: Public Sub New(opts As ZitiIdentity.InitOptions)
-  overload: OpenZiti.ZitiIdentity.#ctor*
+  overload: Hanzo ZT.ZitiIdentity.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.GetService(System.String)
-  commentId: M:OpenZiti.ZitiIdentity.GetService(System.String)
+- uid: Hanzo ZT.ZitiIdentity.GetService(System.String)
+  commentId: M:Hanzo ZT.ZitiIdentity.GetService(System.String)
   id: GetService(System.String)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: GetService(String)
   nameWithType: ZitiIdentity.GetService(String)
-  fullName: OpenZiti.ZitiIdentity.GetService(System.String)
+  fullName: Hanzo ZT.ZitiIdentity.GetService(System.String)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GetService
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 97
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiService GetService(string serviceName)
     parameters:
     - id: serviceName
       type: System.String
     return:
-      type: OpenZiti.ZitiService
+      type: Hanzo ZT.ZitiService
     content.vb: Public Function GetService(serviceName As String) As ZitiService
-  overload: OpenZiti.ZitiIdentity.GetService*
+  overload: Hanzo ZT.ZitiIdentity.GetService*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.NewConnection(System.String)
-  commentId: M:OpenZiti.ZitiIdentity.NewConnection(System.String)
+- uid: Hanzo ZT.ZitiIdentity.NewConnection(System.String)
+  commentId: M:Hanzo ZT.ZitiIdentity.NewConnection(System.String)
   id: NewConnection(System.String)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: NewConnection(String)
   nameWithType: ZitiIdentity.NewConnection(String)
-  fullName: OpenZiti.ZitiIdentity.NewConnection(System.String)
+  fullName: Hanzo ZT.ZitiIdentity.NewConnection(System.String)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NewConnection
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 102
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiConnection NewConnection(string serviceName)
     parameters:
     - id: serviceName
       type: System.String
     return:
-      type: OpenZiti.ZitiConnection
+      type: Hanzo ZT.ZitiConnection
     content.vb: Public Function NewConnection(serviceName As String) As ZitiConnection
-  overload: OpenZiti.ZitiIdentity.NewConnection*
+  overload: Hanzo ZT.ZitiIdentity.NewConnection*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.ServiceAvailable(System.String)
-  commentId: M:OpenZiti.ZitiIdentity.ServiceAvailable(System.String)
+- uid: Hanzo ZT.ZitiIdentity.ServiceAvailable(System.String)
+  commentId: M:Hanzo ZT.ZitiIdentity.ServiceAvailable(System.String)
   id: ServiceAvailable(System.String)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ServiceAvailable(String)
   nameWithType: ZitiIdentity.ServiceAvailable(String)
-  fullName: OpenZiti.ZitiIdentity.ServiceAvailable(System.String)
+  fullName: Hanzo ZT.ZitiIdentity.ServiceAvailable(System.String)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ServiceAvailable
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 122
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nDetermines if the provided serviceName is available for this identity\n"
   example: []
   syntax:
@@ -583,129 +583,129 @@ items:
       type: System.Boolean
       description: If the service exists - true, false if not
     content.vb: Public Function ServiceAvailable(serviceName As String) As Boolean
-  overload: OpenZiti.ZitiIdentity.ServiceAvailable*
+  overload: Hanzo ZT.ZitiIdentity.ServiceAvailable*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.Run
-  commentId: M:OpenZiti.ZitiIdentity.Run
+- uid: Hanzo ZT.ZitiIdentity.Run
+  commentId: M:Hanzo ZT.ZitiIdentity.Run
   id: Run
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Run()
   nameWithType: ZitiIdentity.Run()
-  fullName: OpenZiti.ZitiIdentity.Run()
+  fullName: Hanzo ZT.ZitiIdentity.Run()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Run
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 138
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Run()
     content.vb: Public Sub Run
-  overload: OpenZiti.ZitiIdentity.Run*
+  overload: Hanzo ZT.ZitiIdentity.Run*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.Run(System.Int32)
-  commentId: M:OpenZiti.ZitiIdentity.Run(System.Int32)
+- uid: Hanzo ZT.ZitiIdentity.Run(System.Int32)
+  commentId: M:Hanzo ZT.ZitiIdentity.Run(System.Int32)
   id: Run(System.Int32)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Run(Int32)
   nameWithType: ZitiIdentity.Run(Int32)
-  fullName: OpenZiti.ZitiIdentity.Run(System.Int32)
+  fullName: Hanzo ZT.ZitiIdentity.Run(System.Int32)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Run
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 142
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Run(int refreshInterval)
     parameters:
     - id: refreshInterval
       type: System.Int32
     content.vb: Public Sub Run(refreshInterval As Integer)
-  overload: OpenZiti.ZitiIdentity.Run*
+  overload: Hanzo ZT.ZitiIdentity.Run*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.RunAsync
-  commentId: M:OpenZiti.ZitiIdentity.RunAsync
+- uid: Hanzo ZT.ZitiIdentity.RunAsync
+  commentId: M:Hanzo ZT.ZitiIdentity.RunAsync
   id: RunAsync
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: RunAsync()
   nameWithType: ZitiIdentity.RunAsync()
-  fullName: OpenZiti.ZitiIdentity.RunAsync()
+  fullName: Hanzo ZT.ZitiIdentity.RunAsync()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: RunAsync
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 146
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public async Task RunAsync()
     return:
       type: Task
     content.vb: Public Function RunAsync As Task
-  overload: OpenZiti.ZitiIdentity.RunAsync*
+  overload: Hanzo ZT.ZitiIdentity.RunAsync*
   modifiers.csharp:
   - public
   - async
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.RunAsync(System.Int32)
-  commentId: M:OpenZiti.ZitiIdentity.RunAsync(System.Int32)
+- uid: Hanzo ZT.ZitiIdentity.RunAsync(System.Int32)
+  commentId: M:Hanzo ZT.ZitiIdentity.RunAsync(System.Int32)
   id: RunAsync(System.Int32)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: RunAsync(Int32)
   nameWithType: ZitiIdentity.RunAsync(Int32)
-  fullName: OpenZiti.ZitiIdentity.RunAsync(System.Int32)
+  fullName: Hanzo ZT.ZitiIdentity.RunAsync(System.Int32)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: RunAsync
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 150
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public async Task RunAsync(int refreshInterval)
     parameters:
@@ -714,373 +714,373 @@ items:
     return:
       type: Task
     content.vb: Public Function RunAsync(refreshInterval As Integer) As Task
-  overload: OpenZiti.ZitiIdentity.RunAsync*
+  overload: Hanzo ZT.ZitiIdentity.RunAsync*
   modifiers.csharp:
   - public
   - async
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.Configure(System.Int32)
-  commentId: M:OpenZiti.ZitiIdentity.Configure(System.Int32)
+- uid: Hanzo ZT.ZitiIdentity.Configure(System.Int32)
+  commentId: M:Hanzo ZT.ZitiIdentity.Configure(System.Int32)
   id: Configure(System.Int32)
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Configure(Int32)
   nameWithType: ZitiIdentity.Configure(Int32)
-  fullName: OpenZiti.ZitiIdentity.Configure(System.Int32)
+  fullName: Hanzo ZT.ZitiIdentity.Configure(System.Int32)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Configure
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 161
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Configure(int refreshInterval)
     parameters:
     - id: refreshInterval
       type: System.Int32
     content.vb: Public Sub Configure(refreshInterval As Integer)
-  overload: OpenZiti.ZitiIdentity.Configure*
+  overload: Hanzo ZT.ZitiIdentity.Configure*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.Shutdown
-  commentId: M:OpenZiti.ZitiIdentity.Shutdown
+- uid: Hanzo ZT.ZitiIdentity.Shutdown
+  commentId: M:Hanzo ZT.ZitiIdentity.Shutdown
   id: Shutdown
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Shutdown()
   nameWithType: ZitiIdentity.Shutdown()
-  fullName: OpenZiti.ZitiIdentity.Shutdown()
+  fullName: Hanzo ZT.ZitiIdentity.Shutdown()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Shutdown
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 183
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Shutdown()
     content.vb: Public Sub Shutdown
-  overload: OpenZiti.ZitiIdentity.Shutdown*
+  overload: Hanzo ZT.ZitiIdentity.Shutdown*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.InitializeAndRun
-  commentId: M:OpenZiti.ZitiIdentity.InitializeAndRun
+- uid: Hanzo ZT.ZitiIdentity.InitializeAndRun
+  commentId: M:Hanzo ZT.ZitiIdentity.InitializeAndRun
   id: InitializeAndRun
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: InitializeAndRun()
   nameWithType: ZitiIdentity.InitializeAndRun()
-  fullName: OpenZiti.ZitiIdentity.InitializeAndRun()
+  fullName: Hanzo ZT.ZitiIdentity.InitializeAndRun()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: InitializeAndRun
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 321
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nInitializes this identity with the NetFoundry network\n"
   example: []
   syntax:
     content: public void InitializeAndRun()
     content.vb: Public Sub InitializeAndRun
-  overload: OpenZiti.ZitiIdentity.InitializeAndRun*
+  overload: Hanzo ZT.ZitiIdentity.InitializeAndRun*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.Stop
-  commentId: M:OpenZiti.ZitiIdentity.Stop
+- uid: Hanzo ZT.ZitiIdentity.Stop
+  commentId: M:Hanzo ZT.ZitiIdentity.Stop
   id: Stop
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: Stop()
   nameWithType: ZitiIdentity.Stop()
-  fullName: OpenZiti.ZitiIdentity.Stop()
+  fullName: Hanzo ZT.ZitiIdentity.Stop()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Stop
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 349
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Stop()
     content.vb: Public Sub Stop
-  overload: OpenZiti.ZitiIdentity.Stop*
+  overload: Hanzo ZT.ZitiIdentity.Stop*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.WaitSync
-  commentId: M:OpenZiti.ZitiIdentity.WaitSync
+- uid: Hanzo ZT.ZitiIdentity.WaitSync
+  commentId: M:Hanzo ZT.ZitiIdentity.WaitSync
   id: WaitSync
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: WaitSync()
   nameWithType: ZitiIdentity.WaitSync()
-  fullName: OpenZiti.ZitiIdentity.WaitSync()
+  fullName: Hanzo ZT.ZitiIdentity.WaitSync()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: WaitSync
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 353
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void WaitSync()
     content.vb: Public Sub WaitSync
-  overload: OpenZiti.ZitiIdentity.WaitSync*
+  overload: Hanzo ZT.ZitiIdentity.WaitSync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiIdentity.WaitForServices
-  commentId: M:OpenZiti.ZitiIdentity.WaitForServices
+- uid: Hanzo ZT.ZitiIdentity.WaitForServices
+  commentId: M:Hanzo ZT.ZitiIdentity.WaitForServices
   id: WaitForServices
-  parent: OpenZiti.ZitiIdentity
+  parent: Hanzo ZT.ZitiIdentity
   langs:
   - csharp
   - vb
   name: WaitForServices()
   nameWithType: ZitiIdentity.WaitForServices()
-  fullName: OpenZiti.ZitiIdentity.WaitForServices()
+  fullName: Hanzo ZT.ZitiIdentity.WaitForServices()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: WaitForServices
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiIdentity.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 357
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public async Task WaitForServices()
     return:
       type: Task
     content.vb: Public Function WaitForServices As Task
-  overload: OpenZiti.ZitiIdentity.WaitForServices*
+  overload: Hanzo ZT.ZitiIdentity.WaitForServices*
   modifiers.csharp:
   - public
   - async
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiIdentity.IsRunning*
-  commentId: Overload:OpenZiti.ZitiIdentity.IsRunning
+- uid: Hanzo ZT.ZitiIdentity.IsRunning*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.IsRunning
   name: IsRunning
   nameWithType: ZitiIdentity.IsRunning
-  fullName: OpenZiti.ZitiIdentity.IsRunning
+  fullName: Hanzo ZT.ZitiIdentity.IsRunning
 - uid: System.Boolean
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: OpenZiti.ZitiIdentity.Loop*
-  commentId: Overload:OpenZiti.ZitiIdentity.Loop
+- uid: Hanzo ZT.ZitiIdentity.Loop*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.Loop
   name: Loop
   nameWithType: ZitiIdentity.Loop
-  fullName: OpenZiti.ZitiIdentity.Loop
-- uid: OpenZiti.UVLoop
-  commentId: T:OpenZiti.UVLoop
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity.Loop
+- uid: Hanzo ZT.UVLoop
+  commentId: T:Hanzo ZT.UVLoop
+  parent: Hanzo ZT
   name: UVLoop
   nameWithType: UVLoop
-  fullName: OpenZiti.UVLoop
-- uid: OpenZiti.ZitiIdentity.InitStats*
-  commentId: Overload:OpenZiti.ZitiIdentity.InitStats
+  fullName: Hanzo ZT.UVLoop
+- uid: Hanzo ZT.ZitiIdentity.InitStats*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.InitStats
   name: InitStats
   nameWithType: ZitiIdentity.InitStats
-  fullName: OpenZiti.ZitiIdentity.InitStats
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity.InitStats
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
-- uid: OpenZiti.ZitiIdentity.InitStatusError*
-  commentId: Overload:OpenZiti.ZitiIdentity.InitStatusError
+  fullName: Hanzo ZT.ZitiStatus
+- uid: Hanzo ZT.ZitiIdentity.InitStatusError*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.InitStatusError
   name: InitStatusError
   nameWithType: ZitiIdentity.InitStatusError
-  fullName: OpenZiti.ZitiIdentity.InitStatusError
+  fullName: Hanzo ZT.ZitiIdentity.InitStatusError
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ZitiIdentity.IdentityNameFromController*
-  commentId: Overload:OpenZiti.ZitiIdentity.IdentityNameFromController
+- uid: Hanzo ZT.ZitiIdentity.IdentityNameFromController*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.IdentityNameFromController
   name: IdentityNameFromController
   nameWithType: ZitiIdentity.IdentityNameFromController
-  fullName: OpenZiti.ZitiIdentity.IdentityNameFromController
-- uid: OpenZiti.ZitiIdentity.ControllerVersion*
-  commentId: Overload:OpenZiti.ZitiIdentity.ControllerVersion
+  fullName: Hanzo ZT.ZitiIdentity.IdentityNameFromController
+- uid: Hanzo ZT.ZitiIdentity.ControllerVersion*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ControllerVersion
   name: ControllerVersion
   nameWithType: ZitiIdentity.ControllerVersion
-  fullName: OpenZiti.ZitiIdentity.ControllerVersion
-- uid: OpenZiti.ZitiIdentity.ControllerConnected*
-  commentId: Overload:OpenZiti.ZitiIdentity.ControllerConnected
+  fullName: Hanzo ZT.ZitiIdentity.ControllerVersion
+- uid: Hanzo ZT.ZitiIdentity.ControllerConnected*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ControllerConnected
   name: ControllerConnected
   nameWithType: ZitiIdentity.ControllerConnected
-  fullName: OpenZiti.ZitiIdentity.ControllerConnected
-- uid: OpenZiti.ZitiIdentity.ApplicationContext*
-  commentId: Overload:OpenZiti.ZitiIdentity.ApplicationContext
+  fullName: Hanzo ZT.ZitiIdentity.ControllerConnected
+- uid: Hanzo ZT.ZitiIdentity.ApplicationContext*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ApplicationContext
   name: ApplicationContext
   nameWithType: ZitiIdentity.ApplicationContext
-  fullName: OpenZiti.ZitiIdentity.ApplicationContext
-- uid: OpenZiti.ZitiIdentity.InitOpts*
-  commentId: Overload:OpenZiti.ZitiIdentity.InitOpts
+  fullName: Hanzo ZT.ZitiIdentity.ApplicationContext
+- uid: Hanzo ZT.ZitiIdentity.InitOpts*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.InitOpts
   name: InitOpts
   nameWithType: ZitiIdentity.InitOpts
-  fullName: OpenZiti.ZitiIdentity.InitOpts
-- uid: OpenZiti.ZitiIdentity.InitOptions
-  commentId: T:OpenZiti.ZitiIdentity.InitOptions
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity.InitOpts
+- uid: Hanzo ZT.ZitiIdentity.InitOptions
+  commentId: T:Hanzo ZT.ZitiIdentity.InitOptions
+  parent: Hanzo ZT
   name: ZitiIdentity.InitOptions
   nameWithType: ZitiIdentity.InitOptions
-  fullName: OpenZiti.ZitiIdentity.InitOptions
-- uid: OpenZiti.ZitiIdentity.ConfigFilePath*
-  commentId: Overload:OpenZiti.ZitiIdentity.ConfigFilePath
+  fullName: Hanzo ZT.ZitiIdentity.InitOptions
+- uid: Hanzo ZT.ZitiIdentity.ConfigFilePath*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ConfigFilePath
   name: ConfigFilePath
   nameWithType: ZitiIdentity.ConfigFilePath
-  fullName: OpenZiti.ZitiIdentity.ConfigFilePath
-- uid: OpenZiti.ZitiIdentity.ControllerURL*
-  commentId: Overload:OpenZiti.ZitiIdentity.ControllerURL
+  fullName: Hanzo ZT.ZitiIdentity.ConfigFilePath
+- uid: Hanzo ZT.ZitiIdentity.ControllerURL*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ControllerURL
   name: ControllerURL
   nameWithType: ZitiIdentity.ControllerURL
-  fullName: OpenZiti.ZitiIdentity.ControllerURL
-- uid: OpenZiti.ZitiIdentity.#ctor*
-  commentId: Overload:OpenZiti.ZitiIdentity.#ctor
+  fullName: Hanzo ZT.ZitiIdentity.ControllerURL
+- uid: Hanzo ZT.ZitiIdentity.#ctor*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.#ctor
   name: ZitiIdentity
   nameWithType: ZitiIdentity.ZitiIdentity
-  fullName: OpenZiti.ZitiIdentity.ZitiIdentity
-- uid: OpenZiti.ZitiIdentity.GetService*
-  commentId: Overload:OpenZiti.ZitiIdentity.GetService
+  fullName: Hanzo ZT.ZitiIdentity.ZitiIdentity
+- uid: Hanzo ZT.ZitiIdentity.GetService*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.GetService
   name: GetService
   nameWithType: ZitiIdentity.GetService
-  fullName: OpenZiti.ZitiIdentity.GetService
-- uid: OpenZiti.ZitiService
-  commentId: T:OpenZiti.ZitiService
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity.GetService
+- uid: Hanzo ZT.ZitiService
+  commentId: T:Hanzo ZT.ZitiService
+  parent: Hanzo ZT
   name: ZitiService
   nameWithType: ZitiService
-  fullName: OpenZiti.ZitiService
-- uid: OpenZiti.ZitiIdentity.NewConnection*
-  commentId: Overload:OpenZiti.ZitiIdentity.NewConnection
+  fullName: Hanzo ZT.ZitiService
+- uid: Hanzo ZT.ZitiIdentity.NewConnection*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.NewConnection
   name: NewConnection
   nameWithType: ZitiIdentity.NewConnection
-  fullName: OpenZiti.ZitiIdentity.NewConnection
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiIdentity.NewConnection
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
+  parent: Hanzo ZT
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
-- uid: OpenZiti.ZitiIdentity.ServiceAvailable*
-  commentId: Overload:OpenZiti.ZitiIdentity.ServiceAvailable
+  fullName: Hanzo ZT.ZitiConnection
+- uid: Hanzo ZT.ZitiIdentity.ServiceAvailable*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.ServiceAvailable
   name: ServiceAvailable
   nameWithType: ZitiIdentity.ServiceAvailable
-  fullName: OpenZiti.ZitiIdentity.ServiceAvailable
-- uid: OpenZiti.ZitiIdentity.Run*
-  commentId: Overload:OpenZiti.ZitiIdentity.Run
+  fullName: Hanzo ZT.ZitiIdentity.ServiceAvailable
+- uid: Hanzo ZT.ZitiIdentity.Run*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.Run
   name: Run
   nameWithType: ZitiIdentity.Run
-  fullName: OpenZiti.ZitiIdentity.Run
+  fullName: Hanzo ZT.ZitiIdentity.Run
 - uid: System.Int32
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: OpenZiti.ZitiIdentity.RunAsync*
-  commentId: Overload:OpenZiti.ZitiIdentity.RunAsync
+- uid: Hanzo ZT.ZitiIdentity.RunAsync*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.RunAsync
   name: RunAsync
   nameWithType: ZitiIdentity.RunAsync
-  fullName: OpenZiti.ZitiIdentity.RunAsync
+  fullName: Hanzo ZT.ZitiIdentity.RunAsync
 - uid: Task
   isExternal: true
   name: Task
   nameWithType: Task
   fullName: Task
-- uid: OpenZiti.ZitiIdentity.Configure*
-  commentId: Overload:OpenZiti.ZitiIdentity.Configure
+- uid: Hanzo ZT.ZitiIdentity.Configure*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.Configure
   name: Configure
   nameWithType: ZitiIdentity.Configure
-  fullName: OpenZiti.ZitiIdentity.Configure
-- uid: OpenZiti.ZitiIdentity.Shutdown*
-  commentId: Overload:OpenZiti.ZitiIdentity.Shutdown
+  fullName: Hanzo ZT.ZitiIdentity.Configure
+- uid: Hanzo ZT.ZitiIdentity.Shutdown*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.Shutdown
   name: Shutdown
   nameWithType: ZitiIdentity.Shutdown
-  fullName: OpenZiti.ZitiIdentity.Shutdown
-- uid: OpenZiti.ZitiIdentity.InitializeAndRun*
-  commentId: Overload:OpenZiti.ZitiIdentity.InitializeAndRun
+  fullName: Hanzo ZT.ZitiIdentity.Shutdown
+- uid: Hanzo ZT.ZitiIdentity.InitializeAndRun*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.InitializeAndRun
   name: InitializeAndRun
   nameWithType: ZitiIdentity.InitializeAndRun
-  fullName: OpenZiti.ZitiIdentity.InitializeAndRun
-- uid: OpenZiti.ZitiIdentity.Stop*
-  commentId: Overload:OpenZiti.ZitiIdentity.Stop
+  fullName: Hanzo ZT.ZitiIdentity.InitializeAndRun
+- uid: Hanzo ZT.ZitiIdentity.Stop*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.Stop
   name: Stop
   nameWithType: ZitiIdentity.Stop
-  fullName: OpenZiti.ZitiIdentity.Stop
-- uid: OpenZiti.ZitiIdentity.WaitSync*
-  commentId: Overload:OpenZiti.ZitiIdentity.WaitSync
+  fullName: Hanzo ZT.ZitiIdentity.Stop
+- uid: Hanzo ZT.ZitiIdentity.WaitSync*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.WaitSync
   name: WaitSync
   nameWithType: ZitiIdentity.WaitSync
-  fullName: OpenZiti.ZitiIdentity.WaitSync
-- uid: OpenZiti.ZitiIdentity.WaitForServices*
-  commentId: Overload:OpenZiti.ZitiIdentity.WaitForServices
+  fullName: Hanzo ZT.ZitiIdentity.WaitSync
+- uid: Hanzo ZT.ZitiIdentity.WaitForServices*
+  commentId: Overload:Hanzo ZT.ZitiIdentity.WaitForServices
   name: WaitForServices
   nameWithType: ZitiIdentity.WaitForServices
-  fullName: OpenZiti.ZitiIdentity.WaitForServices
+  fullName: Hanzo ZT.ZitiIdentity.WaitForServices

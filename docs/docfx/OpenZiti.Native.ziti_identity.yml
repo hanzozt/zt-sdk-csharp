@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_identity
-  commentId: T:OpenZiti.Native.ziti_identity
+- uid: Hanzo ZT.Native.ziti_identity
+  commentId: T:Hanzo ZT.Native.ziti_identity
   id: ziti_identity
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children:
-  - OpenZiti.Native.ziti_identity.id
-  - OpenZiti.Native.ziti_identity.name
-  - OpenZiti.Native.ziti_identity.tags
+  - Hanzo ZT.Native.ziti_identity.id
+  - Hanzo ZT.Native.ziti_identity.name
+  - Hanzo ZT.Native.ziti_identity.tags
   langs:
   - csharp
   - vb
   name: ziti_identity
   nameWithType: ziti_identity
-  fullName: OpenZiti.Native.ziti_identity
+  fullName: Hanzo ZT.Native.ziti_identity
   type: Struct
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_identity
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 223
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public struct ziti_identity
     content.vb: Public Structure ziti_identity
@@ -35,28 +35,28 @@ items:
   modifiers.vb:
   - Public
   - Structure
-- uid: OpenZiti.Native.ziti_identity.id
-  commentId: F:OpenZiti.Native.ziti_identity.id
+- uid: Hanzo ZT.Native.ziti_identity.id
+  commentId: F:Hanzo ZT.Native.ziti_identity.id
   id: id
-  parent: OpenZiti.Native.ziti_identity
+  parent: Hanzo ZT.Native.ziti_identity
   langs:
   - csharp
   - vb
   name: id
   nameWithType: ziti_identity.id
-  fullName: OpenZiti.Native.ziti_identity.id
+  fullName: Hanzo ZT.Native.ziti_identity.id
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: id
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 225
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public string id
     return:
@@ -66,28 +66,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_identity.name
-  commentId: F:OpenZiti.Native.ziti_identity.name
+- uid: Hanzo ZT.Native.ziti_identity.name
+  commentId: F:Hanzo ZT.Native.ziti_identity.name
   id: name
-  parent: OpenZiti.Native.ziti_identity
+  parent: Hanzo ZT.Native.ziti_identity
   langs:
   - csharp
   - vb
   name: name
   nameWithType: ziti_identity.name
-  fullName: OpenZiti.Native.ziti_identity.name
+  fullName: Hanzo ZT.Native.ziti_identity.name
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: name
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 226
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public string name
     return:
@@ -97,28 +97,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.Native.ziti_identity.tags
-  commentId: F:OpenZiti.Native.ziti_identity.tags
+- uid: Hanzo ZT.Native.ziti_identity.tags
+  commentId: F:Hanzo ZT.Native.ziti_identity.tags
   id: tags
-  parent: OpenZiti.Native.ziti_identity
+  parent: Hanzo ZT.Native.ziti_identity
   langs:
   - csharp
   - vb
   name: tags
   nameWithType: ziti_identity.tags
-  fullName: OpenZiti.Native.ziti_identity.tags
+  fullName: Hanzo ZT.Native.ziti_identity.tags
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: tags
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 227
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public IntPtr tags
     return:
@@ -129,11 +129,11 @@ items:
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: System.String
   isExternal: true
   name: String

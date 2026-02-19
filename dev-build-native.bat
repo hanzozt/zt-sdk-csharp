@@ -8,8 +8,8 @@ REM
 REM After executing, there should be a nuget package located at local-nuget-packages named after
 REM the year.month.day.hourminute.nupkg and should look something like these:
 REM 
-REM    local-nuget-packages\OpenZiti.NET.native.2022.11.1.14.nupkg
-REM    local-nuget-packages\OpenZiti.NET.native.2022.11.1.946.nupkg
+REM    local-nuget-packages\Hanzo ZT.NET.native.2022.11.1.14.nupkg
+REM    local-nuget-packages\Hanzo ZT.NET.native.2022.11.1.946.nupkg
 REM
 set CODE_ROOT=%~dp0
 set NATIVE_ROOT=%CODE_ROOT%ZitiNativeApiForDotnetCore

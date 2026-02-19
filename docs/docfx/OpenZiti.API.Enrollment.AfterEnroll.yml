@@ -1,33 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.API.Enrollment.AfterEnroll
-  commentId: T:OpenZiti.API.Enrollment.AfterEnroll
+- uid: Hanzo ZT.API.Enrollment.AfterEnroll
+  commentId: T:Hanzo ZT.API.Enrollment.AfterEnroll
   id: API.Enrollment.AfterEnroll
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: API.Enrollment.AfterEnroll
   nameWithType: API.Enrollment.AfterEnroll
-  fullName: OpenZiti.API.Enrollment.AfterEnroll
+  fullName: Hanzo ZT.API.Enrollment.AfterEnroll
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: AfterEnroll
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 56
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public delegate void AfterEnroll(ZitiEnrollment.EnrollmentResult result);
     parameters:
     - id: result
-      type: OpenZiti.ZitiEnrollment.EnrollmentResult
+      type: Hanzo ZT.ZitiEnrollment.EnrollmentResult
     content.vb: Public Delegate Sub AfterEnroll(result As ZitiEnrollment.EnrollmentResult)
   modifiers.csharp:
   - public
@@ -36,14 +36,14 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult
-  commentId: T:OpenZiti.ZitiEnrollment.EnrollmentResult
-  parent: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  commentId: T:Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT
   name: ZitiEnrollment.EnrollmentResult
   nameWithType: ZitiEnrollment.EnrollmentResult
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult

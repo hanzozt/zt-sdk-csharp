@@ -9,14 +9,14 @@
         <major>1</major>
         <minor>0</minor>
         <Version>$(major).$(minor).$(CurrentYear)$(UtcDayOfYear).$(UtcSecondsOfDay)</Version>
-        <Authors>OpenZiti</Authors>
+        <Authors>Hanzo ZT</Authors>
         <Company>NetFoundry</Company>
         <Description>A .NET standard library which wraps the C SDK and is consumable from .NET</Description>
         <Copyright>© NetFoundry Inc. All rights reserved.</Copyright>
         <PackageLicenseFile>2019_NF TCL EULA.txt</PackageLicenseFile>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <PackageProjectUrl>https://openziti.io/</PackageProjectUrl> 
-        <RepositoryUrl>https://github.com/openziti/ziti-sdk-csharp</RepositoryUrl>
+        <PackageProjectUrl>https://hanzozt.dev/</PackageProjectUrl> 
+        <RepositoryUrl>https://github.com/hanzozt/ziti-sdk-csharp</RepositoryUrl>
         <RootNamespace></RootNamespace>
         <Platforms>AnyCPU;x86;x64;ARM64;ARM</Platforms>
         <icon>..\ziti-v2.png</icon>
@@ -54,7 +54,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.2" />
         <PackageReference Include="NLog" Version="6.0.7" />
-        <PackageReference Include="OpenZiti.NET.native" Version="1.10.4.213" />
+        <PackageReference Include="Hanzo ZT.NET.native" Version="1.10.4.213" />
         <PackageReference Include="System.Memory" Version="4.6.3" />
         <PackageReference Include="System.Text.Json" Version="10.0.2" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
@@ -68,8 +68,8 @@
     </ItemGroup>
 
     <Target Name="NugetPack" DependsOnTargets="BuildAny;Buildx64;Buildx86">
-        <Message Text="RUNNING: nuget pack OpenZiti.NET.nuspec -Version $(PackageVersion) -Symbols -SymbolPackageFormat snupkg" Importance="high" />
-        <Exec Command="nuget pack OpenZiti.NET.nuspec -Version $(PackageVersion) -Symbols -SymbolPackageFormat snupkg"></Exec>
+        <Message Text="RUNNING: nuget pack Hanzo ZT.NET.nuspec -Version $(PackageVersion) -Symbols -SymbolPackageFormat snupkg" Importance="high" />
+        <Exec Command="nuget pack Hanzo ZT.NET.nuspec -Version $(PackageVersion) -Symbols -SymbolPackageFormat snupkg"></Exec>
     </Target>
     <Target Name="NugetPush" DependsOnTargets="NugetPack">
         <Message Text="RUNNING: dotnet nuget push $(MSBuildProjectDirectory)/$(PackageId).$(PackageVersion).nupkg --source $(NUGET_SOURCE)" Importance="high" />
@@ -98,7 +98,7 @@
 
     <Target Name="UpdateNuspec" AfterTargets="Build">
         <Message Text="Updating nuspec file after successful build." Importance="high" />
-        <Exec Command="pwsh -Command ./update-nuspec.ps1 OpenZiti.NET.csproj OpenZiti.NET.nuspec" />
+        <Exec Command="pwsh -Command ./update-nuspec.ps1 Hanzo ZT.NET.csproj Hanzo ZT.NET.nuspec" />
         <Message Text="Updating nuspec file after successful build complete." Importance="high" />
     </Target>
 </Project>

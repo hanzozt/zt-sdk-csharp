@@ -15,13 +15,13 @@ limitations under the License.
 */
 
 using NLog;
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.NET.Samples.Common;
 using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti.NET.Samples {
+namespace Hanzo ZT.NET.Samples {
 
     [Sample("enroll")]
     public class EnrollmentSample : SampleBase {

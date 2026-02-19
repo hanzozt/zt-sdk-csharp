@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     internal static class ZitiStatusExtensions {
         public static bool Ok(this ZitiStatus s) {
             return s == ZitiStatus.ZITI_OK;

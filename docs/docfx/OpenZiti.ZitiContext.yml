@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiContext
-  commentId: T:OpenZiti.ZitiContext
+- uid: Hanzo ZT.ZitiContext
+  commentId: T:Hanzo ZT.ZitiContext
   id: ZitiContext
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: ZitiContext
   nameWithType: ZitiContext
-  fullName: OpenZiti.ZitiContext
+  fullName: Hanzo ZT.ZitiContext
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiContext.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiContext.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiContext
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiContext.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiContext.cs
     startLine: 23
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nAn opaque handle to a native Ziti context. Required for certain operations\n"
   example: []
   syntax:
@@ -39,11 +39,11 @@ items:
   - Public
   - Class
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object

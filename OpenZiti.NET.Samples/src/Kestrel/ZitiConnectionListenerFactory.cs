@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets;
 using Microsoft.Extensions.Logging;
-using OpenZiti;
+using Hanzo ZT;
 
-namespace OpenZiti.Samples.Kestrel;
+namespace Hanzo ZT.Samples.Kestrel;
 
 internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
     private readonly ILogger<ZitiConnectionListenerFactory> _logger;

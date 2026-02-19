@@ -1,8 +1,8 @@
-![Ziggy using the sdk-csharp](https://raw.githubusercontent.com/openziti/branding/main/images/banners/CSharp.jpg)
+![Ziggy using the sdk-csharp](https://raw.githubusercontent.com/hanzozt/branding/main/images/banners/CSharp.jpg)
 
 # Zitified Kestrel Sample
 
-This sample demonstrates how to use the OpenZiti SDK to host a Kestrel-based ASP.NET Core web API over the Ziti network.
+This sample demonstrates how to use the Hanzo ZT SDK to host a Kestrel-based ASP.NET Core web API over the Ziti network.
 
 The sample includes two REST API endpoints:
 - **WeatherForecast** - Returns sample weather data
@@ -18,7 +18,7 @@ Example metric data:
 }
 ```
 
-## OpenZiti Concepts Demonstrated
+## Hanzo ZT Concepts Demonstrated
 
 * **Application-embedded zero trust server** - No ports open, no firewall rules needed
 * **Native .NET integration** - Seamlessly integrates with ASP.NET Core middleware pipeline
@@ -26,7 +26,7 @@ Example metric data:
 
 ## Prerequisites
 
-1. A running OpenZiti network
+1. A running Hanzo ZT network
 2. A Ziti identity with bind permissions for your service
 3. .NET 8.0 SDK
 
@@ -54,7 +54,7 @@ Configuration options:
 ## Running the Sample
 
 ```bash
-cd OpenZiti.NET.Samples/src/Kestrel
+cd Hanzo ZT.NET.Samples/src/Kestrel
 dotnet run
 ```
 

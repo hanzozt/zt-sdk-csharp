@@ -1,39 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
   id: ZitiConnection
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiConnection.#ctor(OpenZiti.ZitiService,OpenZiti.ZitiContext,System.Object)
-  - OpenZiti.ZitiConnection.Accept(OpenZiti.OnClientAccept,OpenZiti.OnZitiClientData)
-  - OpenZiti.ZitiConnection.CheckConnection
-  - OpenZiti.ZitiConnection.Close
-  - OpenZiti.ZitiConnection.ConnectionContext
-  - OpenZiti.ZitiConnection.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  - OpenZiti.ZitiConnection.Finalize
-  - OpenZiti.ZitiConnection.MarkAsStream
-  - OpenZiti.ZitiConnection.Service
-  - OpenZiti.ZitiConnection.Write(System.Byte[],OpenZiti.OnZitiDataWritten,System.Object)
-  - OpenZiti.ZitiConnection.Write(System.Byte[],System.Int32,OpenZiti.OnZitiDataWritten,System.Object)
+  - Hanzo ZT.ZitiConnection.#ctor(Hanzo ZT.ZitiService,Hanzo ZT.ZitiContext,System.Object)
+  - Hanzo ZT.ZitiConnection.Accept(Hanzo ZT.OnClientAccept,Hanzo ZT.OnZitiClientData)
+  - Hanzo ZT.ZitiConnection.CheckConnection
+  - Hanzo ZT.ZitiConnection.Close
+  - Hanzo ZT.ZitiConnection.ConnectionContext
+  - Hanzo ZT.ZitiConnection.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  - Hanzo ZT.ZitiConnection.Finalize
+  - Hanzo ZT.ZitiConnection.MarkAsStream
+  - Hanzo ZT.ZitiConnection.Service
+  - Hanzo ZT.ZitiConnection.Write(System.Byte[],Hanzo ZT.OnZitiDataWritten,System.Object)
+  - Hanzo ZT.ZitiConnection.Write(System.Byte[],System.Int32,Hanzo ZT.OnZitiDataWritten,System.Object)
   langs:
   - csharp
   - vb
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
+  fullName: Hanzo ZT.ZitiConnection
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiConnection
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 27
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nRepresents the connection to the Ziti Network.\n"
   example: []
   syntax:
@@ -49,29 +49,29 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiConnection.ConnectionContext
-  commentId: P:OpenZiti.ZitiConnection.ConnectionContext
+- uid: Hanzo ZT.ZitiConnection.ConnectionContext
+  commentId: P:Hanzo ZT.ZitiConnection.ConnectionContext
   id: ConnectionContext
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: ConnectionContext
   nameWithType: ZitiConnection.ConnectionContext
-  fullName: OpenZiti.ZitiConnection.ConnectionContext
+  fullName: Hanzo ZT.ZitiConnection.ConnectionContext
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ConnectionContext
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 34
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nAny additional context that needs to be stored along with the <xref href=\"OpenZiti.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref>. Must be\nsupplied when the <xref href=\"OpenZiti.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref> is created.\n"
+  namespace: Hanzo ZT
+  summary: "\nAny additional context that needs to be stored along with the <xref href=\"Hanzo ZT.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref>. Must be\nsupplied when the <xref href=\"Hanzo ZT.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref> is created.\n"
   example: []
   syntax:
     content: public object ConnectionContext { get; }
@@ -79,219 +79,219 @@ items:
     return:
       type: System.Object
     content.vb: Public ReadOnly Property ConnectionContext As Object
-  overload: OpenZiti.ZitiConnection.ConnectionContext*
+  overload: Hanzo ZT.ZitiConnection.ConnectionContext*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiConnection.Service
-  commentId: P:OpenZiti.ZitiConnection.Service
+- uid: Hanzo ZT.ZitiConnection.Service
+  commentId: P:Hanzo ZT.ZitiConnection.Service
   id: Service
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Service
   nameWithType: ZitiConnection.Service
-  fullName: OpenZiti.ZitiConnection.Service
+  fullName: Hanzo ZT.ZitiConnection.Service
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Service
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 53
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiService Service { get; }
     parameters: []
     return:
-      type: OpenZiti.ZitiService
+      type: Hanzo ZT.ZitiService
     content.vb: Public ReadOnly Property Service As ZitiService
-  overload: OpenZiti.ZitiConnection.Service*
+  overload: Hanzo ZT.ZitiConnection.Service*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiConnection.#ctor(OpenZiti.ZitiService,OpenZiti.ZitiContext,System.Object)
-  commentId: M:OpenZiti.ZitiConnection.#ctor(OpenZiti.ZitiService,OpenZiti.ZitiContext,System.Object)
-  id: '#ctor(OpenZiti.ZitiService,OpenZiti.ZitiContext,System.Object)'
-  parent: OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.#ctor(Hanzo ZT.ZitiService,Hanzo ZT.ZitiContext,System.Object)
+  commentId: M:Hanzo ZT.ZitiConnection.#ctor(Hanzo ZT.ZitiService,Hanzo ZT.ZitiContext,System.Object)
+  id: '#ctor(Hanzo ZT.ZitiService,Hanzo ZT.ZitiContext,System.Object)'
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: ZitiConnection(ZitiService, ZitiContext, Object)
   nameWithType: ZitiConnection.ZitiConnection(ZitiService, ZitiContext, Object)
-  fullName: OpenZiti.ZitiConnection.ZitiConnection(OpenZiti.ZitiService, OpenZiti.ZitiContext, System.Object)
+  fullName: Hanzo ZT.ZitiConnection.ZitiConnection(Hanzo ZT.ZitiService, Hanzo ZT.ZitiContext, System.Object)
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 73
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nThe only constructor for <xref href=\"OpenZiti.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref>. A valid <xref href=\"OpenZiti.ZitiService\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"OpenZiti.ZitiContext\" data-throw-if-not-resolved=\"false\"></xref> must be provided.\n"
+  namespace: Hanzo ZT
+  summary: "\nThe only constructor for <xref href=\"Hanzo ZT.ZitiConnection\" data-throw-if-not-resolved=\"false\"></xref>. A valid <xref href=\"Hanzo ZT.ZitiService\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"Hanzo ZT.ZitiContext\" data-throw-if-not-resolved=\"false\"></xref> must be provided.\n"
   example: []
   syntax:
     content: public ZitiConnection(ZitiService service, ZitiContext context, object connectionContext)
     parameters:
     - id: service
-      type: OpenZiti.ZitiService
-      description: The <xref href="OpenZiti.ZitiService" data-throw-if-not-resolved="false"></xref> to construct a <xref href="OpenZiti.ZitiConnection" data-throw-if-not-resolved="false"></xref> with
+      type: Hanzo ZT.ZitiService
+      description: The <xref href="Hanzo ZT.ZitiService" data-throw-if-not-resolved="false"></xref> to construct a <xref href="Hanzo ZT.ZitiConnection" data-throw-if-not-resolved="false"></xref> with
     - id: context
-      type: OpenZiti.ZitiContext
+      type: Hanzo ZT.ZitiContext
       description: ''
     - id: connectionContext
       type: System.Object
-      description: Additional context that needs to be stored along with the <xref href="OpenZiti.ZitiConnection" data-throw-if-not-resolved="false"></xref>
+      description: Additional context that needs to be stored along with the <xref href="Hanzo ZT.ZitiConnection" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Sub New(service As ZitiService, context As ZitiContext, connectionContext As Object)
-  overload: OpenZiti.ZitiConnection.#ctor*
+  overload: Hanzo ZT.ZitiConnection.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiConnection.Finalize
-  commentId: M:OpenZiti.ZitiConnection.Finalize
+- uid: Hanzo ZT.ZitiConnection.Finalize
+  commentId: M:Hanzo ZT.ZitiConnection.Finalize
   id: Finalize
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Finalize()
   nameWithType: ZitiConnection.Finalize()
-  fullName: OpenZiti.ZitiConnection.Finalize()
+  fullName: Hanzo ZT.ZitiConnection.Finalize()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Finalize
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 83
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: protected void Finalize()
     content.vb: Protected Sub Finalize
-  overload: OpenZiti.ZitiConnection.Finalize*
+  overload: Hanzo ZT.ZitiConnection.Finalize*
   modifiers.csharp:
   - protected
   modifiers.vb:
   - Protected
-- uid: OpenZiti.ZitiConnection.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  commentId: M:OpenZiti.ZitiConnection.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  id: Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  parent: OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  commentId: M:Hanzo ZT.ZitiConnection.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  id: Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Dial(OnZitiConnected, OnZitiDataReceived)
   nameWithType: ZitiConnection.Dial(OnZitiConnected, OnZitiDataReceived)
-  fullName: OpenZiti.ZitiConnection.Dial(OpenZiti.OnZitiConnected, OpenZiti.OnZitiDataReceived)
+  fullName: Hanzo ZT.ZitiConnection.Dial(Hanzo ZT.OnZitiConnected, Hanzo ZT.OnZitiDataReceived)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Dial
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 91
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Dial(OnZitiConnected onConnected, OnZitiDataReceived dataReceived)
     parameters:
     - id: onConnected
-      type: OpenZiti.OnZitiConnected
+      type: Hanzo ZT.OnZitiConnected
     - id: dataReceived
-      type: OpenZiti.OnZitiDataReceived
+      type: Hanzo ZT.OnZitiDataReceived
     content.vb: Public Sub Dial(onConnected As OnZitiConnected, dataReceived As OnZitiDataReceived)
-  overload: OpenZiti.ZitiConnection.Dial*
+  overload: Hanzo ZT.ZitiConnection.Dial*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiConnection.Write(System.Byte[],OpenZiti.OnZitiDataWritten,System.Object)
-  commentId: M:OpenZiti.ZitiConnection.Write(System.Byte[],OpenZiti.OnZitiDataWritten,System.Object)
-  id: Write(System.Byte[],OpenZiti.OnZitiDataWritten,System.Object)
-  parent: OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.Write(System.Byte[],Hanzo ZT.OnZitiDataWritten,System.Object)
+  commentId: M:Hanzo ZT.ZitiConnection.Write(System.Byte[],Hanzo ZT.OnZitiDataWritten,System.Object)
+  id: Write(System.Byte[],Hanzo ZT.OnZitiDataWritten,System.Object)
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Write(Byte[], OnZitiDataWritten, Object)
   nameWithType: ZitiConnection.Write(Byte[], OnZitiDataWritten, Object)
-  fullName: OpenZiti.ZitiConnection.Write(System.Byte[], OpenZiti.OnZitiDataWritten, System.Object)
+  fullName: Hanzo ZT.ZitiConnection.Write(System.Byte[], Hanzo ZT.OnZitiDataWritten, System.Object)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Write
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 101
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public int Write(byte[] data, OnZitiDataWritten afterDataWritten, object context)
     parameters:
     - id: data
       type: System.Byte[]
     - id: afterDataWritten
-      type: OpenZiti.OnZitiDataWritten
+      type: Hanzo ZT.OnZitiDataWritten
     - id: context
       type: System.Object
     return:
       type: System.Int32
     content.vb: Public Function Write(data As Byte(), afterDataWritten As OnZitiDataWritten, context As Object) As Integer
-  overload: OpenZiti.ZitiConnection.Write*
+  overload: Hanzo ZT.ZitiConnection.Write*
   nameWithType.vb: ZitiConnection.Write(Byte(), OnZitiDataWritten, Object)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: OpenZiti.ZitiConnection.Write(System.Byte(), OpenZiti.OnZitiDataWritten, System.Object)
+  fullName.vb: Hanzo ZT.ZitiConnection.Write(System.Byte(), Hanzo ZT.OnZitiDataWritten, System.Object)
   name.vb: Write(Byte(), OnZitiDataWritten, Object)
-- uid: OpenZiti.ZitiConnection.Write(System.Byte[],System.Int32,OpenZiti.OnZitiDataWritten,System.Object)
-  commentId: M:OpenZiti.ZitiConnection.Write(System.Byte[],System.Int32,OpenZiti.OnZitiDataWritten,System.Object)
-  id: Write(System.Byte[],System.Int32,OpenZiti.OnZitiDataWritten,System.Object)
-  parent: OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.Write(System.Byte[],System.Int32,Hanzo ZT.OnZitiDataWritten,System.Object)
+  commentId: M:Hanzo ZT.ZitiConnection.Write(System.Byte[],System.Int32,Hanzo ZT.OnZitiDataWritten,System.Object)
+  id: Write(System.Byte[],System.Int32,Hanzo ZT.OnZitiDataWritten,System.Object)
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Write(Byte[], Int32, OnZitiDataWritten, Object)
   nameWithType: ZitiConnection.Write(Byte[], Int32, OnZitiDataWritten, Object)
-  fullName: OpenZiti.ZitiConnection.Write(System.Byte[], System.Int32, OpenZiti.OnZitiDataWritten, System.Object)
+  fullName: Hanzo ZT.ZitiConnection.Write(System.Byte[], System.Int32, Hanzo ZT.OnZitiDataWritten, System.Object)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Write
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 106
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public int Write(byte[] data, int len, OnZitiDataWritten afterDataWritten, object context)
     parameters:
@@ -300,220 +300,220 @@ items:
     - id: len
       type: System.Int32
     - id: afterDataWritten
-      type: OpenZiti.OnZitiDataWritten
+      type: Hanzo ZT.OnZitiDataWritten
     - id: context
       type: System.Object
     return:
       type: System.Int32
     content.vb: Public Function Write(data As Byte(), len As Integer, afterDataWritten As OnZitiDataWritten, context As Object) As Integer
-  overload: OpenZiti.ZitiConnection.Write*
+  overload: Hanzo ZT.ZitiConnection.Write*
   nameWithType.vb: ZitiConnection.Write(Byte(), Int32, OnZitiDataWritten, Object)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: OpenZiti.ZitiConnection.Write(System.Byte(), System.Int32, OpenZiti.OnZitiDataWritten, System.Object)
+  fullName.vb: Hanzo ZT.ZitiConnection.Write(System.Byte(), System.Int32, Hanzo ZT.OnZitiDataWritten, System.Object)
   name.vb: Write(Byte(), Int32, OnZitiDataWritten, Object)
-- uid: OpenZiti.ZitiConnection.Accept(OpenZiti.OnClientAccept,OpenZiti.OnZitiClientData)
-  commentId: M:OpenZiti.ZitiConnection.Accept(OpenZiti.OnClientAccept,OpenZiti.OnZitiClientData)
-  id: Accept(OpenZiti.OnClientAccept,OpenZiti.OnZitiClientData)
-  parent: OpenZiti.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.Accept(Hanzo ZT.OnClientAccept,Hanzo ZT.OnZitiClientData)
+  commentId: M:Hanzo ZT.ZitiConnection.Accept(Hanzo ZT.OnClientAccept,Hanzo ZT.OnZitiClientData)
+  id: Accept(Hanzo ZT.OnClientAccept,Hanzo ZT.OnZitiClientData)
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Accept(OnClientAccept, OnZitiClientData)
   nameWithType: ZitiConnection.Accept(OnClientAccept, OnZitiClientData)
-  fullName: OpenZiti.ZitiConnection.Accept(OpenZiti.OnClientAccept, OpenZiti.OnZitiClientData)
+  fullName: Hanzo ZT.ZitiConnection.Accept(Hanzo ZT.OnClientAccept, Hanzo ZT.OnZitiClientData)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Accept
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 112
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public int Accept(OnClientAccept onAccept, OnZitiClientData onClientData)
     parameters:
     - id: onAccept
-      type: OpenZiti.OnClientAccept
+      type: Hanzo ZT.OnClientAccept
     - id: onClientData
-      type: OpenZiti.OnZitiClientData
+      type: Hanzo ZT.OnZitiClientData
     return:
       type: System.Int32
     content.vb: Public Function Accept(onAccept As OnClientAccept, onClientData As OnZitiClientData) As Integer
-  overload: OpenZiti.ZitiConnection.Accept*
+  overload: Hanzo ZT.ZitiConnection.Accept*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiConnection.Close
-  commentId: M:OpenZiti.ZitiConnection.Close
+- uid: Hanzo ZT.ZitiConnection.Close
+  commentId: M:Hanzo ZT.ZitiConnection.Close
   id: Close
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: Close()
   nameWithType: ZitiConnection.Close()
-  fullName: OpenZiti.ZitiConnection.Close()
+  fullName: Hanzo ZT.ZitiConnection.Close()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Close
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 119
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void Close()
     content.vb: Public Sub Close
-  overload: OpenZiti.ZitiConnection.Close*
+  overload: Hanzo ZT.ZitiConnection.Close*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiConnection.MarkAsStream
-  commentId: M:OpenZiti.ZitiConnection.MarkAsStream
+- uid: Hanzo ZT.ZitiConnection.MarkAsStream
+  commentId: M:Hanzo ZT.ZitiConnection.MarkAsStream
   id: MarkAsStream
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: MarkAsStream()
   nameWithType: ZitiConnection.MarkAsStream()
-  fullName: OpenZiti.ZitiConnection.MarkAsStream()
+  fullName: Hanzo ZT.ZitiConnection.MarkAsStream()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: MarkAsStream
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 194
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public void MarkAsStream()
     content.vb: Public Sub MarkAsStream
-  overload: OpenZiti.ZitiConnection.MarkAsStream*
+  overload: Hanzo ZT.ZitiConnection.MarkAsStream*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiConnection.CheckConnection
-  commentId: M:OpenZiti.ZitiConnection.CheckConnection
+- uid: Hanzo ZT.ZitiConnection.CheckConnection
+  commentId: M:Hanzo ZT.ZitiConnection.CheckConnection
   id: CheckConnection
-  parent: OpenZiti.ZitiConnection
+  parent: Hanzo ZT.ZitiConnection
   langs:
   - csharp
   - vb
   name: CheckConnection()
   nameWithType: ZitiConnection.CheckConnection()
-  fullName: OpenZiti.ZitiConnection.CheckConnection()
+  fullName: Hanzo ZT.ZitiConnection.CheckConnection()
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CheckConnection
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiConnection.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 236
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public bool CheckConnection()
     return:
       type: System.Boolean
     content.vb: Public Function CheckConnection As Boolean
-  overload: OpenZiti.ZitiConnection.CheckConnection*
+  overload: Hanzo ZT.ZitiConnection.CheckConnection*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
+  parent: Hanzo ZT
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
-- uid: OpenZiti.ZitiConnection.ConnectionContext*
-  commentId: Overload:OpenZiti.ZitiConnection.ConnectionContext
+  fullName: Hanzo ZT.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.ConnectionContext*
+  commentId: Overload:Hanzo ZT.ZitiConnection.ConnectionContext
   name: ConnectionContext
   nameWithType: ZitiConnection.ConnectionContext
-  fullName: OpenZiti.ZitiConnection.ConnectionContext
-- uid: OpenZiti.ZitiConnection.Service*
-  commentId: Overload:OpenZiti.ZitiConnection.Service
+  fullName: Hanzo ZT.ZitiConnection.ConnectionContext
+- uid: Hanzo ZT.ZitiConnection.Service*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Service
   name: Service
   nameWithType: ZitiConnection.Service
-  fullName: OpenZiti.ZitiConnection.Service
-- uid: OpenZiti.ZitiService
-  commentId: T:OpenZiti.ZitiService
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiConnection.Service
+- uid: Hanzo ZT.ZitiService
+  commentId: T:Hanzo ZT.ZitiService
+  parent: Hanzo ZT
   name: ZitiService
   nameWithType: ZitiService
-  fullName: OpenZiti.ZitiService
-- uid: OpenZiti.ZitiContext
-  commentId: T:OpenZiti.ZitiContext
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiService
+- uid: Hanzo ZT.ZitiContext
+  commentId: T:Hanzo ZT.ZitiContext
+  parent: Hanzo ZT
   name: ZitiContext
   nameWithType: ZitiContext
-  fullName: OpenZiti.ZitiContext
-- uid: OpenZiti.ZitiConnection.#ctor*
-  commentId: Overload:OpenZiti.ZitiConnection.#ctor
+  fullName: Hanzo ZT.ZitiContext
+- uid: Hanzo ZT.ZitiConnection.#ctor*
+  commentId: Overload:Hanzo ZT.ZitiConnection.#ctor
   name: ZitiConnection
   nameWithType: ZitiConnection.ZitiConnection
-  fullName: OpenZiti.ZitiConnection.ZitiConnection
-- uid: OpenZiti.ZitiConnection.Finalize*
-  commentId: Overload:OpenZiti.ZitiConnection.Finalize
+  fullName: Hanzo ZT.ZitiConnection.ZitiConnection
+- uid: Hanzo ZT.ZitiConnection.Finalize*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Finalize
   name: Finalize
   nameWithType: ZitiConnection.Finalize
-  fullName: OpenZiti.ZitiConnection.Finalize
-- uid: OpenZiti.ZitiConnection.Dial*
-  commentId: Overload:OpenZiti.ZitiConnection.Dial
+  fullName: Hanzo ZT.ZitiConnection.Finalize
+- uid: Hanzo ZT.ZitiConnection.Dial*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Dial
   name: Dial
   nameWithType: ZitiConnection.Dial
-  fullName: OpenZiti.ZitiConnection.Dial
-- uid: OpenZiti.OnZitiConnected
-  commentId: T:OpenZiti.OnZitiConnected
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiConnection.Dial
+- uid: Hanzo ZT.OnZitiConnected
+  commentId: T:Hanzo ZT.OnZitiConnected
+  parent: Hanzo ZT
   name: OnZitiConnected
   nameWithType: OnZitiConnected
-  fullName: OpenZiti.OnZitiConnected
-- uid: OpenZiti.OnZitiDataReceived
-  commentId: T:OpenZiti.OnZitiDataReceived
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiConnected
+- uid: Hanzo ZT.OnZitiDataReceived
+  commentId: T:Hanzo ZT.OnZitiDataReceived
+  parent: Hanzo ZT
   name: OnZitiDataReceived
   nameWithType: OnZitiDataReceived
-  fullName: OpenZiti.OnZitiDataReceived
-- uid: OpenZiti.ZitiConnection.Write*
-  commentId: Overload:OpenZiti.ZitiConnection.Write
+  fullName: Hanzo ZT.OnZitiDataReceived
+- uid: Hanzo ZT.ZitiConnection.Write*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Write
   name: Write
   nameWithType: ZitiConnection.Write
-  fullName: OpenZiti.ZitiConnection.Write
+  fullName: Hanzo ZT.ZitiConnection.Write
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -540,49 +540,49 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: OpenZiti.OnZitiDataWritten
-  commentId: T:OpenZiti.OnZitiDataWritten
-  parent: OpenZiti
+- uid: Hanzo ZT.OnZitiDataWritten
+  commentId: T:Hanzo ZT.OnZitiDataWritten
+  parent: Hanzo ZT
   name: OnZitiDataWritten
   nameWithType: OnZitiDataWritten
-  fullName: OpenZiti.OnZitiDataWritten
+  fullName: Hanzo ZT.OnZitiDataWritten
 - uid: System.Int32
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: OpenZiti.ZitiConnection.Accept*
-  commentId: Overload:OpenZiti.ZitiConnection.Accept
+- uid: Hanzo ZT.ZitiConnection.Accept*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Accept
   name: Accept
   nameWithType: ZitiConnection.Accept
-  fullName: OpenZiti.ZitiConnection.Accept
-- uid: OpenZiti.OnClientAccept
-  commentId: T:OpenZiti.OnClientAccept
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiConnection.Accept
+- uid: Hanzo ZT.OnClientAccept
+  commentId: T:Hanzo ZT.OnClientAccept
+  parent: Hanzo ZT
   name: OnClientAccept
   nameWithType: OnClientAccept
-  fullName: OpenZiti.OnClientAccept
-- uid: OpenZiti.OnZitiClientData
-  commentId: T:OpenZiti.OnZitiClientData
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnClientAccept
+- uid: Hanzo ZT.OnZitiClientData
+  commentId: T:Hanzo ZT.OnZitiClientData
+  parent: Hanzo ZT
   name: OnZitiClientData
   nameWithType: OnZitiClientData
-  fullName: OpenZiti.OnZitiClientData
-- uid: OpenZiti.ZitiConnection.Close*
-  commentId: Overload:OpenZiti.ZitiConnection.Close
+  fullName: Hanzo ZT.OnZitiClientData
+- uid: Hanzo ZT.ZitiConnection.Close*
+  commentId: Overload:Hanzo ZT.ZitiConnection.Close
   name: Close
   nameWithType: ZitiConnection.Close
-  fullName: OpenZiti.ZitiConnection.Close
-- uid: OpenZiti.ZitiConnection.MarkAsStream*
-  commentId: Overload:OpenZiti.ZitiConnection.MarkAsStream
+  fullName: Hanzo ZT.ZitiConnection.Close
+- uid: Hanzo ZT.ZitiConnection.MarkAsStream*
+  commentId: Overload:Hanzo ZT.ZitiConnection.MarkAsStream
   name: MarkAsStream
   nameWithType: ZitiConnection.MarkAsStream
-  fullName: OpenZiti.ZitiConnection.MarkAsStream
-- uid: OpenZiti.ZitiConnection.CheckConnection*
-  commentId: Overload:OpenZiti.ZitiConnection.CheckConnection
+  fullName: Hanzo ZT.ZitiConnection.MarkAsStream
+- uid: Hanzo ZT.ZitiConnection.CheckConnection*
+  commentId: Overload:Hanzo ZT.ZitiConnection.CheckConnection
   name: CheckConnection
   nameWithType: ZitiConnection.CheckConnection
-  fullName: OpenZiti.ZitiConnection.CheckConnection
+  fullName: Hanzo ZT.ZitiConnection.CheckConnection
 - uid: System.Boolean
   isExternal: true
   name: Boolean

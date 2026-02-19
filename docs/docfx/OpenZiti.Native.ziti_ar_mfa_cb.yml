@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.Native.ziti_ar_mfa_cb
-  commentId: T:OpenZiti.Native.ziti_ar_mfa_cb
+- uid: Hanzo ZT.Native.ziti_ar_mfa_cb
+  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_cb
   id: ziti_ar_mfa_cb
-  parent: OpenZiti.Native
+  parent: Hanzo ZT.Native
   children: []
   langs:
   - csharp
   - vb
   name: ziti_ar_mfa_cb
   nameWithType: ziti_ar_mfa_cb
-  fullName: OpenZiti.Native.ziti_ar_mfa_cb
+  fullName: Hanzo ZT.Native.ziti_ar_mfa_cb
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ziti_ar_mfa_cb
-    path: Ziti.NET.Standard/src/OpenZiti/Native/nAPI.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 64
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti.Native
+  namespace: Hanzo ZT.Native
   syntax:
     content: public delegate void ziti_ar_mfa_cb(IntPtr ziti_context, IntPtr mfa_ctx, string code, ziti_ar_mfa_status_cb ar_mfa_status_cb, IntPtr ctx);
     parameters:
@@ -33,7 +33,7 @@ items:
     - id: code
       type: System.String
     - id: ar_mfa_status_cb
-      type: OpenZiti.Native.ziti_ar_mfa_status_cb
+      type: Hanzo ZT.Native.ziti_ar_mfa_status_cb
     - id: ctx
       type: IntPtr
     content.vb: Public Delegate Sub ziti_ar_mfa_cb(ziti_context As IntPtr, mfa_ctx As IntPtr, code As String, ar_mfa_status_cb As ziti_ar_mfa_status_cb, ctx As IntPtr)
@@ -44,11 +44,11 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti.Native
-  commentId: N:OpenZiti.Native
-  name: OpenZiti.Native
-  nameWithType: OpenZiti.Native
-  fullName: OpenZiti.Native
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
 - uid: IntPtr
   isExternal: true
   name: IntPtr
@@ -59,9 +59,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.Native.ziti_ar_mfa_status_cb
-  commentId: T:OpenZiti.Native.ziti_ar_mfa_status_cb
-  parent: OpenZiti.Native
+- uid: Hanzo ZT.Native.ziti_ar_mfa_status_cb
+  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_status_cb
+  parent: Hanzo ZT.Native
   name: ziti_ar_mfa_status_cb
   nameWithType: ziti_ar_mfa_status_cb
-  fullName: OpenZiti.Native.ziti_ar_mfa_status_cb
+  fullName: Hanzo ZT.Native.ziti_ar_mfa_status_cb

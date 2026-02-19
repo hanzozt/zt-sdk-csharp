@@ -19,7 +19,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti.NET.Samples.Common {
+namespace Hanzo ZT.NET.Samples.Common {
     public abstract class SampleBase {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
         public static void Enroll(string pathToEnrollmentToken, string outputPath) {

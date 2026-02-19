@@ -22,9 +22,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using MLog = Microsoft.Extensions.Logging;
 
-using nAPI = OpenZiti.Native.API;
+using nAPI = Hanzo ZT.Native.API;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     public class API {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
         public static readonly string[] AllConfigs = new string[] { "all" };

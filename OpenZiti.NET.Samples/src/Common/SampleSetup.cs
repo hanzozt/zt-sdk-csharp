@@ -15,14 +15,14 @@ limitations under the License.
 */
 
 using Newtonsoft.Json;
-using OpenZiti.Generated;
-using OpenZiti.Management;
+using Hanzo ZT.Generated;
+using Hanzo ZT.Management;
 using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti.NET.Samples.Common {
+namespace Hanzo ZT.NET.Samples.Common {
     public class SampleSetup {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
 
@@ -83,7 +83,7 @@ namespace OpenZiti.NET.Samples.Common {
 
         public async Task<string> BootstrapAndEnrollIdentityAsync(string name, Attributes roles) {
             var detail = await BootstrapSampleIdentityAsync(name, roles);
-            var clientJson = OpenZiti.API.EnrollIdentity(Encoding.ASCII.GetBytes(detail.Enrollment.Ott.Jwt));
+            var clientJson = Hanzo ZT.API.EnrollIdentity(Encoding.ASCII.GetBytes(detail.Enrollment.Ott.Jwt));
             var outPath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
             File.WriteAllBytes(outPath, Encoding.UTF8.GetBytes(clientJson));
             return outPath;

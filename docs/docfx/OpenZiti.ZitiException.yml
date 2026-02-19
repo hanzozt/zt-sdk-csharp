@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiException
-  commentId: T:OpenZiti.ZitiException
+- uid: Hanzo ZT.ZitiException
+  commentId: T:Hanzo ZT.ZitiException
   id: ZitiException
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiException.#ctor(OpenZiti.ZitiStatus)
-  - OpenZiti.ZitiException.#ctor(System.String)
+  - Hanzo ZT.ZitiException.#ctor(Hanzo ZT.ZitiStatus)
+  - Hanzo ZT.ZitiException.#ctor(System.String)
   langs:
   - csharp
   - vb
   name: ZitiException
   nameWithType: ZitiException
-  fullName: OpenZiti.ZitiException
+  fullName: Hanzo ZT.ZitiException
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiException
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 22
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nRepresents a Ziti-specific exception\n"
   example: []
   syntax:
@@ -40,28 +40,28 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiException.#ctor(System.String)
-  commentId: M:OpenZiti.ZitiException.#ctor(System.String)
+- uid: Hanzo ZT.ZitiException.#ctor(System.String)
+  commentId: M:Hanzo ZT.ZitiException.#ctor(System.String)
   id: '#ctor(System.String)'
-  parent: OpenZiti.ZitiException
+  parent: Hanzo ZT.ZitiException
   langs:
   - csharp
   - vb
   name: ZitiException(String)
   nameWithType: ZitiException.ZitiException(String)
-  fullName: OpenZiti.ZitiException.ZitiException(System.String)
+  fullName: Hanzo ZT.ZitiException.ZitiException(System.String)
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 28
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nThe basic constructor for creating a ZitiException\n"
   example: []
   syntax:
@@ -71,70 +71,70 @@ items:
       type: System.String
       description: The message
     content.vb: Public Sub New(message As String)
-  overload: OpenZiti.ZitiException.#ctor*
+  overload: Hanzo ZT.ZitiException.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiException.#ctor(OpenZiti.ZitiStatus)
-  commentId: M:OpenZiti.ZitiException.#ctor(OpenZiti.ZitiStatus)
-  id: '#ctor(OpenZiti.ZitiStatus)'
-  parent: OpenZiti.ZitiException
+- uid: Hanzo ZT.ZitiException.#ctor(Hanzo ZT.ZitiStatus)
+  commentId: M:Hanzo ZT.ZitiException.#ctor(Hanzo ZT.ZitiStatus)
+  id: '#ctor(Hanzo ZT.ZitiStatus)'
+  parent: Hanzo ZT.ZitiException
   langs:
   - csharp
   - vb
   name: ZitiException(ZitiStatus)
   nameWithType: ZitiException.ZitiException(ZitiStatus)
-  fullName: OpenZiti.ZitiException.ZitiException(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiException.ZitiException(Hanzo ZT.ZitiStatus)
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiException.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 34
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nThe basic constructor for creating a ZitiException\n"
   example: []
   syntax:
     content: public ZitiException(ZitiStatus status)
     parameters:
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Sub New(status As ZitiStatus)
-  overload: OpenZiti.ZitiException.#ctor*
+  overload: Hanzo ZT.ZitiException.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiException.#ctor*
-  commentId: Overload:OpenZiti.ZitiException.#ctor
+- uid: Hanzo ZT.ZitiException.#ctor*
+  commentId: Overload:Hanzo ZT.ZitiException.#ctor
   name: ZitiException
   nameWithType: ZitiException.ZitiException
-  fullName: OpenZiti.ZitiException.ZitiException
+  fullName: Hanzo ZT.ZitiException.ZitiException
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus

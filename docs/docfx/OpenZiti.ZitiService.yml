@@ -1,34 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiService
-  commentId: T:OpenZiti.ZitiService
+- uid: Hanzo ZT.ZitiService
+  commentId: T:Hanzo ZT.ZitiService
   id: ZitiService
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  - OpenZiti.ZitiService.GetConfiguration(System.String)
-  - OpenZiti.ZitiService.Id
-  - OpenZiti.ZitiService.Identity
-  - OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
-  - OpenZiti.ZitiService.Name
+  - Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  - Hanzo ZT.ZitiService.GetConfiguration(System.String)
+  - Hanzo ZT.ZitiService.Id
+  - Hanzo ZT.ZitiService.Identity
+  - Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
+  - Hanzo ZT.ZitiService.Name
   langs:
   - csharp
   - vb
   name: ZitiService
   nameWithType: ZitiService
-  fullName: OpenZiti.ZitiService
+  fullName: Hanzo ZT.ZitiService
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiService
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 27
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nThis class encapsulates a native Ziti service and provides the basic methods\nnecessary to use a Ziti-based service.\n"
   example: []
   syntax:
@@ -44,29 +44,29 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiService.Name
-  commentId: P:OpenZiti.ZitiService.Name
+- uid: Hanzo ZT.ZitiService.Name
+  commentId: P:Hanzo ZT.ZitiService.Name
   id: Name
-  parent: OpenZiti.ZitiService
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: Name
   nameWithType: ZitiService.Name
-  fullName: OpenZiti.ZitiService.Name
+  fullName: Hanzo ZT.ZitiService.Name
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Name
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 34
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nThe Name of the <xref href=\"OpenZiti.ZitiService\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  namespace: Hanzo ZT
+  summary: "\nThe Name of the <xref href=\"Hanzo ZT.ZitiService\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
     content: public string Name { get; }
@@ -74,186 +74,186 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Name As String
-  overload: OpenZiti.ZitiService.Name*
+  overload: Hanzo ZT.ZitiService.Name*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiService.Id
-  commentId: P:OpenZiti.ZitiService.Id
+- uid: Hanzo ZT.ZitiService.Id
+  commentId: P:Hanzo ZT.ZitiService.Id
   id: Id
-  parent: OpenZiti.ZitiService
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: ZitiService.Id
-  fullName: OpenZiti.ZitiService.Id
+  fullName: Hanzo ZT.ZitiService.Id
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Id
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 43
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string Id { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property Id As String
-  overload: OpenZiti.ZitiService.Id*
+  overload: Hanzo ZT.ZitiService.Id*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiService.Identity
-  commentId: P:OpenZiti.ZitiService.Identity
+- uid: Hanzo ZT.ZitiService.Identity
+  commentId: P:Hanzo ZT.ZitiService.Identity
   id: Identity
-  parent: OpenZiti.ZitiService
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: Identity
   nameWithType: ZitiService.Identity
-  fullName: OpenZiti.ZitiService.Identity
+  fullName: Hanzo ZT.ZitiService.Identity
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Identity
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 48
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentity Identity { get; }
     parameters: []
     return:
-      type: OpenZiti.ZitiIdentity
+      type: Hanzo ZT.ZitiIdentity
     content.vb: Public ReadOnly Property Identity As ZitiIdentity
-  overload: OpenZiti.ZitiService.Identity*
+  overload: Hanzo ZT.ZitiService.Identity*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  commentId: M:OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  id: Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  parent: OpenZiti.ZitiService
+- uid: Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  commentId: M:Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  id: Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: Dial(OnZitiConnected, OnZitiDataReceived)
   nameWithType: ZitiService.Dial(OnZitiConnected, OnZitiDataReceived)
-  fullName: OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected, OpenZiti.OnZitiDataReceived)
+  fullName: Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected, Hanzo ZT.OnZitiDataReceived)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Dial
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 80
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nThis is the function used to initiate the chain of callbacks that will allow the user of the\nsdk to actually establish connectivity.\n\nTwo callbacks must be provided in this function which will allows the callee to control the\ndata flow. <xref href=\"OpenZiti.ZitiService.onConnected\" data-throw-if-not-resolved=\"false\"></xref> will be called first and only once. After which <xref href=\"OpenZiti.ZitiService.onData\" data-throw-if-not-resolved=\"false\"></xref>\nmay be called repeatedly.\n"
+  namespace: Hanzo ZT
+  summary: "\nThis is the function used to initiate the chain of callbacks that will allow the user of the\nsdk to actually establish connectivity.\n\nTwo callbacks must be provided in this function which will allows the callee to control the\ndata flow. <xref href=\"Hanzo ZT.ZitiService.onConnected\" data-throw-if-not-resolved=\"false\"></xref> will be called first and only once. After which <xref href=\"Hanzo ZT.ZitiService.onData\" data-throw-if-not-resolved=\"false\"></xref>\nmay be called repeatedly.\n"
   example: []
   syntax:
     content: public void Dial(OnZitiConnected onConnected, OnZitiDataReceived onData)
     parameters:
     - id: onConnected
-      type: OpenZiti.OnZitiConnected
+      type: Hanzo ZT.OnZitiConnected
       description: >-
         A callback which is called after the Dial function completes. This callback
 
         will contain the result of the invocation. It is highly recommend to verify the result of the function.
     - id: onData
-      type: OpenZiti.OnZitiDataReceived
+      type: Hanzo ZT.OnZitiDataReceived
       description: A callback called whenever data arrives on the connection
     content.vb: Public Sub Dial(onConnected As OnZitiConnected, onData As OnZitiDataReceived)
-  overload: OpenZiti.ZitiService.Dial*
+  overload: Hanzo ZT.ZitiService.Dial*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
-  commentId: M:OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
-  id: Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
-  parent: OpenZiti.ZitiService
+- uid: Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
+  commentId: M:Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
+  id: Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: Listen(OnZitiListening, OnZitiClientConnected)
   nameWithType: ZitiService.Listen(OnZitiListening, OnZitiClientConnected)
-  fullName: OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening, OpenZiti.OnZitiClientConnected)
+  fullName: Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening, Hanzo ZT.OnZitiClientConnected)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Listen
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 101
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nUsed to indicate that this program should listen for and accept connections from other identities.\n\nAny call to <xref href=\"OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening%2cOpenZiti.OnZitiClientConnected)\" data-throw-if-not-resolved=\"false\"></xref> must be configured to host the service using the Ziti Controller.\n\nTwo callbacks are required to be supplied. <xref href=\"OpenZiti.ZitiService.listenCallback\" data-throw-if-not-resolved=\"false\"></xref> is called after the Listen\nfunction completes will contain the result of the invocation. It is highly recommend to verify the \nresult of the function. <see cref=\"!:onClient\"></see> will be called any time another identity tries to \n<xref href=\"OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected%2cOpenZiti.OnZitiDataReceived)\" data-throw-if-not-resolved=\"false\"></xref> this service.\n"
+  namespace: Hanzo ZT
+  summary: "\nUsed to indicate that this program should listen for and accept connections from other identities.\n\nAny call to <xref href=\"Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening%2cHanzo ZT.OnZitiClientConnected)\" data-throw-if-not-resolved=\"false\"></xref> must be configured to host the service using the Ziti Controller.\n\nTwo callbacks are required to be supplied. <xref href=\"Hanzo ZT.ZitiService.listenCallback\" data-throw-if-not-resolved=\"false\"></xref> is called after the Listen\nfunction completes will contain the result of the invocation. It is highly recommend to verify the \nresult of the function. <see cref=\"!:onClient\"></see> will be called any time another identity tries to \n<xref href=\"Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected%2cHanzo ZT.OnZitiDataReceived)\" data-throw-if-not-resolved=\"false\"></xref> this service.\n"
   example: []
   syntax:
     content: public void Listen(OnZitiListening listenCallback, OnZitiClientConnected onClient)
     parameters:
     - id: listenCallback
-      type: OpenZiti.OnZitiListening
+      type: Hanzo ZT.OnZitiListening
       description: ''
     - id: onClient
-      type: OpenZiti.OnZitiClientConnected
+      type: Hanzo ZT.OnZitiClientConnected
       description: ''
     content.vb: Public Sub Listen(listenCallback As OnZitiListening, onClient As OnZitiClientConnected)
-  overload: OpenZiti.ZitiService.Listen*
+  overload: Hanzo ZT.ZitiService.Listen*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiService.GetConfiguration(System.String)
-  commentId: M:OpenZiti.ZitiService.GetConfiguration(System.String)
+- uid: Hanzo ZT.ZitiService.GetConfiguration(System.String)
+  commentId: M:Hanzo ZT.ZitiService.GetConfiguration(System.String)
   id: GetConfiguration(System.String)
-  parent: OpenZiti.ZitiService
+  parent: Hanzo ZT.ZitiService
   langs:
   - csharp
   - vb
   name: GetConfiguration(String)
   nameWithType: ZitiService.GetConfiguration(String)
-  fullName: OpenZiti.ZitiService.GetConfiguration(System.String)
+  fullName: Hanzo ZT.ZitiService.GetConfiguration(System.String)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GetConfiguration
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiService.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 147
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string GetConfiguration(string configName)
     parameters:
@@ -262,105 +262,105 @@ items:
     return:
       type: System.String
     content.vb: Public Function GetConfiguration(configName As String) As String
-  overload: OpenZiti.ZitiService.GetConfiguration*
+  overload: Hanzo ZT.ZitiService.GetConfiguration*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiService
-  commentId: T:OpenZiti.ZitiService
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiService
+  commentId: T:Hanzo ZT.ZitiService
+  parent: Hanzo ZT
   name: ZitiService
   nameWithType: ZitiService
-  fullName: OpenZiti.ZitiService
-- uid: OpenZiti.ZitiService.Name*
-  commentId: Overload:OpenZiti.ZitiService.Name
+  fullName: Hanzo ZT.ZitiService
+- uid: Hanzo ZT.ZitiService.Name*
+  commentId: Overload:Hanzo ZT.ZitiService.Name
   name: Name
   nameWithType: ZitiService.Name
-  fullName: OpenZiti.ZitiService.Name
+  fullName: Hanzo ZT.ZitiService.Name
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ZitiService.Id*
-  commentId: Overload:OpenZiti.ZitiService.Id
+- uid: Hanzo ZT.ZitiService.Id*
+  commentId: Overload:Hanzo ZT.ZitiService.Id
   name: Id
   nameWithType: ZitiService.Id
-  fullName: OpenZiti.ZitiService.Id
-- uid: OpenZiti.ZitiService.Identity*
-  commentId: Overload:OpenZiti.ZitiService.Identity
+  fullName: Hanzo ZT.ZitiService.Id
+- uid: Hanzo ZT.ZitiService.Identity*
+  commentId: Overload:Hanzo ZT.ZitiService.Identity
   name: Identity
   nameWithType: ZitiService.Identity
-  fullName: OpenZiti.ZitiService.Identity
-- uid: OpenZiti.ZitiIdentity
-  commentId: T:OpenZiti.ZitiIdentity
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiService.Identity
+- uid: Hanzo ZT.ZitiIdentity
+  commentId: T:Hanzo ZT.ZitiIdentity
+  parent: Hanzo ZT
   name: ZitiIdentity
   nameWithType: ZitiIdentity
-  fullName: OpenZiti.ZitiIdentity
-- uid: OpenZiti.ZitiService.onConnected
-  commentId: F:OpenZiti.ZitiService.onConnected
+  fullName: Hanzo ZT.ZitiIdentity
+- uid: Hanzo ZT.ZitiService.onConnected
+  commentId: F:Hanzo ZT.ZitiService.onConnected
   isExternal: true
-- uid: OpenZiti.ZitiService.onData
-  commentId: F:OpenZiti.ZitiService.onData
+- uid: Hanzo ZT.ZitiService.onData
+  commentId: F:Hanzo ZT.ZitiService.onData
   isExternal: true
-- uid: OpenZiti.ZitiService.Dial*
-  commentId: Overload:OpenZiti.ZitiService.Dial
+- uid: Hanzo ZT.ZitiService.Dial*
+  commentId: Overload:Hanzo ZT.ZitiService.Dial
   name: Dial
   nameWithType: ZitiService.Dial
-  fullName: OpenZiti.ZitiService.Dial
-- uid: OpenZiti.OnZitiConnected
-  commentId: T:OpenZiti.OnZitiConnected
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiService.Dial
+- uid: Hanzo ZT.OnZitiConnected
+  commentId: T:Hanzo ZT.OnZitiConnected
+  parent: Hanzo ZT
   name: OnZitiConnected
   nameWithType: OnZitiConnected
-  fullName: OpenZiti.OnZitiConnected
-- uid: OpenZiti.OnZitiDataReceived
-  commentId: T:OpenZiti.OnZitiDataReceived
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiConnected
+- uid: Hanzo ZT.OnZitiDataReceived
+  commentId: T:Hanzo ZT.OnZitiDataReceived
+  parent: Hanzo ZT
   name: OnZitiDataReceived
   nameWithType: OnZitiDataReceived
-  fullName: OpenZiti.OnZitiDataReceived
-- uid: OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
-  commentId: M:OpenZiti.ZitiService.Listen(OpenZiti.OnZitiListening,OpenZiti.OnZitiClientConnected)
+  fullName: Hanzo ZT.OnZitiDataReceived
+- uid: Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
+  commentId: M:Hanzo ZT.ZitiService.Listen(Hanzo ZT.OnZitiListening,Hanzo ZT.OnZitiClientConnected)
   isExternal: true
-- uid: OpenZiti.ZitiService.listenCallback
-  commentId: F:OpenZiti.ZitiService.listenCallback
+- uid: Hanzo ZT.ZitiService.listenCallback
+  commentId: F:Hanzo ZT.ZitiService.listenCallback
   isExternal: true
-- uid: OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
-  commentId: M:OpenZiti.ZitiService.Dial(OpenZiti.OnZitiConnected,OpenZiti.OnZitiDataReceived)
+- uid: Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
+  commentId: M:Hanzo ZT.ZitiService.Dial(Hanzo ZT.OnZitiConnected,Hanzo ZT.OnZitiDataReceived)
   isExternal: true
-- uid: OpenZiti.ZitiService.Listen*
-  commentId: Overload:OpenZiti.ZitiService.Listen
+- uid: Hanzo ZT.ZitiService.Listen*
+  commentId: Overload:Hanzo ZT.ZitiService.Listen
   name: Listen
   nameWithType: ZitiService.Listen
-  fullName: OpenZiti.ZitiService.Listen
-- uid: OpenZiti.OnZitiListening
-  commentId: T:OpenZiti.OnZitiListening
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiService.Listen
+- uid: Hanzo ZT.OnZitiListening
+  commentId: T:Hanzo ZT.OnZitiListening
+  parent: Hanzo ZT
   name: OnZitiListening
   nameWithType: OnZitiListening
-  fullName: OpenZiti.OnZitiListening
-- uid: OpenZiti.OnZitiClientConnected
-  commentId: T:OpenZiti.OnZitiClientConnected
-  parent: OpenZiti
+  fullName: Hanzo ZT.OnZitiListening
+- uid: Hanzo ZT.OnZitiClientConnected
+  commentId: T:Hanzo ZT.OnZitiClientConnected
+  parent: Hanzo ZT
   name: OnZitiClientConnected
   nameWithType: OnZitiClientConnected
-  fullName: OpenZiti.OnZitiClientConnected
-- uid: OpenZiti.ZitiService.GetConfiguration*
-  commentId: Overload:OpenZiti.ZitiService.GetConfiguration
+  fullName: Hanzo ZT.OnZitiClientConnected
+- uid: Hanzo ZT.ZitiService.GetConfiguration*
+  commentId: Overload:Hanzo ZT.ZitiService.GetConfiguration
   name: GetConfiguration
   nameWithType: ZitiService.GetConfiguration
-  fullName: OpenZiti.ZitiService.GetConfiguration
+  fullName: Hanzo ZT.ZitiService.GetConfiguration

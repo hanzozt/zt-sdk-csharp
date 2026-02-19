@@ -19,9 +19,9 @@ using System.IO;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.NET.Samples.Common;
 
-namespace OpenZiti.NET.Samples.Server {
+namespace Hanzo ZT.NET.Samples.Server {
     [Sample("hosted")]
     public class HostedServiceSample : SampleBase {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();

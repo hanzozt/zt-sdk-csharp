@@ -2,10 +2,10 @@ using System;
 using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenZiti.Native;
+using Hanzo ZT.Native;
 using System.Drawing;
 
-namespace OpenZiti.NET.Tests {
+namespace Hanzo ZT.NET.Tests {
     [TestClass]
     public class NativeCodeAlignmentChecker {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();

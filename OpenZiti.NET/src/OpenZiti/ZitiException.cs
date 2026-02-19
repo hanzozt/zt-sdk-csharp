@@ -16,7 +16,7 @@ limitations under the License.
 using System;
 using System.Runtime.InteropServices;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     /// <summary>
     /// Represents a Ziti-specific exception
     /// </summary>

@@ -21,11 +21,11 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-using OpenZiti.Generated;
-using OpenZiti.Debugging;
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.Generated;
+using Hanzo ZT.Debugging;
+using Hanzo ZT.NET.Samples.Common;
 
-namespace OpenZiti.Management;
+namespace Hanzo ZT.Management;
 
 public class ManagementApiHelper
 {

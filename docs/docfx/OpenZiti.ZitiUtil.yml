@@ -1,35 +1,35 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiUtil
-  commentId: T:OpenZiti.ZitiUtil
+- uid: Hanzo ZT.ZitiUtil
+  commentId: T:Hanzo ZT.ZitiUtil
   id: ZitiUtil
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
-  - OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiContext,OpenZiti.ZitiStatus,System.Object)
-  - OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiStatus)
-  - OpenZiti.ZitiUtil.CheckStatus(System.Int32)
-  - OpenZiti.ZitiUtil.GetTarget(GCHandle)
-  - OpenZiti.ZitiUtil.NO_CONTEXT
-  - OpenZiti.ZitiUtil.NO_CONTEXT_PTR
+  - Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
+  - Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiContext,Hanzo ZT.ZitiStatus,System.Object)
+  - Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiStatus)
+  - Hanzo ZT.ZitiUtil.CheckStatus(System.Int32)
+  - Hanzo ZT.ZitiUtil.GetTarget(GCHandle)
+  - Hanzo ZT.ZitiUtil.NO_CONTEXT
+  - Hanzo ZT.ZitiUtil.NO_CONTEXT_PTR
   langs:
   - csharp
   - vb
   name: ZitiUtil
   nameWithType: ZitiUtil
-  fullName: OpenZiti.ZitiUtil
+  fullName: Hanzo ZT.ZitiUtil
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiUtil
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 21
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public static class ZitiUtil : object'
     content.vb: >-
@@ -44,28 +44,28 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: OpenZiti.ZitiUtil.NO_CONTEXT
-  commentId: F:OpenZiti.ZitiUtil.NO_CONTEXT
+- uid: Hanzo ZT.ZitiUtil.NO_CONTEXT
+  commentId: F:Hanzo ZT.ZitiUtil.NO_CONTEXT
   id: NO_CONTEXT
-  parent: OpenZiti.ZitiUtil
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: NO_CONTEXT
   nameWithType: ZitiUtil.NO_CONTEXT
-  fullName: OpenZiti.ZitiUtil.NO_CONTEXT
+  fullName: Hanzo ZT.ZitiUtil.NO_CONTEXT
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NO_CONTEXT
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 23
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static readonly GCHandle NO_CONTEXT
     return:
@@ -79,28 +79,28 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: OpenZiti.ZitiUtil.NO_CONTEXT_PTR
-  commentId: F:OpenZiti.ZitiUtil.NO_CONTEXT_PTR
+- uid: Hanzo ZT.ZitiUtil.NO_CONTEXT_PTR
+  commentId: F:Hanzo ZT.ZitiUtil.NO_CONTEXT_PTR
   id: NO_CONTEXT_PTR
-  parent: OpenZiti.ZitiUtil
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: NO_CONTEXT_PTR
   nameWithType: ZitiUtil.NO_CONTEXT_PTR
-  fullName: OpenZiti.ZitiUtil.NO_CONTEXT_PTR
+  fullName: Hanzo ZT.ZitiUtil.NO_CONTEXT_PTR
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NO_CONTEXT_PTR
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 24
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static readonly IntPtr NO_CONTEXT_PTR
     return:
@@ -114,176 +114,176 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiContext,OpenZiti.ZitiStatus,System.Object)
-  commentId: M:OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiContext,OpenZiti.ZitiStatus,System.Object)
-  id: CheckStatus(OpenZiti.ZitiContext,OpenZiti.ZitiStatus,System.Object)
-  parent: OpenZiti.ZitiUtil
+- uid: Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiContext,Hanzo ZT.ZitiStatus,System.Object)
+  commentId: M:Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiContext,Hanzo ZT.ZitiStatus,System.Object)
+  id: CheckStatus(Hanzo ZT.ZitiContext,Hanzo ZT.ZitiStatus,System.Object)
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: CheckStatus(ZitiContext, ZitiStatus, Object)
   nameWithType: ZitiUtil.CheckStatus(ZitiContext, ZitiStatus, Object)
-  fullName: OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiContext, OpenZiti.ZitiStatus, System.Object)
+  fullName: Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiContext, Hanzo ZT.ZitiStatus, System.Object)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CheckStatus
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 26
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static void CheckStatus(ZitiContext zitiContext, ZitiStatus status, object initContext)
     parameters:
     - id: zitiContext
-      type: OpenZiti.ZitiContext
+      type: Hanzo ZT.ZitiContext
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     - id: initContext
       type: System.Object
     content.vb: Public Shared Sub CheckStatus(zitiContext As ZitiContext, status As ZitiStatus, initContext As Object)
-  overload: OpenZiti.ZitiUtil.CheckStatus*
+  overload: Hanzo ZT.ZitiUtil.CheckStatus*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: OpenZiti.ZitiUtil.CheckStatus(System.Int32)
-  commentId: M:OpenZiti.ZitiUtil.CheckStatus(System.Int32)
+- uid: Hanzo ZT.ZitiUtil.CheckStatus(System.Int32)
+  commentId: M:Hanzo ZT.ZitiUtil.CheckStatus(System.Int32)
   id: CheckStatus(System.Int32)
-  parent: OpenZiti.ZitiUtil
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: CheckStatus(Int32)
   nameWithType: ZitiUtil.CheckStatus(Int32)
-  fullName: OpenZiti.ZitiUtil.CheckStatus(System.Int32)
+  fullName: Hanzo ZT.ZitiUtil.CheckStatus(System.Int32)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CheckStatus
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 31
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static void CheckStatus(int status)
     parameters:
     - id: status
       type: System.Int32
     content.vb: Public Shared Sub CheckStatus(status As Integer)
-  overload: OpenZiti.ZitiUtil.CheckStatus*
+  overload: Hanzo ZT.ZitiUtil.CheckStatus*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiStatus)
-  commentId: M:OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiStatus)
-  id: CheckStatus(OpenZiti.ZitiStatus)
-  parent: OpenZiti.ZitiUtil
+- uid: Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiStatus)
+  commentId: M:Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiStatus)
+  id: CheckStatus(Hanzo ZT.ZitiStatus)
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: CheckStatus(ZitiStatus)
   nameWithType: ZitiUtil.CheckStatus(ZitiStatus)
-  fullName: OpenZiti.ZitiUtil.CheckStatus(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiUtil.CheckStatus(Hanzo ZT.ZitiStatus)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: CheckStatus
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 39
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static void CheckStatus(ZitiStatus status)
     parameters:
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Shared Sub CheckStatus(status As ZitiStatus)
-  overload: OpenZiti.ZitiUtil.CheckStatus*
+  overload: Hanzo ZT.ZitiUtil.CheckStatus*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
-  commentId: M:OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
-  id: Check(OpenZiti.ZitiStatus)
+- uid: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
+  commentId: M:Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
+  id: Check(Hanzo ZT.ZitiStatus)
   isExtensionMethod: true
-  parent: OpenZiti.ZitiUtil
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: Check(ZitiStatus)
   nameWithType: ZitiUtil.Check(ZitiStatus)
-  fullName: OpenZiti.ZitiUtil.Check(OpenZiti.ZitiStatus)
+  fullName: Hanzo ZT.ZitiUtil.Check(Hanzo ZT.ZitiStatus)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Check
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 46
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static void Check(this ZitiStatus status)
     parameters:
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: >-
       <ExtensionAttribute>
 
       Public Shared Sub Check(status As ZitiStatus)
-  overload: OpenZiti.ZitiUtil.Check*
+  overload: Hanzo ZT.ZitiUtil.Check*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: OpenZiti.ZitiUtil.GetTarget(GCHandle)
-  commentId: M:OpenZiti.ZitiUtil.GetTarget(GCHandle)
+- uid: Hanzo ZT.ZitiUtil.GetTarget(GCHandle)
+  commentId: M:Hanzo ZT.ZitiUtil.GetTarget(GCHandle)
   id: GetTarget(GCHandle)
-  parent: OpenZiti.ZitiUtil
+  parent: Hanzo ZT.ZitiUtil
   langs:
   - csharp
   - vb
   name: GetTarget(GCHandle)
   nameWithType: ZitiUtil.GetTarget(GCHandle)
-  fullName: OpenZiti.ZitiUtil.GetTarget(GCHandle)
+  fullName: Hanzo ZT.ZitiUtil.GetTarget(GCHandle)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GetTarget
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiUtil.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 51
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public static object GetTarget(GCHandle handle)
     parameters:
@@ -292,7 +292,7 @@ items:
     return:
       type: System.Object
     content.vb: Public Shared Function GetTarget(handle As GCHandle) As Object
-  overload: OpenZiti.ZitiUtil.GetTarget*
+  overload: Hanzo ZT.ZitiUtil.GetTarget*
   modifiers.csharp:
   - public
   - static
@@ -300,11 +300,11 @@ items:
   - Public
   - Shared
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
@@ -320,35 +320,35 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: IntPtr
-- uid: OpenZiti.ZitiUtil.CheckStatus*
-  commentId: Overload:OpenZiti.ZitiUtil.CheckStatus
+- uid: Hanzo ZT.ZitiUtil.CheckStatus*
+  commentId: Overload:Hanzo ZT.ZitiUtil.CheckStatus
   name: CheckStatus
   nameWithType: ZitiUtil.CheckStatus
-  fullName: OpenZiti.ZitiUtil.CheckStatus
-- uid: OpenZiti.ZitiContext
-  commentId: T:OpenZiti.ZitiContext
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiUtil.CheckStatus
+- uid: Hanzo ZT.ZitiContext
+  commentId: T:Hanzo ZT.ZitiContext
+  parent: Hanzo ZT
   name: ZitiContext
   nameWithType: ZitiContext
-  fullName: OpenZiti.ZitiContext
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiContext
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus
 - uid: System.Int32
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: OpenZiti.ZitiUtil.Check*
-  commentId: Overload:OpenZiti.ZitiUtil.Check
+- uid: Hanzo ZT.ZitiUtil.Check*
+  commentId: Overload:Hanzo ZT.ZitiUtil.Check
   name: Check
   nameWithType: ZitiUtil.Check
-  fullName: OpenZiti.ZitiUtil.Check
-- uid: OpenZiti.ZitiUtil.GetTarget*
-  commentId: Overload:OpenZiti.ZitiUtil.GetTarget
+  fullName: Hanzo ZT.ZitiUtil.Check
+- uid: Hanzo ZT.ZitiUtil.GetTarget*
+  commentId: Overload:Hanzo ZT.ZitiUtil.GetTarget
   name: GetTarget
   nameWithType: ZitiUtil.GetTarget
-  fullName: OpenZiti.ZitiUtil.GetTarget
+  fullName: Hanzo ZT.ZitiUtil.GetTarget

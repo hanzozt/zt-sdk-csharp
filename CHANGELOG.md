@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the OpenZiti.NET SDK will be documented in this file.
+All notable changes to the Hanzo ZT.NET SDK will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - **BREAKING**: Upgraded target framework from .NET 6 to .NET 8
-- Updated OpenZiti.NET.native dependency to 1.10.4.213 (stable release)
+- Updated Hanzo ZT.NET.native dependency to 1.10.4.213 (stable release)
 - Updated Microsoft.Extensions.Logging to 10.0.2
 - Updated System.Text.Json to 10.0.2
 - Updated NLog to 6.0.7
@@ -36,8 +36,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.8.x and Earlier]
 
 Initial development releases providing:
-- Core OpenZiti .NET SDK functionality
-- P/Invoke bindings to the OpenZiti C SDK
+- Core Hanzo ZT .NET SDK functionality
+- P/Invoke bindings to the Hanzo ZT C SDK
 - Cross-platform support (Windows x64/x86, macOS x64/arm64, Linux x64/arm64/arm)
 - Sample applications demonstrating SDK usage
 - Integration with ASP.NET Core and Kestrel

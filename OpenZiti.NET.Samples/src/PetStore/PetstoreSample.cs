@@ -14,16 +14,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Debugging;
-using OpenZiti.Generated.Petstore;
+using Hanzo ZT.Debugging;
+using Hanzo ZT.Generated.Petstore;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.NET.Samples.Common;
 using System.Collections.Generic;
 
-namespace OpenZiti.NET.Samples.Weather {
+namespace Hanzo ZT.NET.Samples.Weather {
 
     [Sample("petstore")]
     public class PetstoreSample : SampleBase {

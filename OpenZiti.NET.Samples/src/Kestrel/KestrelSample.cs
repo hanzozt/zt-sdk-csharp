@@ -4,15 +4,15 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLog.Web;
-using OpenZiti;
-using OpenZiti.NET.Samples.Common;
-using OpenZiti.Samples.Kestrel;
+using Hanzo ZT;
+using Hanzo ZT.NET.Samples.Common;
+using Hanzo ZT.Samples.Kestrel;
 using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OpenZiti.Samples.Kestrel {
+namespace Hanzo ZT.Samples.Kestrel {
 
     [Sample("kestrel")]
     public class KestrelApp : SampleBase {

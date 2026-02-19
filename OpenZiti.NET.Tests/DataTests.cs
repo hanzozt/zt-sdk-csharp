@@ -3,11 +3,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using MLog=Microsoft.Extensions.Logging;
 
-using OpenZiti.NET.Samples.Weather;
-using OpenZiti.Generated;
+using Hanzo ZT.NET.Samples.Weather;
+using Hanzo ZT.Generated;
 
 [assembly: Parallelize(Workers = 0, Scope = ExecutionScope.MethodLevel)]
-namespace OpenZiti.NET.Tests {
+namespace Hanzo ZT.NET.Tests {
     [TestClass]
     public class DataTests {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
@@ -18,10 +18,10 @@ namespace OpenZiti.NET.Tests {
             // Code to run once before all test methods in the class
             //LoggingHelper.SimpleConsoleLogging(MLog.LogLevel.Trace);
 
-            OpenZiti.API.NativeLogger = OpenZiti.API.DefaultNativeLogFunction;
-            OpenZiti.API.InitializeZiti();
+            Hanzo ZT.API.NativeLogger = Hanzo ZT.API.DefaultNativeLogFunction;
+            Hanzo ZT.API.InitializeZiti();
             //to see the logs from the Native SDK, set the log level
-            OpenZiti.API.SetLogLevel(MLog.LogLevel.Debug);
+            Hanzo ZT.API.SetLogLevel(MLog.LogLevel.Debug);
         }
 #pragma warning restore IDE0060 // Remove unused parameter
 

@@ -1,14 +1,14 @@
 {
   "homepages": [],
-  "source_base_path": "c:/git/github/openziti/ziti-sdk-csharp/docfx",
+  "source_base_path": "c:/git/github/hanzozt/ziti-sdk-csharp/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.API.Enrollment.AfterEnroll.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.API.Enrollment.AfterEnroll.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.API.Enrollment.AfterEnroll.html",
+          "relative_path": "api/dotnet/Hanzo ZT.API.Enrollment.AfterEnroll.html",
           "hash": "QLHz9lTwhEK6JxYrajClALily+Mrpf5xh9i0M9RWHaQ="
         }
       },
@@ -17,10 +17,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.API.Enrollment.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.API.Enrollment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.API.Enrollment.html",
+          "relative_path": "api/dotnet/Hanzo ZT.API.Enrollment.html",
           "hash": "ceRuonM5VgEPLzSAxtlNrljJ2oP1Bxhy3lWx1XKPVCk="
         }
       },
@@ -29,10 +29,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.API.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.API.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.API.html",
+          "relative_path": "api/dotnet/Hanzo ZT.API.html",
           "hash": "/cltTiI3fbMxyf31ucIIaaS0XOoNBIPxwBJi2IHgsbc="
         }
       },
@@ -41,10 +41,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.EnumHelper.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.EnumHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.EnumHelper.html",
+          "relative_path": "api/dotnet/Hanzo ZT.EnumHelper.html",
           "hash": "9QABnGqHW1fUBTWns+Ie5BZPlVxjEoOegPemMnTA+3I="
         }
       },
@@ -53,10 +53,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.GCHandleExtensions.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.GCHandleExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.GCHandleExtensions.html",
+          "relative_path": "api/dotnet/Hanzo ZT.GCHandleExtensions.html",
           "hash": "293j2ct/LsaclS0grzAdwMYGSvJ4G0Em1QzKCHBNsxU="
         }
       },
@@ -65,10 +65,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.IdMaterial.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.IdMaterial.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.IdMaterial.html",
+          "relative_path": "api/dotnet/Hanzo ZT.IdMaterial.html",
           "hash": "/5AKsPMcE6H+SjPz5fY17LFSxbhSf4OVZyvnSxuH1TI="
         }
       },
@@ -77,10 +77,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Logging.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Logging.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Logging.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Logging.html",
           "hash": "knCspRZ8iThdeeKBjnq/fIWwSyjeyRGXxcYplpEeC6c="
         }
       },
@@ -89,10 +89,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.API.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.API.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.API.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.API.html",
           "hash": "n0c0xCvYiuRf04z2nFHHMWn1J++Av8pq1UsC6XxOBG0="
         }
       },
@@ -101,10 +101,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.NativeHelperFunctions.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.NativeHelperFunctions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.NativeHelperFunctions.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.NativeHelperFunctions.html",
           "hash": "pv3wLlbNWD3tcvxPyppRq61HDJJfwcCi37PAiUy5+lg="
         }
       },
@@ -113,10 +113,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.OnUVTimer.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.OnUVTimer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.OnUVTimer.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.OnUVTimer.html",
           "hash": "APOTbHrQPSTBzwNxElVKytxLzlKw1NpnC8uGaed1/G8="
         }
       },
@@ -125,10 +125,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.log_writer.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.log_writer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.log_writer.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.log_writer.html",
           "hash": "HzxL6COSglhdHwZZSiXdssTUuoDXN4Cth7P9A3lv/24="
         }
       },
@@ -137,10 +137,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.tls_context.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.tls_context.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.tls_context.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.tls_context.html",
           "hash": "GPOvxf3/eGoZ4xD/91aKiCkJn4SD/OJN76UCWFrqOHM="
         }
       },
@@ -149,10 +149,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.html",
           "hash": "K5NX1+hsKJUhwcu2v7vh58sDlk4npqPzTkcv6t7Hh1k="
         }
       },
@@ -161,10 +161,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_aq_mfa_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_aq_mfa_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_aq_mfa_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_aq_mfa_cb.html",
           "hash": "KU9QnnWaGN1LMEoFDxEVnv+dWwgWZijWqntrtMBH8fM="
         }
       },
@@ -173,10 +173,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_ar_mfa_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_ar_mfa_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_cb.html",
           "hash": "kkyk4nAGPE20QmemFQ3EVFUZsErN/7EdG16e9EeeFT4="
         }
       },
@@ -185,10 +185,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_ar_mfa_status_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_status_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_ar_mfa_status_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_status_cb.html",
           "hash": "sDqPYcSrVJyC2Rv1N92RuCLtWF7S4uKP+7fof4S8GjA="
         }
       },
@@ -197,10 +197,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_client_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_client_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_client_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_client_cb.html",
           "hash": "7EKM3lh89jTctzcFPTuf9L0mUsHzXAM+NkLApzXaWTY="
         }
       },
@@ -209,10 +209,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_close_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_close_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_close_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_close_cb.html",
           "hash": "Rz6q8wrWplkI6H1Uaf5MBxRkaQBdvQZz6X+FtqJiBv4="
         }
       },
@@ -221,10 +221,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_conn_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_conn_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_conn_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_conn_cb.html",
           "hash": "SaA24WyH8aJ9ciA7dxynV6O635nd1gWtqdttHAr2K6w="
         }
       },
@@ -233,10 +233,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_data_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_data_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_data_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_data_cb.html",
           "hash": "YTXuDynXJJ2M4tlFDZLDTHNH2PSbsM9LqCqYSWl3wWk="
         }
       },
@@ -245,10 +245,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_enroll_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_enroll_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_enroll_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_enroll_cb.html",
           "hash": "Yj2RfWm+UsZCR5bxUSdRYTqTT5mUrQw4PFaMUyz8RZo="
         }
       },
@@ -257,10 +257,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_enroll_options.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_enroll_options.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_enroll_options.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_enroll_options.html",
           "hash": "e5H+x3zUGWibBXQzjJdDq7j3XkZwTtIhbxQjvI8MZGQ="
         }
       },
@@ -269,10 +269,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_event_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_event_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_event_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_event_cb.html",
           "hash": "+bbN13F2Mz/BgC8dVKTCcR4J3TldyqaeioSvsmkPSOg="
         }
       },
@@ -281,10 +281,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_identity.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_identity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_identity.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_identity.html",
           "hash": "abyrXPH27poVemh/eMxiw3eiCgwr+Mr0WapJOUVydbA="
         }
       },
@@ -293,10 +293,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_listen_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_listen_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_listen_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_listen_cb.html",
           "hash": "B2nKXCnc685lVP76DJEUYBopa99IR7FhEf03xOvrvgo="
         }
       },
@@ -305,10 +305,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_options.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_options.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_options.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_options.html",
           "hash": "NeYNJrnLfHNkw88frPfVideda+tpb4t08/iDrUm++vA="
         }
       },
@@ -317,10 +317,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_domain_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_domain_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_domain_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_domain_cb.html",
           "hash": "uCGW9thTuQxWRkRd2z+FHyUCyUJH/EQYS6/DBWJIELk="
         }
       },
@@ -329,10 +329,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_mac_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_mac_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_mac_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_mac_cb.html",
           "hash": "fAj/xZ+h8hXxobGGZsGBb2Dm5NWkB4O+ODkfvr/E2hE="
         }
       },
@@ -341,10 +341,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_os_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_os_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_os_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_os_cb.html",
           "hash": "NkxozzIgp9xHX8W8xgGCCEsUn43Xv+CTRKhnZQPK01k="
         }
       },
@@ -353,10 +353,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_process_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_process_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pq_process_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pq_process_cb.html",
           "hash": "HX5XuHZ9rTKgswhmWqpDzhvQzwdwUvl3CreXb36aQ80="
         }
       },
@@ -365,10 +365,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_domain_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_domain_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_domain_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_domain_cb.html",
           "hash": "p9t4kFLXhOqX9Lf+T6J0JZ73kdZ4rzNZts1AwnKPEDo="
         }
       },
@@ -377,10 +377,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_mac_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_mac_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_mac_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_mac_cb.html",
           "hash": "03yw2C+2PBCZ/lD4cPrtOFHOkrnov6r7vKsCAza8nps="
         }
       },
@@ -389,10 +389,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_os_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_os_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_os_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_os_cb.html",
           "hash": "9lox4I/dJuO6vhQENH04VkxqFT9ajGOuE7oaBO2be1c="
         }
       },
@@ -401,10 +401,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_process_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_process_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_pr_process_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_pr_process_cb.html",
           "hash": "MXJ0cnCm2SB674OhozHzw5OPAc4Ykl/nRN++ADnfH+I="
         }
       },
@@ -413,10 +413,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_service.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_service.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_service.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_service.html",
           "hash": "udY2BscGhmJ6oD5vDtd+Ywnb1NdpUhVnctBQ1WsNMMA="
         }
       },
@@ -425,10 +425,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_service_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_service_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_service_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_service_cb.html",
           "hash": "f0dZBTKuB4N8Erom/jPswOAxzweg8S/7TTr2NyJeVec="
         }
       },
@@ -437,10 +437,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.Native.ziti_write_cb.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.Native.ziti_write_cb.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.Native.ziti_write_cb.html",
+          "relative_path": "api/dotnet/Hanzo ZT.Native.ziti_write_cb.html",
           "hash": "3hJuuGv4hcxf7GKQXf1L8STU5y16k1fmkDrg+n5MtZ8="
         }
       },
@@ -449,10 +449,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnClientAccept.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnClientAccept.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnClientAccept.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnClientAccept.html",
           "hash": "gMCBjqXTNNOf+peK5HT0KvODVoL+6kFohKzGh83ubu0="
         }
       },
@@ -461,10 +461,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnInit.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnInit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnInit.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnInit.html",
           "hash": "dGXDScvc00egiy5d5drgYD7DOU0vRULHU5qIe0hbhcA="
         }
       },
@@ -473,10 +473,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnServiceChange.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnServiceChange.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnServiceChange.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnServiceChange.html",
           "hash": "X/i4IzK8U7XAa5RKl+7je35KBNooV0BM2Hof3NDahlw="
         }
       },
@@ -485,10 +485,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiClientConnected.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiClientConnected.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiClientConnected.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiClientConnected.html",
           "hash": "5ef+ep2F++Dnc8BplZc4vfoA7XolKjgHRHrr/GrMsTA="
         }
       },
@@ -497,10 +497,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiClientData.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiClientData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiClientData.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiClientData.html",
           "hash": "GAHr6bSGcCdgAgwFRiKrX8825IZKrxDtlwVh1pyWbUk="
         }
       },
@@ -509,10 +509,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiConnected.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiConnected.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiConnected.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiConnected.html",
           "hash": "zfqed+RRz6C6zy9TkrOA/kKAnfs5SeSvLbCua7kq5Ac="
         }
       },
@@ -521,10 +521,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiDataReceived.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiDataReceived.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiDataReceived.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiDataReceived.html",
           "hash": "4dvLtEb25QPJnLiZkD9zQJ/+hBd+0QsrQWbP6j+QWmg="
         }
       },
@@ -533,10 +533,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiDataWritten.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiDataWritten.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiDataWritten.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiDataWritten.html",
           "hash": "YEAW7SDdjMaaDgULFI45rfbyqza0hSVwhYwJH3bStRo="
         }
       },
@@ -545,10 +545,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.OnZitiListening.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.OnZitiListening.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.OnZitiListening.html",
+          "relative_path": "api/dotnet/Hanzo ZT.OnZitiListening.html",
           "hash": "q5wHbUM7S3mzLwr45Mt9PVxc5bbSvMaV0JeTF+pfCKg="
         }
       },
@@ -557,10 +557,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.RateType.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.RateType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.RateType.html",
+          "relative_path": "api/dotnet/Hanzo ZT.RateType.html",
           "hash": "qA7xiPUEI/2Cj102FF5nkLvJ6CwXTehGFbgtjdbOiuk="
         }
       },
@@ -569,10 +569,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.RouterEventType.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.RouterEventType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.RouterEventType.html",
+          "relative_path": "api/dotnet/Hanzo ZT.RouterEventType.html",
           "hash": "KA6n4rU0e0U6sk9VJzj9jeoYSPHkLMLkaxT5E1cia0Q="
         }
       },
@@ -581,10 +581,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.UVLoop.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.UVLoop.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.UVLoop.html",
+          "relative_path": "api/dotnet/Hanzo ZT.UVLoop.html",
           "hash": "uw38g0IsZkHv0uABcLmbMS6mVcIOrFnM3OOUXtlR738="
         }
       },
@@ -593,10 +593,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiConnection.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiConnection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiConnection.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiConnection.html",
           "hash": "XNfyppfvW8VQBZs7fqbULp8gqLgdjGT33Uzs9Ufno7E="
         }
       },
@@ -605,10 +605,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiContext.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiContext.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiContext.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiContext.html",
           "hash": "XtfEI1X9GytkO3jTTdPl/jsV+oJ4rNrJHDopWvjkpcw="
         }
       },
@@ -617,10 +617,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiContextEvent.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiContextEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiContextEvent.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiContextEvent.html",
           "hash": "vJLIsnwSsY67tUUbgUbKh1bzW3n1OKnWW0igOt9wBvE="
         }
       },
@@ -629,10 +629,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.AfterEnrollment.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.AfterEnrollment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.AfterEnrollment.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.AfterEnrollment.html",
           "hash": "NFO+hp5UxjCYZcbUOXZ31Q6yzMfqTRjTPoM/l5r1CaU="
         }
       },
@@ -641,10 +641,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.EnrollmentResult.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.EnrollmentResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.EnrollmentResult.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.EnrollmentResult.html",
           "hash": "ZENL0hXZW3QGzpjyABo7kUVlMc/U/PG9LDdCMsBpEnI="
         }
       },
@@ -653,10 +653,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiEnrollment.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiEnrollment.html",
           "hash": "XKnGhen9B4PR6MVWU4yoamWRZRKmw1aw+2x3x8MXRvE="
         }
       },
@@ -665,10 +665,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiEventFlags.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiEventFlags.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiEventFlags.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiEventFlags.html",
           "hash": "Y+qzrlf3maSMUH+YFUad3hc60yt/z3aMtNe/XQbOvQ0="
         }
       },
@@ -677,10 +677,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiException.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiException.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiException.html",
           "hash": "3eFmHYj5tnb5P7ISWfyUUFiqDV6+oeFz4YRaTdRv9b0="
         }
       },
@@ -689,10 +689,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiIdentity.InitOptions.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiIdentity.InitOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiIdentity.InitOptions.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiIdentity.InitOptions.html",
           "hash": "fHjMrXA++7JNNLh77IU5U0vKnbAMjOGDwH5cFM5NlrY="
         }
       },
@@ -701,10 +701,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiIdentity.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiIdentity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiIdentity.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiIdentity.html",
           "hash": "S4ueKBK0Ubj8ncGM9ua2zl57Q87Aaw89hrl4C8CUzJg="
         }
       },
@@ -713,10 +713,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiIdentityFormat.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiIdentityFormat.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiIdentityFormat.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiIdentityFormat.html",
           "hash": "su4PUgSyR3cWeSX31cx6cew6LYf4ZgteZEqrJ7eHM4M="
         }
       },
@@ -725,10 +725,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiRouterEvent.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiRouterEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiRouterEvent.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiRouterEvent.html",
           "hash": "rUk2YNS6l+SRgsTJ7eRCPEnfRP/cPFQBxlQTOtL9OW0="
         }
       },
@@ -737,10 +737,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiService.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiService.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiService.html",
           "hash": "PtTENZg6Jedg5C2gVo1UZPpUO4Ty3Monp0rGfAX1JtA="
         }
       },
@@ -749,10 +749,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiServiceEvent.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiServiceEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiServiceEvent.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiServiceEvent.html",
           "hash": "ZT98YixXBiCNC90ymN396uSCklnfYDUa3mq5t2XMx9I="
         }
       },
@@ -761,10 +761,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiStatus.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiStatus.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiStatus.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiStatus.html",
           "hash": "w+Ar0OPM0vHzeaECdSYzL0rbClynlECXNgtdGl76210="
         }
       },
@@ -773,10 +773,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiStatusExtensions.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiStatusExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiStatusExtensions.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiStatusExtensions.html",
           "hash": "0ypbcLJdGhnWglCa91nRs2wHzPx2u27cuLNwBcXhuvI="
         }
       },
@@ -785,10 +785,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiStream.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiStream.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiStream.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiStream.html",
           "hash": "h29VX541KMbP5Uf7YmilZknUImPkZLaWNZLl58QqEno="
         }
       },
@@ -797,10 +797,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ZitiUtil.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ZitiUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ZitiUtil.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ZitiUtil.html",
           "hash": "3vk/XBQ6ouUZAzNQpHYczgnJxbcqotxEHwlKZAr9TjM="
         }
       },
@@ -809,10 +809,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.posture_query.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.posture_query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.posture_query.html",
+          "relative_path": "api/dotnet/Hanzo ZT.posture_query.html",
           "hash": "8j9MO6goePYjBTYCtxr2P3xkF7VWvMm12rSsYCWgxsE="
         }
       },
@@ -821,10 +821,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.posture_query_set.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.posture_query_set.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.posture_query_set.html",
+          "relative_path": "api/dotnet/Hanzo ZT.posture_query_set.html",
           "hash": "68oMawhkLEyaaJ9pvDwOeXc+UwyTKvtWh7AGu5c5DBU="
         }
       },
@@ -833,10 +833,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.html",
+          "relative_path": "api/dotnet/Hanzo ZT.html",
           "hash": "aLczEgjIBYtvlYPry+8ZotDc3Gknx4oPo6Jhbpak60I="
         }
       },
@@ -845,10 +845,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ziti_process.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ziti_process.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ziti_process.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ziti_process.html",
           "hash": "M+DzsqyvMUGXmzlEp1p1YIcjzlPN8AwDDAau3/lDrUo="
         }
       },
@@ -857,10 +857,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ziti_service.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ziti_service.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ziti_service.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ziti_service.html",
           "hash": "J8S9fA9/TxRAKiTsdWVA81IOWQNcyGdBQKz8z2XczrA="
         }
       },
@@ -869,10 +869,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/dotnet/OpenZiti.ziti_version.yml",
+      "source_relative_path": "api/dotnet/Hanzo ZT.ziti_version.yml",
       "output": {
         ".html": {
-          "relative_path": "api/dotnet/OpenZiti.ziti_version.html",
+          "relative_path": "api/dotnet/Hanzo ZT.ziti_version.html",
           "hash": "7j6fJzIxYSIDQh+CmhIjaYUHkTabVxNZ5Km7o5KEVFg="
         }
       },

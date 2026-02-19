@@ -1,4 +1,4 @@
-name: Build and publish the OpenZiti.NET nuget project
+name: Build and publish the Hanzo ZT.NET nuget project
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
       
 jobs:
   build-and-push:
-    if: "!contains(github.event.head_commit.message, 'ci skip') && ${{ github.actor != 'dependabot[bot]' && github.repository_owner == 'openziti' }}"
+    if: "!contains(github.event.head_commit.message, 'ci skip') && ${{ github.actor != 'dependabot[bot]' && github.repository_owner == 'hanzozt' }}"
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
@@ -25,6 +25,6 @@ jobs:
       - if: github.event_name == 'pull_request'
         run: echo "GIT_BRANCH=$env:GITHUB_HEAD_REF" >> $env:GITHUB_ENV
       - if: ${{ env.GIT_BRANCH == 'main' }} 
-        name: Publish OpenZiti.NET
-        run: dotnet build OpenZiti.NET/OpenZiti.NET.csproj /t:NugetPush /p:Configuration=Release /p:NUGET_SOURCE=https://api.nuget.org/v3/index.json /p:API_KEY=${{secrets.NUGET_API_KEY}}
+        name: Publish Hanzo ZT.NET
+        run: dotnet build Hanzo ZT.NET/Hanzo ZT.NET.csproj /t:NugetPush /p:Configuration=Release /p:NUGET_SOURCE=https://api.nuget.org/v3/index.json /p:API_KEY=${{secrets.NUGET_API_KEY}}
 

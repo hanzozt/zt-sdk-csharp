@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net;
 
-namespace OpenZiti.Samples.Kestrel;
+namespace Hanzo ZT.Samples.Kestrel;
 
 public static class WebHostBuilderExtensions {
     public static IWebHostBuilder UseZitiTransport(this IWebHostBuilder hostBuilder, string identity, string service) {

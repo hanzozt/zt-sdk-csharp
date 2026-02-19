@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Debugging;
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.Debugging;
+using Hanzo ZT.NET.Samples.Common;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using MLog = Microsoft.Extensions.Logging;
 
-namespace OpenZiti.NET.Samples {
+namespace Hanzo ZT.NET.Samples {
     public class Program {
         private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
         private static async Task Main(string[] args) {
@@ -42,7 +42,7 @@ namespace OpenZiti.NET.Samples {
                     Log.Info("These samples expect a parameter indicating which sample to run.");
                     Log.Info("Available options are:");
 
-                    //find all the classes with the custom property of "OpenZiti.NET.Samples.Common.Sample"
+                    //find all the classes with the custom property of "Hanzo ZT.NET.Samples.Common.Sample"
                     //these are the available samples to run
                     foreach (var type in currentAssembly.GetTypes()) {
                         if (Attribute.IsDefined(type, typeof(Sample))) {

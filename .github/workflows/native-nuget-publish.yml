@@ -33,7 +33,7 @@ jobs:
         id: buildinfo
         run: |
           echo "now=$(date '+%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
-          if [ "${{ github.repository }}" == 'openziti/ziti-sdk-csharp' ]; then
+          if [ "${{ github.repository }}" == 'hanzozt/ziti-sdk-csharp' ]; then
             echo "repo=" >> $GITHUB_OUTPUT
           else
             echo "repo=${{github.repository_owner}}" >> $GITHUB_OUTPUT
@@ -242,10 +242,10 @@ jobs:
       - name: Upload nuget package
         uses: actions/upload-artifact@v4
         with:
-          path: ${{ github.workspace }}\OpenZiti.NET.native.${{env.resolvedversion}}.nupkg
-          name: OpenZiti.NET.native.${{env.resolvedversion}}.nupkg
+          path: ${{ github.workspace }}\Hanzo ZT.NET.native.${{env.resolvedversion}}.nupkg
+          name: Hanzo ZT.NET.native.${{env.resolvedversion}}.nupkg
           if-no-files-found: error
 
-      - name: Publish OpenZiti.NET.native
-        if: "${{ github.repository == 'openziti/ziti-sdk-csharp'}}"
-        run: dotnet nuget push OpenZiti.NET.native.${{env.resolvedversion}}.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
+      - name: Publish Hanzo ZT.NET.native
+        if: "${{ github.repository == 'hanzozt/ziti-sdk-csharp'}}"
+        run: dotnet nuget push Hanzo ZT.NET.native.${{env.resolvedversion}}.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json

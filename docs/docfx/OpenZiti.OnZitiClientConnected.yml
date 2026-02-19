@@ -1,37 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.OnZitiClientConnected
-  commentId: T:OpenZiti.OnZitiClientConnected
+- uid: Hanzo ZT.OnZitiClientConnected
+  commentId: T:Hanzo ZT.OnZitiClientConnected
   id: OnZitiClientConnected
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: OnZitiClientConnected
   nameWithType: OnZitiClientConnected
-  fullName: OpenZiti.OnZitiClientConnected
+  fullName: Hanzo ZT.OnZitiClientConnected
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: OnZitiClientConnected
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 34
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public delegate void OnZitiClientConnected(ZitiConnection serverConnection, ZitiConnection clientConnection, ZitiStatus status);
     parameters:
     - id: serverConnection
-      type: OpenZiti.ZitiConnection
+      type: Hanzo ZT.ZitiConnection
     - id: clientConnection
-      type: OpenZiti.ZitiConnection
+      type: Hanzo ZT.ZitiConnection
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Delegate Sub OnZitiClientConnected(serverConnection As ZitiConnection, clientConnection As ZitiConnection, status As ZitiStatus)
   modifiers.csharp:
   - public
@@ -40,20 +40,20 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.ZitiConnection
-  commentId: T:OpenZiti.ZitiConnection
-  parent: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.ZitiConnection
+  commentId: T:Hanzo ZT.ZitiConnection
+  parent: Hanzo ZT
   name: ZitiConnection
   nameWithType: ZitiConnection
-  fullName: OpenZiti.ZitiConnection
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiConnection
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus

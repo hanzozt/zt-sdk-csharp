@@ -39,13 +39,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="OpenZiti.NET.native" Version="1.10.4.213" />
+    <PackageReference Include="Hanzo ZT.NET.native" Version="1.10.4.213" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpenZiti.Management\OpenZiti.Management.csproj" />
-    <ProjectReference Include="..\OpenZiti.NET.Samples\OpenZiti.NET.Samples.csproj" />
-    <ProjectReference Include="..\OpenZiti.NET\OpenZiti.NET.csproj" />
+    <ProjectReference Include="..\Hanzo ZT.Management\Hanzo ZT.Management.csproj" />
+    <ProjectReference Include="..\Hanzo ZT.NET.Samples\Hanzo ZT.NET.Samples.csproj" />
+    <ProjectReference Include="..\Hanzo ZT.NET\Hanzo ZT.NET.csproj" />
   </ItemGroup>
 
   <ItemGroup>

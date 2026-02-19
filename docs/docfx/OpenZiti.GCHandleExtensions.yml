@@ -1,29 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.GCHandleExtensions
-  commentId: T:OpenZiti.GCHandleExtensions
+- uid: Hanzo ZT.GCHandleExtensions
+  commentId: T:Hanzo ZT.GCHandleExtensions
   id: GCHandleExtensions
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
+  - Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
   langs:
   - csharp
   - vb
   name: GCHandleExtensions
   nameWithType: GCHandleExtensions
-  fullName: OpenZiti.GCHandleExtensions
+  fullName: Hanzo ZT.GCHandleExtensions
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GCHandleExtensions
-    path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
     startLine: 54
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nA class which provides an extension method to free a <see cref=\"!:GCHandle\"></see> which checks\nto make sure the handle being free&apos;ed is not <see cref=\"!:Util.NO_CONTEXT\"></see>\n"
   example: []
   syntax:
@@ -40,29 +40,29 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: OpenZiti.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
-  commentId: M:OpenZiti.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
+- uid: Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
+  commentId: M:Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
   id: SafeFreeGCHandle(GCHandle)
   isExtensionMethod: true
-  parent: OpenZiti.GCHandleExtensions
+  parent: Hanzo ZT.GCHandleExtensions
   langs:
   - csharp
   - vb
   name: SafeFreeGCHandle(GCHandle)
   nameWithType: GCHandleExtensions.SafeFreeGCHandle(GCHandle)
-  fullName: OpenZiti.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
+  fullName: Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle(GCHandle)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: SafeFreeGCHandle
-    path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
     startLine: 61
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nAn extension method which checks to make sure the handle is not <see cref=\"!:Util.NO_CONTEXT\"></see>\nbefore Free&apos;ing\n"
   example: []
   syntax:
@@ -75,7 +75,7 @@ items:
       <ExtensionAttribute>
 
       Public Shared Sub SafeFreeGCHandle(handle As GCHandle)
-  overload: OpenZiti.GCHandleExtensions.SafeFreeGCHandle*
+  overload: Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle*
   modifiers.csharp:
   - public
   - static
@@ -83,21 +83,21 @@ items:
   - Public
   - Shared
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.GCHandleExtensions.SafeFreeGCHandle*
-  commentId: Overload:OpenZiti.GCHandleExtensions.SafeFreeGCHandle
+- uid: Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle*
+  commentId: Overload:Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle
   name: SafeFreeGCHandle
   nameWithType: GCHandleExtensions.SafeFreeGCHandle
-  fullName: OpenZiti.GCHandleExtensions.SafeFreeGCHandle
+  fullName: Hanzo ZT.GCHandleExtensions.SafeFreeGCHandle
 - uid: GCHandle
   isExternal: true
   name: GCHandle

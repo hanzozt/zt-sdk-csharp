@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.EnumHelper
-  commentId: T:OpenZiti.EnumHelper
+- uid: Hanzo ZT.EnumHelper
+  commentId: T:Hanzo ZT.EnumHelper
   id: EnumHelper
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.EnumHelper.GetDescription(Enum)
-  - OpenZiti.EnumHelper.NO_DESC
+  - Hanzo ZT.EnumHelper.GetDescription(Enum)
+  - Hanzo ZT.EnumHelper.NO_DESC
   langs:
   - csharp
   - vb
   name: EnumHelper
   nameWithType: EnumHelper
-  fullName: OpenZiti.EnumHelper
+  fullName: Hanzo ZT.EnumHelper
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EnumHelper
-    path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
     startLine: 26
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   summary: "\nA class which provides an extension method to get a Description from an enum. The enum must be\ndecorated with a <see cref=\"!:DescriptionAttribute\"></see>\n"
   example: []
   syntax:
@@ -41,28 +41,28 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: OpenZiti.EnumHelper.NO_DESC
-  commentId: F:OpenZiti.EnumHelper.NO_DESC
+- uid: Hanzo ZT.EnumHelper.NO_DESC
+  commentId: F:Hanzo ZT.EnumHelper.NO_DESC
   id: NO_DESC
-  parent: OpenZiti.EnumHelper
+  parent: Hanzo ZT.EnumHelper
   langs:
   - csharp
   - vb
   name: NO_DESC
   nameWithType: EnumHelper.NO_DESC
-  fullName: OpenZiti.EnumHelper.NO_DESC
+  fullName: Hanzo ZT.EnumHelper.NO_DESC
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: NO_DESC
-    path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
     startLine: 28
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public const string NO_DESC = null
     return:
@@ -74,30 +74,30 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.EnumHelper.GetDescription(Enum)
-  commentId: M:OpenZiti.EnumHelper.GetDescription(Enum)
+- uid: Hanzo ZT.EnumHelper.GetDescription(Enum)
+  commentId: M:Hanzo ZT.EnumHelper.GetDescription(Enum)
   id: GetDescription(Enum)
   isExtensionMethod: true
-  parent: OpenZiti.EnumHelper
+  parent: Hanzo ZT.EnumHelper
   langs:
   - csharp
   - vb
   name: GetDescription(Enum)
   nameWithType: EnumHelper.GetDescription(Enum)
-  fullName: OpenZiti.EnumHelper.GetDescription(Enum)
+  fullName: Hanzo ZT.EnumHelper.GetDescription(Enum)
   type: Method
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: GetDescription
-    path: Ziti.NET.Standard/src/OpenZiti/ExtensionMethods.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ExtensionMethods.cs
     startLine: 36
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
-  summary: "\nExtension method to return the <see cref=\"!:DescriptionAttribute\"></see> of the enum.\nIf no <see cref=\"!:DescriptionAttribute\"></see> exists, returns <xref href=\"OpenZiti.EnumHelper.NO_DESC\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  namespace: Hanzo ZT
+  summary: "\nExtension method to return the <see cref=\"!:DescriptionAttribute\"></see> of the enum.\nIf no <see cref=\"!:DescriptionAttribute\"></see> exists, returns <xref href=\"Hanzo ZT.EnumHelper.NO_DESC\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
     content: public static string GetDescription(this Enum enumVal)
@@ -112,7 +112,7 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function GetDescription(enumVal As  Enum) As String
-  overload: OpenZiti.EnumHelper.GetDescription*
+  overload: Hanzo ZT.EnumHelper.GetDescription*
   modifiers.csharp:
   - public
   - static
@@ -120,11 +120,11 @@ items:
   - Public
   - Shared
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
@@ -135,14 +135,14 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.EnumHelper.NO_DESC
-  commentId: F:OpenZiti.EnumHelper.NO_DESC
+- uid: Hanzo ZT.EnumHelper.NO_DESC
+  commentId: F:Hanzo ZT.EnumHelper.NO_DESC
   isExternal: true
-- uid: OpenZiti.EnumHelper.GetDescription*
-  commentId: Overload:OpenZiti.EnumHelper.GetDescription
+- uid: Hanzo ZT.EnumHelper.GetDescription*
+  commentId: Overload:Hanzo ZT.EnumHelper.GetDescription
   name: GetDescription
   nameWithType: EnumHelper.GetDescription
-  fullName: OpenZiti.EnumHelper.GetDescription
+  fullName: Hanzo ZT.EnumHelper.GetDescription
 - uid: Enum
   commentId: '!:Enum'
   isExternal: true

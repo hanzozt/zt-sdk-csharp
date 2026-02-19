@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.RouterEventType
-  commentId: T:OpenZiti.RouterEventType
+- uid: Hanzo ZT.RouterEventType
+  commentId: T:Hanzo ZT.RouterEventType
   id: RouterEventType
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.RouterEventType.EdgeRouterConnected
-  - OpenZiti.RouterEventType.EdgeRouterDisconnected
-  - OpenZiti.RouterEventType.EdgeRouterRemoved
-  - OpenZiti.RouterEventType.EdgeRouterUnavailable
+  - Hanzo ZT.RouterEventType.EdgeRouterConnected
+  - Hanzo ZT.RouterEventType.EdgeRouterDisconnected
+  - Hanzo ZT.RouterEventType.EdgeRouterRemoved
+  - Hanzo ZT.RouterEventType.EdgeRouterUnavailable
   langs:
   - csharp
   - vb
   name: RouterEventType
   nameWithType: RouterEventType
-  fullName: OpenZiti.RouterEventType
+  fullName: Hanzo ZT.RouterEventType
   type: Enum
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: RouterEventType
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 207
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public enum RouterEventType : int'
     content.vb: Public Enum RouterEventType As Integer
@@ -36,128 +36,128 @@ items:
   modifiers.vb:
   - Public
   - Enum
-- uid: OpenZiti.RouterEventType.EdgeRouterConnected
-  commentId: F:OpenZiti.RouterEventType.EdgeRouterConnected
+- uid: Hanzo ZT.RouterEventType.EdgeRouterConnected
+  commentId: F:Hanzo ZT.RouterEventType.EdgeRouterConnected
   id: EdgeRouterConnected
-  parent: OpenZiti.RouterEventType
+  parent: Hanzo ZT.RouterEventType
   langs:
   - csharp
   - vb
   name: EdgeRouterConnected
   nameWithType: RouterEventType.EdgeRouterConnected
-  fullName: OpenZiti.RouterEventType.EdgeRouterConnected
+  fullName: Hanzo ZT.RouterEventType.EdgeRouterConnected
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EdgeRouterConnected
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 208
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: EdgeRouterConnected = 0
     return:
-      type: OpenZiti.RouterEventType
+      type: Hanzo ZT.RouterEventType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.RouterEventType.EdgeRouterDisconnected
-  commentId: F:OpenZiti.RouterEventType.EdgeRouterDisconnected
+- uid: Hanzo ZT.RouterEventType.EdgeRouterDisconnected
+  commentId: F:Hanzo ZT.RouterEventType.EdgeRouterDisconnected
   id: EdgeRouterDisconnected
-  parent: OpenZiti.RouterEventType
+  parent: Hanzo ZT.RouterEventType
   langs:
   - csharp
   - vb
   name: EdgeRouterDisconnected
   nameWithType: RouterEventType.EdgeRouterDisconnected
-  fullName: OpenZiti.RouterEventType.EdgeRouterDisconnected
+  fullName: Hanzo ZT.RouterEventType.EdgeRouterDisconnected
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EdgeRouterDisconnected
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 209
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: EdgeRouterDisconnected = 1
     return:
-      type: OpenZiti.RouterEventType
+      type: Hanzo ZT.RouterEventType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.RouterEventType.EdgeRouterRemoved
-  commentId: F:OpenZiti.RouterEventType.EdgeRouterRemoved
+- uid: Hanzo ZT.RouterEventType.EdgeRouterRemoved
+  commentId: F:Hanzo ZT.RouterEventType.EdgeRouterRemoved
   id: EdgeRouterRemoved
-  parent: OpenZiti.RouterEventType
+  parent: Hanzo ZT.RouterEventType
   langs:
   - csharp
   - vb
   name: EdgeRouterRemoved
   nameWithType: RouterEventType.EdgeRouterRemoved
-  fullName: OpenZiti.RouterEventType.EdgeRouterRemoved
+  fullName: Hanzo ZT.RouterEventType.EdgeRouterRemoved
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EdgeRouterRemoved
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 210
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: EdgeRouterRemoved = 2
     return:
-      type: OpenZiti.RouterEventType
+      type: Hanzo ZT.RouterEventType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: OpenZiti.RouterEventType.EdgeRouterUnavailable
-  commentId: F:OpenZiti.RouterEventType.EdgeRouterUnavailable
+- uid: Hanzo ZT.RouterEventType.EdgeRouterUnavailable
+  commentId: F:Hanzo ZT.RouterEventType.EdgeRouterUnavailable
   id: EdgeRouterUnavailable
-  parent: OpenZiti.RouterEventType
+  parent: Hanzo ZT.RouterEventType
   langs:
   - csharp
   - vb
   name: EdgeRouterUnavailable
   nameWithType: RouterEventType.EdgeRouterUnavailable
-  fullName: OpenZiti.RouterEventType.EdgeRouterUnavailable
+  fullName: Hanzo ZT.RouterEventType.EdgeRouterUnavailable
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EdgeRouterUnavailable
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 211
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: EdgeRouterUnavailable = 3
     return:
-      type: OpenZiti.RouterEventType
+      type: Hanzo ZT.RouterEventType
   modifiers.csharp:
   - public
   - const
@@ -165,14 +165,14 @@ items:
   - Public
   - Const
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.RouterEventType
-  commentId: T:OpenZiti.RouterEventType
-  parent: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.RouterEventType
+  commentId: T:Hanzo ZT.RouterEventType
+  parent: Hanzo ZT
   name: RouterEventType
   nameWithType: RouterEventType
-  fullName: OpenZiti.RouterEventType
+  fullName: Hanzo ZT.RouterEventType

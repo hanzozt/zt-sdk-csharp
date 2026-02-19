@@ -1,4 +1,4 @@
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.NET.Samples.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenZiti.NET.Samples.src.Kestrel;
+namespace Hanzo ZT.NET.Samples.src.Kestrel;
 
 
 [Sample("kestrel-client")]

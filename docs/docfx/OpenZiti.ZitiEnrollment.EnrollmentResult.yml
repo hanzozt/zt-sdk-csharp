@@ -1,34 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult
-  commentId: T:OpenZiti.ZitiEnrollment.EnrollmentResult
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult
+  commentId: T:Hanzo ZT.ZitiEnrollment.EnrollmentResult
   id: ZitiEnrollment.EnrollmentResult
-  parent: OpenZiti
+  parent: Hanzo ZT
   children:
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.Context
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.Json
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.Message
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.Status
-  - OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.Context
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.Status
+  - Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
   langs:
   - csharp
   - vb
   name: ZitiEnrollment.EnrollmentResult
   nameWithType: ZitiEnrollment.EnrollmentResult
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   type: Class
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: EnrollmentResult
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 26
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: 'public class EnrollmentResult : object'
     content.vb: >-
@@ -42,28 +42,28 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Context
-  commentId: F:OpenZiti.ZitiEnrollment.EnrollmentResult.Context
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Context
+  commentId: F:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Context
   id: Context
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: Context
   nameWithType: ZitiEnrollment.EnrollmentResult.Context
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Context
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Context
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Context
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 28
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public object Context
     return:
@@ -73,223 +73,223 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Status
-  commentId: F:OpenZiti.ZitiEnrollment.EnrollmentResult.Status
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Status
+  commentId: F:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Status
   id: Status
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: Status
   nameWithType: ZitiEnrollment.EnrollmentResult.Status
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Status
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Status
   type: Field
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Status
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 29
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiStatus Status
     return:
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     content.vb: Public Status As ZitiStatus
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Message
-  commentId: P:OpenZiti.ZitiEnrollment.EnrollmentResult.Message
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
+  commentId: P:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
   id: Message
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: Message
   nameWithType: ZitiEnrollment.EnrollmentResult.Message
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Message
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Message
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 30
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string Message { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property Message As String
-  overload: OpenZiti.ZitiEnrollment.EnrollmentResult.Message*
+  overload: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Json
-  commentId: P:OpenZiti.ZitiEnrollment.EnrollmentResult.Json
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
+  commentId: P:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
   id: Json
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: Json
   nameWithType: ZitiEnrollment.EnrollmentResult.Json
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Json
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: Json
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 31
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public string Json { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property Json As String
-  overload: OpenZiti.ZitiEnrollment.EnrollmentResult.Json*
+  overload: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
-  commentId: P:OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+  commentId: P:Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
   id: ZitiIdentity
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: ZitiIdentity
   nameWithType: ZitiEnrollment.EnrollmentResult.ZitiIdentity
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
   type: Property
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: ZitiIdentity
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 36
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public ZitiIdentityFormat ZitiIdentity { get; set; }
     parameters: []
     return:
-      type: OpenZiti.ZitiIdentityFormat
+      type: Hanzo ZT.ZitiIdentityFormat
     content.vb: Public Property ZitiIdentity As ZitiIdentityFormat
-  overload: OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity*
+  overload: Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
-  commentId: M:OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
+  commentId: M:Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor(IntPtr)
   id: '#ctor(IntPtr)'
-  parent: OpenZiti.ZitiEnrollment.EnrollmentResult
+  parent: Hanzo ZT.ZitiEnrollment.EnrollmentResult
   langs:
   - csharp
   - vb
   name: EnrollmentResult(IntPtr)
   nameWithType: ZitiEnrollment.EnrollmentResult.EnrollmentResult(IntPtr)
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.EnrollmentResult(IntPtr)
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.EnrollmentResult(IntPtr)
   type: Constructor
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: .ctor
-    path: Ziti.NET.Standard/src/OpenZiti/ZitiEnrollment.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 38
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public EnrollmentResult(IntPtr nativeConfig)
     parameters:
     - id: nativeConfig
       type: IntPtr
     content.vb: Public Sub New(nativeConfig As IntPtr)
-  overload: OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor*
+  overload: Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
 - uid: System.Object
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Message*
-  commentId: Overload:OpenZiti.ZitiEnrollment.EnrollmentResult.Message
+  fullName: Hanzo ZT.ZitiStatus
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message*
+  commentId: Overload:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
   name: Message
   nameWithType: ZitiEnrollment.EnrollmentResult.Message
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Message
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Message
 - uid: System.String
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.Json*
-  commentId: Overload:OpenZiti.ZitiEnrollment.EnrollmentResult.Json
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json*
+  commentId: Overload:Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
   name: Json
   nameWithType: ZitiEnrollment.EnrollmentResult.Json
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.Json
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity*
-  commentId: Overload:OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.Json
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity*
+  commentId: Overload:Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
   name: ZitiIdentity
   nameWithType: ZitiEnrollment.EnrollmentResult.ZitiIdentity
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.ZitiIdentity
-- uid: OpenZiti.ZitiIdentityFormat
-  commentId: T:OpenZiti.ZitiIdentityFormat
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.ZitiIdentity
+- uid: Hanzo ZT.ZitiIdentityFormat
+  commentId: T:Hanzo ZT.ZitiIdentityFormat
+  parent: Hanzo ZT
   name: ZitiIdentityFormat
   nameWithType: ZitiIdentityFormat
-  fullName: OpenZiti.ZitiIdentityFormat
-- uid: OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor*
-  commentId: Overload:OpenZiti.ZitiEnrollment.EnrollmentResult.#ctor
+  fullName: Hanzo ZT.ZitiIdentityFormat
+- uid: Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor*
+  commentId: Overload:Hanzo ZT.ZitiEnrollment.EnrollmentResult.#ctor
   name: EnrollmentResult
   nameWithType: ZitiEnrollment.EnrollmentResult.EnrollmentResult
-  fullName: OpenZiti.ZitiEnrollment.EnrollmentResult.EnrollmentResult
+  fullName: Hanzo ZT.ZitiEnrollment.EnrollmentResult.EnrollmentResult
 - uid: IntPtr
   isExternal: true
   name: IntPtr

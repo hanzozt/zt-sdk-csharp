@@ -14,7 +14,7 @@ limitations under the License.
 using System.IO;
 using System.Text;
 
-namespace OpenZiti.NET.Samples.src.Common;
+namespace Hanzo ZT.NET.Samples.src.Common;
 internal class AppetizerSetup {
     private static readonly NLog.Logger Log = NLog.LogManager.GetCurrentClassLogger();
     internal static ZitiContext ContextFromFile(string idFile) {

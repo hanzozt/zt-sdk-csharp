@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Native;
+using Hanzo ZT.Native;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,9 +26,9 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-using nAPI = OpenZiti.Native.API;
+using nAPI = Hanzo ZT.Native.API;
 
-namespace OpenZiti {
+namespace Hanzo ZT {
     public class ZitifiedNetworkStream : NetworkStream {
         static ZitifiedNetworkStream() {
             API.InitializeZiti();

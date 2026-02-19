@@ -33,9 +33,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\OpenZiti.Management\OpenZiti.Management.csproj" />
-		<ProjectReference Include="..\OpenZiti.NET.Samples.Petstore\OpenZiti.NET.Samples.Petstore.csproj" />
-		<ProjectReference Include="..\OpenZiti.NET\OpenZiti.NET.csproj" />
+		<ProjectReference Include="..\Hanzo ZT.Management\Hanzo ZT.Management.csproj" />
+		<ProjectReference Include="..\Hanzo ZT.NET.Samples.Petstore\Hanzo ZT.NET.Samples.Petstore.csproj" />
+		<ProjectReference Include="..\Hanzo ZT.NET\Hanzo ZT.NET.csproj" />
 	</ItemGroup>
 
 </Project>

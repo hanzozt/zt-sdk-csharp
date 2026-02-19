@@ -14,20 +14,20 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using OpenZiti.Management;
+using Hanzo ZT.Management;
 using System;
 using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-using OpenZiti.NET.Samples.Common;
+using Hanzo ZT.NET.Samples.Common;
 using System.Security.Principal;
 using System.Reflection.PortableExecutable;
 using System.Net.Sockets;
-using OpenZiti.NET.Samples.src.Common;
+using Hanzo ZT.NET.Samples.src.Common;
 
-namespace OpenZiti.NET.Samples.Appetizer {
+namespace Hanzo ZT.NET.Samples.Appetizer {
 
     [Sample("appetizer-reflect")]
     public class AppetizerSample : SampleBase {

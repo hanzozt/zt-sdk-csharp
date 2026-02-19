@@ -1,35 +1,35 @@
 ### YamlMime:ManagedReference
 items:
-- uid: OpenZiti.OnInit
-  commentId: T:OpenZiti.OnInit
+- uid: Hanzo ZT.OnInit
+  commentId: T:Hanzo ZT.OnInit
   id: OnInit
-  parent: OpenZiti
+  parent: Hanzo ZT
   children: []
   langs:
   - csharp
   - vb
   name: OnInit
   nameWithType: OnInit
-  fullName: OpenZiti.OnInit
+  fullName: Hanzo ZT.OnInit
   type: Delegate
   source:
     remote:
-      path: Ziti.NET.Standard/src/OpenZiti/API.cs
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:openziti/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
     id: OnInit
-    path: Ziti.NET.Standard/src/OpenZiti/API.cs
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 22
   assemblies:
   - Ziti.NET.Standard
-  namespace: OpenZiti
+  namespace: Hanzo ZT
   syntax:
     content: public delegate void OnInit(ZitiContext zitiContext, ZitiStatus status, object initContext);
     parameters:
     - id: zitiContext
-      type: OpenZiti.ZitiContext
+      type: Hanzo ZT.ZitiContext
     - id: status
-      type: OpenZiti.ZitiStatus
+      type: Hanzo ZT.ZitiStatus
     - id: initContext
       type: System.Object
     content.vb: Public Delegate Sub OnInit(zitiContext As ZitiContext, status As ZitiStatus, initContext As Object)
@@ -40,23 +40,23 @@ items:
   - Public
   - Delegate
 references:
-- uid: OpenZiti
-  commentId: N:OpenZiti
-  name: OpenZiti
-  nameWithType: OpenZiti
-  fullName: OpenZiti
-- uid: OpenZiti.ZitiContext
-  commentId: T:OpenZiti.ZitiContext
-  parent: OpenZiti
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.ZitiContext
+  commentId: T:Hanzo ZT.ZitiContext
+  parent: Hanzo ZT
   name: ZitiContext
   nameWithType: ZitiContext
-  fullName: OpenZiti.ZitiContext
-- uid: OpenZiti.ZitiStatus
-  commentId: T:OpenZiti.ZitiStatus
-  parent: OpenZiti
+  fullName: Hanzo ZT.ZitiContext
+- uid: Hanzo ZT.ZitiStatus
+  commentId: T:Hanzo ZT.ZitiStatus
+  parent: Hanzo ZT
   name: ZitiStatus
   nameWithType: ZitiStatus
-  fullName: OpenZiti.ZitiStatus
+  fullName: Hanzo ZT.ZitiStatus
 - uid: System.Object
   isExternal: true
   name: Object
