@@ -18,7 +18,7 @@ set exports_file=%dll_file_no_ext%-exports.txt
 set def_file=library\%dll_file_no_ext%.def
 set lib_file=%dll_file_no_ext%.dll
 REM changed jan 12 2026 set lib_name=%dll_file_no_ext%
-set lib_name=ziti4dotnet
+set lib_name=zt4dotnet
 
 echo ========================
 echo  SOURCE DLL : %dll_file%

@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ZitiNativeApiForDotnetCore\msvc-build.bat = ZitiNativeApiForDotnetCore\msvc-build.bat
 		native-package.nuspec = native-package.nuspec
 		README.md = README.md
-		V:\work\git\github\hanzozt\ziti-sdk-csharp\update-nuspec.ps1 = V:\work\git\github\hanzozt\ziti-sdk-csharp\update-nuspec.ps1
+		V:\work\git\github\hanzozt\zt-sdk-csharp\update-nuspec.ps1 = V:\work\git\github\hanzozt\zt-sdk-csharp\update-nuspec.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FB27A74E-C1A6-4392-857B-3290DA4EFBF8}"
@@ -24,7 +24,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{3EC7F622-B330-483C-83D5-4CA5C2FE30CB}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\dotnet-sdk-publish.yml = .github\workflows\dotnet-sdk-publish.yml
-		.github\workflows\mattermost-ziti-webhook.yml = .github\workflows\mattermost-ziti-webhook.yml
+		.github\workflows\mattermost-zt-webhook.yml = .github\workflows\mattermost-zt-webhook.yml
 		.github\workflows\native-nuget-publish.yml = .github\workflows\native-nuget-publish.yml
 	EndProjectSection
 EndProject

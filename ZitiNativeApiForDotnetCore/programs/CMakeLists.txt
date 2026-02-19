@@ -1,8 +1,8 @@
 #library
-add_executable(zitistructalignment2 zitistructalignment.c)
+add_executable(ztstructalignment2 ztstructalignment.c)
 
-set_property(TARGET zitistructalignment2 PROPERTY C_STANDARD 11)
+set_property(TARGET ztstructalignment2 PROPERTY C_STANDARD 11)
 
-target_link_libraries(zitistructalignment2
-        PUBLIC ziti
+target_link_libraries(ztstructalignment2
+        PUBLIC zt
         )

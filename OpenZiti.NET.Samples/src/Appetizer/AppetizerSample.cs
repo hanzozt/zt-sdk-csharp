@@ -39,8 +39,8 @@ namespace Hanzo ZT.NET.Samples.Appetizer {
             if (args.Length < 2) {
                 throw new Exception("sample expects two params: <sample to execute> <identity file to use>");
             }
-            var zitiContext = AppetizerSetup.ContextFromFile(args[1]);
-            using Stream stream = ZitifiedNetworkStream.NewStream(zitiContext, REFLECT_SERVICE_NAME, null);
+            var ztContext = AppetizerSetup.ContextFromFile(args[1]);
+            using Stream stream = ZitifiedNetworkStream.NewStream(ztContext, REFLECT_SERVICE_NAME, null);
             using var reader = new StreamReader(stream, Encoding.ASCII);
             using var writer = new StreamWriter(stream, Encoding.ASCII);
             while (true) {

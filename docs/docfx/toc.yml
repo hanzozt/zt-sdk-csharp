@@ -44,12 +44,12 @@
     name: RouterEventType
   - uid: Hanzo ZT.UVLoop
     name: UVLoop
-  - uid: Hanzo ZT.ziti_process
-    name: ziti_process
-  - uid: Hanzo ZT.ziti_service
-    name: ziti_service
-  - uid: Hanzo ZT.ziti_version
-    name: ziti_version
+  - uid: Hanzo ZT.zt_process
+    name: zt_process
+  - uid: Hanzo ZT.zt_service
+    name: zt_service
+  - uid: Hanzo ZT.zt_version
+    name: zt_version
   - uid: Hanzo ZT.ZitiConnection
     name: ZitiConnection
   - uid: Hanzo ZT.ZitiContext
@@ -99,51 +99,51 @@
     name: OnUVTimer
   - uid: Hanzo ZT.Native.tls_context
     name: tls_context
-  - uid: Hanzo ZT.Native.ziti_aq_mfa_cb
-    name: ziti_aq_mfa_cb
-  - uid: Hanzo ZT.Native.ziti_ar_mfa_cb
-    name: ziti_ar_mfa_cb
-  - uid: Hanzo ZT.Native.ziti_ar_mfa_status_cb
-    name: ziti_ar_mfa_status_cb
-  - uid: Hanzo ZT.Native.ziti_client_cb
-    name: ziti_client_cb
-  - uid: Hanzo ZT.Native.ziti_close_cb
-    name: ziti_close_cb
-  - uid: Hanzo ZT.Native.ziti_conn_cb
-    name: ziti_conn_cb
-  - uid: Hanzo ZT.Native.ziti_data_cb
-    name: ziti_data_cb
-  - uid: Hanzo ZT.Native.ziti_enroll_cb
-    name: ziti_enroll_cb
-  - uid: Hanzo ZT.Native.ziti_enroll_options
-    name: ziti_enroll_options
-  - uid: Hanzo ZT.Native.ziti_event_cb
-    name: ziti_event_cb
-  - uid: Hanzo ZT.Native.ziti_identity
-    name: ziti_identity
-  - uid: Hanzo ZT.Native.ziti_listen_cb
-    name: ziti_listen_cb
-  - uid: Hanzo ZT.Native.ziti_options
-    name: ziti_options
-  - uid: Hanzo ZT.Native.ziti_pq_domain_cb
-    name: ziti_pq_domain_cb
-  - uid: Hanzo ZT.Native.ziti_pq_mac_cb
-    name: ziti_pq_mac_cb
-  - uid: Hanzo ZT.Native.ziti_pq_os_cb
-    name: ziti_pq_os_cb
-  - uid: Hanzo ZT.Native.ziti_pq_process_cb
-    name: ziti_pq_process_cb
-  - uid: Hanzo ZT.Native.ziti_pr_domain_cb
-    name: ziti_pr_domain_cb
-  - uid: Hanzo ZT.Native.ziti_pr_mac_cb
-    name: ziti_pr_mac_cb
-  - uid: Hanzo ZT.Native.ziti_pr_os_cb
-    name: ziti_pr_os_cb
-  - uid: Hanzo ZT.Native.ziti_pr_process_cb
-    name: ziti_pr_process_cb
-  - uid: Hanzo ZT.Native.ziti_service
-    name: ziti_service
-  - uid: Hanzo ZT.Native.ziti_service_cb
-    name: ziti_service_cb
-  - uid: Hanzo ZT.Native.ziti_write_cb
-    name: ziti_write_cb
+  - uid: Hanzo ZT.Native.zt_aq_mfa_cb
+    name: zt_aq_mfa_cb
+  - uid: Hanzo ZT.Native.zt_ar_mfa_cb
+    name: zt_ar_mfa_cb
+  - uid: Hanzo ZT.Native.zt_ar_mfa_status_cb
+    name: zt_ar_mfa_status_cb
+  - uid: Hanzo ZT.Native.zt_client_cb
+    name: zt_client_cb
+  - uid: Hanzo ZT.Native.zt_close_cb
+    name: zt_close_cb
+  - uid: Hanzo ZT.Native.zt_conn_cb
+    name: zt_conn_cb
+  - uid: Hanzo ZT.Native.zt_data_cb
+    name: zt_data_cb
+  - uid: Hanzo ZT.Native.zt_enroll_cb
+    name: zt_enroll_cb
+  - uid: Hanzo ZT.Native.zt_enroll_options
+    name: zt_enroll_options
+  - uid: Hanzo ZT.Native.zt_event_cb
+    name: zt_event_cb
+  - uid: Hanzo ZT.Native.zt_identity
+    name: zt_identity
+  - uid: Hanzo ZT.Native.zt_listen_cb
+    name: zt_listen_cb
+  - uid: Hanzo ZT.Native.zt_options
+    name: zt_options
+  - uid: Hanzo ZT.Native.zt_pq_domain_cb
+    name: zt_pq_domain_cb
+  - uid: Hanzo ZT.Native.zt_pq_mac_cb
+    name: zt_pq_mac_cb
+  - uid: Hanzo ZT.Native.zt_pq_os_cb
+    name: zt_pq_os_cb
+  - uid: Hanzo ZT.Native.zt_pq_process_cb
+    name: zt_pq_process_cb
+  - uid: Hanzo ZT.Native.zt_pr_domain_cb
+    name: zt_pr_domain_cb
+  - uid: Hanzo ZT.Native.zt_pr_mac_cb
+    name: zt_pr_mac_cb
+  - uid: Hanzo ZT.Native.zt_pr_os_cb
+    name: zt_pr_os_cb
+  - uid: Hanzo ZT.Native.zt_pr_process_cb
+    name: zt_pr_process_cb
+  - uid: Hanzo ZT.Native.zt_service
+    name: zt_service
+  - uid: Hanzo ZT.Native.zt_service_cb
+    name: zt_service_cb
+  - uid: Hanzo ZT.Native.zt_write_cb
+    name: zt_write_cb

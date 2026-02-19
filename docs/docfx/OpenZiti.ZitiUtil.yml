@@ -23,7 +23,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiUtil
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 21
@@ -59,7 +59,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NO_CONTEXT
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 23
@@ -94,7 +94,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NO_CONTEXT_PTR
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 24
@@ -129,7 +129,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CheckStatus
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 26
@@ -137,15 +137,15 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT
   syntax:
-    content: public static void CheckStatus(ZitiContext zitiContext, ZitiStatus status, object initContext)
+    content: public static void CheckStatus(ZitiContext ztContext, ZitiStatus status, object initContext)
     parameters:
-    - id: zitiContext
+    - id: ztContext
       type: Hanzo ZT.ZitiContext
     - id: status
       type: Hanzo ZT.ZitiStatus
     - id: initContext
       type: System.Object
-    content.vb: Public Shared Sub CheckStatus(zitiContext As ZitiContext, status As ZitiStatus, initContext As Object)
+    content.vb: Public Shared Sub CheckStatus(ztContext As ZitiContext, status As ZitiStatus, initContext As Object)
   overload: Hanzo ZT.ZitiUtil.CheckStatus*
   modifiers.csharp:
   - public
@@ -168,7 +168,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CheckStatus
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 31
@@ -203,7 +203,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CheckStatus
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 39
@@ -239,7 +239,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Check
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 46
@@ -277,7 +277,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: GetTarget
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiUtil.cs
     startLine: 51

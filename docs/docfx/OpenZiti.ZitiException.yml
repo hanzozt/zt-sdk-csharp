@@ -18,7 +18,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiException
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 22
@@ -55,7 +55,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 28
@@ -91,7 +91,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiException.cs
     startLine: 34

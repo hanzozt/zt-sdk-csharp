@@ -25,9 +25,9 @@ items:
   - Hanzo ZT.RateType
   - Hanzo ZT.RouterEventType
   - Hanzo ZT.UVLoop
-  - Hanzo ZT.ziti_process
-  - Hanzo ZT.ziti_service
-  - Hanzo ZT.ziti_version
+  - Hanzo ZT.zt_process
+  - Hanzo ZT.zt_service
+  - Hanzo ZT.zt_version
   - Hanzo ZT.ZitiConnection
   - Hanzo ZT.ZitiContext
   - Hanzo ZT.ZitiContextEvent
@@ -130,23 +130,23 @@ references:
   name: API.Enrollment.AfterEnroll
   nameWithType: API.Enrollment.AfterEnroll
   fullName: Hanzo ZT.API.Enrollment.AfterEnroll
-- uid: Hanzo ZT.ziti_version
-  commentId: T:Hanzo ZT.ziti_version
+- uid: Hanzo ZT.zt_version
+  commentId: T:Hanzo ZT.zt_version
   parent: Hanzo ZT
-  name: ziti_version
-  nameWithType: ziti_version
-  fullName: Hanzo ZT.ziti_version
+  name: zt_version
+  nameWithType: zt_version
+  fullName: Hanzo ZT.zt_version
 - uid: Hanzo ZT.RouterEventType
   commentId: T:Hanzo ZT.RouterEventType
   parent: Hanzo ZT
   name: RouterEventType
   nameWithType: RouterEventType
   fullName: Hanzo ZT.RouterEventType
-- uid: Hanzo ZT.ziti_service
-  commentId: T:Hanzo ZT.ziti_service
-  name: ziti_service
-  nameWithType: ziti_service
-  fullName: Hanzo ZT.ziti_service
+- uid: Hanzo ZT.zt_service
+  commentId: T:Hanzo ZT.zt_service
+  name: zt_service
+  nameWithType: zt_service
+  fullName: Hanzo ZT.zt_service
 - uid: Hanzo ZT.posture_query_set
   commentId: T:Hanzo ZT.posture_query_set
   name: posture_query_set
@@ -157,12 +157,12 @@ references:
   name: posture_query
   nameWithType: posture_query
   fullName: Hanzo ZT.posture_query
-- uid: Hanzo ZT.ziti_process
-  commentId: T:Hanzo ZT.ziti_process
+- uid: Hanzo ZT.zt_process
+  commentId: T:Hanzo ZT.zt_process
   parent: Hanzo ZT
-  name: ziti_process
-  nameWithType: ziti_process
-  fullName: Hanzo ZT.ziti_process
+  name: zt_process
+  nameWithType: zt_process
+  fullName: Hanzo ZT.zt_process
 - uid: Hanzo ZT.EnumHelper
   commentId: T:Hanzo ZT.EnumHelper
   name: EnumHelper

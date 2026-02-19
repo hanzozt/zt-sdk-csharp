@@ -21,7 +21,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiContextEvent
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 362
@@ -56,7 +56,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Status
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 363
@@ -87,7 +87,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: StatusError
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 364
@@ -118,7 +118,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Name
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 365
@@ -149,7 +149,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Version
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 366
@@ -157,10 +157,10 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT
   syntax:
-    content: public ziti_version Version
+    content: public zt_version Version
     return:
-      type: Hanzo ZT.ziti_version
-    content.vb: Public Version As ziti_version
+      type: Hanzo ZT.zt_version
+    content.vb: Public Version As zt_version
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -180,7 +180,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Identity
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 367
@@ -218,12 +218,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Hanzo ZT.ziti_version
-  commentId: T:Hanzo ZT.ziti_version
+- uid: Hanzo ZT.zt_version
+  commentId: T:Hanzo ZT.zt_version
   parent: Hanzo ZT
-  name: ziti_version
-  nameWithType: ziti_version
-  fullName: Hanzo ZT.ziti_version
+  name: zt_version
+  nameWithType: zt_version
+  fullName: Hanzo ZT.zt_version
 - uid: Hanzo ZT.ZitiIdentity
   commentId: T:Hanzo ZT.ZitiIdentity
   parent: Hanzo ZT

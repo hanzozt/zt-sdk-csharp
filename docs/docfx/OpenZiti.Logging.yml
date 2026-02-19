@@ -17,7 +17,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Logging
     path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
     startLine: 24
@@ -53,7 +53,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: SimpleConsoleLogging
     path: Ziti.NET.Standard/src/Hanzo ZT/Logging.cs
     startLine: 25

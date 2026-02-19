@@ -19,7 +19,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: IdMaterial
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 38
@@ -54,7 +54,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Certificate
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 39
@@ -89,7 +89,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Key
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 41
@@ -124,7 +124,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CA
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentityFormat.cs
     startLine: 43

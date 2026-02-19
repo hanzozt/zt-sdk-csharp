@@ -64,7 +64,7 @@ namespace Hanzo ZT.Samples.Kestrel {
     public static class SampleEndpoints {
         public static WebApplication MapSampleEndpoints(this WebApplication app) {
             app.MapGet("/", () => new {
-                service = "kestrel-ziti-sample",
+                service = "kestrel-zt-sample",
                 utc = System.DateTime.UtcNow
             });
 

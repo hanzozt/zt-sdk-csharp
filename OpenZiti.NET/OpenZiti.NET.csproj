@@ -16,14 +16,14 @@
         <PackageLicenseFile>2019_NF TCL EULA.txt</PackageLicenseFile>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://hanzozt.dev/</PackageProjectUrl> 
-        <RepositoryUrl>https://github.com/hanzozt/ziti-sdk-csharp</RepositoryUrl>
+        <RepositoryUrl>https://github.com/hanzozt/zt-sdk-csharp</RepositoryUrl>
         <RootNamespace></RootNamespace>
         <Platforms>AnyCPU;x86;x64;ARM64;ARM</Platforms>
-        <icon>..\ziti-v2.png</icon>
+        <icon>..\zt-v2.png</icon>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <PackageIcon>ziti-v2.png</PackageIcon>
+        <PackageIcon>zt-v2.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
@@ -47,7 +47,7 @@
     </PropertyGroup>
   
     <ItemGroup>
-      <None Include="..\ziti-v2.png" Pack="true" PackagePath="\" />
+      <None Include="..\zt-v2.png" Pack="true" PackagePath="\" />
       <None Include="..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 

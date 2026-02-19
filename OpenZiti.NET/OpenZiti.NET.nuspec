@@ -6,10 +6,10 @@
     <authors>hanzozt.org</authors>
     <owners>Hanzo ZT Maintainers</owners>
     <license type="expression">Apache-2.0</license>
-    <projectUrl>https://github.com/hanzozt/ziti-sdk-csharp</projectUrl>
-    <icon>images\ziti-v2.png</icon>
+    <projectUrl>https://github.com/hanzozt/zt-sdk-csharp</projectUrl>
+    <icon>images\zt-v2.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<summary1>A nuget package which wraps the native ziti C SDK into a package easily consumable from .NET</summary1>-->
+    <!--<summary1>A nuget package which wraps the native zt C SDK into a package easily consumable from .NET</summary1>-->
     <summary>A .NET standard library which wraps the C SDK and is consumable from .NET</summary>
     <copyright>Copyright NetFoundry Inc. All rights reserved.</copyright>
     <tags>.net dotnet dll</tags>
@@ -29,7 +29,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\ziti-v2.png" target="images" />
+    <file src="..\zt-v2.png" target="images" />
     <file src="..\README.md" target="docs\" />
     <file src="bin\x86\Release\net8.0\Hanzo ZT.NET.dll" target="runtimes/win-x86/lib/net8.0" />
     <file src="bin\x86\Release\net8.0\Hanzo ZT.NET.pdb" target="runtimes/win-x86/lib/net8.0" />

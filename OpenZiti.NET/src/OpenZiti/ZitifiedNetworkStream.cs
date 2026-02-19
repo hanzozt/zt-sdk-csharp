@@ -52,58 +52,58 @@ namespace Hanzo ZT {
 
 
         public static ZitifiedNetworkStream NewStream(IntPtr nativeContext, string serviceName, string identity) {
-            var ziti_socket_t = nAPI.Ziti_socket(SocketType.Stream);
-            int connectResult = nAPI.Ziti_connect(ziti_socket_t, nativeContext, serviceName, identity);
+            var zt_socket_t = nAPI.Ziti_socket(SocketType.Stream);
+            int connectResult = nAPI.Ziti_connect(zt_socket_t, nativeContext, serviceName, identity);
 
             int errNo = nAPI.Ziti_last_error();
             if (errNo != 0) {
-                string err = Marshal.PtrToStringUTF8(Native.API.ziti_errorstr(errNo));
+                string err = Marshal.PtrToStringUTF8(Native.API.zt_errorstr(errNo));
                 throw new Exception(err);
             }
 
-            var sockH = new SafeSocketHandle(ziti_socket_t, true);
+            var sockH = new SafeSocketHandle(zt_socket_t, true);
             var socket = new Socket(sockH);
             return new ZitifiedNetworkStream(nativeContext, serviceName, identity, sockH, socket, FileAccess.ReadWrite, true);
         }
 
         public static ZitifiedNetworkStream NewStream(ZitiContext ctx, string serviceName, string identity) {
-            var ziti_socket_t = nAPI.Ziti_socket(SocketType.Stream);
-            int connectResult = nAPI.Ziti_connect(ziti_socket_t, ctx.NativeContext, serviceName, identity);
+            var zt_socket_t = nAPI.Ziti_socket(SocketType.Stream);
+            int connectResult = nAPI.Ziti_connect(zt_socket_t, ctx.NativeContext, serviceName, identity);
 
             int errNo = nAPI.Ziti_last_error();
             if (errNo != 0) {
-                string err = Marshal.PtrToStringUTF8(Native.API.ziti_errorstr(errNo));
+                string err = Marshal.PtrToStringUTF8(Native.API.zt_errorstr(errNo));
                 throw new Exception(err);
             }
 
-            var sockH = new SafeSocketHandle(ziti_socket_t, true);
+            var sockH = new SafeSocketHandle(zt_socket_t, true);
             var socket = new Socket(sockH);
             return new ZitifiedNetworkStream(ctx, serviceName, identity, sockH, socket, FileAccess.ReadWrite, true);
         }
 
         public static ZitifiedNetworkStream NewStreamByIntercept(ZitiContext ctx, string serviceName, string identity) {
-            var ziti_socket_t = nAPI.Ziti_socket(SocketType.Stream);
-            int connectResult = nAPI.Ziti_connect(ziti_socket_t, ctx.NativeContext, serviceName, identity);
+            var zt_socket_t = nAPI.Ziti_socket(SocketType.Stream);
+            int connectResult = nAPI.Ziti_connect(zt_socket_t, ctx.NativeContext, serviceName, identity);
 
             int errNo = nAPI.Ziti_last_error();
             if (errNo != 0) {
-                string err = Marshal.PtrToStringUTF8(Native.API.ziti_errorstr(errNo));
+                string err = Marshal.PtrToStringUTF8(Native.API.zt_errorstr(errNo));
                 throw new Exception(err);
             }
 
-            var sockH = new SafeSocketHandle(ziti_socket_t, true);
+            var sockH = new SafeSocketHandle(zt_socket_t, true);
             var socket = new Socket(sockH);
             return new ZitifiedNetworkStream(ctx, serviceName, identity, sockH, socket, FileAccess.ReadWrite, true);
         }
 
         public SocketsHttpHandler ToSocketsHttpHandler() {
-            var zitifiedHandler = new SocketsHttpHandler {
+            var ztfiedHandler = new SocketsHttpHandler {
                 ConnectCallback = (context, token) => {
                     return new ValueTask<Stream>(this);
                 }
             };
 
-            return zitifiedHandler;
+            return ztfiedHandler;
         }
 
         public override void Close() {

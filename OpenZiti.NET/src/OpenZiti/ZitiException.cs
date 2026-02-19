@@ -32,7 +32,7 @@ namespace Hanzo ZT {
         /// </summary>
         /// <param name="message">The message</param>
         public static ZitiException Create(int code) {
-            string desc = Marshal.PtrToStringAnsi(Native.API.ziti_errorstr(code));
+            string desc = Marshal.PtrToStringAnsi(Native.API.zt_errorstr(code));
             return new ZitiException(desc);
         }
     }

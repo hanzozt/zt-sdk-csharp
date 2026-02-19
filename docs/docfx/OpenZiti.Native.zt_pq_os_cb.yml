@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.Native.zt_pq_os_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_os_cb
+  id: zt_pq_os_cb
+  parent: Hanzo ZT.Native
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: zt_pq_os_cb
+  nameWithType: zt_pq_os_cb
+  fullName: Hanzo ZT.Native.zt_pq_os_cb
+  type: Delegate
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_pq_os_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 50
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public delegate void zt_pq_os_cb(IntPtr zt_context, string id, zt_pr_os_cb response_cb);
+    parameters:
+    - id: zt_context
+      type: IntPtr
+    - id: id
+      type: System.String
+    - id: response_cb
+      type: Hanzo ZT.Native.zt_pr_os_cb
+    content.vb: Public Delegate Sub zt_pq_os_cb(zt_context As IntPtr, id As String, response_cb As zt_pr_os_cb)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
+- uid: IntPtr
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: IntPtr
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Hanzo ZT.Native.zt_pr_os_cb
+  commentId: T:Hanzo ZT.Native.zt_pr_os_cb
+  parent: Hanzo ZT.Native
+  name: zt_pr_os_cb
+  nameWithType: zt_pr_os_cb
+  fullName: Hanzo ZT.Native.zt_pr_os_cb

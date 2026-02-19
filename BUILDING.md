@@ -47,10 +47,10 @@ mkdir runtimes\win-x64\native
 mkdir runtimes\linux-x64\native
 mkdir runtimes\osx-x64\native
 
-echo "dummy" > runtimes\win-x64\native\ziti4dotnet.dll
-echo "dummy" > runtimes\win-x86\native\ziti4dotnet.dll
-echo "dummy" > runtimes\linux-x64\native\libziti4dotnet.so
-echo "dummy" > runtimes\osx-x64\native\libziti4dotnet.dylib
+echo "dummy" > runtimes\win-x64\native\zt4dotnet.dll
+echo "dummy" > runtimes\win-x86\native\zt4dotnet.dll
+echo "dummy" > runtimes\linux-x64\native\libzt4dotnet.so
+echo "dummy" > runtimes\osx-x64\native\libzt4dotnet.dylib
 ```
 
 ### Windows Only
@@ -60,8 +60,8 @@ cd ZitiNativeApiForDotnetCore
 msvc-build.bat
 
 cd ..
-copy /y ZitiNativeApiForDotnetCore\build-win\x64\library\Release\ziti4dotnet.dll runtimes\win-x64\native
-copy /y ZitiNativeApiForDotnetCore\build-win\x86\library\Release\ziti4dotnet.dll runtimes\win-x86\native
+copy /y ZitiNativeApiForDotnetCore\build-win\x64\library\Release\zt4dotnet.dll runtimes\win-x64\native
+copy /y ZitiNativeApiForDotnetCore\build-win\x86\library\Release\zt4dotnet.dll runtimes\win-x86\native
 
 mkdir local-packages
 
@@ -87,8 +87,8 @@ cmake -E make_directory build/macos
 cmake -S . -B build/macos
 cmake --build build/macos --config Release
 
-#move/copy the resultant libziti4dotnet.dylib to 
-#  runtimes\osx-x64\native\libziti4dotnet.dylib
+#move/copy the resultant libzt4dotnet.dylib to 
+#  runtimes\osx-x64\native\libzt4dotnet.dylib
 ```
 
 ### Linux
@@ -98,6 +98,6 @@ cmake -E make_directory build/linux
 cmake -S . -B build/linux
 cmake --build build/linux --config Release
 
-#move/copy the resultant libziti4dotnet.so to
-#  runtimes\linux-x64\native\libziti4dotnet.so
+#move/copy the resultant libzt4dotnet.so to
+#  runtimes\linux-x64\native\libzt4dotnet.so
 ```

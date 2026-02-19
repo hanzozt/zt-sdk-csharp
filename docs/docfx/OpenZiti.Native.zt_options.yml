@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.Native.zt_options
+  commentId: T:Hanzo ZT.Native.zt_options
+  id: zt_options
+  parent: Hanzo ZT.Native
+  children:
+  - Hanzo ZT.Native.zt_options.app_ctx
+  - Hanzo ZT.Native.zt_options.aq_mfa_cb
+  - Hanzo ZT.Native.zt_options.config
+  - Hanzo ZT.Native.zt_options.config_types
+  - Hanzo ZT.Native.zt_options.controller
+  - Hanzo ZT.Native.zt_options.event_cb
+  - Hanzo ZT.Native.zt_options.events
+  - Hanzo ZT.Native.zt_options.metrics_type
+  - Hanzo ZT.Native.zt_options.pq_domain_cb
+  - Hanzo ZT.Native.zt_options.pq_mac_cb
+  - Hanzo ZT.Native.zt_options.pq_os_cb
+  - Hanzo ZT.Native.zt_options.pq_process_cb
+  - Hanzo ZT.Native.zt_options.refresh_interval
+  - Hanzo ZT.Native.zt_options.router_keepalive
+  - Hanzo ZT.Native.zt_options.tls
+  langs:
+  - csharp
+  - vb
+  name: zt_options
+  nameWithType: zt_options
+  fullName: Hanzo ZT.Native.zt_options
+  type: Struct
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_options
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 230
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public struct zt_options
+    content.vb: Public Structure zt_options
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Hanzo ZT.Native.zt_options.config
+  commentId: F:Hanzo ZT.Native.zt_options.config
+  id: config
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: config
+  nameWithType: zt_options.config
+  fullName: Hanzo ZT.Native.zt_options.config
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: config
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 233
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public string config
+    return:
+      type: System.String
+    content.vb: Public config As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.controller
+  commentId: F:Hanzo ZT.Native.zt_options.controller
+  id: controller
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: controller
+  nameWithType: zt_options.controller
+  fullName: Hanzo ZT.Native.zt_options.controller
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: controller
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 236
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public string controller
+    return:
+      type: System.String
+    content.vb: Public controller As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.tls
+  commentId: F:Hanzo ZT.Native.zt_options.tls
+  id: tls
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: tls
+  nameWithType: zt_options.tls
+  fullName: Hanzo ZT.Native.zt_options.tls
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: tls
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 238
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public IntPtr tls
+    return:
+      type: IntPtr
+    content.vb: Public tls As IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.config_types
+  commentId: F:Hanzo ZT.Native.zt_options.config_types
+  id: config_types
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: config_types
+  nameWithType: zt_options.config_types
+  fullName: Hanzo ZT.Native.zt_options.config_types
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: config_types
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 241
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public IntPtr config_types
+    return:
+      type: IntPtr
+    content.vb: Public config_types As IntPtr
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.refresh_interval
+  commentId: F:Hanzo ZT.Native.zt_options.refresh_interval
+  id: refresh_interval
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: refresh_interval
+  nameWithType: zt_options.refresh_interval
+  fullName: Hanzo ZT.Native.zt_options.refresh_interval
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: refresh_interval
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 243
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public Int32 refresh_interval
+    return:
+      type: Int32
+    content.vb: Public refresh_interval As Int32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.metrics_type
+  commentId: F:Hanzo ZT.Native.zt_options.metrics_type
+  id: metrics_type
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: metrics_type
+  nameWithType: zt_options.metrics_type
+  fullName: Hanzo ZT.Native.zt_options.metrics_type
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: metrics_type
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 244
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public RateType metrics_type
+    return:
+      type: Hanzo ZT.RateType
+    content.vb: Public metrics_type As RateType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.router_keepalive
+  commentId: F:Hanzo ZT.Native.zt_options.router_keepalive
+  id: router_keepalive
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: router_keepalive
+  nameWithType: zt_options.router_keepalive
+  fullName: Hanzo ZT.Native.zt_options.router_keepalive
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: router_keepalive
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 246
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public Int32 router_keepalive
+    return:
+      type: Int32
+    content.vb: Public router_keepalive As Int32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.pq_mac_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_mac_cb
+  id: pq_mac_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: pq_mac_cb
+  nameWithType: zt_options.pq_mac_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_mac_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: pq_mac_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 249
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_pq_mac_cb pq_mac_cb
+    return:
+      type: Hanzo ZT.Native.zt_pq_mac_cb
+    content.vb: Public pq_mac_cb As zt_pq_mac_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.pq_os_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_os_cb
+  id: pq_os_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: pq_os_cb
+  nameWithType: zt_options.pq_os_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_os_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: pq_os_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 250
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_pq_os_cb pq_os_cb
+    return:
+      type: Hanzo ZT.Native.zt_pq_os_cb
+    content.vb: Public pq_os_cb As zt_pq_os_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.pq_process_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_process_cb
+  id: pq_process_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: pq_process_cb
+  nameWithType: zt_options.pq_process_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_process_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: pq_process_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 251
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_pq_process_cb pq_process_cb
+    return:
+      type: Hanzo ZT.Native.zt_pq_process_cb
+    content.vb: Public pq_process_cb As zt_pq_process_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.pq_domain_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_domain_cb
+  id: pq_domain_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: pq_domain_cb
+  nameWithType: zt_options.pq_domain_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_domain_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: pq_domain_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 252
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_pq_domain_cb pq_domain_cb
+    return:
+      type: Hanzo ZT.Native.zt_pq_domain_cb
+    content.vb: Public pq_domain_cb As zt_pq_domain_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.aq_mfa_cb
+  commentId: F:Hanzo ZT.Native.zt_options.aq_mfa_cb
+  id: aq_mfa_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: aq_mfa_cb
+  nameWithType: zt_options.aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_options.aq_mfa_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: aq_mfa_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 255
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_aq_mfa_cb aq_mfa_cb
+    return:
+      type: Hanzo ZT.Native.zt_aq_mfa_cb
+    content.vb: Public aq_mfa_cb As zt_aq_mfa_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.app_ctx
+  commentId: F:Hanzo ZT.Native.zt_options.app_ctx
+  id: app_ctx
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: app_ctx
+  nameWithType: zt_options.app_ctx
+  fullName: Hanzo ZT.Native.zt_options.app_ctx
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: app_ctx
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 257
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public GCHandle app_ctx
+    return:
+      type: GCHandle
+    content.vb: Public app_ctx As GCHandle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.events
+  commentId: F:Hanzo ZT.Native.zt_options.events
+  id: events
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: events
+  nameWithType: zt_options.events
+  fullName: Hanzo ZT.Native.zt_options.events
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: events
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 259
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public uint events
+    return:
+      type: System.UInt32
+    content.vb: Public events As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_options.event_cb
+  commentId: F:Hanzo ZT.Native.zt_options.event_cb
+  id: event_cb
+  parent: Hanzo ZT.Native.zt_options
+  langs:
+  - csharp
+  - vb
+  name: event_cb
+  nameWithType: zt_options.event_cb
+  fullName: Hanzo ZT.Native.zt_options.event_cb
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: event_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 261
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public zt_event_cb event_cb
+    return:
+      type: Hanzo ZT.Native.zt_event_cb
+    content.vb: Public event_cb As zt_event_cb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IntPtr
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: IntPtr
+- uid: Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: Int32
+- uid: Hanzo ZT.RateType
+  commentId: T:Hanzo ZT.RateType
+  parent: Hanzo ZT
+  name: RateType
+  nameWithType: RateType
+  fullName: Hanzo ZT.RateType
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: Hanzo ZT.Native.zt_pq_mac_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_mac_cb
+  parent: Hanzo ZT.Native
+  name: zt_pq_mac_cb
+  nameWithType: zt_pq_mac_cb
+  fullName: Hanzo ZT.Native.zt_pq_mac_cb
+- uid: Hanzo ZT.Native.zt_pq_os_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_os_cb
+  parent: Hanzo ZT.Native
+  name: zt_pq_os_cb
+  nameWithType: zt_pq_os_cb
+  fullName: Hanzo ZT.Native.zt_pq_os_cb
+- uid: Hanzo ZT.Native.zt_pq_process_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_process_cb
+  parent: Hanzo ZT.Native
+  name: zt_pq_process_cb
+  nameWithType: zt_pq_process_cb
+  fullName: Hanzo ZT.Native.zt_pq_process_cb
+- uid: Hanzo ZT.Native.zt_pq_domain_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_domain_cb
+  parent: Hanzo ZT.Native
+  name: zt_pq_domain_cb
+  nameWithType: zt_pq_domain_cb
+  fullName: Hanzo ZT.Native.zt_pq_domain_cb
+- uid: Hanzo ZT.Native.zt_aq_mfa_cb
+  commentId: T:Hanzo ZT.Native.zt_aq_mfa_cb
+  parent: Hanzo ZT.Native
+  name: zt_aq_mfa_cb
+  nameWithType: zt_aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_aq_mfa_cb
+- uid: GCHandle
+  isExternal: true
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: GCHandle
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Hanzo ZT.Native.zt_event_cb
+  commentId: T:Hanzo ZT.Native.zt_event_cb
+  parent: Hanzo ZT.Native
+  name: zt_event_cb
+  nameWithType: zt_event_cb
+  fullName: Hanzo ZT.Native.zt_event_cb

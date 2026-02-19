@@ -26,23 +26,23 @@ internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
 
     public ValueTask<IConnectionListener> BindAsync(EndPoint endpoint, CancellationToken cancellationToken = default) {
         if (endpoint is ZitiEndPoint) {
-            var ziti = endpoint as ZitiEndPoint;
+            var zt = endpoint as ZitiEndPoint;
 
             _logger.LogInformation("Initializing Ziti transport");
-            _logger.LogInformation("Identity: {IdentityPath}", ziti.Identity);
-            _logger.LogInformation("Service: {ServiceName}", ziti.ServiceName);
+            _logger.LogInformation("Identity: {IdentityPath}", zt.Identity);
+            _logger.LogInformation("Service: {ServiceName}", zt.ServiceName);
 
             //API.SetLogLevel(logLevel);
-            var zitiSocket = new ZitiSocket(SocketType.Stream);
-            var ctx = new ZitiContext(ziti.Identity);
+            var ztSocket = new ZitiSocket(SocketType.Stream);
+            var ctx = new ZitiContext(zt.Identity);
 
-            API.Bind(zitiSocket, ctx, ziti.ServiceName, ziti.Terminator);
-            _logger.LogInformation("Bound to Ziti service: {ServiceName}", ziti.ServiceName);
+            API.Bind(ztSocket, ctx, zt.ServiceName, zt.Terminator);
+            _logger.LogInformation("Bound to Ziti service: {ServiceName}", zt.ServiceName);
 
-            API.Listen(zitiSocket, 100);
+            API.Listen(ztSocket, 100);
             _logger.LogInformation("Listening for Ziti connections");
 
-            return new ValueTask<IConnectionListener>(new ZitiSocketListener(zitiSocket, ctx, _logger));
+            return new ValueTask<IConnectionListener>(new ZitiSocketListener(ztSocket, ctx, _logger));
         } else {
             // ignore non
             return _fallback.BindAsync(endpoint, cancellationToken);
@@ -50,8 +50,8 @@ internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
     }
 
     private class ZitiSocketListener : IConnectionListener {
-        private readonly ZitiSocket _zitiSocket;
-        private readonly ZitiContext _zitiContext;  // Keep context alive
+        private readonly ZitiSocket _ztSocket;
+        private readonly ZitiContext _ztContext;  // Keep context alive
         private readonly Socket _socket;
         private readonly ILogger _logger;
         private readonly SocketConnectionContextFactory _contextFactory;
@@ -60,10 +60,10 @@ internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
         private readonly Task _acceptLoopTask;
         private bool _disposed;
 
-        public ZitiSocketListener(ZitiSocket zitiSocket, ZitiContext zitiContext, ILogger logger) {
-            _zitiSocket = zitiSocket;
-            _zitiContext = zitiContext;  // Keep reference to prevent GC
-            _socket = zitiSocket.ToSocket();
+        public ZitiSocketListener(ZitiSocket ztSocket, ZitiContext ztContext, ILogger logger) {
+            _ztSocket = ztSocket;
+            _ztContext = ztContext;  // Keep reference to prevent GC
+            _socket = ztSocket.ToSocket();
             _logger = logger;
             _contextFactory = new SocketConnectionContextFactory(new SocketConnectionFactoryOptions(), logger);
 
@@ -110,7 +110,7 @@ internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
 
                         // Socket is readable - accept should not block
                         _logger.LogDebug("Socket ready, calling Accept...");
-                        var client = API.Accept(_zitiSocket, out var caller);
+                        var client = API.Accept(_ztSocket, out var caller);
                         _logger.LogInformation("Accepted connection from Ziti client: {Caller}", caller ?? "unknown");
 
                         // Push to channel for Kestrel to consume asynchronously
@@ -191,7 +191,7 @@ internal class ZitiConnectionListenerFactory : IConnectionListenerFactory {
             _acceptLoopCts.Cancel();
 
             // Close the ZitiSocket to unblock API.Accept
-            _zitiSocket?.Dispose();
+            _ztSocket?.Dispose();
 
             return ValueTask.CompletedTask;
         }

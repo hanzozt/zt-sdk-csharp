@@ -22,7 +22,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EnrollmentResult
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 26
@@ -57,7 +57,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Context
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 28
@@ -88,7 +88,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Status
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 29
@@ -119,7 +119,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Message
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 30
@@ -154,7 +154,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Json
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 31
@@ -189,7 +189,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiIdentity
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 36
@@ -224,7 +224,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiEnrollment.cs
     startLine: 38

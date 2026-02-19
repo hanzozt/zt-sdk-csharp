@@ -30,7 +30,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiStream
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 12
@@ -67,7 +67,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 23
@@ -103,7 +103,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CanRead
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 31
@@ -142,7 +142,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CanSeek
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 40
@@ -181,7 +181,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CanWrite
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 49
@@ -220,7 +220,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Length
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 58
@@ -259,7 +259,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Position
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 68
@@ -298,7 +298,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Flush
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 80
@@ -332,7 +332,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Read
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 98
@@ -382,7 +382,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Seek
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 161
@@ -423,7 +423,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: SetLength
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 168
@@ -460,7 +460,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Write
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 182
@@ -507,7 +507,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Dispose
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 225
@@ -545,7 +545,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: PumpAsync
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 235
@@ -590,7 +590,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: PumpAsync
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStream.cs
     startLine: 250

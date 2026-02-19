@@ -15,29 +15,29 @@ set CODE_ROOT=%~dp0
 set NATIVE_ROOT=%CODE_ROOT%ZitiNativeApiForDotnetCore
 set LOCAL_NUGET_PACKAGES=%CODE_ROOT%local-nuget-packages
 
-del /s %NATIVE_ROOT%\build-win\win32\library\Debug\ziti4dotnet.*
-del /s %NATIVE_ROOT%\build-win\win64\library\Debug\ziti4dotnet.*
-del /s %NATIVE_ROOT%\build-win\win32\library\Release\ziti4dotnet.*
-del /s %NATIVE_ROOT%\build-win\win64\library\Release\ziti4dotnet.*
+del /s %NATIVE_ROOT%\build-win\win32\library\Debug\zt4dotnet.*
+del /s %NATIVE_ROOT%\build-win\win64\library\Debug\zt4dotnet.*
+del /s %NATIVE_ROOT%\build-win\win32\library\Release\zt4dotnet.*
+del /s %NATIVE_ROOT%\build-win\win64\library\Release\zt4dotnet.*
 echo REMOVED OLD DLLS
 
 call %NATIVE_ROOT%\msvc-build.bat
 
 del /s /q %CODE_ROOT%runtimes
 
-call :make_dummy %CODE_ROOT%runtimes\osx-x64\native\libziti4dotnet.dylib
-call :make_dummy %CODE_ROOT%runtimes\ios-arm64\native\libziti4dotnet.dylib
-call :make_dummy %CODE_ROOT%runtimes\osx-arm64\native\libziti4dotnet.dylib
+call :make_dummy %CODE_ROOT%runtimes\osx-x64\native\libzt4dotnet.dylib
+call :make_dummy %CODE_ROOT%runtimes\ios-arm64\native\libzt4dotnet.dylib
+call :make_dummy %CODE_ROOT%runtimes\osx-arm64\native\libzt4dotnet.dylib
 
-call :make_dummy %CODE_ROOT%runtimes\linux-arm64\native\libziti4dotnet.so
-call :make_dummy %CODE_ROOT%runtimes\linux-arm\native\libziti4dotnet.so
-call :make_dummy %CODE_ROOT%runtimes\linux-x64\native\libziti4dotnet.so
+call :make_dummy %CODE_ROOT%runtimes\linux-arm64\native\libzt4dotnet.so
+call :make_dummy %CODE_ROOT%runtimes\linux-arm\native\libzt4dotnet.so
+call :make_dummy %CODE_ROOT%runtimes\linux-x64\native\libzt4dotnet.so
 
-call :make_dummy %CODE_ROOT%runtimes\win-x86\native\ziti4dotnet.dll
-call :make_dummy %CODE_ROOT%runtimes\win-x64\native\ziti4dotnet.dll
+call :make_dummy %CODE_ROOT%runtimes\win-x86\native\zt4dotnet.dll
+call :make_dummy %CODE_ROOT%runtimes\win-x64\native\zt4dotnet.dll
 
-copy /y %NATIVE_ROOT%\build-win\win32\library\Debug\ziti4dotnet.* %CODE_ROOT%runtimes\win-x86\native
-copy /y %NATIVE_ROOT%\build-win\win64\library\Debug\ziti4dotnet.* %CODE_ROOT%runtimes\win-x64\native
+copy /y %NATIVE_ROOT%\build-win\win32\library\Debug\zt4dotnet.* %CODE_ROOT%runtimes\win-x86\native
+copy /y %NATIVE_ROOT%\build-win\win64\library\Debug\zt4dotnet.* %CODE_ROOT%runtimes\win-x64\native
  
 if not exist %LOCAL_NUGET_PACKAGES% mkdir %LOCAL_NUGET_PACKAGES%
 

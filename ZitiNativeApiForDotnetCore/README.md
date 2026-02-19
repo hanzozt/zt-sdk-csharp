@@ -1,7 +1,7 @@
 # Native NuGet Package
 
 As mentioned in [the base README](../README.md), this project is responsible for creating a nuget package which exposes 
-the [ziti-sdk-c](https://github.com/hanzozt/ziti-sdk-c) functions in an easy-to-consume and cross-architecture way.
+the [zt-sdk-c](https://github.com/hanzozt/zt-sdk-c) functions in an easy-to-consume and cross-architecture way.
 
 This project does nothing but build the C SDK libraries on the various platforms using [cmake](https://cmake.org/)
 and then it produces a [NuGet package](https://www.nuget.org/packages/Hanzo ZT.NET.native) which is expected to be included as dependency in the main,
@@ -11,7 +11,7 @@ and then it produces a [NuGet package](https://www.nuget.org/packages/Hanzo ZT.N
 
 Generally, this project is only built from GitHub via the [native-nuget-publish.yml](../.github/actions/native-nuget-publish.yml) action.
 
-The action will only push to NuGet when it's run from the organization/project of `hanzozt/ziti-sdk-csharp` and does
+The action will only push to NuGet when it's run from the organization/project of `hanzozt/zt-sdk-csharp` and does
 not verify the branch is main.  It's designed to be runnable from any branch at this time. 
 
 This project also layers on helper functions as needed. Often these additional functions will be to do things
@@ -46,11 +46,11 @@ cmake --build build --config Release
 
 When the build completes (shown here using the Windows x64 preset) you'll have two libraries compiled at:
 ```
-%TARGETDIR%/library/Debug/ziti4dotnet.dll
-%TARGETDIR%/library/Release/ziti4dotnet.dll
+%TARGETDIR%/library/Debug/zt4dotnet.dll
+%TARGETDIR%/library/Release/zt4dotnet.dll
 ```
 
-(Every arch is different. Linux produces "libziti4dotnet.so", macOS produces "libziti4dotnet.dylib".)
+(Every arch is different. Linux produces "libzt4dotnet.so", macOS produces "libzt4dotnet.dylib".)
 
 Inspect the [native-nuget-publish.yml](../.github/actions/native-nuget-publish.yml) action to see the exact set of steps
 performed, but really you will probably (hopefully) never need to learn how to build this project.
@@ -68,21 +68,21 @@ the action is invoked (manually).
 
 * change CMakeLists.txt: `set(ZITI_SDK_C_BRANCH_DEFAULT "0.35.0")`
 * configure cmake: `cmake --preset win64 .`
-* add the files: `git add CMakeLists.txt library/ziti.def`
+* add the files: `git add CMakeLists.txt library/zt.def`
 * push to GitHub
-* manually trigger [the GitHub Workflow](https://github.com/hanzozt/ziti-sdk-csharp/actions/workflows/native-nuget-publish.yml)
+* manually trigger [the GitHub Workflow](https://github.com/hanzozt/zt-sdk-csharp/actions/workflows/native-nuget-publish.yml)
   with the new SDK version.
 
 If you're updating the C SDK and it's not a major change, you probably can just update the the version and it'll
 be fine. Sometimes new functions show up which are exported from the C SDK but when you try to use them the functions
 will not be available inside the dotnet runtime. This is _usually_ because the function was not exported
-correctly when compiled. This is where the [ziti.def](./library/ziti.def) file becomes important.
+correctly when compiled. This is where the [zt.def](./library/zt.def) file becomes important.
 
 NOTE!
-> When upgrading the C SDK Library, you really should verify ziti.def and ZitiStatus.cs are correct.
+> When upgrading the C SDK Library, you really should verify zt.def and ZitiStatus.cs are correct.
 
-### ziti.def
-If you explore the CMakeLists.txt file you will see there is a ziti.def file referenced. This file is **REQUIRED** for 
+### zt.def
+If you explore the CMakeLists.txt file you will see there is a zt.def file referenced. This file is **REQUIRED** for 
 Windows library builds. It is also imperative that it is kept up to date. A 
 [.bat file named defgen.bat](./defgen.bat) exists in this folder which _should_ create this def file properly. As of
 October 2023, the process was added as a part of the cmake configuration step. It will use `FetchContent_Declare` 
@@ -98,7 +98,7 @@ Example command to run defgen during the `cmake` configuration step:
 cmake --preset win64 -S . -DZITI_RUN_DEFGEN=yes
 ```
 
-After it runs, defgen leaves behind three extraneous files: ziti-exports.txt, ziti.dll, ziti.exp. It leaves these 
+After it runs, defgen leaves behind three extraneous files: zt-exports.txt, zt.dll, zt.exp. It leaves these 
 files behind in case you need to do deubgging on the process but these files should not be checked in
 (they are .gitignore'ed).
 
@@ -107,23 +107,23 @@ You can see the delta between what was checked in and what defgen generated with
 
 1. obviously, checkout the repo, build it and successfully run defgen.
 1. copy the output file
-   > copy library\ziti.def library\ziti.def.new
+   > copy library\zt.def library\zt.def.new
 1. revert the new file
-   > git checkout library/ziti.def
+   > git checkout library/zt.def
 1. trim out everything after the first space - here i'm going to use `cut` but do it however you want
-   > cut -d " " library/ziti.def -f1 > orig.txt
-   > cut -d " " library/ziti.def.new -f1 > new.txt
+   > cut -d " " library/zt.def -f1 > orig.txt
+   > cut -d " " library/zt.def.new -f1 > new.txt
 1. diff the orig.txt and new.txt - here i'll use the `diff` tool but do it however you want
     diff orig.txt new.txt
     39a40,41
     > Ziti_check_socket
     > Ziti_close
     713a716
-    > ziti_service_has_permission
+    > zt_service_has_permission
 
 #### "No function found"
 
-If you are getting errors indicating a function is not found, it's likely due to the ziti.def not being updated properly or
+If you are getting errors indicating a function is not found, it's likely due to the zt.def not being updated properly or
 it's not included in the cmake file. Follow the steps above.
 
 ### ZitiStatus.cs

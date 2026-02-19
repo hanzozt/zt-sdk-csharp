@@ -2,8 +2,8 @@
 
 This project contains sample applications that will work with an Hanzo ZT overlay.
 
-You will probably want to have the `ziti` CLI available as it's handy to use for exploring the Hanzo ZT configuration.
-If you do not have the `ziti` CLI, you can quickly install it by running a single 
+You will probably want to have the `zt` CLI available as it's handy to use for exploring the Hanzo ZT configuration.
+If you do not have the `zt` CLI, you can quickly install it by running a single 
 powershell command:
 ```
 iex(iwr -Uri https://get.hanzozt.dev/quick/getZiti.ps1)

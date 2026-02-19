@@ -49,23 +49,23 @@ namespace Hanzo ZT {
             int rc = nAPI.Ziti_load_context(out NativeContext, Encoding.UTF8.GetBytes(identityFile));
             if (rc != 0) {
                 var err = API.LastError();
-                string s = Marshal.PtrToStringAnsi(nAPI.ziti_errorstr(err));
+                string s = Marshal.PtrToStringAnsi(nAPI.zt_errorstr(err));
                 throw new ZitiException(s);
             }
         }
 
         /*
         public ZitifiedNetworkStream NewStream(string serviceName, string identity) {
-            var ziti_socket_t = ZitiLibO.Ziti_socket(SocketType.Stream);
-            int connectResult = ZitiLibO.Ziti_connect(ziti_socket_t, NativeContext, serviceName, identity);
+            var zt_socket_t = ZitiLibO.Ziti_socket(SocketType.Stream);
+            int connectResult = ZitiLibO.Ziti_connect(zt_socket_t, NativeContext, serviceName, identity);
 
             int errNo = ZitiLibO.Ziti_last_error();
             if (errNo != 0) {
-                string err = Marshal.PtrToStringUTF8(Native.API.ziti_errorstr(errNo));
+                string err = Marshal.PtrToStringUTF8(Native.API.zt_errorstr(errNo));
                 throw new Exception(err);
             }
 
-            var sockH = new SafeSocketHandle(ziti_socket_t, true);
+            var sockH = new SafeSocketHandle(zt_socket_t, true);
             var socket = new Socket(sockH);
             return new ZitifiedNetworkStream(this, serviceName, identity, sockH, socket, FileAccess.ReadWrite, true);
         }*/

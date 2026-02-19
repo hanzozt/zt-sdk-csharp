@@ -27,7 +27,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiConnection
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 27
@@ -64,7 +64,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ConnectionContext
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 34
@@ -101,7 +101,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Service
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 53
@@ -136,7 +136,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 73
@@ -178,7 +178,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Finalize
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 83
@@ -208,7 +208,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Dial
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 91
@@ -243,7 +243,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Write
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 101
@@ -285,7 +285,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Write
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 106
@@ -329,7 +329,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Accept
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 112
@@ -366,7 +366,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Close
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 119
@@ -396,7 +396,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: MarkAsStream
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 194
@@ -426,7 +426,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CheckConnection
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiConnection.cs
     startLine: 236

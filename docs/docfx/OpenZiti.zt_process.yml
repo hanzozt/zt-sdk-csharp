@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.zt_process
+  commentId: T:Hanzo ZT.zt_process
+  id: zt_process
+  parent: Hanzo ZT
+  children:
+  - Hanzo ZT.zt_process.path
+  langs:
+  - csharp
+  - vb
+  name: zt_process
+  nameWithType: zt_process
+  fullName: Hanzo ZT.zt_process
+  type: Struct
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_process
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 238
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public struct zt_process
+    content.vb: Public Structure zt_process
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Hanzo ZT.zt_process.path
+  commentId: F:Hanzo ZT.zt_process.path
+  id: path
+  parent: Hanzo ZT.zt_process
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: zt_process.path
+  fullName: Hanzo ZT.zt_process.path
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: path
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 239
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public string path
+    return:
+      type: System.String
+    content.vb: Public path As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

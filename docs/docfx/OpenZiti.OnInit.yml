@@ -16,7 +16,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: OnInit
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 22
@@ -24,15 +24,15 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT
   syntax:
-    content: public delegate void OnInit(ZitiContext zitiContext, ZitiStatus status, object initContext);
+    content: public delegate void OnInit(ZitiContext ztContext, ZitiStatus status, object initContext);
     parameters:
-    - id: zitiContext
+    - id: ztContext
       type: Hanzo ZT.ZitiContext
     - id: status
       type: Hanzo ZT.ZitiStatus
     - id: initContext
       type: System.Object
-    content.vb: Public Delegate Sub OnInit(zitiContext As ZitiContext, status As ZitiStatus, initContext As Object)
+    content.vb: Public Delegate Sub OnInit(ztContext As ZitiContext, status As ZitiStatus, initContext As Object)
   modifiers.csharp:
   - public
   - delegate

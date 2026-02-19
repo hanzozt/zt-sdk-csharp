@@ -20,7 +20,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: RouterEventType
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 207
@@ -51,7 +51,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EdgeRouterConnected
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 208
@@ -83,7 +83,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EdgeRouterDisconnected
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 209
@@ -115,7 +115,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EdgeRouterRemoved
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 210
@@ -147,7 +147,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EdgeRouterUnavailable
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 211

@@ -16,7 +16,7 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
   version: 0.25.32
-host: demo.ziti.dev
+host: demo.zt.dev
 basePath: /edge/management/v1
 paths:
   /:
@@ -13389,7 +13389,7 @@ definitions:
         x-nullable: false
       name:
         type: string
-        example: default.ziti-tunneler-server.v1
+        example: default.zt-tunneler-server.v1
       tags:
         $ref: '#/definitions/tags'
     example:
@@ -13436,7 +13436,7 @@ definitions:
         additionalProperties: true
       name:
         type: string
-        example: default.ziti-tunneler-server.v1
+        example: default.zt-tunneler-server.v1
       tags:
         $ref: '#/definitions/tags'
     example:
@@ -13452,7 +13452,7 @@ definitions:
     properties:
       name:
         type: string
-        example: ziti-tunneler-server.v1
+        example: zt-tunneler-server.v1
       schema:
         description: A JSON schema to enforce configuration against
         type: object
@@ -13471,7 +13471,7 @@ definitions:
       properties:
         name:
           type: string
-          example: ziti-tunneler-server.v1
+          example: zt-tunneler-server.v1
         schema:
           description: A JSON schema to enforce configuration against
           type: object
@@ -13487,7 +13487,7 @@ definitions:
     properties:
       name:
         type: string
-        example: ziti-tunneler-server.v1
+        example: zt-tunneler-server.v1
       schema:
         description: A JSON schema to enforce configuration against
         type: object
@@ -13502,7 +13502,7 @@ definitions:
     properties:
       name:
         type: string
-        example: ziti-tunneler-server.v1
+        example: zt-tunneler-server.v1
       schema:
         description: A JSON schema to enforce configuration against
         type: object
@@ -13529,7 +13529,7 @@ definitions:
         x-nullable: false
       name:
         type: string
-        example: default.ziti-tunneler-server.v1
+        example: default.zt-tunneler-server.v1
       tags:
         $ref: '#/definitions/tags'
     example:
@@ -15223,7 +15223,7 @@ definitions:
   mfaProviders:
     type: string
     enum:
-    - ziti
+    - zt
     - url
   namedRole:
     type: object

@@ -41,7 +41,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiIdentity
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 27
@@ -76,7 +76,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: IsRunning
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 38
@@ -111,7 +111,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Loop
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 54
@@ -146,7 +146,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: InitStats
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 71
@@ -181,7 +181,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: InitStatusError
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 72
@@ -216,7 +216,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: IdentityNameFromController
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 73
@@ -251,7 +251,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ControllerVersion
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 74
@@ -286,7 +286,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ControllerConnected
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 75
@@ -321,7 +321,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ApplicationContext
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 76
@@ -356,7 +356,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: InitOpts
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 77
@@ -391,7 +391,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ConfigFilePath
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 81
@@ -426,7 +426,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ControllerURL
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 87
@@ -461,7 +461,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: .ctor
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 89
@@ -494,7 +494,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: GetService
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 97
@@ -529,7 +529,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NewConnection
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 102
@@ -564,7 +564,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ServiceAvailable
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 122
@@ -603,7 +603,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Run
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 138
@@ -633,7 +633,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Run
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 142
@@ -666,7 +666,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: RunAsync
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 146
@@ -699,7 +699,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: RunAsync
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 150
@@ -735,7 +735,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Configure
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 161
@@ -768,7 +768,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Shutdown
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 183
@@ -798,7 +798,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: InitializeAndRun
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 321
@@ -830,7 +830,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Stop
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 349
@@ -860,7 +860,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: WaitSync
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 353
@@ -890,7 +890,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: WaitForServices
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiIdentity.cs
     startLine: 357

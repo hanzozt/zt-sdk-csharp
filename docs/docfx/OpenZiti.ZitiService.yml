@@ -22,7 +22,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiService
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 27
@@ -59,7 +59,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Name
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 34
@@ -96,7 +96,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Id
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 43
@@ -131,7 +131,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Identity
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 48
@@ -166,7 +166,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Dial
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 80
@@ -208,7 +208,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Listen
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 101
@@ -247,7 +247,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: GetConfiguration
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiService.cs
     startLine: 147

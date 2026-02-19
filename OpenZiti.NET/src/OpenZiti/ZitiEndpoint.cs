@@ -40,10 +40,10 @@ public sealed class ZitiEndPoint : EndPoint {
 
     public override string ToString() {
         if (!string.IsNullOrEmpty(Terminator)) {
-            return $"ziti:{ServiceName}@{Terminator}";
+            return $"zt:{ServiceName}@{Terminator}";
         }
 
-        return $"ziti:{ServiceName}";
+        return $"zt:{ServiceName}";
     }
 
 }

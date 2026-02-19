@@ -16,7 +16,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: OnZitiConnected
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 26

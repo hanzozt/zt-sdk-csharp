@@ -9,30 +9,30 @@ items:
   - Hanzo ZT.Native.NativeHelperFunctions
   - Hanzo ZT.Native.OnUVTimer
   - Hanzo ZT.Native.tls_context
-  - Hanzo ZT.Native.ziti_aq_mfa_cb
-  - Hanzo ZT.Native.ziti_ar_mfa_cb
-  - Hanzo ZT.Native.ziti_ar_mfa_status_cb
-  - Hanzo ZT.Native.ziti_client_cb
-  - Hanzo ZT.Native.ziti_close_cb
-  - Hanzo ZT.Native.ziti_conn_cb
-  - Hanzo ZT.Native.ziti_data_cb
-  - Hanzo ZT.Native.ziti_enroll_cb
-  - Hanzo ZT.Native.ziti_enroll_options
-  - Hanzo ZT.Native.ziti_event_cb
-  - Hanzo ZT.Native.ziti_identity
-  - Hanzo ZT.Native.ziti_listen_cb
-  - Hanzo ZT.Native.ziti_options
-  - Hanzo ZT.Native.ziti_pq_domain_cb
-  - Hanzo ZT.Native.ziti_pq_mac_cb
-  - Hanzo ZT.Native.ziti_pq_os_cb
-  - Hanzo ZT.Native.ziti_pq_process_cb
-  - Hanzo ZT.Native.ziti_pr_domain_cb
-  - Hanzo ZT.Native.ziti_pr_mac_cb
-  - Hanzo ZT.Native.ziti_pr_os_cb
-  - Hanzo ZT.Native.ziti_pr_process_cb
-  - Hanzo ZT.Native.ziti_service
-  - Hanzo ZT.Native.ziti_service_cb
-  - Hanzo ZT.Native.ziti_write_cb
+  - Hanzo ZT.Native.zt_aq_mfa_cb
+  - Hanzo ZT.Native.zt_ar_mfa_cb
+  - Hanzo ZT.Native.zt_ar_mfa_status_cb
+  - Hanzo ZT.Native.zt_client_cb
+  - Hanzo ZT.Native.zt_close_cb
+  - Hanzo ZT.Native.zt_conn_cb
+  - Hanzo ZT.Native.zt_data_cb
+  - Hanzo ZT.Native.zt_enroll_cb
+  - Hanzo ZT.Native.zt_enroll_options
+  - Hanzo ZT.Native.zt_event_cb
+  - Hanzo ZT.Native.zt_identity
+  - Hanzo ZT.Native.zt_listen_cb
+  - Hanzo ZT.Native.zt_options
+  - Hanzo ZT.Native.zt_pq_domain_cb
+  - Hanzo ZT.Native.zt_pq_mac_cb
+  - Hanzo ZT.Native.zt_pq_os_cb
+  - Hanzo ZT.Native.zt_pq_process_cb
+  - Hanzo ZT.Native.zt_pr_domain_cb
+  - Hanzo ZT.Native.zt_pr_mac_cb
+  - Hanzo ZT.Native.zt_pr_os_cb
+  - Hanzo ZT.Native.zt_pr_process_cb
+  - Hanzo ZT.Native.zt_service
+  - Hanzo ZT.Native.zt_service_cb
+  - Hanzo ZT.Native.zt_write_cb
   langs:
   - csharp
   - vb
@@ -43,137 +43,137 @@ items:
   assemblies:
   - Ziti.NET.Standard
 references:
-- uid: Hanzo ZT.Native.ziti_enroll_options
-  commentId: T:Hanzo ZT.Native.ziti_enroll_options
-  name: ziti_enroll_options
-  nameWithType: ziti_enroll_options
-  fullName: Hanzo ZT.Native.ziti_enroll_options
+- uid: Hanzo ZT.Native.zt_enroll_options
+  commentId: T:Hanzo ZT.Native.zt_enroll_options
+  name: zt_enroll_options
+  nameWithType: zt_enroll_options
+  fullName: Hanzo ZT.Native.zt_enroll_options
 - uid: Hanzo ZT.Native.log_writer
   commentId: T:Hanzo ZT.Native.log_writer
   parent: Hanzo ZT.Native
   name: log_writer
   nameWithType: log_writer
   fullName: Hanzo ZT.Native.log_writer
-- uid: Hanzo ZT.Native.ziti_service_cb
-  commentId: T:Hanzo ZT.Native.ziti_service_cb
+- uid: Hanzo ZT.Native.zt_service_cb
+  commentId: T:Hanzo ZT.Native.zt_service_cb
   parent: Hanzo ZT.Native
-  name: ziti_service_cb
-  nameWithType: ziti_service_cb
-  fullName: Hanzo ZT.Native.ziti_service_cb
-- uid: Hanzo ZT.Native.ziti_conn_cb
-  commentId: T:Hanzo ZT.Native.ziti_conn_cb
+  name: zt_service_cb
+  nameWithType: zt_service_cb
+  fullName: Hanzo ZT.Native.zt_service_cb
+- uid: Hanzo ZT.Native.zt_conn_cb
+  commentId: T:Hanzo ZT.Native.zt_conn_cb
   parent: Hanzo ZT.Native
-  name: ziti_conn_cb
-  nameWithType: ziti_conn_cb
-  fullName: Hanzo ZT.Native.ziti_conn_cb
-- uid: Hanzo ZT.Native.ziti_listen_cb
-  commentId: T:Hanzo ZT.Native.ziti_listen_cb
+  name: zt_conn_cb
+  nameWithType: zt_conn_cb
+  fullName: Hanzo ZT.Native.zt_conn_cb
+- uid: Hanzo ZT.Native.zt_listen_cb
+  commentId: T:Hanzo ZT.Native.zt_listen_cb
   parent: Hanzo ZT.Native
-  name: ziti_listen_cb
-  nameWithType: ziti_listen_cb
-  fullName: Hanzo ZT.Native.ziti_listen_cb
-- uid: Hanzo ZT.Native.ziti_client_cb
-  commentId: T:Hanzo ZT.Native.ziti_client_cb
+  name: zt_listen_cb
+  nameWithType: zt_listen_cb
+  fullName: Hanzo ZT.Native.zt_listen_cb
+- uid: Hanzo ZT.Native.zt_client_cb
+  commentId: T:Hanzo ZT.Native.zt_client_cb
   parent: Hanzo ZT.Native
-  name: ziti_client_cb
-  nameWithType: ziti_client_cb
-  fullName: Hanzo ZT.Native.ziti_client_cb
-- uid: Hanzo ZT.Native.ziti_write_cb
-  commentId: T:Hanzo ZT.Native.ziti_write_cb
+  name: zt_client_cb
+  nameWithType: zt_client_cb
+  fullName: Hanzo ZT.Native.zt_client_cb
+- uid: Hanzo ZT.Native.zt_write_cb
+  commentId: T:Hanzo ZT.Native.zt_write_cb
   parent: Hanzo ZT.Native
-  name: ziti_write_cb
-  nameWithType: ziti_write_cb
-  fullName: Hanzo ZT.Native.ziti_write_cb
-- uid: Hanzo ZT.Native.ziti_enroll_cb
-  commentId: T:Hanzo ZT.Native.ziti_enroll_cb
+  name: zt_write_cb
+  nameWithType: zt_write_cb
+  fullName: Hanzo ZT.Native.zt_write_cb
+- uid: Hanzo ZT.Native.zt_enroll_cb
+  commentId: T:Hanzo ZT.Native.zt_enroll_cb
   parent: Hanzo ZT.Native
-  name: ziti_enroll_cb
-  nameWithType: ziti_enroll_cb
-  fullName: Hanzo ZT.Native.ziti_enroll_cb
-- uid: Hanzo ZT.Native.ziti_data_cb
-  commentId: T:Hanzo ZT.Native.ziti_data_cb
+  name: zt_enroll_cb
+  nameWithType: zt_enroll_cb
+  fullName: Hanzo ZT.Native.zt_enroll_cb
+- uid: Hanzo ZT.Native.zt_data_cb
+  commentId: T:Hanzo ZT.Native.zt_data_cb
   parent: Hanzo ZT.Native
-  name: ziti_data_cb
-  nameWithType: ziti_data_cb
-  fullName: Hanzo ZT.Native.ziti_data_cb
-- uid: Hanzo ZT.Native.ziti_pr_mac_cb
-  commentId: T:Hanzo ZT.Native.ziti_pr_mac_cb
+  name: zt_data_cb
+  nameWithType: zt_data_cb
+  fullName: Hanzo ZT.Native.zt_data_cb
+- uid: Hanzo ZT.Native.zt_pr_mac_cb
+  commentId: T:Hanzo ZT.Native.zt_pr_mac_cb
   parent: Hanzo ZT.Native
-  name: ziti_pr_mac_cb
-  nameWithType: ziti_pr_mac_cb
-  fullName: Hanzo ZT.Native.ziti_pr_mac_cb
-- uid: Hanzo ZT.Native.ziti_pq_mac_cb
-  commentId: T:Hanzo ZT.Native.ziti_pq_mac_cb
+  name: zt_pr_mac_cb
+  nameWithType: zt_pr_mac_cb
+  fullName: Hanzo ZT.Native.zt_pr_mac_cb
+- uid: Hanzo ZT.Native.zt_pq_mac_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_mac_cb
   parent: Hanzo ZT.Native
-  name: ziti_pq_mac_cb
-  nameWithType: ziti_pq_mac_cb
-  fullName: Hanzo ZT.Native.ziti_pq_mac_cb
-- uid: Hanzo ZT.Native.ziti_pr_os_cb
-  commentId: T:Hanzo ZT.Native.ziti_pr_os_cb
+  name: zt_pq_mac_cb
+  nameWithType: zt_pq_mac_cb
+  fullName: Hanzo ZT.Native.zt_pq_mac_cb
+- uid: Hanzo ZT.Native.zt_pr_os_cb
+  commentId: T:Hanzo ZT.Native.zt_pr_os_cb
   parent: Hanzo ZT.Native
-  name: ziti_pr_os_cb
-  nameWithType: ziti_pr_os_cb
-  fullName: Hanzo ZT.Native.ziti_pr_os_cb
-- uid: Hanzo ZT.Native.ziti_pq_os_cb
-  commentId: T:Hanzo ZT.Native.ziti_pq_os_cb
+  name: zt_pr_os_cb
+  nameWithType: zt_pr_os_cb
+  fullName: Hanzo ZT.Native.zt_pr_os_cb
+- uid: Hanzo ZT.Native.zt_pq_os_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_os_cb
   parent: Hanzo ZT.Native
-  name: ziti_pq_os_cb
-  nameWithType: ziti_pq_os_cb
-  fullName: Hanzo ZT.Native.ziti_pq_os_cb
-- uid: Hanzo ZT.Native.ziti_pr_process_cb
-  commentId: T:Hanzo ZT.Native.ziti_pr_process_cb
+  name: zt_pq_os_cb
+  nameWithType: zt_pq_os_cb
+  fullName: Hanzo ZT.Native.zt_pq_os_cb
+- uid: Hanzo ZT.Native.zt_pr_process_cb
+  commentId: T:Hanzo ZT.Native.zt_pr_process_cb
   parent: Hanzo ZT.Native
-  name: ziti_pr_process_cb
-  nameWithType: ziti_pr_process_cb
-  fullName: Hanzo ZT.Native.ziti_pr_process_cb
-- uid: Hanzo ZT.Native.ziti_pq_process_cb
-  commentId: T:Hanzo ZT.Native.ziti_pq_process_cb
+  name: zt_pr_process_cb
+  nameWithType: zt_pr_process_cb
+  fullName: Hanzo ZT.Native.zt_pr_process_cb
+- uid: Hanzo ZT.Native.zt_pq_process_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_process_cb
   parent: Hanzo ZT.Native
-  name: ziti_pq_process_cb
-  nameWithType: ziti_pq_process_cb
-  fullName: Hanzo ZT.Native.ziti_pq_process_cb
-- uid: Hanzo ZT.Native.ziti_pr_domain_cb
-  commentId: T:Hanzo ZT.Native.ziti_pr_domain_cb
+  name: zt_pq_process_cb
+  nameWithType: zt_pq_process_cb
+  fullName: Hanzo ZT.Native.zt_pq_process_cb
+- uid: Hanzo ZT.Native.zt_pr_domain_cb
+  commentId: T:Hanzo ZT.Native.zt_pr_domain_cb
   parent: Hanzo ZT.Native
-  name: ziti_pr_domain_cb
-  nameWithType: ziti_pr_domain_cb
-  fullName: Hanzo ZT.Native.ziti_pr_domain_cb
-- uid: Hanzo ZT.Native.ziti_pq_domain_cb
-  commentId: T:Hanzo ZT.Native.ziti_pq_domain_cb
+  name: zt_pr_domain_cb
+  nameWithType: zt_pr_domain_cb
+  fullName: Hanzo ZT.Native.zt_pr_domain_cb
+- uid: Hanzo ZT.Native.zt_pq_domain_cb
+  commentId: T:Hanzo ZT.Native.zt_pq_domain_cb
   parent: Hanzo ZT.Native
-  name: ziti_pq_domain_cb
-  nameWithType: ziti_pq_domain_cb
-  fullName: Hanzo ZT.Native.ziti_pq_domain_cb
-- uid: Hanzo ZT.Native.ziti_ar_mfa_status_cb
-  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_status_cb
+  name: zt_pq_domain_cb
+  nameWithType: zt_pq_domain_cb
+  fullName: Hanzo ZT.Native.zt_pq_domain_cb
+- uid: Hanzo ZT.Native.zt_ar_mfa_status_cb
+  commentId: T:Hanzo ZT.Native.zt_ar_mfa_status_cb
   parent: Hanzo ZT.Native
-  name: ziti_ar_mfa_status_cb
-  nameWithType: ziti_ar_mfa_status_cb
-  fullName: Hanzo ZT.Native.ziti_ar_mfa_status_cb
-- uid: Hanzo ZT.Native.ziti_ar_mfa_cb
-  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_cb
+  name: zt_ar_mfa_status_cb
+  nameWithType: zt_ar_mfa_status_cb
+  fullName: Hanzo ZT.Native.zt_ar_mfa_status_cb
+- uid: Hanzo ZT.Native.zt_ar_mfa_cb
+  commentId: T:Hanzo ZT.Native.zt_ar_mfa_cb
   parent: Hanzo ZT.Native
-  name: ziti_ar_mfa_cb
-  nameWithType: ziti_ar_mfa_cb
-  fullName: Hanzo ZT.Native.ziti_ar_mfa_cb
-- uid: Hanzo ZT.Native.ziti_aq_mfa_cb
-  commentId: T:Hanzo ZT.Native.ziti_aq_mfa_cb
+  name: zt_ar_mfa_cb
+  nameWithType: zt_ar_mfa_cb
+  fullName: Hanzo ZT.Native.zt_ar_mfa_cb
+- uid: Hanzo ZT.Native.zt_aq_mfa_cb
+  commentId: T:Hanzo ZT.Native.zt_aq_mfa_cb
   parent: Hanzo ZT.Native
-  name: ziti_aq_mfa_cb
-  nameWithType: ziti_aq_mfa_cb
-  fullName: Hanzo ZT.Native.ziti_aq_mfa_cb
-- uid: Hanzo ZT.Native.ziti_event_cb
-  commentId: T:Hanzo ZT.Native.ziti_event_cb
+  name: zt_aq_mfa_cb
+  nameWithType: zt_aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_aq_mfa_cb
+- uid: Hanzo ZT.Native.zt_event_cb
+  commentId: T:Hanzo ZT.Native.zt_event_cb
   parent: Hanzo ZT.Native
-  name: ziti_event_cb
-  nameWithType: ziti_event_cb
-  fullName: Hanzo ZT.Native.ziti_event_cb
-- uid: Hanzo ZT.Native.ziti_close_cb
-  commentId: T:Hanzo ZT.Native.ziti_close_cb
+  name: zt_event_cb
+  nameWithType: zt_event_cb
+  fullName: Hanzo ZT.Native.zt_event_cb
+- uid: Hanzo ZT.Native.zt_close_cb
+  commentId: T:Hanzo ZT.Native.zt_close_cb
   parent: Hanzo ZT.Native
-  name: ziti_close_cb
-  nameWithType: ziti_close_cb
-  fullName: Hanzo ZT.Native.ziti_close_cb
+  name: zt_close_cb
+  nameWithType: zt_close_cb
+  fullName: Hanzo ZT.Native.zt_close_cb
 - uid: Hanzo ZT.Native.OnUVTimer
   commentId: T:Hanzo ZT.Native.OnUVTimer
   parent: Hanzo ZT.Native
@@ -185,21 +185,21 @@ references:
   name: API
   nameWithType: API
   fullName: Hanzo ZT.Native.API
-- uid: Hanzo ZT.Native.ziti_identity
-  commentId: T:Hanzo ZT.Native.ziti_identity
-  name: ziti_identity
-  nameWithType: ziti_identity
-  fullName: Hanzo ZT.Native.ziti_identity
-- uid: Hanzo ZT.Native.ziti_options
-  commentId: T:Hanzo ZT.Native.ziti_options
-  name: ziti_options
-  nameWithType: ziti_options
-  fullName: Hanzo ZT.Native.ziti_options
-- uid: Hanzo ZT.Native.ziti_service
-  commentId: T:Hanzo ZT.Native.ziti_service
-  name: ziti_service
-  nameWithType: ziti_service
-  fullName: Hanzo ZT.Native.ziti_service
+- uid: Hanzo ZT.Native.zt_identity
+  commentId: T:Hanzo ZT.Native.zt_identity
+  name: zt_identity
+  nameWithType: zt_identity
+  fullName: Hanzo ZT.Native.zt_identity
+- uid: Hanzo ZT.Native.zt_options
+  commentId: T:Hanzo ZT.Native.zt_options
+  name: zt_options
+  nameWithType: zt_options
+  fullName: Hanzo ZT.Native.zt_options
+- uid: Hanzo ZT.Native.zt_service
+  commentId: T:Hanzo ZT.Native.zt_service
+  name: zt_service
+  nameWithType: zt_service
+  fullName: Hanzo ZT.Native.zt_service
 - uid: Hanzo ZT.Native.tls_context
   commentId: T:Hanzo ZT.Native.tls_context
   name: tls_context

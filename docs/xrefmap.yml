@@ -344,318 +344,318 @@ references:
   commentId: Overload:Hanzo ZT.Native.API.z4d_uv_run
   fullName: Hanzo ZT.Native.API.z4d_uv_run
   nameWithType: API.z4d_uv_run
-- uid: Hanzo ZT.Native.API.z4d_ziti_close(System.IntPtr)
-  name: z4d_ziti_close(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_z4d_ziti_close_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.z4d_ziti_close(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.z4d_ziti_close(System.IntPtr)
-  nameWithType: API.z4d_ziti_close(IntPtr)
-- uid: Hanzo ZT.Native.API.z4d_ziti_close*
-  name: z4d_ziti_close
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_z4d_ziti_close_
-  commentId: Overload:Hanzo ZT.Native.API.z4d_ziti_close
-  fullName: Hanzo ZT.Native.API.z4d_ziti_close
-  nameWithType: API.z4d_ziti_close
-- uid: Hanzo ZT.Native.API.ziti_accept(System.IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  name: ziti_accept(IntPtr, ziti_conn_cb, ziti_data_cb)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_accept_System_IntPtr_Hanzo ZT_Native_ziti_conn_cb_Hanzo ZT_Native_ziti_data_cb_
-  commentId: M:Hanzo ZT.Native.API.ziti_accept(System.IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  fullName: Hanzo ZT.Native.API.ziti_accept(System.IntPtr, Hanzo ZT.Native.ziti_conn_cb, Hanzo ZT.Native.ziti_data_cb)
-  nameWithType: API.ziti_accept(IntPtr, ziti_conn_cb, ziti_data_cb)
-- uid: Hanzo ZT.Native.API.ziti_accept*
-  name: ziti_accept
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_accept_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_accept
-  fullName: Hanzo ZT.Native.API.ziti_accept
-  nameWithType: API.ziti_accept
-- uid: Hanzo ZT.Native.API.ziti_app_ctx(System.IntPtr)
-  name: ziti_app_ctx(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_app_ctx_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_app_ctx(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_app_ctx(System.IntPtr)
-  nameWithType: API.ziti_app_ctx(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_app_ctx*
-  name: ziti_app_ctx
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_app_ctx_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_app_ctx
-  fullName: Hanzo ZT.Native.API.ziti_app_ctx
-  nameWithType: API.ziti_app_ctx
-- uid: Hanzo ZT.Native.API.ziti_close(System.IntPtr,Hanzo ZT.Native.ziti_close_cb)
-  name: ziti_close(IntPtr, ziti_close_cb)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_close_System_IntPtr_Hanzo ZT_Native_ziti_close_cb_
-  commentId: M:Hanzo ZT.Native.API.ziti_close(System.IntPtr,Hanzo ZT.Native.ziti_close_cb)
-  fullName: Hanzo ZT.Native.API.ziti_close(System.IntPtr, Hanzo ZT.Native.ziti_close_cb)
-  nameWithType: API.ziti_close(IntPtr, ziti_close_cb)
-- uid: Hanzo ZT.Native.API.ziti_close*
-  name: ziti_close
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_close_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_close
-  fullName: Hanzo ZT.Native.API.ziti_close
-  nameWithType: API.ziti_close
-- uid: Hanzo ZT.Native.API.ziti_config_to_json(System.IntPtr,System.Byte[],System.Int32,System.Int32@)
-  name: ziti_config_to_json(IntPtr, Byte[], Int32, out Int32)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_config_to_json_System_IntPtr_System_Byte___System_Int32_System_Int32__
-  commentId: M:Hanzo ZT.Native.API.ziti_config_to_json(System.IntPtr,System.Byte[],System.Int32,System.Int32@)
-  name.vb: ziti_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
-  fullName: Hanzo ZT.Native.API.ziti_config_to_json(System.IntPtr, System.Byte[], System.Int32, out System.Int32)
-  fullName.vb: Hanzo ZT.Native.API.ziti_config_to_json(System.IntPtr, System.Byte(), System.Int32, ByRef System.Int32)
-  nameWithType: API.ziti_config_to_json(IntPtr, Byte[], Int32, out Int32)
-  nameWithType.vb: API.ziti_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
-- uid: Hanzo ZT.Native.API.ziti_config_to_json*
-  name: ziti_config_to_json
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_config_to_json_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_config_to_json
-  fullName: Hanzo ZT.Native.API.ziti_config_to_json
-  nameWithType: API.ziti_config_to_json
-- uid: Hanzo ZT.Native.API.ziti_conn_init(System.IntPtr,System.IntPtr@,System.IntPtr)
-  name: ziti_conn_init(IntPtr, out IntPtr, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_conn_init_System_IntPtr_System_IntPtr__System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_conn_init(System.IntPtr,System.IntPtr@,System.IntPtr)
-  name.vb: ziti_conn_init(IntPtr, ByRef IntPtr, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_conn_init(System.IntPtr, out System.IntPtr, System.IntPtr)
-  fullName.vb: Hanzo ZT.Native.API.ziti_conn_init(System.IntPtr, ByRef System.IntPtr, System.IntPtr)
-  nameWithType: API.ziti_conn_init(IntPtr, out IntPtr, IntPtr)
-  nameWithType.vb: API.ziti_conn_init(IntPtr, ByRef IntPtr, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_conn_init*
-  name: ziti_conn_init
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_conn_init_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_conn_init
-  fullName: Hanzo ZT.Native.API.ziti_conn_init
-  nameWithType: API.ziti_conn_init
-- uid: Hanzo ZT.Native.API.ziti_ctx_free(System.IntPtr)
-  name: ziti_ctx_free(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_ctx_free_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_ctx_free(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_ctx_free(System.IntPtr)
-  nameWithType: API.ziti_ctx_free(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_ctx_free*
-  name: ziti_ctx_free
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_ctx_free_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_ctx_free
-  fullName: Hanzo ZT.Native.API.ziti_ctx_free
-  nameWithType: API.ziti_ctx_free
-- uid: Hanzo ZT.Native.API.ziti_dial(System.IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  name: ziti_dial(IntPtr, String, ziti_conn_cb, ziti_data_cb)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_dial_System_IntPtr_System_String_Hanzo ZT_Native_ziti_conn_cb_Hanzo ZT_Native_ziti_data_cb_
-  commentId: M:Hanzo ZT.Native.API.ziti_dial(System.IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  fullName: Hanzo ZT.Native.API.ziti_dial(System.IntPtr, System.String, Hanzo ZT.Native.ziti_conn_cb, Hanzo ZT.Native.ziti_data_cb)
-  nameWithType: API.ziti_dial(IntPtr, String, ziti_conn_cb, ziti_data_cb)
-- uid: Hanzo ZT.Native.API.ziti_dial*
-  name: ziti_dial
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_dial_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_dial
-  fullName: Hanzo ZT.Native.API.ziti_dial
-  nameWithType: API.ziti_dial
-- uid: Hanzo ZT.Native.API.ziti_enroll(System.IntPtr,System.IntPtr,Hanzo ZT.Native.ziti_enroll_cb,System.Runtime.InteropServices.GCHandle)
-  name: ziti_enroll(IntPtr, IntPtr, ziti_enroll_cb, GCHandle)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_enroll_System_IntPtr_System_IntPtr_Hanzo ZT_Native_ziti_enroll_cb_System_Runtime_InteropServices_GCHandle_
-  commentId: M:Hanzo ZT.Native.API.ziti_enroll(System.IntPtr,System.IntPtr,Hanzo ZT.Native.ziti_enroll_cb,System.Runtime.InteropServices.GCHandle)
-  fullName: Hanzo ZT.Native.API.ziti_enroll(System.IntPtr, System.IntPtr, Hanzo ZT.Native.ziti_enroll_cb, System.Runtime.InteropServices.GCHandle)
-  nameWithType: API.ziti_enroll(IntPtr, IntPtr, ziti_enroll_cb, GCHandle)
-- uid: Hanzo ZT.Native.API.ziti_enroll*
-  name: ziti_enroll
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_enroll_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_enroll
-  fullName: Hanzo ZT.Native.API.ziti_enroll
-  nameWithType: API.ziti_enroll
-- uid: Hanzo ZT.Native.API.ziti_get_controller(System.IntPtr)
-  name: ziti_get_controller(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_controller_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_get_controller(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_controller(System.IntPtr)
-  nameWithType: API.ziti_get_controller(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_get_controller*
-  name: ziti_get_controller
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_controller_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_controller
-  fullName: Hanzo ZT.Native.API.ziti_get_controller
-  nameWithType: API.ziti_get_controller
-- uid: Hanzo ZT.Native.API.ziti_get_controller_version(System.IntPtr)
-  name: ziti_get_controller_version(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_controller_version_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_get_controller_version(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_controller_version(System.IntPtr)
-  nameWithType: API.ziti_get_controller_version(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_get_controller_version*
-  name: ziti_get_controller_version
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_controller_version_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_controller_version
-  fullName: Hanzo ZT.Native.API.ziti_get_controller_version
-  nameWithType: API.ziti_get_controller_version
-- uid: Hanzo ZT.Native.API.ziti_get_identity(System.IntPtr)
-  name: ziti_get_identity(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_identity_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_get_identity(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_identity(System.IntPtr)
-  nameWithType: API.ziti_get_identity(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_get_identity*
-  name: ziti_get_identity
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_identity_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_identity
-  fullName: Hanzo ZT.Native.API.ziti_get_identity
-  nameWithType: API.ziti_get_identity
-- uid: Hanzo ZT.Native.API.ziti_get_transfer_rates(System.IntPtr,System.Double@,System.Double@)
-  name: ziti_get_transfer_rates(IntPtr, ref Double, ref Double)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_transfer_rates_System_IntPtr_System_Double__System_Double__
-  commentId: M:Hanzo ZT.Native.API.ziti_get_transfer_rates(System.IntPtr,System.Double@,System.Double@)
-  name.vb: ziti_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
-  fullName: Hanzo ZT.Native.API.ziti_get_transfer_rates(System.IntPtr, ref System.Double, ref System.Double)
-  fullName.vb: Hanzo ZT.Native.API.ziti_get_transfer_rates(System.IntPtr, ByRef System.Double, ByRef System.Double)
-  nameWithType: API.ziti_get_transfer_rates(IntPtr, ref Double, ref Double)
-  nameWithType.vb: API.ziti_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
-- uid: Hanzo ZT.Native.API.ziti_get_transfer_rates*
-  name: ziti_get_transfer_rates
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_transfer_rates_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_transfer_rates
-  fullName: Hanzo ZT.Native.API.ziti_get_transfer_rates
-  nameWithType: API.ziti_get_transfer_rates
-- uid: Hanzo ZT.Native.API.ziti_get_version
-  name: ziti_get_version()
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_version
-  commentId: M:Hanzo ZT.Native.API.ziti_get_version
-  fullName: Hanzo ZT.Native.API.ziti_get_version()
-  nameWithType: API.ziti_get_version()
-- uid: Hanzo ZT.Native.API.ziti_get_version*
-  name: ziti_get_version
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_get_version_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_version
-  fullName: Hanzo ZT.Native.API.ziti_get_version
-  nameWithType: API.ziti_get_version
-- uid: Hanzo ZT.Native.API.ziti_init(System.String,System.IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,System.IntPtr)
-  name: ziti_init(String, IntPtr, ziti_event_cb, Int32, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_init_System_String_System_IntPtr_Hanzo ZT_Native_ziti_event_cb_System_Int32_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_init(System.String,System.IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_init(System.String, System.IntPtr, Hanzo ZT.Native.ziti_event_cb, System.Int32, System.IntPtr)
-  nameWithType: API.ziti_init(String, IntPtr, ziti_event_cb, Int32, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_init*
-  name: ziti_init
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_init_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_init
-  fullName: Hanzo ZT.Native.API.ziti_init
-  nameWithType: API.ziti_init
-- uid: Hanzo ZT.Native.API.ziti_init_opts(System.IntPtr,System.IntPtr)
-  name: ziti_init_opts(IntPtr, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_init_opts_System_IntPtr_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_init_opts(System.IntPtr,System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_init_opts(System.IntPtr, System.IntPtr)
-  nameWithType: API.ziti_init_opts(IntPtr, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_init_opts*
-  name: ziti_init_opts
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_init_opts_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_init_opts
-  fullName: Hanzo ZT.Native.API.ziti_init_opts
-  nameWithType: API.ziti_init_opts
-- uid: Hanzo ZT.Native.API.ziti_listen(System.IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
-  name: ziti_listen(IntPtr, String, ziti_listen_cb, ziti_client_cb)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_listen_System_IntPtr_System_String_Hanzo ZT_Native_ziti_listen_cb_Hanzo ZT_Native_ziti_client_cb_
-  commentId: M:Hanzo ZT.Native.API.ziti_listen(System.IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
-  fullName: Hanzo ZT.Native.API.ziti_listen(System.IntPtr, System.String, Hanzo ZT.Native.ziti_listen_cb, Hanzo ZT.Native.ziti_client_cb)
-  nameWithType: API.ziti_listen(IntPtr, String, ziti_listen_cb, ziti_client_cb)
-- uid: Hanzo ZT.Native.API.ziti_listen*
-  name: ziti_listen
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_listen_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_listen
-  fullName: Hanzo ZT.Native.API.ziti_listen
-  nameWithType: API.ziti_listen
-- uid: Hanzo ZT.Native.API.ziti_log_init(System.IntPtr,System.Int32,System.IntPtr)
-  name: ziti_log_init(IntPtr, Int32, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_log_init_System_IntPtr_System_Int32_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_log_init(System.IntPtr,System.Int32,System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_log_init(System.IntPtr, System.Int32, System.IntPtr)
-  nameWithType: API.ziti_log_init(IntPtr, Int32, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_log_init*
-  name: ziti_log_init
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_log_init_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_log_init
-  fullName: Hanzo ZT.Native.API.ziti_log_init
-  nameWithType: API.ziti_log_init
-- uid: Hanzo ZT.Native.API.ziti_service_array_get(System.IntPtr,System.Int32)
-  name: ziti_service_array_get(IntPtr, Int32)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_array_get_System_IntPtr_System_Int32_
-  commentId: M:Hanzo ZT.Native.API.ziti_service_array_get(System.IntPtr,System.Int32)
-  fullName: Hanzo ZT.Native.API.ziti_service_array_get(System.IntPtr, System.Int32)
-  nameWithType: API.ziti_service_array_get(IntPtr, Int32)
-- uid: Hanzo ZT.Native.API.ziti_service_array_get*
-  name: ziti_service_array_get
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_array_get_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_array_get
-  fullName: Hanzo ZT.Native.API.ziti_service_array_get
-  nameWithType: API.ziti_service_array_get
-- uid: Hanzo ZT.Native.API.ziti_service_available(System.IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,System.IntPtr)
-  name: ziti_service_available(IntPtr, String, ziti_service_cb, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_available_System_IntPtr_System_String_Hanzo ZT_Native_ziti_service_cb_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_service_available(System.IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_service_available(System.IntPtr, System.String, Hanzo ZT.Native.ziti_service_cb, System.IntPtr)
-  nameWithType: API.ziti_service_available(IntPtr, String, ziti_service_cb, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_service_available*
-  name: ziti_service_available
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_available_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_available
-  fullName: Hanzo ZT.Native.API.ziti_service_available
-  nameWithType: API.ziti_service_available
-- uid: Hanzo ZT.Native.API.ziti_service_get_raw_config(System.IntPtr,System.String)
-  name: ziti_service_get_raw_config(IntPtr, String)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_get_raw_config_System_IntPtr_System_String_
-  commentId: M:Hanzo ZT.Native.API.ziti_service_get_raw_config(System.IntPtr,System.String)
-  fullName: Hanzo ZT.Native.API.ziti_service_get_raw_config(System.IntPtr, System.String)
-  nameWithType: API.ziti_service_get_raw_config(IntPtr, String)
-- uid: Hanzo ZT.Native.API.ziti_service_get_raw_config*
-  name: ziti_service_get_raw_config
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_service_get_raw_config_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_get_raw_config
-  fullName: Hanzo ZT.Native.API.ziti_service_get_raw_config
-  nameWithType: API.ziti_service_get_raw_config
-- uid: Hanzo ZT.Native.API.ziti_set_app_info(System.String,System.String)
-  name: ziti_set_app_info(String, String)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_set_app_info_System_String_System_String_
-  commentId: M:Hanzo ZT.Native.API.ziti_set_app_info(System.String,System.String)
-  fullName: Hanzo ZT.Native.API.ziti_set_app_info(System.String, System.String)
-  nameWithType: API.ziti_set_app_info(String, String)
-- uid: Hanzo ZT.Native.API.ziti_set_app_info*
-  name: ziti_set_app_info
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_set_app_info_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_set_app_info
-  fullName: Hanzo ZT.Native.API.ziti_set_app_info
-  nameWithType: API.ziti_set_app_info
-- uid: Hanzo ZT.Native.API.ziti_set_timeout(System.IntPtr,System.Int32)
-  name: ziti_set_timeout(IntPtr, Int32)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_set_timeout_System_IntPtr_System_Int32_
-  commentId: M:Hanzo ZT.Native.API.ziti_set_timeout(System.IntPtr,System.Int32)
-  fullName: Hanzo ZT.Native.API.ziti_set_timeout(System.IntPtr, System.Int32)
-  nameWithType: API.ziti_set_timeout(IntPtr, Int32)
-- uid: Hanzo ZT.Native.API.ziti_set_timeout*
-  name: ziti_set_timeout
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_set_timeout_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_set_timeout
-  fullName: Hanzo ZT.Native.API.ziti_set_timeout
-  nameWithType: API.ziti_set_timeout
-- uid: Hanzo ZT.Native.API.ziti_shutdown(System.IntPtr)
-  name: ziti_shutdown(IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_shutdown_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_shutdown(System.IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_shutdown(System.IntPtr)
-  nameWithType: API.ziti_shutdown(IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_shutdown*
-  name: ziti_shutdown
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_shutdown_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_shutdown
-  fullName: Hanzo ZT.Native.API.ziti_shutdown
-  nameWithType: API.ziti_shutdown
-- uid: Hanzo ZT.Native.API.ziti_write(System.IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,System.IntPtr)
-  name: ziti_write(IntPtr, Byte[], Int32, ziti_write_cb, IntPtr)
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_write_System_IntPtr_System_Byte___System_Int32_Hanzo ZT_Native_ziti_write_cb_System_IntPtr_
-  commentId: M:Hanzo ZT.Native.API.ziti_write(System.IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,System.IntPtr)
-  name.vb: ziti_write(IntPtr, Byte(), Int32, ziti_write_cb, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_write(System.IntPtr, System.Byte[], System.Int32, Hanzo ZT.Native.ziti_write_cb, System.IntPtr)
-  fullName.vb: Hanzo ZT.Native.API.ziti_write(System.IntPtr, System.Byte(), System.Int32, Hanzo ZT.Native.ziti_write_cb, System.IntPtr)
-  nameWithType: API.ziti_write(IntPtr, Byte[], Int32, ziti_write_cb, IntPtr)
-  nameWithType.vb: API.ziti_write(IntPtr, Byte(), Int32, ziti_write_cb, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_write*
-  name: ziti_write
-  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_ziti_write_
-  commentId: Overload:Hanzo ZT.Native.API.ziti_write
-  fullName: Hanzo ZT.Native.API.ziti_write
-  nameWithType: API.ziti_write
+- uid: Hanzo ZT.Native.API.z4d_zt_close(System.IntPtr)
+  name: z4d_zt_close(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_z4d_zt_close_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.z4d_zt_close(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.z4d_zt_close(System.IntPtr)
+  nameWithType: API.z4d_zt_close(IntPtr)
+- uid: Hanzo ZT.Native.API.z4d_zt_close*
+  name: z4d_zt_close
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_z4d_zt_close_
+  commentId: Overload:Hanzo ZT.Native.API.z4d_zt_close
+  fullName: Hanzo ZT.Native.API.z4d_zt_close
+  nameWithType: API.z4d_zt_close
+- uid: Hanzo ZT.Native.API.zt_accept(System.IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  name: zt_accept(IntPtr, zt_conn_cb, zt_data_cb)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_accept_System_IntPtr_Hanzo ZT_Native_zt_conn_cb_Hanzo ZT_Native_zt_data_cb_
+  commentId: M:Hanzo ZT.Native.API.zt_accept(System.IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  fullName: Hanzo ZT.Native.API.zt_accept(System.IntPtr, Hanzo ZT.Native.zt_conn_cb, Hanzo ZT.Native.zt_data_cb)
+  nameWithType: API.zt_accept(IntPtr, zt_conn_cb, zt_data_cb)
+- uid: Hanzo ZT.Native.API.zt_accept*
+  name: zt_accept
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_accept_
+  commentId: Overload:Hanzo ZT.Native.API.zt_accept
+  fullName: Hanzo ZT.Native.API.zt_accept
+  nameWithType: API.zt_accept
+- uid: Hanzo ZT.Native.API.zt_app_ctx(System.IntPtr)
+  name: zt_app_ctx(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_app_ctx_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_app_ctx(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_app_ctx(System.IntPtr)
+  nameWithType: API.zt_app_ctx(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_app_ctx*
+  name: zt_app_ctx
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_app_ctx_
+  commentId: Overload:Hanzo ZT.Native.API.zt_app_ctx
+  fullName: Hanzo ZT.Native.API.zt_app_ctx
+  nameWithType: API.zt_app_ctx
+- uid: Hanzo ZT.Native.API.zt_close(System.IntPtr,Hanzo ZT.Native.zt_close_cb)
+  name: zt_close(IntPtr, zt_close_cb)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_close_System_IntPtr_Hanzo ZT_Native_zt_close_cb_
+  commentId: M:Hanzo ZT.Native.API.zt_close(System.IntPtr,Hanzo ZT.Native.zt_close_cb)
+  fullName: Hanzo ZT.Native.API.zt_close(System.IntPtr, Hanzo ZT.Native.zt_close_cb)
+  nameWithType: API.zt_close(IntPtr, zt_close_cb)
+- uid: Hanzo ZT.Native.API.zt_close*
+  name: zt_close
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_close_
+  commentId: Overload:Hanzo ZT.Native.API.zt_close
+  fullName: Hanzo ZT.Native.API.zt_close
+  nameWithType: API.zt_close
+- uid: Hanzo ZT.Native.API.zt_config_to_json(System.IntPtr,System.Byte[],System.Int32,System.Int32@)
+  name: zt_config_to_json(IntPtr, Byte[], Int32, out Int32)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_config_to_json_System_IntPtr_System_Byte___System_Int32_System_Int32__
+  commentId: M:Hanzo ZT.Native.API.zt_config_to_json(System.IntPtr,System.Byte[],System.Int32,System.Int32@)
+  name.vb: zt_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
+  fullName: Hanzo ZT.Native.API.zt_config_to_json(System.IntPtr, System.Byte[], System.Int32, out System.Int32)
+  fullName.vb: Hanzo ZT.Native.API.zt_config_to_json(System.IntPtr, System.Byte(), System.Int32, ByRef System.Int32)
+  nameWithType: API.zt_config_to_json(IntPtr, Byte[], Int32, out Int32)
+  nameWithType.vb: API.zt_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
+- uid: Hanzo ZT.Native.API.zt_config_to_json*
+  name: zt_config_to_json
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_config_to_json_
+  commentId: Overload:Hanzo ZT.Native.API.zt_config_to_json
+  fullName: Hanzo ZT.Native.API.zt_config_to_json
+  nameWithType: API.zt_config_to_json
+- uid: Hanzo ZT.Native.API.zt_conn_init(System.IntPtr,System.IntPtr@,System.IntPtr)
+  name: zt_conn_init(IntPtr, out IntPtr, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_conn_init_System_IntPtr_System_IntPtr__System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_conn_init(System.IntPtr,System.IntPtr@,System.IntPtr)
+  name.vb: zt_conn_init(IntPtr, ByRef IntPtr, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_conn_init(System.IntPtr, out System.IntPtr, System.IntPtr)
+  fullName.vb: Hanzo ZT.Native.API.zt_conn_init(System.IntPtr, ByRef System.IntPtr, System.IntPtr)
+  nameWithType: API.zt_conn_init(IntPtr, out IntPtr, IntPtr)
+  nameWithType.vb: API.zt_conn_init(IntPtr, ByRef IntPtr, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_conn_init*
+  name: zt_conn_init
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_conn_init_
+  commentId: Overload:Hanzo ZT.Native.API.zt_conn_init
+  fullName: Hanzo ZT.Native.API.zt_conn_init
+  nameWithType: API.zt_conn_init
+- uid: Hanzo ZT.Native.API.zt_ctx_free(System.IntPtr)
+  name: zt_ctx_free(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_ctx_free_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_ctx_free(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_ctx_free(System.IntPtr)
+  nameWithType: API.zt_ctx_free(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_ctx_free*
+  name: zt_ctx_free
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_ctx_free_
+  commentId: Overload:Hanzo ZT.Native.API.zt_ctx_free
+  fullName: Hanzo ZT.Native.API.zt_ctx_free
+  nameWithType: API.zt_ctx_free
+- uid: Hanzo ZT.Native.API.zt_dial(System.IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  name: zt_dial(IntPtr, String, zt_conn_cb, zt_data_cb)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_dial_System_IntPtr_System_String_Hanzo ZT_Native_zt_conn_cb_Hanzo ZT_Native_zt_data_cb_
+  commentId: M:Hanzo ZT.Native.API.zt_dial(System.IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  fullName: Hanzo ZT.Native.API.zt_dial(System.IntPtr, System.String, Hanzo ZT.Native.zt_conn_cb, Hanzo ZT.Native.zt_data_cb)
+  nameWithType: API.zt_dial(IntPtr, String, zt_conn_cb, zt_data_cb)
+- uid: Hanzo ZT.Native.API.zt_dial*
+  name: zt_dial
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_dial_
+  commentId: Overload:Hanzo ZT.Native.API.zt_dial
+  fullName: Hanzo ZT.Native.API.zt_dial
+  nameWithType: API.zt_dial
+- uid: Hanzo ZT.Native.API.zt_enroll(System.IntPtr,System.IntPtr,Hanzo ZT.Native.zt_enroll_cb,System.Runtime.InteropServices.GCHandle)
+  name: zt_enroll(IntPtr, IntPtr, zt_enroll_cb, GCHandle)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_enroll_System_IntPtr_System_IntPtr_Hanzo ZT_Native_zt_enroll_cb_System_Runtime_InteropServices_GCHandle_
+  commentId: M:Hanzo ZT.Native.API.zt_enroll(System.IntPtr,System.IntPtr,Hanzo ZT.Native.zt_enroll_cb,System.Runtime.InteropServices.GCHandle)
+  fullName: Hanzo ZT.Native.API.zt_enroll(System.IntPtr, System.IntPtr, Hanzo ZT.Native.zt_enroll_cb, System.Runtime.InteropServices.GCHandle)
+  nameWithType: API.zt_enroll(IntPtr, IntPtr, zt_enroll_cb, GCHandle)
+- uid: Hanzo ZT.Native.API.zt_enroll*
+  name: zt_enroll
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_enroll_
+  commentId: Overload:Hanzo ZT.Native.API.zt_enroll
+  fullName: Hanzo ZT.Native.API.zt_enroll
+  nameWithType: API.zt_enroll
+- uid: Hanzo ZT.Native.API.zt_get_controller(System.IntPtr)
+  name: zt_get_controller(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_controller_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_get_controller(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_controller(System.IntPtr)
+  nameWithType: API.zt_get_controller(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_controller*
+  name: zt_get_controller
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_controller_
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_controller
+  fullName: Hanzo ZT.Native.API.zt_get_controller
+  nameWithType: API.zt_get_controller
+- uid: Hanzo ZT.Native.API.zt_get_controller_version(System.IntPtr)
+  name: zt_get_controller_version(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_controller_version_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_get_controller_version(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_controller_version(System.IntPtr)
+  nameWithType: API.zt_get_controller_version(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_controller_version*
+  name: zt_get_controller_version
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_controller_version_
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_controller_version
+  fullName: Hanzo ZT.Native.API.zt_get_controller_version
+  nameWithType: API.zt_get_controller_version
+- uid: Hanzo ZT.Native.API.zt_get_identity(System.IntPtr)
+  name: zt_get_identity(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_identity_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_get_identity(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_identity(System.IntPtr)
+  nameWithType: API.zt_get_identity(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_identity*
+  name: zt_get_identity
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_identity_
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_identity
+  fullName: Hanzo ZT.Native.API.zt_get_identity
+  nameWithType: API.zt_get_identity
+- uid: Hanzo ZT.Native.API.zt_get_transfer_rates(System.IntPtr,System.Double@,System.Double@)
+  name: zt_get_transfer_rates(IntPtr, ref Double, ref Double)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_transfer_rates_System_IntPtr_System_Double__System_Double__
+  commentId: M:Hanzo ZT.Native.API.zt_get_transfer_rates(System.IntPtr,System.Double@,System.Double@)
+  name.vb: zt_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
+  fullName: Hanzo ZT.Native.API.zt_get_transfer_rates(System.IntPtr, ref System.Double, ref System.Double)
+  fullName.vb: Hanzo ZT.Native.API.zt_get_transfer_rates(System.IntPtr, ByRef System.Double, ByRef System.Double)
+  nameWithType: API.zt_get_transfer_rates(IntPtr, ref Double, ref Double)
+  nameWithType.vb: API.zt_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
+- uid: Hanzo ZT.Native.API.zt_get_transfer_rates*
+  name: zt_get_transfer_rates
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_transfer_rates_
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_transfer_rates
+  fullName: Hanzo ZT.Native.API.zt_get_transfer_rates
+  nameWithType: API.zt_get_transfer_rates
+- uid: Hanzo ZT.Native.API.zt_get_version
+  name: zt_get_version()
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_version
+  commentId: M:Hanzo ZT.Native.API.zt_get_version
+  fullName: Hanzo ZT.Native.API.zt_get_version()
+  nameWithType: API.zt_get_version()
+- uid: Hanzo ZT.Native.API.zt_get_version*
+  name: zt_get_version
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_get_version_
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_version
+  fullName: Hanzo ZT.Native.API.zt_get_version
+  nameWithType: API.zt_get_version
+- uid: Hanzo ZT.Native.API.zt_init(System.String,System.IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,System.IntPtr)
+  name: zt_init(String, IntPtr, zt_event_cb, Int32, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_init_System_String_System_IntPtr_Hanzo ZT_Native_zt_event_cb_System_Int32_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_init(System.String,System.IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_init(System.String, System.IntPtr, Hanzo ZT.Native.zt_event_cb, System.Int32, System.IntPtr)
+  nameWithType: API.zt_init(String, IntPtr, zt_event_cb, Int32, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_init*
+  name: zt_init
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_init_
+  commentId: Overload:Hanzo ZT.Native.API.zt_init
+  fullName: Hanzo ZT.Native.API.zt_init
+  nameWithType: API.zt_init
+- uid: Hanzo ZT.Native.API.zt_init_opts(System.IntPtr,System.IntPtr)
+  name: zt_init_opts(IntPtr, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_init_opts_System_IntPtr_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_init_opts(System.IntPtr,System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_init_opts(System.IntPtr, System.IntPtr)
+  nameWithType: API.zt_init_opts(IntPtr, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_init_opts*
+  name: zt_init_opts
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_init_opts_
+  commentId: Overload:Hanzo ZT.Native.API.zt_init_opts
+  fullName: Hanzo ZT.Native.API.zt_init_opts
+  nameWithType: API.zt_init_opts
+- uid: Hanzo ZT.Native.API.zt_listen(System.IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
+  name: zt_listen(IntPtr, String, zt_listen_cb, zt_client_cb)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_listen_System_IntPtr_System_String_Hanzo ZT_Native_zt_listen_cb_Hanzo ZT_Native_zt_client_cb_
+  commentId: M:Hanzo ZT.Native.API.zt_listen(System.IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
+  fullName: Hanzo ZT.Native.API.zt_listen(System.IntPtr, System.String, Hanzo ZT.Native.zt_listen_cb, Hanzo ZT.Native.zt_client_cb)
+  nameWithType: API.zt_listen(IntPtr, String, zt_listen_cb, zt_client_cb)
+- uid: Hanzo ZT.Native.API.zt_listen*
+  name: zt_listen
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_listen_
+  commentId: Overload:Hanzo ZT.Native.API.zt_listen
+  fullName: Hanzo ZT.Native.API.zt_listen
+  nameWithType: API.zt_listen
+- uid: Hanzo ZT.Native.API.zt_log_init(System.IntPtr,System.Int32,System.IntPtr)
+  name: zt_log_init(IntPtr, Int32, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_log_init_System_IntPtr_System_Int32_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_log_init(System.IntPtr,System.Int32,System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_log_init(System.IntPtr, System.Int32, System.IntPtr)
+  nameWithType: API.zt_log_init(IntPtr, Int32, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_log_init*
+  name: zt_log_init
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_log_init_
+  commentId: Overload:Hanzo ZT.Native.API.zt_log_init
+  fullName: Hanzo ZT.Native.API.zt_log_init
+  nameWithType: API.zt_log_init
+- uid: Hanzo ZT.Native.API.zt_service_array_get(System.IntPtr,System.Int32)
+  name: zt_service_array_get(IntPtr, Int32)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_array_get_System_IntPtr_System_Int32_
+  commentId: M:Hanzo ZT.Native.API.zt_service_array_get(System.IntPtr,System.Int32)
+  fullName: Hanzo ZT.Native.API.zt_service_array_get(System.IntPtr, System.Int32)
+  nameWithType: API.zt_service_array_get(IntPtr, Int32)
+- uid: Hanzo ZT.Native.API.zt_service_array_get*
+  name: zt_service_array_get
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_array_get_
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_array_get
+  fullName: Hanzo ZT.Native.API.zt_service_array_get
+  nameWithType: API.zt_service_array_get
+- uid: Hanzo ZT.Native.API.zt_service_available(System.IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,System.IntPtr)
+  name: zt_service_available(IntPtr, String, zt_service_cb, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_available_System_IntPtr_System_String_Hanzo ZT_Native_zt_service_cb_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_service_available(System.IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_service_available(System.IntPtr, System.String, Hanzo ZT.Native.zt_service_cb, System.IntPtr)
+  nameWithType: API.zt_service_available(IntPtr, String, zt_service_cb, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_service_available*
+  name: zt_service_available
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_available_
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_available
+  fullName: Hanzo ZT.Native.API.zt_service_available
+  nameWithType: API.zt_service_available
+- uid: Hanzo ZT.Native.API.zt_service_get_raw_config(System.IntPtr,System.String)
+  name: zt_service_get_raw_config(IntPtr, String)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_get_raw_config_System_IntPtr_System_String_
+  commentId: M:Hanzo ZT.Native.API.zt_service_get_raw_config(System.IntPtr,System.String)
+  fullName: Hanzo ZT.Native.API.zt_service_get_raw_config(System.IntPtr, System.String)
+  nameWithType: API.zt_service_get_raw_config(IntPtr, String)
+- uid: Hanzo ZT.Native.API.zt_service_get_raw_config*
+  name: zt_service_get_raw_config
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_service_get_raw_config_
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_get_raw_config
+  fullName: Hanzo ZT.Native.API.zt_service_get_raw_config
+  nameWithType: API.zt_service_get_raw_config
+- uid: Hanzo ZT.Native.API.zt_set_app_info(System.String,System.String)
+  name: zt_set_app_info(String, String)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_set_app_info_System_String_System_String_
+  commentId: M:Hanzo ZT.Native.API.zt_set_app_info(System.String,System.String)
+  fullName: Hanzo ZT.Native.API.zt_set_app_info(System.String, System.String)
+  nameWithType: API.zt_set_app_info(String, String)
+- uid: Hanzo ZT.Native.API.zt_set_app_info*
+  name: zt_set_app_info
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_set_app_info_
+  commentId: Overload:Hanzo ZT.Native.API.zt_set_app_info
+  fullName: Hanzo ZT.Native.API.zt_set_app_info
+  nameWithType: API.zt_set_app_info
+- uid: Hanzo ZT.Native.API.zt_set_timeout(System.IntPtr,System.Int32)
+  name: zt_set_timeout(IntPtr, Int32)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_set_timeout_System_IntPtr_System_Int32_
+  commentId: M:Hanzo ZT.Native.API.zt_set_timeout(System.IntPtr,System.Int32)
+  fullName: Hanzo ZT.Native.API.zt_set_timeout(System.IntPtr, System.Int32)
+  nameWithType: API.zt_set_timeout(IntPtr, Int32)
+- uid: Hanzo ZT.Native.API.zt_set_timeout*
+  name: zt_set_timeout
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_set_timeout_
+  commentId: Overload:Hanzo ZT.Native.API.zt_set_timeout
+  fullName: Hanzo ZT.Native.API.zt_set_timeout
+  nameWithType: API.zt_set_timeout
+- uid: Hanzo ZT.Native.API.zt_shutdown(System.IntPtr)
+  name: zt_shutdown(IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_shutdown_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_shutdown(System.IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_shutdown(System.IntPtr)
+  nameWithType: API.zt_shutdown(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_shutdown*
+  name: zt_shutdown
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_shutdown_
+  commentId: Overload:Hanzo ZT.Native.API.zt_shutdown
+  fullName: Hanzo ZT.Native.API.zt_shutdown
+  nameWithType: API.zt_shutdown
+- uid: Hanzo ZT.Native.API.zt_write(System.IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,System.IntPtr)
+  name: zt_write(IntPtr, Byte[], Int32, zt_write_cb, IntPtr)
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_write_System_IntPtr_System_Byte___System_Int32_Hanzo ZT_Native_zt_write_cb_System_IntPtr_
+  commentId: M:Hanzo ZT.Native.API.zt_write(System.IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,System.IntPtr)
+  name.vb: zt_write(IntPtr, Byte(), Int32, zt_write_cb, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_write(System.IntPtr, System.Byte[], System.Int32, Hanzo ZT.Native.zt_write_cb, System.IntPtr)
+  fullName.vb: Hanzo ZT.Native.API.zt_write(System.IntPtr, System.Byte(), System.Int32, Hanzo ZT.Native.zt_write_cb, System.IntPtr)
+  nameWithType: API.zt_write(IntPtr, Byte[], Int32, zt_write_cb, IntPtr)
+  nameWithType.vb: API.zt_write(IntPtr, Byte(), Int32, zt_write_cb, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_write*
+  name: zt_write
+  href: api/dotnet/Hanzo ZT.Native.API.html#Hanzo ZT_Native_API_zt_write_
+  commentId: Overload:Hanzo ZT.Native.API.zt_write
+  fullName: Hanzo ZT.Native.API.zt_write
+  nameWithType: API.zt_write
 - uid: Hanzo ZT.Native.log_writer
   name: log_writer
   href: api/dotnet/Hanzo ZT.Native.log_writer.html
@@ -680,306 +680,306 @@ references:
   commentId: T:Hanzo ZT.Native.tls_context
   fullName: Hanzo ZT.Native.tls_context
   nameWithType: tls_context
-- uid: Hanzo ZT.Native.ziti_aq_mfa_cb
-  name: ziti_aq_mfa_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_aq_mfa_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_aq_mfa_cb
-  fullName: Hanzo ZT.Native.ziti_aq_mfa_cb
-  nameWithType: ziti_aq_mfa_cb
-- uid: Hanzo ZT.Native.ziti_ar_mfa_cb
-  name: ziti_ar_mfa_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_cb
-  fullName: Hanzo ZT.Native.ziti_ar_mfa_cb
-  nameWithType: ziti_ar_mfa_cb
-- uid: Hanzo ZT.Native.ziti_ar_mfa_status_cb
-  name: ziti_ar_mfa_status_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_ar_mfa_status_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_ar_mfa_status_cb
-  fullName: Hanzo ZT.Native.ziti_ar_mfa_status_cb
-  nameWithType: ziti_ar_mfa_status_cb
-- uid: Hanzo ZT.Native.ziti_client_cb
-  name: ziti_client_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_client_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_client_cb
-  fullName: Hanzo ZT.Native.ziti_client_cb
-  nameWithType: ziti_client_cb
-- uid: Hanzo ZT.Native.ziti_close_cb
-  name: ziti_close_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_close_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_close_cb
-  fullName: Hanzo ZT.Native.ziti_close_cb
-  nameWithType: ziti_close_cb
-- uid: Hanzo ZT.Native.ziti_conn_cb
-  name: ziti_conn_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_conn_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_conn_cb
-  fullName: Hanzo ZT.Native.ziti_conn_cb
-  nameWithType: ziti_conn_cb
-- uid: Hanzo ZT.Native.ziti_data_cb
-  name: ziti_data_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_data_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_data_cb
-  fullName: Hanzo ZT.Native.ziti_data_cb
-  nameWithType: ziti_data_cb
-- uid: Hanzo ZT.Native.ziti_enroll_cb
-  name: ziti_enroll_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_enroll_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_enroll_cb
-  fullName: Hanzo ZT.Native.ziti_enroll_cb
-  nameWithType: ziti_enroll_cb
-- uid: Hanzo ZT.Native.ziti_enroll_options
-  name: ziti_enroll_options
-  href: api/dotnet/Hanzo ZT.Native.ziti_enroll_options.html
-  commentId: T:Hanzo ZT.Native.ziti_enroll_options
-  fullName: Hanzo ZT.Native.ziti_enroll_options
-  nameWithType: ziti_enroll_options
-- uid: Hanzo ZT.Native.ziti_enroll_options.enroll_cert
+- uid: Hanzo ZT.Native.zt_aq_mfa_cb
+  name: zt_aq_mfa_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_aq_mfa_cb.html
+  commentId: T:Hanzo ZT.Native.zt_aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_aq_mfa_cb
+  nameWithType: zt_aq_mfa_cb
+- uid: Hanzo ZT.Native.zt_ar_mfa_cb
+  name: zt_ar_mfa_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_ar_mfa_cb.html
+  commentId: T:Hanzo ZT.Native.zt_ar_mfa_cb
+  fullName: Hanzo ZT.Native.zt_ar_mfa_cb
+  nameWithType: zt_ar_mfa_cb
+- uid: Hanzo ZT.Native.zt_ar_mfa_status_cb
+  name: zt_ar_mfa_status_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_ar_mfa_status_cb.html
+  commentId: T:Hanzo ZT.Native.zt_ar_mfa_status_cb
+  fullName: Hanzo ZT.Native.zt_ar_mfa_status_cb
+  nameWithType: zt_ar_mfa_status_cb
+- uid: Hanzo ZT.Native.zt_client_cb
+  name: zt_client_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_client_cb.html
+  commentId: T:Hanzo ZT.Native.zt_client_cb
+  fullName: Hanzo ZT.Native.zt_client_cb
+  nameWithType: zt_client_cb
+- uid: Hanzo ZT.Native.zt_close_cb
+  name: zt_close_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_close_cb.html
+  commentId: T:Hanzo ZT.Native.zt_close_cb
+  fullName: Hanzo ZT.Native.zt_close_cb
+  nameWithType: zt_close_cb
+- uid: Hanzo ZT.Native.zt_conn_cb
+  name: zt_conn_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_conn_cb.html
+  commentId: T:Hanzo ZT.Native.zt_conn_cb
+  fullName: Hanzo ZT.Native.zt_conn_cb
+  nameWithType: zt_conn_cb
+- uid: Hanzo ZT.Native.zt_data_cb
+  name: zt_data_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_data_cb.html
+  commentId: T:Hanzo ZT.Native.zt_data_cb
+  fullName: Hanzo ZT.Native.zt_data_cb
+  nameWithType: zt_data_cb
+- uid: Hanzo ZT.Native.zt_enroll_cb
+  name: zt_enroll_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_enroll_cb.html
+  commentId: T:Hanzo ZT.Native.zt_enroll_cb
+  fullName: Hanzo ZT.Native.zt_enroll_cb
+  nameWithType: zt_enroll_cb
+- uid: Hanzo ZT.Native.zt_enroll_options
+  name: zt_enroll_options
+  href: api/dotnet/Hanzo ZT.Native.zt_enroll_options.html
+  commentId: T:Hanzo ZT.Native.zt_enroll_options
+  fullName: Hanzo ZT.Native.zt_enroll_options
+  nameWithType: zt_enroll_options
+- uid: Hanzo ZT.Native.zt_enroll_options.enroll_cert
   name: enroll_cert
-  href: api/dotnet/Hanzo ZT.Native.ziti_enroll_options.html#Hanzo ZT_Native_ziti_enroll_options_enroll_cert
-  commentId: F:Hanzo ZT.Native.ziti_enroll_options.enroll_cert
-  fullName: Hanzo ZT.Native.ziti_enroll_options.enroll_cert
-  nameWithType: ziti_enroll_options.enroll_cert
-- uid: Hanzo ZT.Native.ziti_enroll_options.enroll_key
+  href: api/dotnet/Hanzo ZT.Native.zt_enroll_options.html#Hanzo ZT_Native_zt_enroll_options_enroll_cert
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  fullName: Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  nameWithType: zt_enroll_options.enroll_cert
+- uid: Hanzo ZT.Native.zt_enroll_options.enroll_key
   name: enroll_key
-  href: api/dotnet/Hanzo ZT.Native.ziti_enroll_options.html#Hanzo ZT_Native_ziti_enroll_options_enroll_key
-  commentId: F:Hanzo ZT.Native.ziti_enroll_options.enroll_key
-  fullName: Hanzo ZT.Native.ziti_enroll_options.enroll_key
-  nameWithType: ziti_enroll_options.enroll_key
-- uid: Hanzo ZT.Native.ziti_enroll_options.jwt
+  href: api/dotnet/Hanzo ZT.Native.zt_enroll_options.html#Hanzo ZT_Native_zt_enroll_options_enroll_key
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.enroll_key
+  fullName: Hanzo ZT.Native.zt_enroll_options.enroll_key
+  nameWithType: zt_enroll_options.enroll_key
+- uid: Hanzo ZT.Native.zt_enroll_options.jwt
   name: jwt
-  href: api/dotnet/Hanzo ZT.Native.ziti_enroll_options.html#Hanzo ZT_Native_ziti_enroll_options_jwt
-  commentId: F:Hanzo ZT.Native.ziti_enroll_options.jwt
-  fullName: Hanzo ZT.Native.ziti_enroll_options.jwt
-  nameWithType: ziti_enroll_options.jwt
-- uid: Hanzo ZT.Native.ziti_event_cb
-  name: ziti_event_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_event_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_event_cb
-  fullName: Hanzo ZT.Native.ziti_event_cb
-  nameWithType: ziti_event_cb
-- uid: Hanzo ZT.Native.ziti_identity
-  name: ziti_identity
-  href: api/dotnet/Hanzo ZT.Native.ziti_identity.html
-  commentId: T:Hanzo ZT.Native.ziti_identity
-  fullName: Hanzo ZT.Native.ziti_identity
-  nameWithType: ziti_identity
-- uid: Hanzo ZT.Native.ziti_identity.id
+  href: api/dotnet/Hanzo ZT.Native.zt_enroll_options.html#Hanzo ZT_Native_zt_enroll_options_jwt
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.jwt
+  fullName: Hanzo ZT.Native.zt_enroll_options.jwt
+  nameWithType: zt_enroll_options.jwt
+- uid: Hanzo ZT.Native.zt_event_cb
+  name: zt_event_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_event_cb.html
+  commentId: T:Hanzo ZT.Native.zt_event_cb
+  fullName: Hanzo ZT.Native.zt_event_cb
+  nameWithType: zt_event_cb
+- uid: Hanzo ZT.Native.zt_identity
+  name: zt_identity
+  href: api/dotnet/Hanzo ZT.Native.zt_identity.html
+  commentId: T:Hanzo ZT.Native.zt_identity
+  fullName: Hanzo ZT.Native.zt_identity
+  nameWithType: zt_identity
+- uid: Hanzo ZT.Native.zt_identity.id
   name: id
-  href: api/dotnet/Hanzo ZT.Native.ziti_identity.html#Hanzo ZT_Native_ziti_identity_id
-  commentId: F:Hanzo ZT.Native.ziti_identity.id
-  fullName: Hanzo ZT.Native.ziti_identity.id
-  nameWithType: ziti_identity.id
-- uid: Hanzo ZT.Native.ziti_identity.name
+  href: api/dotnet/Hanzo ZT.Native.zt_identity.html#Hanzo ZT_Native_zt_identity_id
+  commentId: F:Hanzo ZT.Native.zt_identity.id
+  fullName: Hanzo ZT.Native.zt_identity.id
+  nameWithType: zt_identity.id
+- uid: Hanzo ZT.Native.zt_identity.name
   name: name
-  href: api/dotnet/Hanzo ZT.Native.ziti_identity.html#Hanzo ZT_Native_ziti_identity_name
-  commentId: F:Hanzo ZT.Native.ziti_identity.name
-  fullName: Hanzo ZT.Native.ziti_identity.name
-  nameWithType: ziti_identity.name
-- uid: Hanzo ZT.Native.ziti_identity.tags
+  href: api/dotnet/Hanzo ZT.Native.zt_identity.html#Hanzo ZT_Native_zt_identity_name
+  commentId: F:Hanzo ZT.Native.zt_identity.name
+  fullName: Hanzo ZT.Native.zt_identity.name
+  nameWithType: zt_identity.name
+- uid: Hanzo ZT.Native.zt_identity.tags
   name: tags
-  href: api/dotnet/Hanzo ZT.Native.ziti_identity.html#Hanzo ZT_Native_ziti_identity_tags
-  commentId: F:Hanzo ZT.Native.ziti_identity.tags
-  fullName: Hanzo ZT.Native.ziti_identity.tags
-  nameWithType: ziti_identity.tags
-- uid: Hanzo ZT.Native.ziti_listen_cb
-  name: ziti_listen_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_listen_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_listen_cb
-  fullName: Hanzo ZT.Native.ziti_listen_cb
-  nameWithType: ziti_listen_cb
-- uid: Hanzo ZT.Native.ziti_options
-  name: ziti_options
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html
-  commentId: T:Hanzo ZT.Native.ziti_options
-  fullName: Hanzo ZT.Native.ziti_options
-  nameWithType: ziti_options
-- uid: Hanzo ZT.Native.ziti_options.app_ctx
+  href: api/dotnet/Hanzo ZT.Native.zt_identity.html#Hanzo ZT_Native_zt_identity_tags
+  commentId: F:Hanzo ZT.Native.zt_identity.tags
+  fullName: Hanzo ZT.Native.zt_identity.tags
+  nameWithType: zt_identity.tags
+- uid: Hanzo ZT.Native.zt_listen_cb
+  name: zt_listen_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_listen_cb.html
+  commentId: T:Hanzo ZT.Native.zt_listen_cb
+  fullName: Hanzo ZT.Native.zt_listen_cb
+  nameWithType: zt_listen_cb
+- uid: Hanzo ZT.Native.zt_options
+  name: zt_options
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html
+  commentId: T:Hanzo ZT.Native.zt_options
+  fullName: Hanzo ZT.Native.zt_options
+  nameWithType: zt_options
+- uid: Hanzo ZT.Native.zt_options.app_ctx
   name: app_ctx
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_app_ctx
-  commentId: F:Hanzo ZT.Native.ziti_options.app_ctx
-  fullName: Hanzo ZT.Native.ziti_options.app_ctx
-  nameWithType: ziti_options.app_ctx
-- uid: Hanzo ZT.Native.ziti_options.aq_mfa_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_app_ctx
+  commentId: F:Hanzo ZT.Native.zt_options.app_ctx
+  fullName: Hanzo ZT.Native.zt_options.app_ctx
+  nameWithType: zt_options.app_ctx
+- uid: Hanzo ZT.Native.zt_options.aq_mfa_cb
   name: aq_mfa_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_aq_mfa_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.aq_mfa_cb
-  fullName: Hanzo ZT.Native.ziti_options.aq_mfa_cb
-  nameWithType: ziti_options.aq_mfa_cb
-- uid: Hanzo ZT.Native.ziti_options.config
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_aq_mfa_cb
+  commentId: F:Hanzo ZT.Native.zt_options.aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_options.aq_mfa_cb
+  nameWithType: zt_options.aq_mfa_cb
+- uid: Hanzo ZT.Native.zt_options.config
   name: config
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_config
-  commentId: F:Hanzo ZT.Native.ziti_options.config
-  fullName: Hanzo ZT.Native.ziti_options.config
-  nameWithType: ziti_options.config
-- uid: Hanzo ZT.Native.ziti_options.config_types
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_config
+  commentId: F:Hanzo ZT.Native.zt_options.config
+  fullName: Hanzo ZT.Native.zt_options.config
+  nameWithType: zt_options.config
+- uid: Hanzo ZT.Native.zt_options.config_types
   name: config_types
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_config_types
-  commentId: F:Hanzo ZT.Native.ziti_options.config_types
-  fullName: Hanzo ZT.Native.ziti_options.config_types
-  nameWithType: ziti_options.config_types
-- uid: Hanzo ZT.Native.ziti_options.controller
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_config_types
+  commentId: F:Hanzo ZT.Native.zt_options.config_types
+  fullName: Hanzo ZT.Native.zt_options.config_types
+  nameWithType: zt_options.config_types
+- uid: Hanzo ZT.Native.zt_options.controller
   name: controller
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_controller
-  commentId: F:Hanzo ZT.Native.ziti_options.controller
-  fullName: Hanzo ZT.Native.ziti_options.controller
-  nameWithType: ziti_options.controller
-- uid: Hanzo ZT.Native.ziti_options.event_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_controller
+  commentId: F:Hanzo ZT.Native.zt_options.controller
+  fullName: Hanzo ZT.Native.zt_options.controller
+  nameWithType: zt_options.controller
+- uid: Hanzo ZT.Native.zt_options.event_cb
   name: event_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_event_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.event_cb
-  fullName: Hanzo ZT.Native.ziti_options.event_cb
-  nameWithType: ziti_options.event_cb
-- uid: Hanzo ZT.Native.ziti_options.events
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_event_cb
+  commentId: F:Hanzo ZT.Native.zt_options.event_cb
+  fullName: Hanzo ZT.Native.zt_options.event_cb
+  nameWithType: zt_options.event_cb
+- uid: Hanzo ZT.Native.zt_options.events
   name: events
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_events
-  commentId: F:Hanzo ZT.Native.ziti_options.events
-  fullName: Hanzo ZT.Native.ziti_options.events
-  nameWithType: ziti_options.events
-- uid: Hanzo ZT.Native.ziti_options.metrics_type
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_events
+  commentId: F:Hanzo ZT.Native.zt_options.events
+  fullName: Hanzo ZT.Native.zt_options.events
+  nameWithType: zt_options.events
+- uid: Hanzo ZT.Native.zt_options.metrics_type
   name: metrics_type
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_metrics_type
-  commentId: F:Hanzo ZT.Native.ziti_options.metrics_type
-  fullName: Hanzo ZT.Native.ziti_options.metrics_type
-  nameWithType: ziti_options.metrics_type
-- uid: Hanzo ZT.Native.ziti_options.pq_domain_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_metrics_type
+  commentId: F:Hanzo ZT.Native.zt_options.metrics_type
+  fullName: Hanzo ZT.Native.zt_options.metrics_type
+  nameWithType: zt_options.metrics_type
+- uid: Hanzo ZT.Native.zt_options.pq_domain_cb
   name: pq_domain_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_pq_domain_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.pq_domain_cb
-  fullName: Hanzo ZT.Native.ziti_options.pq_domain_cb
-  nameWithType: ziti_options.pq_domain_cb
-- uid: Hanzo ZT.Native.ziti_options.pq_mac_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_pq_domain_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_domain_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_domain_cb
+  nameWithType: zt_options.pq_domain_cb
+- uid: Hanzo ZT.Native.zt_options.pq_mac_cb
   name: pq_mac_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_pq_mac_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.pq_mac_cb
-  fullName: Hanzo ZT.Native.ziti_options.pq_mac_cb
-  nameWithType: ziti_options.pq_mac_cb
-- uid: Hanzo ZT.Native.ziti_options.pq_os_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_pq_mac_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_mac_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_mac_cb
+  nameWithType: zt_options.pq_mac_cb
+- uid: Hanzo ZT.Native.zt_options.pq_os_cb
   name: pq_os_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_pq_os_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.pq_os_cb
-  fullName: Hanzo ZT.Native.ziti_options.pq_os_cb
-  nameWithType: ziti_options.pq_os_cb
-- uid: Hanzo ZT.Native.ziti_options.pq_process_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_pq_os_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_os_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_os_cb
+  nameWithType: zt_options.pq_os_cb
+- uid: Hanzo ZT.Native.zt_options.pq_process_cb
   name: pq_process_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_pq_process_cb
-  commentId: F:Hanzo ZT.Native.ziti_options.pq_process_cb
-  fullName: Hanzo ZT.Native.ziti_options.pq_process_cb
-  nameWithType: ziti_options.pq_process_cb
-- uid: Hanzo ZT.Native.ziti_options.refresh_interval
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_pq_process_cb
+  commentId: F:Hanzo ZT.Native.zt_options.pq_process_cb
+  fullName: Hanzo ZT.Native.zt_options.pq_process_cb
+  nameWithType: zt_options.pq_process_cb
+- uid: Hanzo ZT.Native.zt_options.refresh_interval
   name: refresh_interval
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_refresh_interval
-  commentId: F:Hanzo ZT.Native.ziti_options.refresh_interval
-  fullName: Hanzo ZT.Native.ziti_options.refresh_interval
-  nameWithType: ziti_options.refresh_interval
-- uid: Hanzo ZT.Native.ziti_options.router_keepalive
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_refresh_interval
+  commentId: F:Hanzo ZT.Native.zt_options.refresh_interval
+  fullName: Hanzo ZT.Native.zt_options.refresh_interval
+  nameWithType: zt_options.refresh_interval
+- uid: Hanzo ZT.Native.zt_options.router_keepalive
   name: router_keepalive
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_router_keepalive
-  commentId: F:Hanzo ZT.Native.ziti_options.router_keepalive
-  fullName: Hanzo ZT.Native.ziti_options.router_keepalive
-  nameWithType: ziti_options.router_keepalive
-- uid: Hanzo ZT.Native.ziti_options.tls
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_router_keepalive
+  commentId: F:Hanzo ZT.Native.zt_options.router_keepalive
+  fullName: Hanzo ZT.Native.zt_options.router_keepalive
+  nameWithType: zt_options.router_keepalive
+- uid: Hanzo ZT.Native.zt_options.tls
   name: tls
-  href: api/dotnet/Hanzo ZT.Native.ziti_options.html#Hanzo ZT_Native_ziti_options_tls
-  commentId: F:Hanzo ZT.Native.ziti_options.tls
-  fullName: Hanzo ZT.Native.ziti_options.tls
-  nameWithType: ziti_options.tls
-- uid: Hanzo ZT.Native.ziti_pq_domain_cb
-  name: ziti_pq_domain_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pq_domain_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pq_domain_cb
-  fullName: Hanzo ZT.Native.ziti_pq_domain_cb
-  nameWithType: ziti_pq_domain_cb
-- uid: Hanzo ZT.Native.ziti_pq_mac_cb
-  name: ziti_pq_mac_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pq_mac_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pq_mac_cb
-  fullName: Hanzo ZT.Native.ziti_pq_mac_cb
-  nameWithType: ziti_pq_mac_cb
-- uid: Hanzo ZT.Native.ziti_pq_os_cb
-  name: ziti_pq_os_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pq_os_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pq_os_cb
-  fullName: Hanzo ZT.Native.ziti_pq_os_cb
-  nameWithType: ziti_pq_os_cb
-- uid: Hanzo ZT.Native.ziti_pq_process_cb
-  name: ziti_pq_process_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pq_process_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pq_process_cb
-  fullName: Hanzo ZT.Native.ziti_pq_process_cb
-  nameWithType: ziti_pq_process_cb
-- uid: Hanzo ZT.Native.ziti_pr_domain_cb
-  name: ziti_pr_domain_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pr_domain_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pr_domain_cb
-  fullName: Hanzo ZT.Native.ziti_pr_domain_cb
-  nameWithType: ziti_pr_domain_cb
-- uid: Hanzo ZT.Native.ziti_pr_mac_cb
-  name: ziti_pr_mac_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pr_mac_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pr_mac_cb
-  fullName: Hanzo ZT.Native.ziti_pr_mac_cb
-  nameWithType: ziti_pr_mac_cb
-- uid: Hanzo ZT.Native.ziti_pr_os_cb
-  name: ziti_pr_os_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pr_os_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pr_os_cb
-  fullName: Hanzo ZT.Native.ziti_pr_os_cb
-  nameWithType: ziti_pr_os_cb
-- uid: Hanzo ZT.Native.ziti_pr_process_cb
-  name: ziti_pr_process_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_pr_process_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_pr_process_cb
-  fullName: Hanzo ZT.Native.ziti_pr_process_cb
-  nameWithType: ziti_pr_process_cb
-- uid: Hanzo ZT.Native.ziti_service
-  name: ziti_service
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html
-  commentId: T:Hanzo ZT.Native.ziti_service
-  fullName: Hanzo ZT.Native.ziti_service
-  nameWithType: ziti_service
-- uid: Hanzo ZT.Native.ziti_service.config
+  href: api/dotnet/Hanzo ZT.Native.zt_options.html#Hanzo ZT_Native_zt_options_tls
+  commentId: F:Hanzo ZT.Native.zt_options.tls
+  fullName: Hanzo ZT.Native.zt_options.tls
+  nameWithType: zt_options.tls
+- uid: Hanzo ZT.Native.zt_pq_domain_cb
+  name: zt_pq_domain_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pq_domain_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pq_domain_cb
+  fullName: Hanzo ZT.Native.zt_pq_domain_cb
+  nameWithType: zt_pq_domain_cb
+- uid: Hanzo ZT.Native.zt_pq_mac_cb
+  name: zt_pq_mac_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pq_mac_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pq_mac_cb
+  fullName: Hanzo ZT.Native.zt_pq_mac_cb
+  nameWithType: zt_pq_mac_cb
+- uid: Hanzo ZT.Native.zt_pq_os_cb
+  name: zt_pq_os_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pq_os_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pq_os_cb
+  fullName: Hanzo ZT.Native.zt_pq_os_cb
+  nameWithType: zt_pq_os_cb
+- uid: Hanzo ZT.Native.zt_pq_process_cb
+  name: zt_pq_process_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pq_process_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pq_process_cb
+  fullName: Hanzo ZT.Native.zt_pq_process_cb
+  nameWithType: zt_pq_process_cb
+- uid: Hanzo ZT.Native.zt_pr_domain_cb
+  name: zt_pr_domain_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pr_domain_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pr_domain_cb
+  fullName: Hanzo ZT.Native.zt_pr_domain_cb
+  nameWithType: zt_pr_domain_cb
+- uid: Hanzo ZT.Native.zt_pr_mac_cb
+  name: zt_pr_mac_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pr_mac_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pr_mac_cb
+  fullName: Hanzo ZT.Native.zt_pr_mac_cb
+  nameWithType: zt_pr_mac_cb
+- uid: Hanzo ZT.Native.zt_pr_os_cb
+  name: zt_pr_os_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pr_os_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pr_os_cb
+  fullName: Hanzo ZT.Native.zt_pr_os_cb
+  nameWithType: zt_pr_os_cb
+- uid: Hanzo ZT.Native.zt_pr_process_cb
+  name: zt_pr_process_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_pr_process_cb.html
+  commentId: T:Hanzo ZT.Native.zt_pr_process_cb
+  fullName: Hanzo ZT.Native.zt_pr_process_cb
+  nameWithType: zt_pr_process_cb
+- uid: Hanzo ZT.Native.zt_service
+  name: zt_service
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html
+  commentId: T:Hanzo ZT.Native.zt_service
+  fullName: Hanzo ZT.Native.zt_service
+  nameWithType: zt_service
+- uid: Hanzo ZT.Native.zt_service.config
   name: config
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html#Hanzo ZT_Native_ziti_service_config
-  commentId: F:Hanzo ZT.Native.ziti_service.config
-  fullName: Hanzo ZT.Native.ziti_service.config
-  nameWithType: ziti_service.config
-- uid: Hanzo ZT.Native.ziti_service.id
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html#Hanzo ZT_Native_zt_service_config
+  commentId: F:Hanzo ZT.Native.zt_service.config
+  fullName: Hanzo ZT.Native.zt_service.config
+  nameWithType: zt_service.config
+- uid: Hanzo ZT.Native.zt_service.id
   name: id
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html#Hanzo ZT_Native_ziti_service_id
-  commentId: F:Hanzo ZT.Native.ziti_service.id
-  fullName: Hanzo ZT.Native.ziti_service.id
-  nameWithType: ziti_service.id
-- uid: Hanzo ZT.Native.ziti_service.name
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html#Hanzo ZT_Native_zt_service_id
+  commentId: F:Hanzo ZT.Native.zt_service.id
+  fullName: Hanzo ZT.Native.zt_service.id
+  nameWithType: zt_service.id
+- uid: Hanzo ZT.Native.zt_service.name
   name: name
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html#Hanzo ZT_Native_ziti_service_name
-  commentId: F:Hanzo ZT.Native.ziti_service.name
-  fullName: Hanzo ZT.Native.ziti_service.name
-  nameWithType: ziti_service.name
-- uid: Hanzo ZT.Native.ziti_service.perm_flags
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html#Hanzo ZT_Native_zt_service_name
+  commentId: F:Hanzo ZT.Native.zt_service.name
+  fullName: Hanzo ZT.Native.zt_service.name
+  nameWithType: zt_service.name
+- uid: Hanzo ZT.Native.zt_service.perm_flags
   name: perm_flags
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html#Hanzo ZT_Native_ziti_service_perm_flags
-  commentId: F:Hanzo ZT.Native.ziti_service.perm_flags
-  fullName: Hanzo ZT.Native.ziti_service.perm_flags
-  nameWithType: ziti_service.perm_flags
-- uid: Hanzo ZT.Native.ziti_service.permissions
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html#Hanzo ZT_Native_zt_service_perm_flags
+  commentId: F:Hanzo ZT.Native.zt_service.perm_flags
+  fullName: Hanzo ZT.Native.zt_service.perm_flags
+  nameWithType: zt_service.perm_flags
+- uid: Hanzo ZT.Native.zt_service.permissions
   name: permissions
-  href: api/dotnet/Hanzo ZT.Native.ziti_service.html#Hanzo ZT_Native_ziti_service_permissions
-  commentId: F:Hanzo ZT.Native.ziti_service.permissions
-  fullName: Hanzo ZT.Native.ziti_service.permissions
-  nameWithType: ziti_service.permissions
-- uid: Hanzo ZT.Native.ziti_service_cb
-  name: ziti_service_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_service_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_service_cb
-  fullName: Hanzo ZT.Native.ziti_service_cb
-  nameWithType: ziti_service_cb
-- uid: Hanzo ZT.Native.ziti_write_cb
-  name: ziti_write_cb
-  href: api/dotnet/Hanzo ZT.Native.ziti_write_cb.html
-  commentId: T:Hanzo ZT.Native.ziti_write_cb
-  fullName: Hanzo ZT.Native.ziti_write_cb
-  nameWithType: ziti_write_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_service.html#Hanzo ZT_Native_zt_service_permissions
+  commentId: F:Hanzo ZT.Native.zt_service.permissions
+  fullName: Hanzo ZT.Native.zt_service.permissions
+  nameWithType: zt_service.permissions
+- uid: Hanzo ZT.Native.zt_service_cb
+  name: zt_service_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_service_cb.html
+  commentId: T:Hanzo ZT.Native.zt_service_cb
+  fullName: Hanzo ZT.Native.zt_service_cb
+  nameWithType: zt_service_cb
+- uid: Hanzo ZT.Native.zt_write_cb
+  name: zt_write_cb
+  href: api/dotnet/Hanzo ZT.Native.zt_write_cb.html
+  commentId: T:Hanzo ZT.Native.zt_write_cb
+  fullName: Hanzo ZT.Native.zt_write_cb
+  nameWithType: zt_write_cb
 - uid: Hanzo ZT.OnClientAccept
   name: OnClientAccept
   href: api/dotnet/Hanzo ZT.OnClientAccept.html
@@ -1203,66 +1203,66 @@ references:
   commentId: F:Hanzo ZT.UVLoop.DefaultLoop
   fullName: Hanzo ZT.UVLoop.DefaultLoop
   nameWithType: UVLoop.DefaultLoop
-- uid: Hanzo ZT.ziti_process
-  name: ziti_process
-  href: api/dotnet/Hanzo ZT.ziti_process.html
-  commentId: T:Hanzo ZT.ziti_process
-  fullName: Hanzo ZT.ziti_process
-  nameWithType: ziti_process
-- uid: Hanzo ZT.ziti_process.path
+- uid: Hanzo ZT.zt_process
+  name: zt_process
+  href: api/dotnet/Hanzo ZT.zt_process.html
+  commentId: T:Hanzo ZT.zt_process
+  fullName: Hanzo ZT.zt_process
+  nameWithType: zt_process
+- uid: Hanzo ZT.zt_process.path
   name: path
-  href: api/dotnet/Hanzo ZT.ziti_process.html#Hanzo ZT_ziti_process_path
-  commentId: F:Hanzo ZT.ziti_process.path
-  fullName: Hanzo ZT.ziti_process.path
-  nameWithType: ziti_process.path
-- uid: Hanzo ZT.ziti_service
-  name: ziti_service
-  href: api/dotnet/Hanzo ZT.ziti_service.html
-  commentId: T:Hanzo ZT.ziti_service
-  fullName: Hanzo ZT.ziti_service
-  nameWithType: ziti_service
-- uid: Hanzo ZT.ziti_service.config
+  href: api/dotnet/Hanzo ZT.zt_process.html#Hanzo ZT_zt_process_path
+  commentId: F:Hanzo ZT.zt_process.path
+  fullName: Hanzo ZT.zt_process.path
+  nameWithType: zt_process.path
+- uid: Hanzo ZT.zt_service
+  name: zt_service
+  href: api/dotnet/Hanzo ZT.zt_service.html
+  commentId: T:Hanzo ZT.zt_service
+  fullName: Hanzo ZT.zt_service
+  nameWithType: zt_service
+- uid: Hanzo ZT.zt_service.config
   name: config
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_config
-  commentId: F:Hanzo ZT.ziti_service.config
-  fullName: Hanzo ZT.ziti_service.config
-  nameWithType: ziti_service.config
-- uid: Hanzo ZT.ziti_service.encryption
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_config
+  commentId: F:Hanzo ZT.zt_service.config
+  fullName: Hanzo ZT.zt_service.config
+  nameWithType: zt_service.config
+- uid: Hanzo ZT.zt_service.encryption
   name: encryption
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_encryption
-  commentId: F:Hanzo ZT.ziti_service.encryption
-  fullName: Hanzo ZT.ziti_service.encryption
-  nameWithType: ziti_service.encryption
-- uid: Hanzo ZT.ziti_service.id
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_encryption
+  commentId: F:Hanzo ZT.zt_service.encryption
+  fullName: Hanzo ZT.zt_service.encryption
+  nameWithType: zt_service.encryption
+- uid: Hanzo ZT.zt_service.id
   name: id
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_id
-  commentId: F:Hanzo ZT.ziti_service.id
-  fullName: Hanzo ZT.ziti_service.id
-  nameWithType: ziti_service.id
-- uid: Hanzo ZT.ziti_service.name
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_id
+  commentId: F:Hanzo ZT.zt_service.id
+  fullName: Hanzo ZT.zt_service.id
+  nameWithType: zt_service.id
+- uid: Hanzo ZT.zt_service.name
   name: name
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_name
-  commentId: F:Hanzo ZT.ziti_service.name
-  fullName: Hanzo ZT.ziti_service.name
-  nameWithType: ziti_service.name
-- uid: Hanzo ZT.ziti_service.perm_flags
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_name
+  commentId: F:Hanzo ZT.zt_service.name
+  fullName: Hanzo ZT.zt_service.name
+  nameWithType: zt_service.name
+- uid: Hanzo ZT.zt_service.perm_flags
   name: perm_flags
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_perm_flags
-  commentId: F:Hanzo ZT.ziti_service.perm_flags
-  fullName: Hanzo ZT.ziti_service.perm_flags
-  nameWithType: ziti_service.perm_flags
-- uid: Hanzo ZT.ziti_service.permissions
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_perm_flags
+  commentId: F:Hanzo ZT.zt_service.perm_flags
+  fullName: Hanzo ZT.zt_service.perm_flags
+  nameWithType: zt_service.perm_flags
+- uid: Hanzo ZT.zt_service.permissions
   name: permissions
-  href: api/dotnet/Hanzo ZT.ziti_service.html#Hanzo ZT_ziti_service_permissions
-  commentId: F:Hanzo ZT.ziti_service.permissions
-  fullName: Hanzo ZT.ziti_service.permissions
-  nameWithType: ziti_service.permissions
-- uid: Hanzo ZT.ziti_version
-  name: ziti_version
-  href: api/dotnet/Hanzo ZT.ziti_version.html
-  commentId: T:Hanzo ZT.ziti_version
-  fullName: Hanzo ZT.ziti_version
-  nameWithType: ziti_version
+  href: api/dotnet/Hanzo ZT.zt_service.html#Hanzo ZT_zt_service_permissions
+  commentId: F:Hanzo ZT.zt_service.permissions
+  fullName: Hanzo ZT.zt_service.permissions
+  nameWithType: zt_service.permissions
+- uid: Hanzo ZT.zt_version
+  name: zt_version
+  href: api/dotnet/Hanzo ZT.zt_version.html
+  commentId: T:Hanzo ZT.zt_version
+  fullName: Hanzo ZT.zt_version
+  nameWithType: zt_version
 - uid: Hanzo ZT.ZitiConnection
   name: ZitiConnection
   href: api/dotnet/Hanzo ZT.ZitiConnection.html

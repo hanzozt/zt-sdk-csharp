@@ -63,42 +63,42 @@
 <h1 id="hanzozt-net-sdk">Hanzo ZT .NET SDK</h1>
 
 <p>An C#-based SDK to access and integrate with Hanzo ZT</p>
-<h2 id="build-the-ziti-c-sdk">Build the Ziti C SDK</h2>
-<p>The Ziti C# SDK is based on the <a href="https://github.com/nf-dev/ziti-sdk-c">C SDK</a> and requires a native library for your target platform of choice.</p>
+<h2 id="build-the-zt-c-sdk">Build the Ziti C SDK</h2>
+<p>The Ziti C# SDK is based on the <a href="https://github.com/nf-dev/zt-sdk-c">C SDK</a> and requires a native library for your target platform of choice.</p>
 <h2 id="add-links-to-the-native-libraries">Add Links to the Native Libraries</h2>
-<p>This project uses a native library for most of the work communicating to ziti. When you are consuming the nuget pagage - this is all packaged up
+<p>This project uses a native library for most of the work communicating to zt. When you are consuming the nuget pagage - this is all packaged up
 for you. However if you are trying to do development of the c# sdk itself you'll need to build these native libraries yourself. This can be done
 easily if you have experience with cmake. The ZitiNativeApiForDotnetCore folder contains a CMakeLists.txt file which can be used to build these
 native libraries as well as a bat file that makes it easier to build in the expected mannor.</p>
 <p>To prepare for building the nuget package - cd to ZitiNativeApiForDotnetCore and run <code>msvc-build.bat</code> from a Visual Studio 2019 command prompt.
 After it completes you should see output similar to:</p>
 <pre><code>Build from cmake using:
-    cmake --build c:\git\github\hanzozt\ziti-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x86 --config Debug
-    cmake --build c:\git\github\hanzozt\ziti-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x86 --config Release
+    cmake --build c:\git\github\hanzozt\zt-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x86 --config Debug
+    cmake --build c:\git\github\hanzozt\zt-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x86 --config Release
 
-    cmake --build c:\git\github\hanzozt\ziti-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x64 --config Debug
-    cmake --build c:\git\github\hanzozt\ziti-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x64 --config Release
+    cmake --build c:\git\github\hanzozt\zt-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x64 --config Debug
+    cmake --build c:\git\github\hanzozt\zt-sdk-csharp\ZitiNativeApiForDotnetCore\build-win\x64 --config Release
 </code></pre>
 <p>You'll likely want to just build the Release libraries but you can use Debug if you like but you'll have to update any references to the .dlls.</p>
 <p>Once built - the project will expect these libraries to be at:</p>
 <ul>
-<li>ZitiNativeApiForDotnetCore\build-win\x86\library\Release\ziti4dotnet.dll</li>
-<li>ZitiNativeApiForDotnetCore\build-win\x64\library\Release\ziti4dotnet.dll</li>
+<li>ZitiNativeApiForDotnetCore\build-win\x86\library\Release\zt4dotnet.dll</li>
+<li>ZitiNativeApiForDotnetCore\build-win\x64\library\Release\zt4dotnet.dll</li>
 </ul>
-<p>If the C SDK changes and you need to export additional functions with ziti4dotnet.dll you will need to rerun defgen after building the C SDK and the
-you'll want to rebuild the ziti4dotnet.dll libs for x86 and x64. You &quot;should&quot; only have to run defgen one time to generate the proper files for the
-dll to be built correctly. The ZitiNativeApiForDotnetCore\library\CMakeLists.txt file will refer to ziti.def and is what allows the static functions
+<p>If the C SDK changes and you need to export additional functions with zt4dotnet.dll you will need to rerun defgen after building the C SDK and the
+you'll want to rebuild the zt4dotnet.dll libs for x86 and x64. You &quot;should&quot; only have to run defgen one time to generate the proper files for the
+dll to be built correctly. The ZitiNativeApiForDotnetCore\library\CMakeLists.txt file will refer to zt.def and is what allows the static functions
 to be exported by the resultant dll.</p>
 <pre><code>cd ZitiNativeApiForDotnetCore
-defgen 32 build-win\x86\_deps\ziti-sdk-c-build\library\Release\ziti.dll
+defgen 32 build-win\x86\_deps\zt-sdk-c-build\library\Release\zt.dll
 </code></pre>
-<h2 id="build-the-zitinugetsln-project">Build the Ziti.NuGet.sln Project</h2>
+<h2 id="build-the-ztnugetsln-project">Build the Ziti.NuGet.sln Project</h2>
 <p>Open Ziti.NuGet.sln or use msbuild (<code>msbuild Ziti.NuGet.sln</code>) to build the project. The output from within visual studio looks like this:</p>
 <pre><code>1&gt;------ Build started: Project: Ziti.NET.Standard, Configuration: Release Any CPU ------
-1&gt;Ziti.NET.Standard -&gt; C:\git\github\ziti-sdk-csharp\Ziti.NET.Standard\bin\Release\netcoreapp2.0\Ziti.NET.Standard.dll
-1&gt;Ziti.NET.Standard -&gt; C:\git\github\ziti-sdk-csharp\Ziti.NET.Standard\bin\Release\net472\Ziti.NET.Standard.dll
-1&gt;Ziti.NET.Standard -&gt; C:\git\github\ziti-sdk-csharp\Ziti.NET.Standard\bin\Release\netstandard2.0\Ziti.NET.Standard.dll
-1&gt;Successfully created package 'C:\git\github\ziti-sdk-csharp\Ziti.NET.Standard\bin\Release\Ziti.NET.Standard.0.0.19.nupkg'.
+1&gt;Ziti.NET.Standard -&gt; C:\git\github\zt-sdk-csharp\Ziti.NET.Standard\bin\Release\netcoreapp2.0\Ziti.NET.Standard.dll
+1&gt;Ziti.NET.Standard -&gt; C:\git\github\zt-sdk-csharp\Ziti.NET.Standard\bin\Release\net472\Ziti.NET.Standard.dll
+1&gt;Ziti.NET.Standard -&gt; C:\git\github\zt-sdk-csharp\Ziti.NET.Standard\bin\Release\netstandard2.0\Ziti.NET.Standard.dll
+1&gt;Successfully created package 'C:\git\github\zt-sdk-csharp\Ziti.NET.Standard\bin\Release\Ziti.NET.Standard.0.0.19.nupkg'.
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 </code></pre>
 <h2 id="build-the-nuget-package">Build the NuGet Package</h2>
@@ -109,13 +109,13 @@ correctly and should &quot;just work&quot;</p>
 <ul>
 <li>open a command prompt</li>
 <li>set some environment variables:
-** SET NUGET_PATH=C:\git\github\ziti-sdk-csharp\NuGet
+** SET NUGET_PATH=C:\git\github\zt-sdk-csharp\NuGet
 ** SET VERSION=0.5.16  REM Or whatever the version is built - see the version of the Ziti.NET.Standard project</li>
 <li>Make a local nuget repo: <code>mkdir %NUGET_PATH%</code></li>
 <li>Push the package into the local repo: <code>nuget push -source %NUGET_PATH% Ziti.NET.Standard\bin\Release\Ziti.NET.Standard.%VERSION%.nupkg</code></li>
 </ul>
 <p>You should see output like:</p>
-<pre><code>Pushing Ziti.NET.Standard.0.0.19.nupkg to 'C:\git\github\ziti-sdk-csharp\NuGet'...
+<pre><code>Pushing Ziti.NET.Standard.0.0.19.nupkg to 'C:\git\github\zt-sdk-csharp\NuGet'...
 Your package was pushed.
 </code></pre>
 <h2 id="using-the-c-sdk">Using the C# SDK</h2>
@@ -148,7 +148,7 @@ this will be easy. If you are not familiar with Ziti and need to create this ser
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/hanzozt/ziti-sdk-csharp/blob/main/c:/git/github/hanzozt/ziti-sdk-csharp/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/hanzozt/zt-sdk-csharp/blob/main/c:/git/github/hanzozt/zt-sdk-csharp/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

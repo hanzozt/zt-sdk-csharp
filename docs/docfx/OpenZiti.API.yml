@@ -25,7 +25,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: API
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 51
@@ -60,7 +60,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: AllConfigs
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 53
@@ -95,7 +95,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: DefaultLoop
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 91
@@ -132,7 +132,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NativeLogger
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 97
@@ -165,7 +165,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NoopNativeLogFunction
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 99
@@ -206,7 +206,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: DefaultNativeLogFunction
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 101
@@ -247,7 +247,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Enroll
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 133
@@ -286,7 +286,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NewLoop
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 151
@@ -320,7 +320,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: GetConfiguration
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 155
@@ -359,7 +359,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Run
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 160

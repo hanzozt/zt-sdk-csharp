@@ -39,11 +39,11 @@ namespace Hanzo ZT.NET.Samples.Weather {
             Log.Info("Identity file located at: " + setupResult);
             
             var c = new ZitiContext(setupResult);
-            var zitiSocketHandler = c.NewZitiSocketHandler(svcName);
-            var httpHandler = new LoggingHandler(zitiSocketHandler);
-            var zitifiedHttpClient = new HttpClient(httpHandler);
+            var ztSocketHandler = c.NewZitiSocketHandler(svcName);
+            var httpHandler = new LoggingHandler(ztSocketHandler);
+            var ztfiedHttpClient = new HttpClient(httpHandler);
             
-            var pc = new Client(zitifiedHttpClient) {
+            var pc = new Client(ztfiedHttpClient) {
                 BaseUrl = interceptAddress
             };
             var anon = new List<Anonymous>();

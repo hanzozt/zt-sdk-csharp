@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.Native.zt_aq_mfa_cb
+  commentId: T:Hanzo ZT.Native.zt_aq_mfa_cb
+  id: zt_aq_mfa_cb
+  parent: Hanzo ZT.Native
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: zt_aq_mfa_cb
+  nameWithType: zt_aq_mfa_cb
+  fullName: Hanzo ZT.Native.zt_aq_mfa_cb
+  type: Delegate
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_aq_mfa_cb
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 66
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public delegate void zt_aq_mfa_cb(IntPtr zt_context, IntPtr mfa_ctx, IntPtr aq_mfa, zt_ar_mfa_cb response_cb);
+    parameters:
+    - id: zt_context
+      type: IntPtr
+    - id: mfa_ctx
+      type: IntPtr
+    - id: aq_mfa
+      type: IntPtr
+    - id: response_cb
+      type: Hanzo ZT.Native.zt_ar_mfa_cb
+    content.vb: Public Delegate Sub zt_aq_mfa_cb(zt_context As IntPtr, mfa_ctx As IntPtr, aq_mfa As IntPtr, response_cb As zt_ar_mfa_cb)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
+- uid: IntPtr
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: IntPtr
+- uid: Hanzo ZT.Native.zt_ar_mfa_cb
+  commentId: T:Hanzo ZT.Native.zt_ar_mfa_cb
+  parent: Hanzo ZT.Native
+  name: zt_ar_mfa_cb
+  nameWithType: zt_ar_mfa_cb
+  fullName: Hanzo ZT.Native.zt_ar_mfa_cb

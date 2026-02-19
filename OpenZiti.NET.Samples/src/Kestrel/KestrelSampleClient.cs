@@ -21,8 +21,8 @@ public class KestrelClientSample : SampleBase {
         Log.Info("Identity file located at: " + setupResult);
         var idFileBytes = File.ReadAllText(setupResult);
         var c = new ZitiContext(idFileBytes); //demonstrates loading an identity via json, not as a file
-        var zitiSocketHandler = c.NewZitiSocketHandler(svcName);
-        var client = new HttpClient(new Debugging.LoggingHandler(zitiSocketHandler));
+        var ztSocketHandler = c.NewZitiSocketHandler(svcName);
+        var client = new HttpClient(new Debugging.LoggingHandler(ztSocketHandler));
         client.DefaultRequestHeaders.Add("User-Agent", "curl/7.59.0");
 
         var result = client.GetStringAsync(args[0]).Result;

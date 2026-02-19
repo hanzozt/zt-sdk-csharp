@@ -5,7 +5,7 @@ build
 cmake-build-debug
 build-*
 library/ZitiStatus.cs
-ziti-exports.txt
-ziti.dll
-ziti.exp
+zt-exports.txt
+zt.dll
+zt.exp
 CMakeUserPresets.json

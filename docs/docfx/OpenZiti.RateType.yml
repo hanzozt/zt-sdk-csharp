@@ -23,7 +23,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: RateType
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 41
@@ -54,7 +54,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EWMA_1m
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 42
@@ -86,7 +86,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EWMA_5m
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 43
@@ -118,7 +118,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EWMA_15m
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 44
@@ -150,7 +150,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: MMA_1m
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 45
@@ -182,7 +182,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CMA_1m
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 46
@@ -214,7 +214,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EWMA_5s
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 47
@@ -246,7 +246,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: INSTANT
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 48

@@ -14,31 +14,31 @@ items:
   - Hanzo ZT.Native.API.z4d_registerUVTimer(IntPtr,Hanzo ZT.Native.OnUVTimer,System.Int64,System.Int64)
   - Hanzo ZT.Native.API.z4d_stop_uv_timer(IntPtr)
   - Hanzo ZT.Native.API.z4d_uv_run(IntPtr)
-  - Hanzo ZT.Native.API.z4d_ziti_close(IntPtr)
-  - Hanzo ZT.Native.API.ziti_accept(IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  - Hanzo ZT.Native.API.ziti_app_ctx(IntPtr)
-  - Hanzo ZT.Native.API.ziti_close(IntPtr,Hanzo ZT.Native.ziti_close_cb)
-  - Hanzo ZT.Native.API.ziti_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
-  - Hanzo ZT.Native.API.ziti_conn_init(IntPtr,IntPtr@,IntPtr)
-  - Hanzo ZT.Native.API.ziti_ctx_free(IntPtr)
-  - Hanzo ZT.Native.API.ziti_dial(IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  - Hanzo ZT.Native.API.ziti_enroll(IntPtr,IntPtr,Hanzo ZT.Native.ziti_enroll_cb,GCHandle)
-  - Hanzo ZT.Native.API.ziti_get_controller(IntPtr)
-  - Hanzo ZT.Native.API.ziti_get_controller_version(IntPtr)
-  - Hanzo ZT.Native.API.ziti_get_identity(IntPtr)
-  - Hanzo ZT.Native.API.ziti_get_transfer_rates(IntPtr,System.Double@,System.Double@)
-  - Hanzo ZT.Native.API.ziti_get_version
-  - Hanzo ZT.Native.API.ziti_init(System.String,IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,IntPtr)
-  - Hanzo ZT.Native.API.ziti_init_opts(IntPtr,IntPtr)
-  - Hanzo ZT.Native.API.ziti_listen(IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
-  - Hanzo ZT.Native.API.ziti_log_init(IntPtr,System.Int32,IntPtr)
-  - Hanzo ZT.Native.API.ziti_service_array_get(IntPtr,System.Int32)
-  - Hanzo ZT.Native.API.ziti_service_available(IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,IntPtr)
-  - Hanzo ZT.Native.API.ziti_service_get_raw_config(IntPtr,System.String)
-  - Hanzo ZT.Native.API.ziti_set_app_info(System.String,System.String)
-  - Hanzo ZT.Native.API.ziti_set_timeout(IntPtr,System.Int32)
-  - Hanzo ZT.Native.API.ziti_shutdown(IntPtr)
-  - Hanzo ZT.Native.API.ziti_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,IntPtr)
+  - Hanzo ZT.Native.API.z4d_zt_close(IntPtr)
+  - Hanzo ZT.Native.API.zt_accept(IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  - Hanzo ZT.Native.API.zt_app_ctx(IntPtr)
+  - Hanzo ZT.Native.API.zt_close(IntPtr,Hanzo ZT.Native.zt_close_cb)
+  - Hanzo ZT.Native.API.zt_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
+  - Hanzo ZT.Native.API.zt_conn_init(IntPtr,IntPtr@,IntPtr)
+  - Hanzo ZT.Native.API.zt_ctx_free(IntPtr)
+  - Hanzo ZT.Native.API.zt_dial(IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  - Hanzo ZT.Native.API.zt_enroll(IntPtr,IntPtr,Hanzo ZT.Native.zt_enroll_cb,GCHandle)
+  - Hanzo ZT.Native.API.zt_get_controller(IntPtr)
+  - Hanzo ZT.Native.API.zt_get_controller_version(IntPtr)
+  - Hanzo ZT.Native.API.zt_get_identity(IntPtr)
+  - Hanzo ZT.Native.API.zt_get_transfer_rates(IntPtr,System.Double@,System.Double@)
+  - Hanzo ZT.Native.API.zt_get_version
+  - Hanzo ZT.Native.API.zt_init(System.String,IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,IntPtr)
+  - Hanzo ZT.Native.API.zt_init_opts(IntPtr,IntPtr)
+  - Hanzo ZT.Native.API.zt_listen(IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
+  - Hanzo ZT.Native.API.zt_log_init(IntPtr,System.Int32,IntPtr)
+  - Hanzo ZT.Native.API.zt_service_array_get(IntPtr,System.Int32)
+  - Hanzo ZT.Native.API.zt_service_available(IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,IntPtr)
+  - Hanzo ZT.Native.API.zt_service_get_raw_config(IntPtr,System.String)
+  - Hanzo ZT.Native.API.zt_set_app_info(System.String,System.String)
+  - Hanzo ZT.Native.API.zt_set_timeout(IntPtr,System.Int32)
+  - Hanzo ZT.Native.API.zt_shutdown(IntPtr)
+  - Hanzo ZT.Native.API.zt_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,IntPtr)
   langs:
   - csharp
   - vb
@@ -50,7 +50,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: API
     path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 74
@@ -85,7 +85,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CALL_CONVENTION
     path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 75
@@ -118,7 +118,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Z4D_DLL_PATH
     path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 77
@@ -166,16 +166,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_enroll(IntPtr,IntPtr,Hanzo ZT.Native.ziti_enroll_cb,GCHandle)
-  commentId: M:Hanzo ZT.Native.API.ziti_enroll(IntPtr,IntPtr,Hanzo ZT.Native.ziti_enroll_cb,GCHandle)
-  id: ziti_enroll(IntPtr,IntPtr,Hanzo ZT.Native.ziti_enroll_cb,GCHandle)
+- uid: Hanzo ZT.Native.API.zt_enroll(IntPtr,IntPtr,Hanzo ZT.Native.zt_enroll_cb,GCHandle)
+  commentId: M:Hanzo ZT.Native.API.zt_enroll(IntPtr,IntPtr,Hanzo ZT.Native.zt_enroll_cb,GCHandle)
+  id: zt_enroll(IntPtr,IntPtr,Hanzo ZT.Native.zt_enroll_cb,GCHandle)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_enroll(IntPtr, IntPtr, ziti_enroll_cb, GCHandle)
-  nameWithType: API.ziti_enroll(IntPtr, IntPtr, ziti_enroll_cb, GCHandle)
-  fullName: Hanzo ZT.Native.API.ziti_enroll(IntPtr, IntPtr, Hanzo ZT.Native.ziti_enroll_cb, GCHandle)
+  name: zt_enroll(IntPtr, IntPtr, zt_enroll_cb, GCHandle)
+  nameWithType: API.zt_enroll(IntPtr, IntPtr, zt_enroll_cb, GCHandle)
+  fullName: Hanzo ZT.Native.API.zt_enroll(IntPtr, IntPtr, Hanzo ZT.Native.zt_enroll_cb, GCHandle)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -184,20 +184,20 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_enroll(IntPtr opts, IntPtr loop, ziti_enroll_cb enroll_cb, GCHandle enroll_context)
+    content: public static extern int zt_enroll(IntPtr opts, IntPtr loop, zt_enroll_cb enroll_cb, GCHandle enroll_context)
     parameters:
     - id: opts
       type: IntPtr
     - id: loop
       type: IntPtr
     - id: enroll_cb
-      type: Hanzo ZT.Native.ziti_enroll_cb
+      type: Hanzo ZT.Native.zt_enroll_cb
     - id: enroll_context
       type: GCHandle
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_enroll(opts As IntPtr, loop As IntPtr, enroll_cb As ziti_enroll_cb, enroll_context As GCHandle) As Integer
-  overload: Hanzo ZT.Native.API.ziti_enroll*
+    content.vb: Public Shared Function zt_enroll(opts As IntPtr, loop As IntPtr, enroll_cb As zt_enroll_cb, enroll_context As GCHandle) As Integer
+  overload: Hanzo ZT.Native.API.zt_enroll*
   modifiers.csharp:
   - public
   - static
@@ -205,16 +205,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_log_init(IntPtr,System.Int32,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_log_init(IntPtr,System.Int32,IntPtr)
-  id: ziti_log_init(IntPtr,System.Int32,IntPtr)
+- uid: Hanzo ZT.Native.API.zt_log_init(IntPtr,System.Int32,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_log_init(IntPtr,System.Int32,IntPtr)
+  id: zt_log_init(IntPtr,System.Int32,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_log_init(IntPtr, Int32, IntPtr)
-  nameWithType: API.ziti_log_init(IntPtr, Int32, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_log_init(IntPtr, System.Int32, IntPtr)
+  name: zt_log_init(IntPtr, Int32, IntPtr)
+  nameWithType: API.zt_log_init(IntPtr, Int32, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_log_init(IntPtr, System.Int32, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -223,7 +223,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern void ziti_log_init(IntPtr loop, int level, IntPtr logger)
+    content: public static extern void zt_log_init(IntPtr loop, int level, IntPtr logger)
     parameters:
     - id: loop
       type: IntPtr
@@ -231,8 +231,8 @@ items:
       type: System.Int32
     - id: logger
       type: IntPtr
-    content.vb: Public Shared Sub ziti_log_init(loop As IntPtr, level As Integer, logger As IntPtr)
-  overload: Hanzo ZT.Native.API.ziti_log_init*
+    content.vb: Public Shared Sub zt_log_init(loop As IntPtr, level As Integer, logger As IntPtr)
+  overload: Hanzo ZT.Native.API.zt_log_init*
   modifiers.csharp:
   - public
   - static
@@ -270,16 +270,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_init_opts(IntPtr,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_init_opts(IntPtr,IntPtr)
-  id: ziti_init_opts(IntPtr,IntPtr)
+- uid: Hanzo ZT.Native.API.zt_init_opts(IntPtr,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_init_opts(IntPtr,IntPtr)
+  id: zt_init_opts(IntPtr,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_init_opts(IntPtr, IntPtr)
-  nameWithType: API.ziti_init_opts(IntPtr, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_init_opts(IntPtr, IntPtr)
+  name: zt_init_opts(IntPtr, IntPtr)
+  nameWithType: API.zt_init_opts(IntPtr, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_init_opts(IntPtr, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -288,7 +288,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_init_opts(IntPtr options, IntPtr loop)
+    content: public static extern int zt_init_opts(IntPtr options, IntPtr loop)
     parameters:
     - id: options
       type: IntPtr
@@ -296,8 +296,8 @@ items:
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_init_opts(options As IntPtr, loop As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_init_opts*
+    content.vb: Public Shared Function zt_init_opts(options As IntPtr, loop As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_init_opts*
   modifiers.csharp:
   - public
   - static
@@ -368,16 +368,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_get_identity(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_get_identity(IntPtr)
-  id: ziti_get_identity(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_identity(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_get_identity(IntPtr)
+  id: zt_get_identity(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_get_identity(IntPtr)
-  nameWithType: API.ziti_get_identity(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_identity(IntPtr)
+  name: zt_get_identity(IntPtr)
+  nameWithType: API.zt_get_identity(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_identity(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -386,14 +386,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_get_identity(IntPtr ztx)
+    content: public static extern IntPtr zt_get_identity(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_get_identity(ztx As IntPtr) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_get_identity*
+    content.vb: Public Shared Function zt_get_identity(ztx As IntPtr) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_get_identity*
   modifiers.csharp:
   - public
   - static
@@ -401,16 +401,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_get_controller(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_get_controller(IntPtr)
-  id: ziti_get_controller(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_controller(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_get_controller(IntPtr)
+  id: zt_get_controller(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_get_controller(IntPtr)
-  nameWithType: API.ziti_get_controller(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_controller(IntPtr)
+  name: zt_get_controller(IntPtr)
+  nameWithType: API.zt_get_controller(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_controller(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -419,14 +419,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_get_controller(IntPtr ztx)
+    content: public static extern IntPtr zt_get_controller(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_get_controller(ztx As IntPtr) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_get_controller*
+    content.vb: Public Shared Function zt_get_controller(ztx As IntPtr) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_get_controller*
   modifiers.csharp:
   - public
   - static
@@ -434,16 +434,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_get_controller_version(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_get_controller_version(IntPtr)
-  id: ziti_get_controller_version(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_get_controller_version(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_get_controller_version(IntPtr)
+  id: zt_get_controller_version(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_get_controller_version(IntPtr)
-  nameWithType: API.ziti_get_controller_version(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_get_controller_version(IntPtr)
+  name: zt_get_controller_version(IntPtr)
+  nameWithType: API.zt_get_controller_version(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_get_controller_version(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -452,14 +452,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_get_controller_version(IntPtr ztx)
+    content: public static extern IntPtr zt_get_controller_version(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_get_controller_version(ztx As IntPtr) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_get_controller_version*
+    content.vb: Public Shared Function zt_get_controller_version(ztx As IntPtr) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_get_controller_version*
   modifiers.csharp:
   - public
   - static
@@ -467,16 +467,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_get_version
-  commentId: M:Hanzo ZT.Native.API.ziti_get_version
-  id: ziti_get_version
+- uid: Hanzo ZT.Native.API.zt_get_version
+  commentId: M:Hanzo ZT.Native.API.zt_get_version
+  id: zt_get_version
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_get_version()
-  nameWithType: API.ziti_get_version()
-  fullName: Hanzo ZT.Native.API.ziti_get_version()
+  name: zt_get_version()
+  nameWithType: API.zt_get_version()
+  fullName: Hanzo ZT.Native.API.zt_get_version()
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -485,11 +485,11 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_get_version()
+    content: public static extern IntPtr zt_get_version()
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_get_version As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_get_version*
+    content.vb: Public Shared Function zt_get_version As IntPtr
+  overload: Hanzo ZT.Native.API.zt_get_version*
   modifiers.csharp:
   - public
   - static
@@ -497,16 +497,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_service_array_get(IntPtr,System.Int32)
-  commentId: M:Hanzo ZT.Native.API.ziti_service_array_get(IntPtr,System.Int32)
-  id: ziti_service_array_get(IntPtr,System.Int32)
+- uid: Hanzo ZT.Native.API.zt_service_array_get(IntPtr,System.Int32)
+  commentId: M:Hanzo ZT.Native.API.zt_service_array_get(IntPtr,System.Int32)
+  id: zt_service_array_get(IntPtr,System.Int32)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_service_array_get(IntPtr, Int32)
-  nameWithType: API.ziti_service_array_get(IntPtr, Int32)
-  fullName: Hanzo ZT.Native.API.ziti_service_array_get(IntPtr, System.Int32)
+  name: zt_service_array_get(IntPtr, Int32)
+  nameWithType: API.zt_service_array_get(IntPtr, Int32)
+  fullName: Hanzo ZT.Native.API.zt_service_array_get(IntPtr, System.Int32)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -515,16 +515,16 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_service_array_get(IntPtr ziti_service_array, int idx)
+    content: public static extern IntPtr zt_service_array_get(IntPtr zt_service_array, int idx)
     parameters:
-    - id: ziti_service_array
+    - id: zt_service_array
       type: IntPtr
     - id: idx
       type: System.Int32
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_service_array_get(ziti_service_array As IntPtr, idx As Integer) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_service_array_get*
+    content.vb: Public Shared Function zt_service_array_get(zt_service_array As IntPtr, idx As Integer) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_service_array_get*
   modifiers.csharp:
   - public
   - static
@@ -532,16 +532,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_dial(IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  commentId: M:Hanzo ZT.Native.API.ziti_dial(IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  id: ziti_dial(IntPtr,System.String,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
+- uid: Hanzo ZT.Native.API.zt_dial(IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  commentId: M:Hanzo ZT.Native.API.zt_dial(IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  id: zt_dial(IntPtr,System.String,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_dial(IntPtr, String, ziti_conn_cb, ziti_data_cb)
-  nameWithType: API.ziti_dial(IntPtr, String, ziti_conn_cb, ziti_data_cb)
-  fullName: Hanzo ZT.Native.API.ziti_dial(IntPtr, System.String, Hanzo ZT.Native.ziti_conn_cb, Hanzo ZT.Native.ziti_data_cb)
+  name: zt_dial(IntPtr, String, zt_conn_cb, zt_data_cb)
+  nameWithType: API.zt_dial(IntPtr, String, zt_conn_cb, zt_data_cb)
+  fullName: Hanzo ZT.Native.API.zt_dial(IntPtr, System.String, Hanzo ZT.Native.zt_conn_cb, Hanzo ZT.Native.zt_data_cb)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -550,20 +550,20 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_dial(IntPtr ziti_connection, string serviceName, ziti_conn_cb conn_cb, ziti_data_cb data_cb)
+    content: public static extern int zt_dial(IntPtr zt_connection, string serviceName, zt_conn_cb conn_cb, zt_data_cb data_cb)
     parameters:
-    - id: ziti_connection
+    - id: zt_connection
       type: IntPtr
     - id: serviceName
       type: System.String
     - id: conn_cb
-      type: Hanzo ZT.Native.ziti_conn_cb
+      type: Hanzo ZT.Native.zt_conn_cb
     - id: data_cb
-      type: Hanzo ZT.Native.ziti_data_cb
+      type: Hanzo ZT.Native.zt_data_cb
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_dial(ziti_connection As IntPtr, serviceName As String, conn_cb As ziti_conn_cb, data_cb As ziti_data_cb) As Integer
-  overload: Hanzo ZT.Native.API.ziti_dial*
+    content.vb: Public Shared Function zt_dial(zt_connection As IntPtr, serviceName As String, conn_cb As zt_conn_cb, data_cb As zt_data_cb) As Integer
+  overload: Hanzo ZT.Native.API.zt_dial*
   modifiers.csharp:
   - public
   - static
@@ -571,16 +571,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_conn_init(IntPtr,IntPtr@,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_conn_init(IntPtr,IntPtr@,IntPtr)
-  id: ziti_conn_init(IntPtr,IntPtr@,IntPtr)
+- uid: Hanzo ZT.Native.API.zt_conn_init(IntPtr,IntPtr@,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_conn_init(IntPtr,IntPtr@,IntPtr)
+  id: zt_conn_init(IntPtr,IntPtr@,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_conn_init(IntPtr, out IntPtr, IntPtr)
-  nameWithType: API.ziti_conn_init(IntPtr, out IntPtr, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_conn_init(IntPtr, out IntPtr, IntPtr)
+  name: zt_conn_init(IntPtr, out IntPtr, IntPtr)
+  nameWithType: API.zt_conn_init(IntPtr, out IntPtr, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_conn_init(IntPtr, out IntPtr, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -589,19 +589,19 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_conn_init(IntPtr ziti_context, out IntPtr ziti_connection, IntPtr connection_context)
+    content: public static extern int zt_conn_init(IntPtr zt_context, out IntPtr zt_connection, IntPtr connection_context)
     parameters:
-    - id: ziti_context
+    - id: zt_context
       type: IntPtr
-    - id: ziti_connection
+    - id: zt_connection
       type: IntPtr
     - id: connection_context
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_conn_init(ziti_context As IntPtr, ByRef ziti_connection As IntPtr, connection_context As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_conn_init*
-  nameWithType.vb: API.ziti_conn_init(IntPtr, ByRef IntPtr, IntPtr)
+    content.vb: Public Shared Function zt_conn_init(zt_context As IntPtr, ByRef zt_connection As IntPtr, connection_context As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_conn_init*
+  nameWithType.vb: API.zt_conn_init(IntPtr, ByRef IntPtr, IntPtr)
   modifiers.csharp:
   - public
   - static
@@ -609,18 +609,18 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Hanzo ZT.Native.API.ziti_conn_init(IntPtr, ByRef IntPtr, IntPtr)
-  name.vb: ziti_conn_init(IntPtr, ByRef IntPtr, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,IntPtr)
-  id: ziti_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.ziti_write_cb,IntPtr)
+  fullName.vb: Hanzo ZT.Native.API.zt_conn_init(IntPtr, ByRef IntPtr, IntPtr)
+  name.vb: zt_conn_init(IntPtr, ByRef IntPtr, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,IntPtr)
+  id: zt_write(IntPtr,System.Byte[],System.Int32,Hanzo ZT.Native.zt_write_cb,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_write(IntPtr, Byte[], Int32, ziti_write_cb, IntPtr)
-  nameWithType: API.ziti_write(IntPtr, Byte[], Int32, ziti_write_cb, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_write(IntPtr, System.Byte[], System.Int32, Hanzo ZT.Native.ziti_write_cb, IntPtr)
+  name: zt_write(IntPtr, Byte[], Int32, zt_write_cb, IntPtr)
+  nameWithType: API.zt_write(IntPtr, Byte[], Int32, zt_write_cb, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_write(IntPtr, System.Byte[], System.Int32, Hanzo ZT.Native.zt_write_cb, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -629,7 +629,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_write(IntPtr conn, byte[] data, int length, ziti_write_cb afterData, IntPtr dataContext)
+    content: public static extern int zt_write(IntPtr conn, byte[] data, int length, zt_write_cb afterData, IntPtr dataContext)
     parameters:
     - id: conn
       type: IntPtr
@@ -638,14 +638,14 @@ items:
     - id: length
       type: System.Int32
     - id: afterData
-      type: Hanzo ZT.Native.ziti_write_cb
+      type: Hanzo ZT.Native.zt_write_cb
     - id: dataContext
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_write(conn As IntPtr, data As Byte(), length As Integer, afterData As ziti_write_cb, dataContext As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_write*
-  nameWithType.vb: API.ziti_write(IntPtr, Byte(), Int32, ziti_write_cb, IntPtr)
+    content.vb: Public Shared Function zt_write(conn As IntPtr, data As Byte(), length As Integer, afterData As zt_write_cb, dataContext As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_write*
+  nameWithType.vb: API.zt_write(IntPtr, Byte(), Int32, zt_write_cb, IntPtr)
   modifiers.csharp:
   - public
   - static
@@ -653,18 +653,18 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Hanzo ZT.Native.API.ziti_write(IntPtr, System.Byte(), System.Int32, Hanzo ZT.Native.ziti_write_cb, IntPtr)
-  name.vb: ziti_write(IntPtr, Byte(), Int32, ziti_write_cb, IntPtr)
-- uid: Hanzo ZT.Native.API.ziti_accept(IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  commentId: M:Hanzo ZT.Native.API.ziti_accept(IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
-  id: ziti_accept(IntPtr,Hanzo ZT.Native.ziti_conn_cb,Hanzo ZT.Native.ziti_data_cb)
+  fullName.vb: Hanzo ZT.Native.API.zt_write(IntPtr, System.Byte(), System.Int32, Hanzo ZT.Native.zt_write_cb, IntPtr)
+  name.vb: zt_write(IntPtr, Byte(), Int32, zt_write_cb, IntPtr)
+- uid: Hanzo ZT.Native.API.zt_accept(IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  commentId: M:Hanzo ZT.Native.API.zt_accept(IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
+  id: zt_accept(IntPtr,Hanzo ZT.Native.zt_conn_cb,Hanzo ZT.Native.zt_data_cb)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_accept(IntPtr, ziti_conn_cb, ziti_data_cb)
-  nameWithType: API.ziti_accept(IntPtr, ziti_conn_cb, ziti_data_cb)
-  fullName: Hanzo ZT.Native.API.ziti_accept(IntPtr, Hanzo ZT.Native.ziti_conn_cb, Hanzo ZT.Native.ziti_data_cb)
+  name: zt_accept(IntPtr, zt_conn_cb, zt_data_cb)
+  nameWithType: API.zt_accept(IntPtr, zt_conn_cb, zt_data_cb)
+  fullName: Hanzo ZT.Native.API.zt_accept(IntPtr, Hanzo ZT.Native.zt_conn_cb, Hanzo ZT.Native.zt_data_cb)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -673,18 +673,18 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_accept(IntPtr conn, ziti_conn_cb cb, ziti_data_cb data_cb)
+    content: public static extern int zt_accept(IntPtr conn, zt_conn_cb cb, zt_data_cb data_cb)
     parameters:
     - id: conn
       type: IntPtr
     - id: cb
-      type: Hanzo ZT.Native.ziti_conn_cb
+      type: Hanzo ZT.Native.zt_conn_cb
     - id: data_cb
-      type: Hanzo ZT.Native.ziti_data_cb
+      type: Hanzo ZT.Native.zt_data_cb
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_accept(conn As IntPtr, cb As ziti_conn_cb, data_cb As ziti_data_cb) As Integer
-  overload: Hanzo ZT.Native.API.ziti_accept*
+    content.vb: Public Shared Function zt_accept(conn As IntPtr, cb As zt_conn_cb, data_cb As zt_data_cb) As Integer
+  overload: Hanzo ZT.Native.API.zt_accept*
   modifiers.csharp:
   - public
   - static
@@ -692,16 +692,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.z4d_ziti_close(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.z4d_ziti_close(IntPtr)
-  id: z4d_ziti_close(IntPtr)
+- uid: Hanzo ZT.Native.API.z4d_zt_close(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.z4d_zt_close(IntPtr)
+  id: z4d_zt_close(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: z4d_ziti_close(IntPtr)
-  nameWithType: API.z4d_ziti_close(IntPtr)
-  fullName: Hanzo ZT.Native.API.z4d_ziti_close(IntPtr)
+  name: z4d_zt_close(IntPtr)
+  nameWithType: API.z4d_zt_close(IntPtr)
+  fullName: Hanzo ZT.Native.API.z4d_zt_close(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -710,14 +710,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int z4d_ziti_close(IntPtr conn)
+    content: public static extern int z4d_zt_close(IntPtr conn)
     parameters:
     - id: conn
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function z4d_ziti_close(conn As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.z4d_ziti_close*
+    content.vb: Public Shared Function z4d_zt_close(conn As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.z4d_zt_close*
   modifiers.csharp:
   - public
   - static
@@ -725,16 +725,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
-  commentId: M:Hanzo ZT.Native.API.ziti_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
-  id: ziti_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
+- uid: Hanzo ZT.Native.API.zt_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
+  commentId: M:Hanzo ZT.Native.API.zt_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
+  id: zt_config_to_json(IntPtr,System.Byte[],System.Int32,System.Int32@)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_config_to_json(IntPtr, Byte[], Int32, out Int32)
-  nameWithType: API.ziti_config_to_json(IntPtr, Byte[], Int32, out Int32)
-  fullName: Hanzo ZT.Native.API.ziti_config_to_json(IntPtr, System.Byte[], System.Int32, out System.Int32)
+  name: zt_config_to_json(IntPtr, Byte[], Int32, out Int32)
+  nameWithType: API.zt_config_to_json(IntPtr, Byte[], Int32, out Int32)
+  fullName: Hanzo ZT.Native.API.zt_config_to_json(IntPtr, System.Byte[], System.Int32, out System.Int32)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -743,9 +743,9 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern string ziti_config_to_json(IntPtr ziti_config, byte[] rawjson, int maxlen, out int len)
+    content: public static extern string zt_config_to_json(IntPtr zt_config, byte[] rawjson, int maxlen, out int len)
     parameters:
-    - id: ziti_config
+    - id: zt_config
       type: IntPtr
     - id: rawjson
       type: System.Byte[]
@@ -755,9 +755,9 @@ items:
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Shared Function ziti_config_to_json(ziti_config As IntPtr, rawjson As Byte(), maxlen As Integer, ByRef len As Integer) As String
-  overload: Hanzo ZT.Native.API.ziti_config_to_json*
-  nameWithType.vb: API.ziti_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
+    content.vb: Public Shared Function zt_config_to_json(zt_config As IntPtr, rawjson As Byte(), maxlen As Integer, ByRef len As Integer) As String
+  overload: Hanzo ZT.Native.API.zt_config_to_json*
+  nameWithType.vb: API.zt_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
   modifiers.csharp:
   - public
   - static
@@ -765,18 +765,18 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Hanzo ZT.Native.API.ziti_config_to_json(IntPtr, System.Byte(), System.Int32, ByRef System.Int32)
-  name.vb: ziti_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
-- uid: Hanzo ZT.Native.API.ziti_listen(IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
-  commentId: M:Hanzo ZT.Native.API.ziti_listen(IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
-  id: ziti_listen(IntPtr,System.String,Hanzo ZT.Native.ziti_listen_cb,Hanzo ZT.Native.ziti_client_cb)
+  fullName.vb: Hanzo ZT.Native.API.zt_config_to_json(IntPtr, System.Byte(), System.Int32, ByRef System.Int32)
+  name.vb: zt_config_to_json(IntPtr, Byte(), Int32, ByRef Int32)
+- uid: Hanzo ZT.Native.API.zt_listen(IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
+  commentId: M:Hanzo ZT.Native.API.zt_listen(IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
+  id: zt_listen(IntPtr,System.String,Hanzo ZT.Native.zt_listen_cb,Hanzo ZT.Native.zt_client_cb)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_listen(IntPtr, String, ziti_listen_cb, ziti_client_cb)
-  nameWithType: API.ziti_listen(IntPtr, String, ziti_listen_cb, ziti_client_cb)
-  fullName: Hanzo ZT.Native.API.ziti_listen(IntPtr, System.String, Hanzo ZT.Native.ziti_listen_cb, Hanzo ZT.Native.ziti_client_cb)
+  name: zt_listen(IntPtr, String, zt_listen_cb, zt_client_cb)
+  nameWithType: API.zt_listen(IntPtr, String, zt_listen_cb, zt_client_cb)
+  fullName: Hanzo ZT.Native.API.zt_listen(IntPtr, System.String, Hanzo ZT.Native.zt_listen_cb, Hanzo ZT.Native.zt_client_cb)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -785,20 +785,20 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_listen(IntPtr serv_conn, string service, ziti_listen_cb lcb, ziti_client_cb cb)
+    content: public static extern int zt_listen(IntPtr serv_conn, string service, zt_listen_cb lcb, zt_client_cb cb)
     parameters:
     - id: serv_conn
       type: IntPtr
     - id: service
       type: System.String
     - id: lcb
-      type: Hanzo ZT.Native.ziti_listen_cb
+      type: Hanzo ZT.Native.zt_listen_cb
     - id: cb
-      type: Hanzo ZT.Native.ziti_client_cb
+      type: Hanzo ZT.Native.zt_client_cb
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_listen(serv_conn As IntPtr, service As String, lcb As ziti_listen_cb, cb As ziti_client_cb) As Integer
-  overload: Hanzo ZT.Native.API.ziti_listen*
+    content.vb: Public Shared Function zt_listen(serv_conn As IntPtr, service As String, lcb As zt_listen_cb, cb As zt_client_cb) As Integer
+  overload: Hanzo ZT.Native.API.zt_listen*
   modifiers.csharp:
   - public
   - static
@@ -806,16 +806,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_init(System.String,IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_init(System.String,IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,IntPtr)
-  id: ziti_init(System.String,IntPtr,Hanzo ZT.Native.ziti_event_cb,System.Int32,IntPtr)
+- uid: Hanzo ZT.Native.API.zt_init(System.String,IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_init(System.String,IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,IntPtr)
+  id: zt_init(System.String,IntPtr,Hanzo ZT.Native.zt_event_cb,System.Int32,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_init(String, IntPtr, ziti_event_cb, Int32, IntPtr)
-  nameWithType: API.ziti_init(String, IntPtr, ziti_event_cb, Int32, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_init(System.String, IntPtr, Hanzo ZT.Native.ziti_event_cb, System.Int32, IntPtr)
+  name: zt_init(String, IntPtr, zt_event_cb, Int32, IntPtr)
+  nameWithType: API.zt_init(String, IntPtr, zt_event_cb, Int32, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_init(System.String, IntPtr, Hanzo ZT.Native.zt_event_cb, System.Int32, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -824,22 +824,22 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_init(string config, IntPtr loop, ziti_event_cb event_cb, int event_flags, IntPtr init_ctx)
+    content: public static extern int zt_init(string config, IntPtr loop, zt_event_cb event_cb, int event_flags, IntPtr init_ctx)
     parameters:
     - id: config
       type: System.String
     - id: loop
       type: IntPtr
     - id: event_cb
-      type: Hanzo ZT.Native.ziti_event_cb
+      type: Hanzo ZT.Native.zt_event_cb
     - id: event_flags
       type: System.Int32
     - id: init_ctx
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_init(config As String, loop As IntPtr, event_cb As ziti_event_cb, event_flags As Integer, init_ctx As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_init*
+    content.vb: Public Shared Function zt_init(config As String, loop As IntPtr, event_cb As zt_event_cb, event_flags As Integer, init_ctx As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_init*
   modifiers.csharp:
   - public
   - static
@@ -847,16 +847,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_set_app_info(System.String,System.String)
-  commentId: M:Hanzo ZT.Native.API.ziti_set_app_info(System.String,System.String)
-  id: ziti_set_app_info(System.String,System.String)
+- uid: Hanzo ZT.Native.API.zt_set_app_info(System.String,System.String)
+  commentId: M:Hanzo ZT.Native.API.zt_set_app_info(System.String,System.String)
+  id: zt_set_app_info(System.String,System.String)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_set_app_info(String, String)
-  nameWithType: API.ziti_set_app_info(String, String)
-  fullName: Hanzo ZT.Native.API.ziti_set_app_info(System.String, System.String)
+  name: zt_set_app_info(String, String)
+  nameWithType: API.zt_set_app_info(String, String)
+  fullName: Hanzo ZT.Native.API.zt_set_app_info(System.String, System.String)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -865,7 +865,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_set_app_info(string app_id, string app_version)
+    content: public static extern int zt_set_app_info(string app_id, string app_version)
     parameters:
     - id: app_id
       type: System.String
@@ -873,8 +873,8 @@ items:
       type: System.String
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_set_app_info(app_id As String, app_version As String) As Integer
-  overload: Hanzo ZT.Native.API.ziti_set_app_info*
+    content.vb: Public Shared Function zt_set_app_info(app_id As String, app_version As String) As Integer
+  overload: Hanzo ZT.Native.API.zt_set_app_info*
   modifiers.csharp:
   - public
   - static
@@ -882,16 +882,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_app_ctx(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_app_ctx(IntPtr)
-  id: ziti_app_ctx(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_app_ctx(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_app_ctx(IntPtr)
+  id: zt_app_ctx(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_app_ctx(IntPtr)
-  nameWithType: API.ziti_app_ctx(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_app_ctx(IntPtr)
+  name: zt_app_ctx(IntPtr)
+  nameWithType: API.zt_app_ctx(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_app_ctx(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -900,14 +900,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_app_ctx(IntPtr ztx)
+    content: public static extern IntPtr zt_app_ctx(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_app_ctx(ztx As IntPtr) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_app_ctx*
+    content.vb: Public Shared Function zt_app_ctx(ztx As IntPtr) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_app_ctx*
   modifiers.csharp:
   - public
   - static
@@ -915,16 +915,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_get_transfer_rates(IntPtr,System.Double@,System.Double@)
-  commentId: M:Hanzo ZT.Native.API.ziti_get_transfer_rates(IntPtr,System.Double@,System.Double@)
-  id: ziti_get_transfer_rates(IntPtr,System.Double@,System.Double@)
+- uid: Hanzo ZT.Native.API.zt_get_transfer_rates(IntPtr,System.Double@,System.Double@)
+  commentId: M:Hanzo ZT.Native.API.zt_get_transfer_rates(IntPtr,System.Double@,System.Double@)
+  id: zt_get_transfer_rates(IntPtr,System.Double@,System.Double@)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_get_transfer_rates(IntPtr, ref Double, ref Double)
-  nameWithType: API.ziti_get_transfer_rates(IntPtr, ref Double, ref Double)
-  fullName: Hanzo ZT.Native.API.ziti_get_transfer_rates(IntPtr, ref System.Double, ref System.Double)
+  name: zt_get_transfer_rates(IntPtr, ref Double, ref Double)
+  nameWithType: API.zt_get_transfer_rates(IntPtr, ref Double, ref Double)
+  fullName: Hanzo ZT.Native.API.zt_get_transfer_rates(IntPtr, ref System.Double, ref System.Double)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -933,7 +933,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern void ziti_get_transfer_rates(IntPtr ztx, ref double up, ref double down)
+    content: public static extern void zt_get_transfer_rates(IntPtr ztx, ref double up, ref double down)
     parameters:
     - id: ztx
       type: IntPtr
@@ -941,9 +941,9 @@ items:
       type: System.Double
     - id: down
       type: System.Double
-    content.vb: Public Shared Sub ziti_get_transfer_rates(ztx As IntPtr, ByRef up As Double, ByRef down As Double)
-  overload: Hanzo ZT.Native.API.ziti_get_transfer_rates*
-  nameWithType.vb: API.ziti_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
+    content.vb: Public Shared Sub zt_get_transfer_rates(ztx As IntPtr, ByRef up As Double, ByRef down As Double)
+  overload: Hanzo ZT.Native.API.zt_get_transfer_rates*
+  nameWithType.vb: API.zt_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
   modifiers.csharp:
   - public
   - static
@@ -951,18 +951,18 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Hanzo ZT.Native.API.ziti_get_transfer_rates(IntPtr, ByRef System.Double, ByRef System.Double)
-  name.vb: ziti_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
-- uid: Hanzo ZT.Native.API.ziti_set_timeout(IntPtr,System.Int32)
-  commentId: M:Hanzo ZT.Native.API.ziti_set_timeout(IntPtr,System.Int32)
-  id: ziti_set_timeout(IntPtr,System.Int32)
+  fullName.vb: Hanzo ZT.Native.API.zt_get_transfer_rates(IntPtr, ByRef System.Double, ByRef System.Double)
+  name.vb: zt_get_transfer_rates(IntPtr, ByRef Double, ByRef Double)
+- uid: Hanzo ZT.Native.API.zt_set_timeout(IntPtr,System.Int32)
+  commentId: M:Hanzo ZT.Native.API.zt_set_timeout(IntPtr,System.Int32)
+  id: zt_set_timeout(IntPtr,System.Int32)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_set_timeout(IntPtr, Int32)
-  nameWithType: API.ziti_set_timeout(IntPtr, Int32)
-  fullName: Hanzo ZT.Native.API.ziti_set_timeout(IntPtr, System.Int32)
+  name: zt_set_timeout(IntPtr, Int32)
+  nameWithType: API.zt_set_timeout(IntPtr, Int32)
+  fullName: Hanzo ZT.Native.API.zt_set_timeout(IntPtr, System.Int32)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -971,7 +971,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_set_timeout(IntPtr ztx, int timeout)
+    content: public static extern int zt_set_timeout(IntPtr ztx, int timeout)
     parameters:
     - id: ztx
       type: IntPtr
@@ -979,8 +979,8 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_set_timeout(ztx As IntPtr, timeout As Integer) As Integer
-  overload: Hanzo ZT.Native.API.ziti_set_timeout*
+    content.vb: Public Shared Function zt_set_timeout(ztx As IntPtr, timeout As Integer) As Integer
+  overload: Hanzo ZT.Native.API.zt_set_timeout*
   modifiers.csharp:
   - public
   - static
@@ -988,16 +988,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_shutdown(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_shutdown(IntPtr)
-  id: ziti_shutdown(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_shutdown(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_shutdown(IntPtr)
+  id: zt_shutdown(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_shutdown(IntPtr)
-  nameWithType: API.ziti_shutdown(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_shutdown(IntPtr)
+  name: zt_shutdown(IntPtr)
+  nameWithType: API.zt_shutdown(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_shutdown(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -1006,14 +1006,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_shutdown(IntPtr ztx)
+    content: public static extern int zt_shutdown(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_shutdown(ztx As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_shutdown*
+    content.vb: Public Shared Function zt_shutdown(ztx As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_shutdown*
   modifiers.csharp:
   - public
   - static
@@ -1021,16 +1021,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_ctx_free(IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_ctx_free(IntPtr)
-  id: ziti_ctx_free(IntPtr)
+- uid: Hanzo ZT.Native.API.zt_ctx_free(IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_ctx_free(IntPtr)
+  id: zt_ctx_free(IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_ctx_free(IntPtr)
-  nameWithType: API.ziti_ctx_free(IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_ctx_free(IntPtr)
+  name: zt_ctx_free(IntPtr)
+  nameWithType: API.zt_ctx_free(IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_ctx_free(IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -1039,14 +1039,14 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_ctx_free(IntPtr ztx)
+    content: public static extern int zt_ctx_free(IntPtr ztx)
     parameters:
     - id: ztx
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_ctx_free(ztx As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_ctx_free*
+    content.vb: Public Shared Function zt_ctx_free(ztx As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_ctx_free*
   modifiers.csharp:
   - public
   - static
@@ -1054,16 +1054,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_close(IntPtr,Hanzo ZT.Native.ziti_close_cb)
-  commentId: M:Hanzo ZT.Native.API.ziti_close(IntPtr,Hanzo ZT.Native.ziti_close_cb)
-  id: ziti_close(IntPtr,Hanzo ZT.Native.ziti_close_cb)
+- uid: Hanzo ZT.Native.API.zt_close(IntPtr,Hanzo ZT.Native.zt_close_cb)
+  commentId: M:Hanzo ZT.Native.API.zt_close(IntPtr,Hanzo ZT.Native.zt_close_cb)
+  id: zt_close(IntPtr,Hanzo ZT.Native.zt_close_cb)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_close(IntPtr, ziti_close_cb)
-  nameWithType: API.ziti_close(IntPtr, ziti_close_cb)
-  fullName: Hanzo ZT.Native.API.ziti_close(IntPtr, Hanzo ZT.Native.ziti_close_cb)
+  name: zt_close(IntPtr, zt_close_cb)
+  nameWithType: API.zt_close(IntPtr, zt_close_cb)
+  fullName: Hanzo ZT.Native.API.zt_close(IntPtr, Hanzo ZT.Native.zt_close_cb)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -1072,16 +1072,16 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_close(IntPtr conn, ziti_close_cb close_cb)
+    content: public static extern int zt_close(IntPtr conn, zt_close_cb close_cb)
     parameters:
     - id: conn
       type: IntPtr
     - id: close_cb
-      type: Hanzo ZT.Native.ziti_close_cb
+      type: Hanzo ZT.Native.zt_close_cb
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_close(conn As IntPtr, close_cb As ziti_close_cb) As Integer
-  overload: Hanzo ZT.Native.API.ziti_close*
+    content.vb: Public Shared Function zt_close(conn As IntPtr, close_cb As zt_close_cb) As Integer
+  overload: Hanzo ZT.Native.API.zt_close*
   modifiers.csharp:
   - public
   - static
@@ -1089,16 +1089,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_service_available(IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,IntPtr)
-  commentId: M:Hanzo ZT.Native.API.ziti_service_available(IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,IntPtr)
-  id: ziti_service_available(IntPtr,System.String,Hanzo ZT.Native.ziti_service_cb,IntPtr)
+- uid: Hanzo ZT.Native.API.zt_service_available(IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,IntPtr)
+  commentId: M:Hanzo ZT.Native.API.zt_service_available(IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,IntPtr)
+  id: zt_service_available(IntPtr,System.String,Hanzo ZT.Native.zt_service_cb,IntPtr)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_service_available(IntPtr, String, ziti_service_cb, IntPtr)
-  nameWithType: API.ziti_service_available(IntPtr, String, ziti_service_cb, IntPtr)
-  fullName: Hanzo ZT.Native.API.ziti_service_available(IntPtr, System.String, Hanzo ZT.Native.ziti_service_cb, IntPtr)
+  name: zt_service_available(IntPtr, String, zt_service_cb, IntPtr)
+  nameWithType: API.zt_service_available(IntPtr, String, zt_service_cb, IntPtr)
+  fullName: Hanzo ZT.Native.API.zt_service_available(IntPtr, System.String, Hanzo ZT.Native.zt_service_cb, IntPtr)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -1107,20 +1107,20 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern int ziti_service_available(IntPtr ztx, string service_name, ziti_service_cb cb, IntPtr context)
+    content: public static extern int zt_service_available(IntPtr ztx, string service_name, zt_service_cb cb, IntPtr context)
     parameters:
     - id: ztx
       type: IntPtr
     - id: service_name
       type: System.String
     - id: cb
-      type: Hanzo ZT.Native.ziti_service_cb
+      type: Hanzo ZT.Native.zt_service_cb
     - id: context
       type: IntPtr
     return:
       type: System.Int32
-    content.vb: Public Shared Function ziti_service_available(ztx As IntPtr, service_name As String, cb As ziti_service_cb, context As IntPtr) As Integer
-  overload: Hanzo ZT.Native.API.ziti_service_available*
+    content.vb: Public Shared Function zt_service_available(ztx As IntPtr, service_name As String, cb As zt_service_cb, context As IntPtr) As Integer
+  overload: Hanzo ZT.Native.API.zt_service_available*
   modifiers.csharp:
   - public
   - static
@@ -1128,16 +1128,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Hanzo ZT.Native.API.ziti_service_get_raw_config(IntPtr,System.String)
-  commentId: M:Hanzo ZT.Native.API.ziti_service_get_raw_config(IntPtr,System.String)
-  id: ziti_service_get_raw_config(IntPtr,System.String)
+- uid: Hanzo ZT.Native.API.zt_service_get_raw_config(IntPtr,System.String)
+  commentId: M:Hanzo ZT.Native.API.zt_service_get_raw_config(IntPtr,System.String)
+  id: zt_service_get_raw_config(IntPtr,System.String)
   parent: Hanzo ZT.Native.API
   langs:
   - csharp
   - vb
-  name: ziti_service_get_raw_config(IntPtr, String)
-  nameWithType: API.ziti_service_get_raw_config(IntPtr, String)
-  fullName: Hanzo ZT.Native.API.ziti_service_get_raw_config(IntPtr, System.String)
+  name: zt_service_get_raw_config(IntPtr, String)
+  nameWithType: API.zt_service_get_raw_config(IntPtr, String)
+  fullName: Hanzo ZT.Native.API.zt_service_get_raw_config(IntPtr, System.String)
   type: Method
   source:
     path: Ziti.NET.Standard
@@ -1146,7 +1146,7 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT.Native
   syntax:
-    content: public static extern IntPtr ziti_service_get_raw_config(IntPtr svc, string config_name)
+    content: public static extern IntPtr zt_service_get_raw_config(IntPtr svc, string config_name)
     parameters:
     - id: svc
       type: IntPtr
@@ -1154,8 +1154,8 @@ items:
       type: System.String
     return:
       type: IntPtr
-    content.vb: Public Shared Function ziti_service_get_raw_config(svc As IntPtr, config_name As String) As IntPtr
-  overload: Hanzo ZT.Native.API.ziti_service_get_raw_config*
+    content.vb: Public Shared Function zt_service_get_raw_config(svc As IntPtr, config_name As String) As IntPtr
+  overload: Hanzo ZT.Native.API.zt_service_get_raw_config*
   modifiers.csharp:
   - public
   - static
@@ -1298,18 +1298,18 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: IntPtr
-- uid: Hanzo ZT.Native.API.ziti_enroll*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_enroll
+- uid: Hanzo ZT.Native.API.zt_enroll*
+  commentId: Overload:Hanzo ZT.Native.API.zt_enroll
   isExternal: true
-  name: ziti_enroll
-  nameWithType: API.ziti_enroll
-  fullName: Hanzo ZT.Native.API.ziti_enroll
-- uid: Hanzo ZT.Native.ziti_enroll_cb
-  commentId: T:Hanzo ZT.Native.ziti_enroll_cb
+  name: zt_enroll
+  nameWithType: API.zt_enroll
+  fullName: Hanzo ZT.Native.API.zt_enroll
+- uid: Hanzo ZT.Native.zt_enroll_cb
+  commentId: T:Hanzo ZT.Native.zt_enroll_cb
   parent: Hanzo ZT.Native
-  name: ziti_enroll_cb
-  nameWithType: ziti_enroll_cb
-  fullName: Hanzo ZT.Native.ziti_enroll_cb
+  name: zt_enroll_cb
+  nameWithType: zt_enroll_cb
+  fullName: Hanzo ZT.Native.zt_enroll_cb
 - uid: GCHandle
   isExternal: true
   name: GCHandle
@@ -1320,24 +1320,24 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Hanzo ZT.Native.API.ziti_log_init*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_log_init
+- uid: Hanzo ZT.Native.API.zt_log_init*
+  commentId: Overload:Hanzo ZT.Native.API.zt_log_init
   isExternal: true
-  name: ziti_log_init
-  nameWithType: API.ziti_log_init
-  fullName: Hanzo ZT.Native.API.ziti_log_init
+  name: zt_log_init
+  nameWithType: API.zt_log_init
+  fullName: Hanzo ZT.Native.API.zt_log_init
 - uid: Hanzo ZT.Native.API.newLoop*
   commentId: Overload:Hanzo ZT.Native.API.newLoop
   isExternal: true
   name: newLoop
   nameWithType: API.newLoop
   fullName: Hanzo ZT.Native.API.newLoop
-- uid: Hanzo ZT.Native.API.ziti_init_opts*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_init_opts
+- uid: Hanzo ZT.Native.API.zt_init_opts*
+  commentId: Overload:Hanzo ZT.Native.API.zt_init_opts
   isExternal: true
-  name: ziti_init_opts
-  nameWithType: API.ziti_init_opts
-  fullName: Hanzo ZT.Native.API.ziti_init_opts
+  name: zt_init_opts
+  nameWithType: API.zt_init_opts
+  fullName: Hanzo ZT.Native.API.zt_init_opts
 - uid: Hanzo ZT.Native.API.z4d_uv_run*
   commentId: Overload:Hanzo ZT.Native.API.z4d_uv_run
   isExternal: true
@@ -1350,66 +1350,66 @@ references:
   name: z4d_all_config_types
   nameWithType: API.z4d_all_config_types
   fullName: Hanzo ZT.Native.API.z4d_all_config_types
-- uid: Hanzo ZT.Native.API.ziti_get_identity*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_identity
+- uid: Hanzo ZT.Native.API.zt_get_identity*
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_identity
   isExternal: true
-  name: ziti_get_identity
-  nameWithType: API.ziti_get_identity
-  fullName: Hanzo ZT.Native.API.ziti_get_identity
-- uid: Hanzo ZT.Native.API.ziti_get_controller*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_controller
+  name: zt_get_identity
+  nameWithType: API.zt_get_identity
+  fullName: Hanzo ZT.Native.API.zt_get_identity
+- uid: Hanzo ZT.Native.API.zt_get_controller*
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_controller
   isExternal: true
-  name: ziti_get_controller
-  nameWithType: API.ziti_get_controller
-  fullName: Hanzo ZT.Native.API.ziti_get_controller
-- uid: Hanzo ZT.Native.API.ziti_get_controller_version*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_controller_version
+  name: zt_get_controller
+  nameWithType: API.zt_get_controller
+  fullName: Hanzo ZT.Native.API.zt_get_controller
+- uid: Hanzo ZT.Native.API.zt_get_controller_version*
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_controller_version
   isExternal: true
-  name: ziti_get_controller_version
-  nameWithType: API.ziti_get_controller_version
-  fullName: Hanzo ZT.Native.API.ziti_get_controller_version
-- uid: Hanzo ZT.Native.API.ziti_get_version*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_version
+  name: zt_get_controller_version
+  nameWithType: API.zt_get_controller_version
+  fullName: Hanzo ZT.Native.API.zt_get_controller_version
+- uid: Hanzo ZT.Native.API.zt_get_version*
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_version
   isExternal: true
-  name: ziti_get_version
-  nameWithType: API.ziti_get_version
-  fullName: Hanzo ZT.Native.API.ziti_get_version
-- uid: Hanzo ZT.Native.API.ziti_service_array_get*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_array_get
+  name: zt_get_version
+  nameWithType: API.zt_get_version
+  fullName: Hanzo ZT.Native.API.zt_get_version
+- uid: Hanzo ZT.Native.API.zt_service_array_get*
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_array_get
   isExternal: true
-  name: ziti_service_array_get
-  nameWithType: API.ziti_service_array_get
-  fullName: Hanzo ZT.Native.API.ziti_service_array_get
-- uid: Hanzo ZT.Native.API.ziti_dial*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_dial
+  name: zt_service_array_get
+  nameWithType: API.zt_service_array_get
+  fullName: Hanzo ZT.Native.API.zt_service_array_get
+- uid: Hanzo ZT.Native.API.zt_dial*
+  commentId: Overload:Hanzo ZT.Native.API.zt_dial
   isExternal: true
-  name: ziti_dial
-  nameWithType: API.ziti_dial
-  fullName: Hanzo ZT.Native.API.ziti_dial
-- uid: Hanzo ZT.Native.ziti_conn_cb
-  commentId: T:Hanzo ZT.Native.ziti_conn_cb
+  name: zt_dial
+  nameWithType: API.zt_dial
+  fullName: Hanzo ZT.Native.API.zt_dial
+- uid: Hanzo ZT.Native.zt_conn_cb
+  commentId: T:Hanzo ZT.Native.zt_conn_cb
   parent: Hanzo ZT.Native
-  name: ziti_conn_cb
-  nameWithType: ziti_conn_cb
-  fullName: Hanzo ZT.Native.ziti_conn_cb
-- uid: Hanzo ZT.Native.ziti_data_cb
-  commentId: T:Hanzo ZT.Native.ziti_data_cb
+  name: zt_conn_cb
+  nameWithType: zt_conn_cb
+  fullName: Hanzo ZT.Native.zt_conn_cb
+- uid: Hanzo ZT.Native.zt_data_cb
+  commentId: T:Hanzo ZT.Native.zt_data_cb
   parent: Hanzo ZT.Native
-  name: ziti_data_cb
-  nameWithType: ziti_data_cb
-  fullName: Hanzo ZT.Native.ziti_data_cb
-- uid: Hanzo ZT.Native.API.ziti_conn_init*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_conn_init
+  name: zt_data_cb
+  nameWithType: zt_data_cb
+  fullName: Hanzo ZT.Native.zt_data_cb
+- uid: Hanzo ZT.Native.API.zt_conn_init*
+  commentId: Overload:Hanzo ZT.Native.API.zt_conn_init
   isExternal: true
-  name: ziti_conn_init
-  nameWithType: API.ziti_conn_init
-  fullName: Hanzo ZT.Native.API.ziti_conn_init
-- uid: Hanzo ZT.Native.API.ziti_write*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_write
+  name: zt_conn_init
+  nameWithType: API.zt_conn_init
+  fullName: Hanzo ZT.Native.API.zt_conn_init
+- uid: Hanzo ZT.Native.API.zt_write*
+  commentId: Overload:Hanzo ZT.Native.API.zt_write
   isExternal: true
-  name: ziti_write
-  nameWithType: API.ziti_write
-  fullName: Hanzo ZT.Native.API.ziti_write
+  name: zt_write
+  nameWithType: API.zt_write
+  fullName: Hanzo ZT.Native.API.zt_write
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -1436,131 +1436,131 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Hanzo ZT.Native.ziti_write_cb
-  commentId: T:Hanzo ZT.Native.ziti_write_cb
+- uid: Hanzo ZT.Native.zt_write_cb
+  commentId: T:Hanzo ZT.Native.zt_write_cb
   parent: Hanzo ZT.Native
-  name: ziti_write_cb
-  nameWithType: ziti_write_cb
-  fullName: Hanzo ZT.Native.ziti_write_cb
-- uid: Hanzo ZT.Native.API.ziti_accept*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_accept
+  name: zt_write_cb
+  nameWithType: zt_write_cb
+  fullName: Hanzo ZT.Native.zt_write_cb
+- uid: Hanzo ZT.Native.API.zt_accept*
+  commentId: Overload:Hanzo ZT.Native.API.zt_accept
   isExternal: true
-  name: ziti_accept
-  nameWithType: API.ziti_accept
-  fullName: Hanzo ZT.Native.API.ziti_accept
-- uid: Hanzo ZT.Native.API.z4d_ziti_close*
-  commentId: Overload:Hanzo ZT.Native.API.z4d_ziti_close
+  name: zt_accept
+  nameWithType: API.zt_accept
+  fullName: Hanzo ZT.Native.API.zt_accept
+- uid: Hanzo ZT.Native.API.z4d_zt_close*
+  commentId: Overload:Hanzo ZT.Native.API.z4d_zt_close
   isExternal: true
-  name: z4d_ziti_close
-  nameWithType: API.z4d_ziti_close
-  fullName: Hanzo ZT.Native.API.z4d_ziti_close
-- uid: Hanzo ZT.Native.API.ziti_config_to_json*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_config_to_json
+  name: z4d_zt_close
+  nameWithType: API.z4d_zt_close
+  fullName: Hanzo ZT.Native.API.z4d_zt_close
+- uid: Hanzo ZT.Native.API.zt_config_to_json*
+  commentId: Overload:Hanzo ZT.Native.API.zt_config_to_json
   isExternal: true
-  name: ziti_config_to_json
-  nameWithType: API.ziti_config_to_json
-  fullName: Hanzo ZT.Native.API.ziti_config_to_json
-- uid: Hanzo ZT.Native.API.ziti_listen*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_listen
+  name: zt_config_to_json
+  nameWithType: API.zt_config_to_json
+  fullName: Hanzo ZT.Native.API.zt_config_to_json
+- uid: Hanzo ZT.Native.API.zt_listen*
+  commentId: Overload:Hanzo ZT.Native.API.zt_listen
   isExternal: true
-  name: ziti_listen
-  nameWithType: API.ziti_listen
-  fullName: Hanzo ZT.Native.API.ziti_listen
-- uid: Hanzo ZT.Native.ziti_listen_cb
-  commentId: T:Hanzo ZT.Native.ziti_listen_cb
+  name: zt_listen
+  nameWithType: API.zt_listen
+  fullName: Hanzo ZT.Native.API.zt_listen
+- uid: Hanzo ZT.Native.zt_listen_cb
+  commentId: T:Hanzo ZT.Native.zt_listen_cb
   parent: Hanzo ZT.Native
-  name: ziti_listen_cb
-  nameWithType: ziti_listen_cb
-  fullName: Hanzo ZT.Native.ziti_listen_cb
-- uid: Hanzo ZT.Native.ziti_client_cb
-  commentId: T:Hanzo ZT.Native.ziti_client_cb
+  name: zt_listen_cb
+  nameWithType: zt_listen_cb
+  fullName: Hanzo ZT.Native.zt_listen_cb
+- uid: Hanzo ZT.Native.zt_client_cb
+  commentId: T:Hanzo ZT.Native.zt_client_cb
   parent: Hanzo ZT.Native
-  name: ziti_client_cb
-  nameWithType: ziti_client_cb
-  fullName: Hanzo ZT.Native.ziti_client_cb
-- uid: Hanzo ZT.Native.API.ziti_init*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_init
+  name: zt_client_cb
+  nameWithType: zt_client_cb
+  fullName: Hanzo ZT.Native.zt_client_cb
+- uid: Hanzo ZT.Native.API.zt_init*
+  commentId: Overload:Hanzo ZT.Native.API.zt_init
   isExternal: true
-  name: ziti_init
-  nameWithType: API.ziti_init
-  fullName: Hanzo ZT.Native.API.ziti_init
-- uid: Hanzo ZT.Native.ziti_event_cb
-  commentId: T:Hanzo ZT.Native.ziti_event_cb
+  name: zt_init
+  nameWithType: API.zt_init
+  fullName: Hanzo ZT.Native.API.zt_init
+- uid: Hanzo ZT.Native.zt_event_cb
+  commentId: T:Hanzo ZT.Native.zt_event_cb
   parent: Hanzo ZT.Native
-  name: ziti_event_cb
-  nameWithType: ziti_event_cb
-  fullName: Hanzo ZT.Native.ziti_event_cb
-- uid: Hanzo ZT.Native.API.ziti_set_app_info*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_set_app_info
+  name: zt_event_cb
+  nameWithType: zt_event_cb
+  fullName: Hanzo ZT.Native.zt_event_cb
+- uid: Hanzo ZT.Native.API.zt_set_app_info*
+  commentId: Overload:Hanzo ZT.Native.API.zt_set_app_info
   isExternal: true
-  name: ziti_set_app_info
-  nameWithType: API.ziti_set_app_info
-  fullName: Hanzo ZT.Native.API.ziti_set_app_info
-- uid: Hanzo ZT.Native.API.ziti_app_ctx*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_app_ctx
+  name: zt_set_app_info
+  nameWithType: API.zt_set_app_info
+  fullName: Hanzo ZT.Native.API.zt_set_app_info
+- uid: Hanzo ZT.Native.API.zt_app_ctx*
+  commentId: Overload:Hanzo ZT.Native.API.zt_app_ctx
   isExternal: true
-  name: ziti_app_ctx
-  nameWithType: API.ziti_app_ctx
-  fullName: Hanzo ZT.Native.API.ziti_app_ctx
-- uid: Hanzo ZT.Native.API.ziti_get_transfer_rates*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_get_transfer_rates
+  name: zt_app_ctx
+  nameWithType: API.zt_app_ctx
+  fullName: Hanzo ZT.Native.API.zt_app_ctx
+- uid: Hanzo ZT.Native.API.zt_get_transfer_rates*
+  commentId: Overload:Hanzo ZT.Native.API.zt_get_transfer_rates
   isExternal: true
-  name: ziti_get_transfer_rates
-  nameWithType: API.ziti_get_transfer_rates
-  fullName: Hanzo ZT.Native.API.ziti_get_transfer_rates
+  name: zt_get_transfer_rates
+  nameWithType: API.zt_get_transfer_rates
+  fullName: Hanzo ZT.Native.API.zt_get_transfer_rates
 - uid: System.Double
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: Hanzo ZT.Native.API.ziti_set_timeout*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_set_timeout
+- uid: Hanzo ZT.Native.API.zt_set_timeout*
+  commentId: Overload:Hanzo ZT.Native.API.zt_set_timeout
   isExternal: true
-  name: ziti_set_timeout
-  nameWithType: API.ziti_set_timeout
-  fullName: Hanzo ZT.Native.API.ziti_set_timeout
-- uid: Hanzo ZT.Native.API.ziti_shutdown*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_shutdown
+  name: zt_set_timeout
+  nameWithType: API.zt_set_timeout
+  fullName: Hanzo ZT.Native.API.zt_set_timeout
+- uid: Hanzo ZT.Native.API.zt_shutdown*
+  commentId: Overload:Hanzo ZT.Native.API.zt_shutdown
   isExternal: true
-  name: ziti_shutdown
-  nameWithType: API.ziti_shutdown
-  fullName: Hanzo ZT.Native.API.ziti_shutdown
-- uid: Hanzo ZT.Native.API.ziti_ctx_free*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_ctx_free
+  name: zt_shutdown
+  nameWithType: API.zt_shutdown
+  fullName: Hanzo ZT.Native.API.zt_shutdown
+- uid: Hanzo ZT.Native.API.zt_ctx_free*
+  commentId: Overload:Hanzo ZT.Native.API.zt_ctx_free
   isExternal: true
-  name: ziti_ctx_free
-  nameWithType: API.ziti_ctx_free
-  fullName: Hanzo ZT.Native.API.ziti_ctx_free
-- uid: Hanzo ZT.Native.API.ziti_close*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_close
+  name: zt_ctx_free
+  nameWithType: API.zt_ctx_free
+  fullName: Hanzo ZT.Native.API.zt_ctx_free
+- uid: Hanzo ZT.Native.API.zt_close*
+  commentId: Overload:Hanzo ZT.Native.API.zt_close
   isExternal: true
-  name: ziti_close
-  nameWithType: API.ziti_close
-  fullName: Hanzo ZT.Native.API.ziti_close
-- uid: Hanzo ZT.Native.ziti_close_cb
-  commentId: T:Hanzo ZT.Native.ziti_close_cb
+  name: zt_close
+  nameWithType: API.zt_close
+  fullName: Hanzo ZT.Native.API.zt_close
+- uid: Hanzo ZT.Native.zt_close_cb
+  commentId: T:Hanzo ZT.Native.zt_close_cb
   parent: Hanzo ZT.Native
-  name: ziti_close_cb
-  nameWithType: ziti_close_cb
-  fullName: Hanzo ZT.Native.ziti_close_cb
-- uid: Hanzo ZT.Native.API.ziti_service_available*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_available
+  name: zt_close_cb
+  nameWithType: zt_close_cb
+  fullName: Hanzo ZT.Native.zt_close_cb
+- uid: Hanzo ZT.Native.API.zt_service_available*
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_available
   isExternal: true
-  name: ziti_service_available
-  nameWithType: API.ziti_service_available
-  fullName: Hanzo ZT.Native.API.ziti_service_available
-- uid: Hanzo ZT.Native.ziti_service_cb
-  commentId: T:Hanzo ZT.Native.ziti_service_cb
+  name: zt_service_available
+  nameWithType: API.zt_service_available
+  fullName: Hanzo ZT.Native.API.zt_service_available
+- uid: Hanzo ZT.Native.zt_service_cb
+  commentId: T:Hanzo ZT.Native.zt_service_cb
   parent: Hanzo ZT.Native
-  name: ziti_service_cb
-  nameWithType: ziti_service_cb
-  fullName: Hanzo ZT.Native.ziti_service_cb
-- uid: Hanzo ZT.Native.API.ziti_service_get_raw_config*
-  commentId: Overload:Hanzo ZT.Native.API.ziti_service_get_raw_config
+  name: zt_service_cb
+  nameWithType: zt_service_cb
+  fullName: Hanzo ZT.Native.zt_service_cb
+- uid: Hanzo ZT.Native.API.zt_service_get_raw_config*
+  commentId: Overload:Hanzo ZT.Native.API.zt_service_get_raw_config
   isExternal: true
-  name: ziti_service_get_raw_config
-  nameWithType: API.ziti_service_get_raw_config
-  fullName: Hanzo ZT.Native.API.ziti_service_get_raw_config
+  name: zt_service_get_raw_config
+  nameWithType: API.zt_service_get_raw_config
+  fullName: Hanzo ZT.Native.API.zt_service_get_raw_config
 - uid: Hanzo ZT.Native.API.gimme_string_intptr*
   commentId: Overload:Hanzo ZT.Native.API.gimme_string_intptr
   isExternal: true

@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.zt_service
+  commentId: T:Hanzo ZT.zt_service
+  id: zt_service
+  parent: Hanzo ZT
+  children:
+  - Hanzo ZT.zt_service.config
+  - Hanzo ZT.zt_service.encryption
+  - Hanzo ZT.zt_service.id
+  - Hanzo ZT.zt_service.name
+  - Hanzo ZT.zt_service.perm_flags
+  - Hanzo ZT.zt_service.permissions
+  langs:
+  - csharp
+  - vb
+  name: zt_service
+  nameWithType: zt_service
+  fullName: Hanzo ZT.zt_service
+  type: Struct
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_service
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 214
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public struct zt_service
+    content.vb: Public Structure zt_service
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Hanzo ZT.zt_service.id
+  commentId: F:Hanzo ZT.zt_service.id
+  id: id
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: zt_service.id
+  fullName: Hanzo ZT.zt_service.id
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: id
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 215
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public string id
+    return:
+      type: System.String
+    content.vb: Public id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.zt_service.name
+  commentId: F:Hanzo ZT.zt_service.name
+  id: name
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: zt_service.name
+  fullName: Hanzo ZT.zt_service.name
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: name
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 216
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.zt_service.permissions
+  commentId: F:Hanzo ZT.zt_service.permissions
+  id: permissions
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: permissions
+  nameWithType: zt_service.permissions
+  fullName: Hanzo ZT.zt_service.permissions
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: permissions
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 217
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public string permissions
+    return:
+      type: System.String
+    content.vb: Public permissions As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.zt_service.encryption
+  commentId: F:Hanzo ZT.zt_service.encryption
+  id: encryption
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: encryption
+  nameWithType: zt_service.encryption
+  fullName: Hanzo ZT.zt_service.encryption
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: encryption
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 218
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public bool encryption
+    return:
+      type: System.Boolean
+    content.vb: Public encryption As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.zt_service.perm_flags
+  commentId: F:Hanzo ZT.zt_service.perm_flags
+  id: perm_flags
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: perm_flags
+  nameWithType: zt_service.perm_flags
+  fullName: Hanzo ZT.zt_service.perm_flags
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: perm_flags
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 219
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public int perm_flags
+    return:
+      type: System.Int32
+    content.vb: Public perm_flags As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.zt_service.config
+  commentId: F:Hanzo ZT.zt_service.config
+  id: config
+  parent: Hanzo ZT.zt_service
+  langs:
+  - csharp
+  - vb
+  name: config
+  nameWithType: zt_service.config
+  fullName: Hanzo ZT.zt_service.config
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: config
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 220
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public string config
+    return:
+      type: System.String
+    content.vb: Public config As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

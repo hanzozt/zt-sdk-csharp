@@ -21,7 +21,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: posture_query
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 230
@@ -52,7 +52,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: id
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 231
@@ -83,7 +83,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: is_passing
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 232
@@ -114,7 +114,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: query_type
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 233
@@ -145,7 +145,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: process
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 234
@@ -153,10 +153,10 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT
   syntax:
-    content: public ziti_process process
+    content: public zt_process process
     return:
-      type: Hanzo ZT.ziti_process
-    content.vb: Public process As ziti_process
+      type: Hanzo ZT.zt_process
+    content.vb: Public process As zt_process
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -176,7 +176,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: timeout
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 235
@@ -208,12 +208,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Hanzo ZT.ziti_process
-  commentId: T:Hanzo ZT.ziti_process
+- uid: Hanzo ZT.zt_process
+  commentId: T:Hanzo ZT.zt_process
   parent: Hanzo ZT
-  name: ziti_process
-  nameWithType: ziti_process
-  fullName: Hanzo ZT.ziti_process
+  name: zt_process
+  nameWithType: zt_process
+  fullName: Hanzo ZT.zt_process
 - uid: System.Int32
   isExternal: true
   name: Int32

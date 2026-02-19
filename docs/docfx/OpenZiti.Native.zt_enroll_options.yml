@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.Native.zt_enroll_options
+  commentId: T:Hanzo ZT.Native.zt_enroll_options
+  id: zt_enroll_options
+  parent: Hanzo ZT.Native
+  children:
+  - Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  - Hanzo ZT.Native.zt_enroll_options.enroll_key
+  - Hanzo ZT.Native.zt_enroll_options.jwt
+  langs:
+  - csharp
+  - vb
+  name: zt_enroll_options
+  nameWithType: zt_enroll_options
+  fullName: Hanzo ZT.Native.zt_enroll_options
+  type: Struct
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_enroll_options
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 20
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public struct zt_enroll_options
+    content.vb: Public Structure zt_enroll_options
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Hanzo ZT.Native.zt_enroll_options.jwt
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.jwt
+  id: jwt
+  parent: Hanzo ZT.Native.zt_enroll_options
+  langs:
+  - csharp
+  - vb
+  name: jwt
+  nameWithType: zt_enroll_options.jwt
+  fullName: Hanzo ZT.Native.zt_enroll_options.jwt
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: jwt
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 22
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public string jwt
+    return:
+      type: System.String
+    content.vb: Public jwt As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_enroll_options.enroll_key
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.enroll_key
+  id: enroll_key
+  parent: Hanzo ZT.Native.zt_enroll_options
+  langs:
+  - csharp
+  - vb
+  name: enroll_key
+  nameWithType: zt_enroll_options.enroll_key
+  fullName: Hanzo ZT.Native.zt_enroll_options.enroll_key
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: enroll_key
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 23
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public string enroll_key
+    return:
+      type: System.String
+    content.vb: Public enroll_key As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  commentId: F:Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  id: enroll_cert
+  parent: Hanzo ZT.Native.zt_enroll_options
+  langs:
+  - csharp
+  - vb
+  name: enroll_cert
+  nameWithType: zt_enroll_options.enroll_cert
+  fullName: Hanzo ZT.Native.zt_enroll_options.enroll_cert
+  type: Field
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: enroll_cert
+    path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
+    startLine: 24
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT.Native
+  syntax:
+    content: public string enroll_cert
+    return:
+      type: System.String
+    content.vb: Public enroll_cert As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Hanzo ZT.Native
+  commentId: N:Hanzo ZT.Native
+  name: Hanzo ZT.Native
+  nameWithType: Hanzo ZT.Native
+  fullName: Hanzo ZT.Native
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

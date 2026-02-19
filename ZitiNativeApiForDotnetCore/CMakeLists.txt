@@ -26,20 +26,20 @@ option(ZITI_RUN_DEFGEN "Enable to run defgen" OFF)
 
 if(ZITI_RUN_DEFGEN)
     FetchContent_Declare(
-            ziti-sdk-c-archive
-            URL "https://github.com/hanzozt/ziti-sdk-c/releases/download/${ZITI_SDK_C_BRANCH}/ziti-sdk-Windows-AMD64.zip"
+            zt-sdk-c-archive
+            URL "https://github.com/hanzozt/zt-sdk-c/releases/download/${ZITI_SDK_C_BRANCH}/zt-sdk-Windows-AMD64.zip"
             DOWNLOAD_NO_EXTRACT false
             DOWNLOAD_EXTRACT_TIMESTAMP true
     )
-    FetchContent_MakeAvailable(ziti-sdk-c-archive)
+    FetchContent_MakeAvailable(zt-sdk-c-archive)
 
-    message("Generating .def file from downloaded archive at: ${ziti-sdk-c-archive_SOURCE_DIR}/lib/ziti.dll")
+    message("Generating .def file from downloaded archive at: ${zt-sdk-c-archive_SOURCE_DIR}/lib/zt.dll")
     
     # Specify the path to your .bat file
     set(batch_file_path "defgen.bat")
     
     execute_process(
-            COMMAND "defgen.bat" "64" "${ziti-sdk-c-archive_SOURCE_DIR}/lib/ziti.dll"
+            COMMAND "defgen.bat" "64" "${zt-sdk-c-archive_SOURCE_DIR}/lib/zt.dll"
             WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
             RESULT_VARIABLE result
     )
@@ -47,7 +47,7 @@ if(ZITI_RUN_DEFGEN)
 endif()
 
 
-project(ziti4dotnet VERSION ${BUILD_NUMBER} LANGUAGES C CXX)
+project(zt4dotnet VERSION ${BUILD_NUMBER} LANGUAGES C CXX)
 
 message("project version: ${PROJECT_VERSION} (BUILD_NUMBER ${BUILD_NUMBER})")
 message("cross-compiling: ${CMAKE_CROSSCOMPILING}")
@@ -61,22 +61,22 @@ message("cross-compiling: ${CMAKE_CROSSCOMPILING}")
 
 include(FetchContent)
 
-FetchContent_Declare(ziti-sdk-c
-        GIT_REPOSITORY https://github.com/hanzozt/ziti-sdk-c.git
+FetchContent_Declare(zt-sdk-c
+        GIT_REPOSITORY https://github.com/hanzozt/zt-sdk-c.git
         GIT_TAG ${ZITI_SDK_C_BRANCH}
         )
 set(ZITI_BUILD_TESTS off)
 set(ZITI_BUILD_PROGRAMS off)
 set(BUILDING_ZITI_SHARED 1)
-FetchContent_MakeAvailable(ziti-sdk-c)
-# REMOVING target_compile_definitions(ziti PRIVATE PROTOBUF_C_USE_SHARED_LIB=1)
+FetchContent_MakeAvailable(zt-sdk-c)
+# REMOVING target_compile_definitions(zt PRIVATE PROTOBUF_C_USE_SHARED_LIB=1)
 
 
 add_subdirectory(library)
 
 string(TOLOWER "${GENERATE_ZITI_STATUS}" generate_csharp_enum)
 if("${generate_csharp_enum}" STREQUAL "yes")
-    set(SourceErrorsFile "${ziti-sdk-c_SOURCE_DIR}/includes/ziti/errors.h")
+    set(SourceErrorsFile "${zt-sdk-c_SOURCE_DIR}/includes/zt/errors.h")
     set(OUTPUT_FILE "${CMAKE_CURRENT_SOURCE_DIR}/../Hanzo ZT.NET/src/Hanzo ZT/ZitiStatus.cs")
     execute_process(
         COMMAND powershell -File "${CMAKE_CURRENT_SOURCE_DIR}/generateDotnetStatus.ps1" -SourceFile "${SourceErrorsFile}" -OutputPath ${OUTPUT_FILE}

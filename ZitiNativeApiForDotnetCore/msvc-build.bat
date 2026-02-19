@@ -102,10 +102,10 @@ goto end
 :defgen
 cmake --preset win64 -S %NATIVE_CODE_DIR% -B %BUILDFOLDER%\win64 -DGENERATE_ZITI_STATUS=yes
 REM run the below commands from microsoft developer command prompt
-REM uncomment to generate a new ziti.def
-REM defgen 32 build-win\x86\_deps\ziti-sdk-c-build\library\Release\ziti.dll
-REM copy ziti.def library
-REM cl /C /EP /I build-win/x86/_deps/ziti-sdk-c-src/includes /c library/sharp-errors.c > library/ZitiStatus.cs
+REM uncomment to generate a new zt.def
+REM defgen 32 build-win\x86\_deps\zt-sdk-c-build\library\Release\zt.dll
+REM copy zt.def library
+REM cl /C /EP /I build-win/x86/_deps/zt-sdk-c-src/includes /c library/sharp-errors.c > library/ZitiStatus.cs
 REM copy library/ZitiStatus.cs ../Hanzo ZT.NET/src/Hanzo ZT 
 goto end
 

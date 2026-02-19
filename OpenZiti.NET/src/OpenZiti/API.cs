@@ -102,12 +102,12 @@ namespace Hanzo ZT {
         public static void InitializeZiti() {
             nAPI.Ziti_lib_init();
             //var fp = Marshal.GetFunctionPointerForDelegate(NativeLogger);
-            //nAPI.ziti_log_set_logger(fp);
+            //nAPI.zt_log_set_logger(fp);
         }
 
         public static void SetLoggerFunc(nAPI.log_writer logFunc) {
             var fp = Marshal.GetFunctionPointerForDelegate(logFunc);
-            nAPI.ziti_log_set_logger(fp);
+            nAPI.zt_log_set_logger(fp);
         }
 
         public static void InitializeZiti(MLog.LogLevel level) {
@@ -116,7 +116,7 @@ namespace Hanzo ZT {
         }
 
         public static void SetLogLevel(MLog.LogLevel level) {
-            nAPI.ziti_log_set_level((int)level, null);
+            nAPI.zt_log_set_level((int)level, null);
         }
 
         public static int LastError() {
@@ -161,7 +161,7 @@ namespace Hanzo ZT {
         public static ZitiSocket Connect(ZitiSocket socket, ZitiContext ztx, string service, string terminator) {
             var rtn = nAPI.Ziti_connect(socket.NativeSocket, ztx.NativeContext, service, terminator);
             if (rtn < 0) {
-                string s = Marshal.PtrToStringAnsi(Native.API.ziti_errorstr(rtn));
+                string s = Marshal.PtrToStringAnsi(Native.API.zt_errorstr(rtn));
                 throw new ZitiException(s);
             }
             return socket;
@@ -170,7 +170,7 @@ namespace Hanzo ZT {
         public static ZitiSocket ConnectByAddress(ZitiSocket socket, string host, UInt16 port) {
             var rtn = nAPI.Ziti_connect_addr(socket.NativeSocket, host, port);
             if (rtn < 0) {
-                string s = Marshal.PtrToStringAnsi(Native.API.ziti_errorstr(rtn));
+                string s = Marshal.PtrToStringAnsi(Native.API.zt_errorstr(rtn));
                 throw new ZitiException(s);
             }
             return socket;

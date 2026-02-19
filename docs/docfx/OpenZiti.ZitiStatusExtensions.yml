@@ -17,7 +17,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatusExtensions.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiStatusExtensions
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatusExtensions.cs
     startLine: 17
@@ -54,7 +54,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatusExtensions.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: Ok
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatusExtensions.cs
     startLine: 18

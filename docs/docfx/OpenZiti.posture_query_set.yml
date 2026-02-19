@@ -20,7 +20,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: posture_query_set
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 224
@@ -51,7 +51,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: policy_id
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 225
@@ -82,7 +82,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: is_passing
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 226
@@ -113,7 +113,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: policy_type
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 227
@@ -144,7 +144,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: posture_queries
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 228

@@ -26,7 +26,7 @@ public static class WebHostBuilderExtensions {
         string service,
         string url) {
 
-        var zitiEndpoint = new ZitiEndPoint(identity: identity, serviceName: service);
+        var ztEndpoint = new ZitiEndPoint(identity: identity, serviceName: service);
 
         hostBuilder.ConfigureServices(services => {
             services.AddSingleton<IConnectionListenerFactory, ZitiConnectionListenerFactory>();
@@ -34,7 +34,7 @@ public static class WebHostBuilderExtensions {
 
         hostBuilder.ConfigureKestrel(o => {
             // Listen on both Ziti and TCP
-            o.Listen(zitiEndpoint);
+            o.Listen(ztEndpoint);
 
             // Parse URL and add TCP endpoint
             if (url.StartsWith("http://")) {

@@ -1,18 +1,18 @@
 #library
 set(ZITI_4_DOTNET_HEADERS
-        ${PROJECT_SOURCE_DIR}/includes/ziti4dotnet.h
+        ${PROJECT_SOURCE_DIR}/includes/zt4dotnet.h
 )
 set(ZITI_4_DOTNET_SOURCE
-        ${PROJECT_SOURCE_DIR}/library/ziti4dotnet.c
+        ${PROJECT_SOURCE_DIR}/library/zt4dotnet.c
 )
 
-add_library(ziti4dotnet SHARED ${ZITI_4_DOTNET_SOURCE} ${ZITI_4_DOTNET_HEADERS} ziti.def )
+add_library(zt4dotnet SHARED ${ZITI_4_DOTNET_SOURCE} ${ZITI_4_DOTNET_HEADERS} zt.def )
 
-target_include_directories(ziti4dotnet
+target_include_directories(zt4dotnet
         PUBLIC ${CMAKE_HOME_DIRECTORY}/includes
 )
 
-target_compile_definitions(ziti4dotnet
+target_compile_definitions(zt4dotnet
         PUBLIC
                 BUILD_DATE=${BUILD_DATE}
                 GIT_BRANCH=${GIT_BRANCH}
@@ -23,24 +23,24 @@ target_compile_definitions(ziti4dotnet
                 ZITI_LOG_PREFIX=${PROJECT_NAME}
 )
 
-set_property(TARGET ziti4dotnet PROPERTY C_STANDARD 11)
+set_property(TARGET zt4dotnet PROPERTY C_STANDARD 11)
 
 find_package(protobuf-c CONFIG REQUIRED)
 
-target_link_libraries(ziti4dotnet
-        PUBLIC ziti
+target_link_libraries(zt4dotnet
+        PUBLIC zt
         )
-# USE WHEN DEBUGGING - target_link_options(ziti4dotnet PRIVATE "/VERBOSE:LIB")
+# USE WHEN DEBUGGING - target_link_options(zt4dotnet PRIVATE "/VERBOSE:LIB")
 
-add_executable(zitistructalignment ${ZITI_4_DOTNET_HEADERS} ${PROJECT_SOURCE_DIR}/library/zitistructalignment.c)
+add_executable(ztstructalignment ${ZITI_4_DOTNET_HEADERS} ${PROJECT_SOURCE_DIR}/library/ztstructalignment.c)
 
-target_include_directories(zitistructalignment
+target_include_directories(ztstructalignment
         PUBLIC ${CMAKE_HOME_DIRECTORY}/includes
         )
 
-set_property(TARGET zitistructalignment PROPERTY C_STANDARD 11)
+set_property(TARGET ztstructalignment PROPERTY C_STANDARD 11)
 
-target_link_libraries(zitistructalignment
-        PUBLIC ziti4dotnet
+target_link_libraries(ztstructalignment
+        PUBLIC zt4dotnet
         )
-# USE WHEN DEBUGGING - target_link_options(zitistructalignment PRIVATE "/VERBOSE:LIB")
+# USE WHEN DEBUGGING - target_link_options(ztstructalignment PRIVATE "/VERBOSE:LIB")

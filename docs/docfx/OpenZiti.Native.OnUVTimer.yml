@@ -16,7 +16,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: OnUVTimer
     path: Ziti.NET.Standard/src/Hanzo ZT/Native/nAPI.cs
     startLine: 72

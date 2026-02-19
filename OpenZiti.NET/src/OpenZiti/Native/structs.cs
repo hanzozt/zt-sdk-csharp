@@ -34,12 +34,12 @@ namespace Hanzo ZT.Native {
 #else
         public const int ptr = 4;
 #endif
-        //Z4D_API ziti_types_t* z4d_struct_test();
+        //Z4D_API zt_types_t* z4d_struct_test();
         [DllImport(API.Z4D_DLL_PATH, EntryPoint = "z4d_struct_test", CallingConvention = API.CALL_CONVENTION)]
         public static extern IntPtr z4d_struct_test();
 
-        [DllImport(API.Z4D_DLL_PATH, EntryPoint = "z4d_ziti_posture_query", CallingConvention = API.CALL_CONVENTION)]
-        public static extern IntPtr z4d_ziti_posture_query();
+        [DllImport(API.Z4D_DLL_PATH, EntryPoint = "z4d_zt_posture_query", CallingConvention = API.CALL_CONVENTION)]
+        public static extern IntPtr z4d_zt_posture_query();
 
         public static T ToContextEvent<T>(T desired, IntPtr /*byte[] input*/ input) {
             int size = Marshal.SizeOf(desired);
@@ -81,82 +81,82 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_types_info {
+    public struct zt_types_info {
         public uint total_size;
         public string checksum;
     }
 
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_types {
+    public struct zt_types {
         public IntPtr size;
-        public AlignmentCheck /*ziti_id_cfg*/ f02_ziti_id_cfg;
-        public AlignmentCheck /*ziti_config*/ f03_ziti_config;
+        public AlignmentCheck /*zt_id_cfg*/ f02_zt_id_cfg;
+        public AlignmentCheck /*zt_config*/ f03_zt_config;
         public AlignmentCheck /*api_path*/ f04_api_path;
-        public AlignmentCheck /*ziti_api_versions*/ f05_ziti_api_versions;
-        public AlignmentCheck /*ziti_version*/ f06_ziti_version;
-        public AlignmentCheck /*ziti_identity*/ f07_ziti_identity;
-        public AlignmentCheck /*ziti_process*/ f08_ziti_process;
-        public AlignmentCheck /*ziti_posture_query*/ f09_ziti_posture_query;
-        public AlignmentCheck /*ziti_posture_query_set*/ f10_ziti_posture_query_set;
-        public AlignmentCheck /*ziti_session_type*/ f11_ziti_session_type;
-        public AlignmentCheck /*ziti_service*/ f12_ziti_service;
-        public AlignmentCheck /*ziti_address*/ f13_ziti_address_host;
-        public AlignmentCheck /*ziti_address*/ f14_ziti_address_cidr;
-        public AlignmentCheck /*ziti_client_cfg_v1*/ f15_ziti_client_cfg_v1;
-        public AlignmentCheck /*ziti_intercept_cfg_v1*/ f16_ziti_intercept_cfg_v1;
-        public AlignmentCheck /*ziti_server_cfg_v1*/ f17_ziti_server_cfg_v1;
-        public AlignmentCheck /*ziti_listen_options*/ f18_ziti_listen_options;
-        public AlignmentCheck /*ziti_host_cfg_v1*/ f19_ziti_host_cfg_v1;
-        public AlignmentCheck /*ziti_host_cfg_v2*/ f20_ziti_host_cfg_v2;
-        public AlignmentCheck /*ziti_mfa_enrollment*/ f21_ziti_mfa_enrollment;
-        public AlignmentCheck /*ziti_port_range*/ f22_ziti_port_range;
-        public AlignmentCheck /*ziti_options*/ f23_ziti_options;
+        public AlignmentCheck /*zt_api_versions*/ f05_zt_api_versions;
+        public AlignmentCheck /*zt_version*/ f06_zt_version;
+        public AlignmentCheck /*zt_identity*/ f07_zt_identity;
+        public AlignmentCheck /*zt_process*/ f08_zt_process;
+        public AlignmentCheck /*zt_posture_query*/ f09_zt_posture_query;
+        public AlignmentCheck /*zt_posture_query_set*/ f10_zt_posture_query_set;
+        public AlignmentCheck /*zt_session_type*/ f11_zt_session_type;
+        public AlignmentCheck /*zt_service*/ f12_zt_service;
+        public AlignmentCheck /*zt_address*/ f13_zt_address_host;
+        public AlignmentCheck /*zt_address*/ f14_zt_address_cidr;
+        public AlignmentCheck /*zt_client_cfg_v1*/ f15_zt_client_cfg_v1;
+        public AlignmentCheck /*zt_intercept_cfg_v1*/ f16_zt_intercept_cfg_v1;
+        public AlignmentCheck /*zt_server_cfg_v1*/ f17_zt_server_cfg_v1;
+        public AlignmentCheck /*zt_listen_options*/ f18_zt_listen_options;
+        public AlignmentCheck /*zt_host_cfg_v1*/ f19_zt_host_cfg_v1;
+        public AlignmentCheck /*zt_host_cfg_v2*/ f20_zt_host_cfg_v2;
+        public AlignmentCheck /*zt_mfa_enrollment*/ f21_zt_mfa_enrollment;
+        public AlignmentCheck /*zt_port_range*/ f22_zt_port_range;
+        public AlignmentCheck /*zt_options*/ f23_zt_options;
 
         //events
-        public AlignmentCheck /*ziti_event_t*/ f24_ziti_context_event;
-        public AlignmentCheck /*ziti_event_t*/ f25_ziti_router_event;
-        public AlignmentCheck /*ziti_event_t*/ f26_ziti_service_event;
-        public AlignmentCheck /*ziti_event_t*/ f27_ziti_mfa_auth_event;
-        public AlignmentCheck /*ziti_event_t*/ f28_ziti_api_event;
+        public AlignmentCheck /*zt_event_t*/ f24_zt_context_event;
+        public AlignmentCheck /*zt_event_t*/ f25_zt_router_event;
+        public AlignmentCheck /*zt_event_t*/ f26_zt_service_event;
+        public AlignmentCheck /*zt_event_t*/ f27_zt_mfa_auth_event;
+        public AlignmentCheck /*zt_event_t*/ f28_zt_api_event;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_types_with_values {
-        public ziti_types types;
-        public ziti_id_cfg ziti_id_cfg;
-        public ziti_config ziti_config;
-        public ziti_api_path ziti_api_path;
-        public ziti_api_versions ziti_api_versions;
-        public ziti_version ziti_version;
-        public ziti_identity ziti_identity;
-        public ziti_process ziti_process;
-        public ziti_posture_query ziti_posture_query;
-        public ziti_posture_query_set ziti_posture_query_set;
-        public ziti_session_type ziti_session_type;
-        public ziti_service ziti_service;
-        public ziti_address ziti_address_host;
-        public ziti_address ziti_address_cidr;
-        public ziti_client_cfg_v1 ziti_client_cfg_v1;
-        public ziti_intercept_cfg_v1 ziti_intercept_cfg_v1;
-        public ziti_server_cfg_v1 ziti_server_cfg_v1;
-        public ziti_listen_options ziti_listen_options;
-        public ziti_host_cfg_v1 ziti_host_cfg_v1;
-        public ziti_host_cfg_v2 ziti_host_cfg_v2;
-        public ziti_mfa_enrollment ziti_mfa_enrollment;
-        public ziti_port_range ziti_port_range;
-        public ziti_options ziti_options;
-        public ziti_context_event ziti_context_event;
-        public ziti_router_event ziti_router_event;
-        public ziti_service_event ziti_service_event;
-        public ziti_mfa_auth_event ziti_mfa_auth_event;
-        public ziti_api_event ziti_api_event;
+    public struct zt_types_with_values {
+        public zt_types types;
+        public zt_id_cfg zt_id_cfg;
+        public zt_config zt_config;
+        public zt_api_path zt_api_path;
+        public zt_api_versions zt_api_versions;
+        public zt_version zt_version;
+        public zt_identity zt_identity;
+        public zt_process zt_process;
+        public zt_posture_query zt_posture_query;
+        public zt_posture_query_set zt_posture_query_set;
+        public zt_session_type zt_session_type;
+        public zt_service zt_service;
+        public zt_address zt_address_host;
+        public zt_address zt_address_cidr;
+        public zt_client_cfg_v1 zt_client_cfg_v1;
+        public zt_intercept_cfg_v1 zt_intercept_cfg_v1;
+        public zt_server_cfg_v1 zt_server_cfg_v1;
+        public zt_listen_options zt_listen_options;
+        public zt_host_cfg_v1 zt_host_cfg_v1;
+        public zt_host_cfg_v2 zt_host_cfg_v2;
+        public zt_mfa_enrollment zt_mfa_enrollment;
+        public zt_port_range zt_port_range;
+        public zt_options zt_options;
+        public zt_context_event zt_context_event;
+        public zt_router_event zt_router_event;
+        public zt_service_event zt_service_event;
+        public zt_mfa_auth_event zt_mfa_auth_event;
+        public zt_api_event zt_api_event;
     }
 
     [StructLayout(LayoutKind.Explicit, Size = TestBlitting.ZITI_EVENT_UNION_SIZE)]
-    public struct ziti_context_event {
+    public struct zt_context_event {
         [FieldOffset(0 * TestBlitting.ptr)]
-        public ziti_event_type ziti_event_type;
+        public zt_event_type zt_event_type;
         [FieldOffset(1 * TestBlitting.ptr)]
         public int ctrl_status;
         [FieldOffset(2 * TestBlitting.ptr)]
@@ -166,7 +166,7 @@ namespace Hanzo ZT.Native {
         //public byte[] _union;
     }
 
-    public enum ziti_router_status {
+    public enum zt_router_status {
         EdgeRouterAdded,
         EdgeRouterConnected,
         EdgeRouterDisconnected,
@@ -175,9 +175,9 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Explicit, Size = TestBlitting.ZITI_EVENT_UNION_SIZE)]
-    public struct ziti_api_event {
+    public struct zt_api_event {
         [FieldOffset(0 * TestBlitting.ptr)]
-        public ziti_event_type ziti_event_type;
+        public zt_event_type zt_event_type;
         [FieldOffset(1 * TestBlitting.ptr)]
         public string new_ctrl_address;
         [FieldOffset(2 * TestBlitting.ptr)]
@@ -185,15 +185,15 @@ namespace Hanzo ZT.Native {
     };
 
     [StructLayout(LayoutKind.Explicit, Size = TestBlitting.ZITI_EVENT_UNION_SIZE)]
-    public struct ziti_mfa_auth_event {
+    public struct zt_mfa_auth_event {
         [FieldOffset(0 * TestBlitting.ptr)]
-        public ziti_event_type ziti_event_type;
+        public zt_event_type zt_event_type;
     };
 
     [StructLayout(LayoutKind.Explicit, Size = TestBlitting.ZITI_EVENT_UNION_SIZE)]
-    public struct ziti_service_event {
+    public struct zt_service_event {
         [FieldOffset(0 * TestBlitting.ptr)]
-        public ziti_event_type ziti_event_type;
+        public zt_event_type zt_event_type;
         [FieldOffset(1 * TestBlitting.ptr)]
         public IntPtr removed;
         [FieldOffset(2 * TestBlitting.ptr)]
@@ -203,11 +203,11 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Explicit, Size = TestBlitting.ZITI_EVENT_UNION_SIZE)]
-    public struct ziti_router_event {
+    public struct zt_router_event {
         [FieldOffset(0 * TestBlitting.ptr)]
-        public ziti_event_type ziti_event_type;
+        public zt_event_type zt_event_type;
         [FieldOffset(1 * TestBlitting.ptr)]
-        public ziti_router_status status;
+        public zt_router_status status;
         [FieldOffset(2 * TestBlitting.ptr)]
         public string name;
         [FieldOffset(3 * TestBlitting.ptr)]
@@ -217,11 +217,11 @@ namespace Hanzo ZT.Native {
     }
 
     //old..[StructLayout(LayoutKind.Sequential)]
-    //old..public struct ziti_context_event {
+    //old..public struct zt_context_event {
     //old..    public int ctrl_status;
     //old..    public IntPtr err;
     //old..};
-    public enum ziti_event_type {
+    public enum zt_event_type {
         ZitiContextEvent = 1,
         ZitiRouterEvent = 1 << 1,
         ZitiServiceEvent = 1 << 2,
@@ -230,7 +230,7 @@ namespace Hanzo ZT.Native {
     }
 
 
-    public enum ziti_metric_type {
+    public enum zt_metric_type {
         EWMA_1m,
         EWMA_5m,
         EWMA_15m,
@@ -241,7 +241,7 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_options {
+    public struct zt_options {
         public string config;
         public bool disabled;
         public IntPtr /*public char**/ config_types;
@@ -251,25 +251,25 @@ namespace Hanzo ZT.Native {
 #else
         public int refresh_interval; //the duration in seconds between checking for updates from the controller
 #endif
-        public ziti_metric_type metrics_type; //an enum describing the metrics to collect
+        public zt_metric_type metrics_type; //an enum describing the metrics to collect
         public int router_keepalive;
 
         //posture query cbs
-        public ziti_pq_mac_cb pq_mac_cb;
-        public ziti_pq_os_cb pq_os_cb;
-        public ziti_pq_process_cb pq_process_cb;
-        public ziti_pq_domain_cb pq_domain_cb;
+        public zt_pq_mac_cb pq_mac_cb;
+        public zt_pq_os_cb pq_os_cb;
+        public zt_pq_process_cb pq_process_cb;
+        public zt_pq_domain_cb pq_domain_cb;
 
         public IntPtr app_ctx;
 
         public uint events;
 
-        public ziti_event_cb event_cb;
+        public zt_event_cb event_cb;
 
 
-        public ziti_metric_type MetricType {
+        public zt_metric_type MetricType {
             get {
-                return (ziti_metric_type)metrics_type;
+                return (zt_metric_type)metrics_type;
             }
         }
     }
@@ -277,25 +277,25 @@ namespace Hanzo ZT.Native {
 
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_port_range {
+    public struct zt_port_range {
         public int low; //, int, none, low, __VA_ARGS__) \
         public int high; //, int, none, high, __VA_ARGS__)
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_mfa_enrollment {
+    public struct zt_mfa_enrollment {
         public bool is_verified;
         public IntPtr recovery_codes; // convert IntPtr to string array
         public string provisioning_url;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_host_cfg_v2 {
-        public IntPtr terminators;//, ziti_host_cfg_v1, list, terminators, __VA_ARGS__)
+    public struct zt_host_cfg_v2 {
+        public IntPtr terminators;//, zt_host_cfg_v1, list, terminators, __VA_ARGS__)
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_host_cfg_v1 {
+    public struct zt_host_cfg_v1 {
         public string protocol;
         public bool forward_protocol;
         public IntPtr allowed_protocols;
@@ -304,13 +304,13 @@ namespace Hanzo ZT.Native {
         public IntPtr allowed_addresses;
         public int port;
         public bool forward_port;
-        public IntPtr allowed_port_ranges;//, ziti_port_range, array, allowedPortRanges, __VA_ARGS__) \
-        public IntPtr allowed_source_addresses;//, ziti_address, array, allowedSourceAddresses, __VA_ARGS__) \
-        public IntPtr listen_options;//, ziti_listen_options, ptr, listenOptions, __VA_ARGS__)
+        public IntPtr allowed_port_ranges;//, zt_port_range, array, allowedPortRanges, __VA_ARGS__) \
+        public IntPtr allowed_source_addresses;//, zt_address, array, allowedSourceAddresses, __VA_ARGS__) \
+        public IntPtr listen_options;//, zt_listen_options, ptr, listenOptions, __VA_ARGS__)
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_listen_options {
+    public struct zt_listen_options {
         public bool bind_with_identity;
         public ulong connect_timeout;
         public int connect_timeout_seconds;
@@ -322,14 +322,14 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_server_cfg_v1 {
+    public struct zt_server_cfg_v1 {
         public string protocol;
         public string hostname;
         public int port;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_intercept_cfg_v1 {
+    public struct zt_intercept_cfg_v1 {
         public IntPtr protocols;
         public IntPtr addresses;
         public IntPtr port_ranges;
@@ -338,24 +338,24 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_client_cfg_v1 {
-        public ziti_address hostname;
+    public struct zt_client_cfg_v1 {
+        public zt_address hostname;
         public int port;
     }
-    public enum ziti_address_type {
+    public enum zt_address_type {
         Host = 0,
         CIDR = 1
     }
 
     [StructLayout(LayoutKind.Sequential, Size = 260)]
-    public struct ziti_address {
+    public struct zt_address {
         private int address_type;
         [MarshalAs(UnmanagedType.ByValArray, SizeConst = 256)]
         public byte[] _union;
 
-        public ziti_address_type Type {
+        public zt_address_type Type {
             get {
-                return (ziti_address_type)address_type;
+                return (zt_address_type)address_type;
             }
         }
         public string Hostname {
@@ -388,7 +388,7 @@ namespace Hanzo ZT.Native {
 
     }
     [StructLayout(LayoutKind.Explicit, Size = (TestBlitting.ptr * 8))]
-    public struct ziti_service {
+    public struct zt_service {
         [FieldOffset(0 * TestBlitting.ptr)]
         public string id;
         [FieldOffset(1 * TestBlitting.ptr)]
@@ -429,13 +429,13 @@ namespace Hanzo ZT.Native {
         //[MarshalAs(UnmanagedType.ByValArray, SizeConst = 8)]
         //public byte[] _union2;
     }
-    public enum ziti_session_type {
+    public enum zt_session_type {
         Bind = 1,
         Dial = 2
     }
 
     [StructLayout(LayoutKind.Explicit)]
-    public struct ziti_posture_query_set {
+    public struct zt_posture_query_set {
         [FieldOffset(0 * TestBlitting.ptr)]
         public string policy_id;
         [FieldOffset(1 * TestBlitting.ptr)]
@@ -447,7 +447,7 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Explicit)]
-    public struct ziti_posture_query {
+    public struct zt_posture_query {
         [FieldOffset(0 * TestBlitting.ptr)]
         public string id;
         [FieldOffset(1 * TestBlitting.ptr)]
@@ -467,19 +467,19 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_process {
+    public struct zt_process {
         public string path;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_identity {
+    public struct zt_identity {
         public string id;
         public string name;
         public IntPtr tags;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_version {
+    public struct zt_version {
         public string version;
         public string revision;
         public string build_date;
@@ -487,24 +487,24 @@ namespace Hanzo ZT.Native {
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_api_versions {
+    public struct zt_api_versions {
         public IntPtr api_path_map;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_api_path {
+    public struct zt_api_path {
         public string path;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_config {
+    public struct zt_config {
         public string controller_url;
-        public ziti_id_cfg id;
+        public zt_id_cfg id;
         public string cfg_source;
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_id_cfg {
+    public struct zt_id_cfg {
         public string cert;
         public string key;
         public string ca;
@@ -540,14 +540,14 @@ namespace Hanzo ZT.Native {
     //
 
 
-    public struct ziti_dial_opts {
+    public struct zt_dial_opts {
         private readonly int connect_timeout_seconds;
         private readonly string identity;
         private readonly IntPtr app_data;
         private size_t app_data_sz;
     }
 
-    public struct ziti_listen_opts {
+    public struct zt_listen_opts {
         public bool bind_with_identity;//, bool, none, bindUsingEdgeIdentity, __VA_ARGS__) \
         public ulong connect_timeout;//, duration, none, connectTimeout, __VA_ARGS__)       \
         public int connect_timeout_seconds;//, int, none, connectTimeoutSeconds, __VA_ARGS__) \
@@ -574,7 +574,7 @@ namespace Hanzo ZT.Native {
     // -- questionable
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct ziti_enroll_options {
+    public struct zt_enroll_options {
         public string jwt;
         public string enroll_key;
         public string enroll_cert;

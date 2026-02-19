@@ -1,7 +1,7 @@
 @echo off
 
-dotnet build ziti.nuget.sln --configuration Release /p:Platform=x86
-dotnet build ziti.nuget.sln --configuration Release /p:Platform=x64
+dotnet build zt.nuget.sln --configuration Release /p:Platform=x86
+dotnet build zt.nuget.sln --configuration Release /p:Platform=x64
 
 mkdir Hanzo ZT.NET\bin\Release\net6.0\
 

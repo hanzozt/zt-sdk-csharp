@@ -39,8 +39,8 @@ namespace Hanzo ZT {
             Func<int> verboseLogging = () => {
                 return verbose ? 1 : 0;
             };
-            var zitiVersion = Hanzo ZT.Native.API.ziti_get_build_version(verboseLogging());
-            return Marshal.PtrToStringUTF8(zitiVersion);
+            var ztVersion = Hanzo ZT.Native.API.zt_get_build_version(verboseLogging());
+            return Marshal.PtrToStringUTF8(ztVersion);
         }
     }
 }

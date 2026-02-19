@@ -15,7 +15,7 @@ the Hanzo ZT SDK into an application to gain these immediate benefits. The Hanzo
 other security features that combine to make a compelling security solution for any application.
 
 If you're new to Hanzo ZT or overlay networks it might be useful to check out 
-[the official documentation](https://hanzozt.dev) or inspect [https://github.com/hanzozt/ziti](the main repo) and 
+[the official documentation](https://hanzozt.dev) or inspect [https://github.com/hanzozt/zt](the main repo) and 
 learn a more about Hanzo ZT and zero trust in general.
 
 ## Getting Started
@@ -55,23 +55,23 @@ Find a sample that seems interesting, and follow the readme to that sample to le
 
 | Sample                                                                                                      | Description                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [OpenAPI PetStore](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/PetStore/README.md) | Illustrates how to invoke an HTTP-based API securely                                                                 |
-| [Weather](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Weather/README.md)                                                     | Illustrates how to make an http-based request and output the content to the screen using wttr.in                     |
-| [Sample](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Server/README.md)                                                       | Illustrates how to use Hanzo ZT as a server __AND__ a client. Demonstrates true application-embedded zero trust!     |
-| [Enrollment](https://github.com/hanzozt/ziti-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Enrollment/README.md)                                               | A simple sample demonstrating how to enroll an Hanzo ZT Identity                                                     |
+| [OpenAPI PetStore](https://github.com/hanzozt/zt-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/PetStore/README.md) | Illustrates how to invoke an HTTP-based API securely                                                                 |
+| [Weather](https://github.com/hanzozt/zt-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Weather/README.md)                                                     | Illustrates how to make an http-based request and output the content to the screen using wttr.in                     |
+| [Sample](https://github.com/hanzozt/zt-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Server/README.md)                                                       | Illustrates how to use Hanzo ZT as a server __AND__ a client. Demonstrates true application-embedded zero trust!     |
+| [Enrollment](https://github.com/hanzozt/zt-sdk-csharp/blob/main/Hanzo ZT.NET.Samples/src/Enrollment/README.md)                                               | A simple sample demonstrating how to enroll an Hanzo ZT Identity                                                     |
 
 ## An Overlay to Test With
 
-The latest versions of the `ziti` CLI contains a command called `ziti edge quickstart`. This command can be used with
+The latest versions of the `zt` CLI contains a command called `zt edge quickstart`. This command can be used with
 all of the samples to easily setup an environment to test with. You can also run the samples with an overlay generated
 by [following one of the quickstarts](https://hanzozt.dev/docs/category/network) and also works with CloudZiti when
 supplying the "noint" parameter to the samples.
 
-### Getting the `ziti` CLI
+### Getting the `zt` CLI
 
-The `ziti` CLI tool is a convinient way to access the Hanzo ZT overlay network via a command line, instead of by API.
-You'll likely want to have the `ziti` CLI available at times as it's handy to use for exploring the Hanzo ZT
-configuration. If you do not have the `ziti` CLI, but wish to install it, you can quickly install it by running a single
+The `zt` CLI tool is a convinient way to access the Hanzo ZT overlay network via a command line, instead of by API.
+You'll likely want to have the `zt` CLI available at times as it's handy to use for exploring the Hanzo ZT
+configuration. If you do not have the `zt` CLI, but wish to install it, you can quickly install it by running a single
 powershell command (as always, read the script before executing):
 ```
 iex(iwr -Uri https://get.hanzozt.dev/quick/getZiti.ps1)

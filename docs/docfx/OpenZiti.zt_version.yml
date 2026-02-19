@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hanzo ZT.zt_version
+  commentId: T:Hanzo ZT.zt_version
+  id: zt_version
+  parent: Hanzo ZT
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: zt_version
+  nameWithType: zt_version
+  fullName: Hanzo ZT.zt_version
+  type: Struct
+  source:
+    remote:
+      path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+      branch: main
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
+    id: zt_version
+    path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
+    startLine: 199
+  assemblies:
+  - Ziti.NET.Standard
+  namespace: Hanzo ZT
+  syntax:
+    content: public struct zt_version
+    content.vb: Public Structure zt_version
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+references:
+- uid: Hanzo ZT
+  commentId: N:Hanzo ZT
+  name: Hanzo ZT
+  nameWithType: Hanzo ZT
+  fullName: Hanzo ZT

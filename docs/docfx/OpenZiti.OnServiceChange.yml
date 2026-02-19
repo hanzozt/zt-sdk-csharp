@@ -16,7 +16,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: OnServiceChange
     path: Ziti.NET.Standard/src/Hanzo ZT/API.cs
     startLine: 24
@@ -24,9 +24,9 @@ items:
   - Ziti.NET.Standard
   namespace: Hanzo ZT
   syntax:
-    content: public delegate void OnServiceChange(ZitiContext zitiContext, ZitiService service, ZitiStatus status, int flags, object serviceContext);
+    content: public delegate void OnServiceChange(ZitiContext ztContext, ZitiService service, ZitiStatus status, int flags, object serviceContext);
     parameters:
-    - id: zitiContext
+    - id: ztContext
       type: Hanzo ZT.ZitiContext
     - id: service
       type: Hanzo ZT.ZitiService
@@ -36,7 +36,7 @@ items:
       type: System.Int32
     - id: serviceContext
       type: System.Object
-    content.vb: Public Delegate Sub OnServiceChange(zitiContext As ZitiContext, service As ZitiService, status As ZitiStatus, flags As Integer, serviceContext As Object)
+    content.vb: Public Delegate Sub OnServiceChange(ztContext As ZitiContext, service As ZitiService, status As ZitiStatus, flags As Integer, serviceContext As Object)
   modifiers.csharp:
   - public
   - delegate

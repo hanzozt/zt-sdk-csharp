@@ -46,7 +46,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ZitiStatus
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 41
@@ -80,7 +80,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: OK
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -114,7 +114,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CONFIG_NOT_FOUND
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -148,7 +148,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: JWT_NOT_FOUND
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -182,7 +182,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: JWT_INVALID
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -216,7 +216,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: JWT_INVALID_FORMAT
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -250,7 +250,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: PKCS7_ASN1_PARSING_FAILED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -284,7 +284,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: JWT_SIGNING_ALG_UNSUPPORTED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -318,7 +318,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: JWT_VERIFICATION_FAILED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -352,7 +352,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ENROLLMENT_METHOD_UNSUPPORTED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -386,7 +386,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: ENROLLMENT_CERTIFICATE_REQUIRED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -420,7 +420,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: KEY_GENERATION_FAILED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -454,7 +454,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: KEY_LOAD_FAILED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -488,7 +488,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CSR_GENERATION_FAILED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -522,7 +522,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: INVALID_CONFIG
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 42
@@ -556,7 +556,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NOT_AUTHORIZED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 47
@@ -590,7 +590,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CONTROLLER_UNAVAILABLE
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 49
@@ -624,7 +624,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: GATEWAY_UNAVAILABLE
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 52
@@ -658,7 +658,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: SERVICE_UNAVAILABLE
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -692,7 +692,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: EOF
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -726,7 +726,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: TIMEOUT
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -760,7 +760,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CONNABORT
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -794,7 +794,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: INVALID_STATE
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -828,7 +828,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CRYPTO_FAIL
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -862,7 +862,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: CONN_CLOSED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -896,7 +896,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: INVALID_POSTURE
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -930,7 +930,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: MFA_EXISTS
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -964,7 +964,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: MFA_INVALID_TOKEN
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -998,7 +998,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: MFA_NOT_ENROLLED
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -1032,7 +1032,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: NOT_FOUND
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
@@ -1066,7 +1066,7 @@ items:
     remote:
       path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
       branch: main
-      repo: git@github.com:hanzozt/ziti-sdk-csharp.git
+      repo: git@github.com:hanzozt/zt-sdk-csharp.git
     id: WTF
     path: Ziti.NET.Standard/src/Hanzo ZT/ZitiStatus.cs
     startLine: 56
